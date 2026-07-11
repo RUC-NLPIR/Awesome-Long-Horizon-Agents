@@ -1211,7 +1211,7 @@ mindmap
 
 
 <details>
-<summary>📚 <b>More from the survey</b> — 24 papers</summary>
+<summary>📚 <b>More from the survey</b> — 26 papers</summary>
 
 - **Computer Use Tool --- Claude API Docs** `2025` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://platform.claude.com/docs/en/agents-and-tools/tool-use/computer-use-tool)
 - **Os-symphony: A holistic framework for robust and generalist computer-using agent** `arXiv 2026`
@@ -1237,6 +1237,8 @@ mindmap
 - **Mobilegui-rl: Advancing mobile gui agent through reinforcement learning in online environment** `arXiv 2025`
 - **Advancing mobile gui agents: A verifier-driven approach to practical deployment** `arXiv 2025`
 - **Os-sentinel: Towards safety-enhanced mobile gui agents via hybrid validation in realistic workflows** `ACL 2026`
+- **SeeClick: Harnessing GUI Grounding for Advanced Visual GUI Agents** `ACL 2024`
+- **MobileAgentBench: An Efficient and User-Friendly Benchmark for Mobile LLM Agents** `arXiv 2024` [![arXiv](https://img.shields.io/badge/arXiv-2406.08184-b31b1b?style=flat-square)](https://arxiv.org/abs/2406.08184)
 
 </details>
 
