@@ -891,14 +891,14 @@ mindmap
 - **Qwen3-Coder-Next Technical Report** `arXiv 2026`
 - **How to Train Long-Context Language Models Effectively** `arXiv 2024`
 - **From 128K to 4M: Efficient Training of Ultra-Long Context Large Language Models** `arXiv 2025`
-- **LongWriter: Unleashing 10,000+ Word Generation from Long Context LLMs** `arXiv 2024`
+- **LongWriter: Unleashing 10,000+ Word Generation from Long Context LLMs** — unlocks coherent 10,000+ word generation from long-context LLMs. `arXiv 2024`
 - **Qwen3.5-Omni Technical Report** — the Qwen3.5-Omni model scaling omni-modality to 256K context. `arXiv 2026`
 - **Kimi K2.5: Visual Agentic Intelligence** `arXiv 2026`
-- **DataComp-LM: In Search of the Next Generation of Training Sets for Language Models** `2024`
+- **DataComp-LM: In Search of the Next Generation of Training Sets for Language Models** — a testbed for building better LLM pretraining datasets. `2024`
 - **The FineWeb Datasets: Decanting the Web for the Finest Text Data at Scale** — FineWeb: a 15T-token web pretraining dataset with quality-first curation. `arXiv 2024` [![arXiv](https://img.shields.io/badge/arXiv-2406.17557-b31b1b?style=flat-square)](https://arxiv.org/abs/2406.17557)
-- **Dolma: an Open Corpus of Three Trillion Tokens for Language Model Pretraining Research** `2024`
-- **OLMo: Accelerating the Science of Language Models** `2024`
-- **DoReMi: Optimizing Data Mixtures Speeds Up Language Model Pretraining** `2023`
+- **Dolma: an Open Corpus of Three Trillion Tokens for Language Model Pretraining Research** — an open three-trillion-token corpus for pretraining research. `2024`
+- **OLMo: Accelerating the Science of Language Models** — a fully open LM releasing data, code, and weights. `2024`
+- **DoReMi: Optimizing Data Mixtures Speeds Up Language Model Pretraining** — reweights pretraining data domains to speed up training. `2023`
 - **Data Mixing Laws: Optimizing Data Mixtures by Predicting Language Modeling Performance** — predicts model performance from data-mixture proportions to optimize them. `arXiv 2024` [![arXiv](https://img.shields.io/badge/arXiv-2403.16952-b31b1b?style=flat-square)](https://arxiv.org/abs/2403.16952)
 - **OPUS: Towards Efficient and Principled Data Selection in Large Language Model Pre-training in Every Iteration** — optimizer-induced dynamic data selection for every pretraining iteration. `arXiv 2026` [![arXiv](https://img.shields.io/badge/arXiv-2602.05400-b31b1b?style=flat-square)](https://arxiv.org/abs/2602.05400)
 - **AgentTuning: Enabling Generalized Agent Abilities for LLMs** `2024`
