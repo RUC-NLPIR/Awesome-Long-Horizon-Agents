@@ -360,7 +360,7 @@ mindmap
 - **The Berkeley Function Calling Leaderboard (BFCL): From Tool Use to Agentic Evaluation of Large Language Models** — a leaderboard evaluating tool use and agentic function calling. `ICML 2025` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://proceedings.mlr.press/v267/patil25a.html) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/conf/icml/PatilMYJSSG25.html)
 - **Schema First Tool APIs for LLM Agents: A Controlled Study of Tool Misuse, Recovery, and Budgeted Performance** `arXiv 2026` [![arXiv](https://img.shields.io/badge/arXiv-2603.13404-b31b1b?style=flat-square)](https://arxiv.org/abs/2603.13404) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/corr/abs-2603-13404.html)
 - **Reflexion: language agents with verbal reinforcement learning** — agents improve by writing verbal self-reflections after failures and retrying. `2023` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](http://papers.nips.cc/paper_files/paper/2023/hash/1b44b878bb782e6954cd888628510e90-Abstract-Conference.html) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/conf/nips/ShinnCGNY23.html)
-- **Self-Refine: Iterative Refinement with Self-Feedback** `NeurIPS 2023` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://openreview.net/forum?id=S37hOerQLB)
+- **Self-Refine: Iterative Refinement with Self-Feedback** — iteratively refines outputs using the model's own feedback. `NeurIPS 2023` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://openreview.net/forum?id=S37hOerQLB)
 - **Language Agent Tree Search Unifies Reasoning, Acting, and Planning in Language Models** `ICML 2024` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://proceedings.mlr.press/v235/zhou24r.html) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/conf/icml/ZhouYSWW24.html)
 - **WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents** `NeurIPS 2022` [![arXiv](https://img.shields.io/badge/arXiv-2207.01206-b31b1b?style=flat-square)](https://arxiv.org/abs/2207.01206)
 - **WebArena: A Realistic Web Environment for Building Autonomous Agents** `2024` [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/conf/iclr/ZhouX0ZLSCOBF0N24.html)
@@ -431,11 +431,11 @@ mindmap
 <details>
 <summary>📚 <b>More from the survey</b> — 11 papers</summary>
 
-- **A Survey on Agent Workflow: Status and Future** `2025` [![arXiv](https://img.shields.io/badge/arXiv-2508.01186-b31b1b?style=flat-square)](https://arxiv.org/abs/2508.01186)
-- **Self-Refine: Iterative Refinement with Self-Feedback** `2023`
-- **Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection** `2024`
-- **Cognitive Architectures for Language Agents** `2024`
-- **ReWOO: Decoupling Reasoning from Observations for Efficient Augmented Language Models** `arXiv 2023` [![arXiv](https://img.shields.io/badge/arXiv-2305.18323-b31b1b?style=flat-square)](https://arxiv.org/abs/2305.18323)
+- **A Survey on Agent Workflow: Status and Future** — a survey of agent workflow designs and future directions. `2025` [![arXiv](https://img.shields.io/badge/arXiv-2508.01186-b31b1b?style=flat-square)](https://arxiv.org/abs/2508.01186)
+- **Self-Refine: Iterative Refinement with Self-Feedback** — iteratively refines outputs using the model's own feedback. `2023`
+- **Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection** — learns to retrieve, generate, and self-critique on demand. `2024`
+- **Cognitive Architectures for Language Agents** — CoALA: a memory, action, and decision framework for language agents. `2024`
+- **ReWOO: Decoupling Reasoning from Observations for Efficient Augmented Language Models** — separates planning from tool observations to cut token cost. `arXiv 2023` [![arXiv](https://img.shields.io/badge/arXiv-2305.18323-b31b1b?style=flat-square)](https://arxiv.org/abs/2305.18323)
 - **ADaPT: As-Needed Decomposition and Planning with Language Models** — decomposes and re-plans only as needed when subtasks fail. `2024`
 - **Verified Multi-Agent Orchestration: A Plan-Execute-Verify-Replan Framework for Complex Query Resolution** `2026` [![arXiv](https://img.shields.io/badge/arXiv-2603.11445-b31b1b?style=flat-square)](https://arxiv.org/abs/2603.11445)
 - **O-Researcher: An Open Ended Deep Research Model via Multi-Agent Distillation and Agentic RL** `2026` [![arXiv](https://img.shields.io/badge/arXiv-2601.03743-b31b1b?style=flat-square)](https://arxiv.org/abs/2601.03743)
@@ -1448,7 +1448,7 @@ mindmap
 - **TheAgentCompany: Benchmarking LLM Agents on Consequential Real World Tasks** `arXiv 2024` [![arXiv](https://img.shields.io/badge/arXiv-2412.14161-b31b1b?style=flat-square)](https://arxiv.org/abs/2412.14161)
 - **EnvScaler: Scaling Tool-Interactive Environments for LLM Agent via Programmatic Synthesis** `arXiv 2026` [![arXiv](https://img.shields.io/badge/arXiv-2601.05808-b31b1b?style=flat-square)](https://arxiv.org/abs/2601.05808) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/corr/abs-2601-05808.html)
 - **Environment Scaling for Interactive Agentic Experience Collection: A Survey** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2511.09586-b31b1b?style=flat-square)](https://arxiv.org/abs/2511.09586)
-- **Self-Refine: Iterative Refinement with Self-Feedback** `2023`
+- **Self-Refine: Iterative Refinement with Self-Feedback** — iteratively refines outputs using the model's own feedback. `2023`
 - **CRITIC: Large Language Models Can Self-Correct with Tool-Interactive Critiquing** `arXiv 2024` [![arXiv](https://img.shields.io/badge/arXiv-2305.11738-b31b1b?style=flat-square)](https://arxiv.org/abs/2305.11738) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/conf/iclr/GouSGSYDC24.html)
 - **Large Language Models Cannot Self-Correct Reasoning Yet** `2024`
 - **Technical Report: Evaluating Goal Drift in Language Model Agents** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2505.02709-b31b1b?style=flat-square)](https://arxiv.org/abs/2505.02709)
