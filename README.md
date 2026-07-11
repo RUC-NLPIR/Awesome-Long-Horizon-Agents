@@ -892,20 +892,20 @@ mindmap
 - **How to Train Long-Context Language Models Effectively** `arXiv 2024`
 - **From 128K to 4M: Efficient Training of Ultra-Long Context Large Language Models** `arXiv 2025`
 - **LongWriter: Unleashing 10,000+ Word Generation from Long Context LLMs** `arXiv 2024`
-- **Qwen3.5-Omni Technical Report** `arXiv 2026`
+- **Qwen3.5-Omni Technical Report** — the Qwen3.5-Omni model scaling omni-modality to 256K context. `arXiv 2026`
 - **Kimi K2.5: Visual Agentic Intelligence** `arXiv 2026`
 - **DataComp-LM: In Search of the Next Generation of Training Sets for Language Models** `2024`
-- **The FineWeb Datasets: Decanting the Web for the Finest Text Data at Scale** `arXiv 2024` [![arXiv](https://img.shields.io/badge/arXiv-2406.17557-b31b1b?style=flat-square)](https://arxiv.org/abs/2406.17557)
+- **The FineWeb Datasets: Decanting the Web for the Finest Text Data at Scale** — FineWeb: a 15T-token web pretraining dataset with quality-first curation. `arXiv 2024` [![arXiv](https://img.shields.io/badge/arXiv-2406.17557-b31b1b?style=flat-square)](https://arxiv.org/abs/2406.17557)
 - **Dolma: an Open Corpus of Three Trillion Tokens for Language Model Pretraining Research** `2024`
 - **OLMo: Accelerating the Science of Language Models** `2024`
 - **DoReMi: Optimizing Data Mixtures Speeds Up Language Model Pretraining** `2023`
-- **Data Mixing Laws: Optimizing Data Mixtures by Predicting Language Modeling Performance** `arXiv 2024` [![arXiv](https://img.shields.io/badge/arXiv-2403.16952-b31b1b?style=flat-square)](https://arxiv.org/abs/2403.16952)
-- **OPUS: Towards Efficient and Principled Data Selection in Large Language Model Pre-training in Every Iteration** `arXiv 2026` [![arXiv](https://img.shields.io/badge/arXiv-2602.05400-b31b1b?style=flat-square)](https://arxiv.org/abs/2602.05400)
+- **Data Mixing Laws: Optimizing Data Mixtures by Predicting Language Modeling Performance** — predicts model performance from data-mixture proportions to optimize them. `arXiv 2024` [![arXiv](https://img.shields.io/badge/arXiv-2403.16952-b31b1b?style=flat-square)](https://arxiv.org/abs/2403.16952)
+- **OPUS: Towards Efficient and Principled Data Selection in Large Language Model Pre-training in Every Iteration** — optimizer-induced dynamic data selection for every pretraining iteration. `arXiv 2026` [![arXiv](https://img.shields.io/badge/arXiv-2602.05400-b31b1b?style=flat-square)](https://arxiv.org/abs/2602.05400)
 - **AgentTuning: Enabling Generalized Agent Abilities for LLMs** `2024`
 - **Agent-FLAN: Designing Data and Methods of Effective Agent Tuning for Large Language Models** `2024`
 - **AgentBank: Towards Generalized LLM Agents via Fine-Tuning on 50000+ Interaction Trajectories** `2024`
 - **KLong: Training LLM Agent for Extremely Long-Horizon Tasks** `arXiv 2026`
-- **Muon is Scalable for LLM Training** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2502.16982-b31b1b?style=flat-square)](https://arxiv.org/abs/2502.16982)
+- **Muon is Scalable for LLM Training** — scales the Muon optimizer to large LLMs via weight decay and update-scale tuning. `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2502.16982-b31b1b?style=flat-square)](https://arxiv.org/abs/2502.16982)
 
 </details>
 
@@ -1300,7 +1300,7 @@ mindmap
 - **MM-StoryAgent: Immersive Narrated Storybook Video Generation with a Multi-Agent Paradigm across Text, Image and Audio** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2503.05242-b31b1b?style=flat-square)](https://arxiv.org/abs/2503.05242)
 - **Qwen2.5-Omni Technical Report** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2503.20215-b31b1b?style=flat-square)](https://arxiv.org/abs/2503.20215)
 - **Qwen3-Omni Technical Report** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2509.17765-b31b1b?style=flat-square)](https://arxiv.org/abs/2509.17765)
-- **Qwen3.5-Omni Technical Report** `arXiv 2026` [![arXiv](https://img.shields.io/badge/arXiv-2604.15804-b31b1b?style=flat-square)](https://arxiv.org/abs/2604.15804)
+- **Qwen3.5-Omni Technical Report** — the Qwen3.5-Omni model scaling omni-modality to 256K context. `arXiv 2026` [![arXiv](https://img.shields.io/badge/arXiv-2604.15804-b31b1b?style=flat-square)](https://arxiv.org/abs/2604.15804)
 - **Agent-Omni: Test-Time Multimodal Reasoning via Model Coordination for Understanding Anything** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2511.02834-b31b1b?style=flat-square)](https://arxiv.org/abs/2511.02834) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/corr/abs-2511-02834.html)
 - **Orchestra-o1: Omnimodal Agent Orchestration** `2026` [![arXiv](https://img.shields.io/badge/arXiv-2606.13707-b31b1b?style=flat-square)](https://arxiv.org/abs/2606.13707)
 - **OmniNova: A General Multimodal Agent Framework** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2503.20028-b31b1b?style=flat-square)](https://arxiv.org/abs/2503.20028)
