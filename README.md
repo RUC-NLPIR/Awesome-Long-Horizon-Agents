@@ -1273,11 +1273,11 @@ mindmap
 - **Agentvista: Evaluating multimodal agents in ultra-challenging realistic visual scenarios** `arXiv 2026`
 - **Omnigaia: Towards native omni-modal ai agents** `arXiv 2026`
 - **Lvomnibench: Pioneering long audio-video understanding evaluation for omnimodal llms** `arXiv 2026`
-- **Qwen2.5-VL Technical Report** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2502.13923-b31b1b?style=flat-square)](https://arxiv.org/abs/2502.13923)
-- **Qwen3-VL Technical Report** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2511.21631-b31b1b?style=flat-square)](https://arxiv.org/abs/2511.21631)
-- **Seed1.5-VL Technical Report** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2505.07062-b31b1b?style=flat-square)](https://arxiv.org/abs/2505.07062)
-- **InternVL3: Exploring Advanced Training and Test-Time Recipes for Open-Source Multimodal Models** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2504.10479-b31b1b?style=flat-square)](https://arxiv.org/abs/2504.10479)
-- **Janus-Pro: Unified Multimodal Understanding and Generation with Data and Model Scaling** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2501.17811-b31b1b?style=flat-square)](https://arxiv.org/abs/2501.17811)
+- **Qwen2.5-VL Technical Report** — a flagship vision-language model with strong grounding and long-video understanding. `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2502.13923-b31b1b?style=flat-square)](https://arxiv.org/abs/2502.13923)
+- **Qwen3-VL Technical Report** — the most capable Qwen VLM with native 256K interleaved multimodal context. `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2511.21631-b31b1b?style=flat-square)](https://arxiv.org/abs/2511.21631)
+- **Seed1.5-VL Technical Report** — a compact MoE vision-language foundation model with broad benchmark strength. `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2505.07062-b31b1b?style=flat-square)](https://arxiv.org/abs/2505.07062)
+- **InternVL3: Exploring Advanced Training and Test-Time Recipes for Open-Source Multimodal Models** — natively pretrains multimodal and linguistic abilities in a single stage. `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2504.10479-b31b1b?style=flat-square)](https://arxiv.org/abs/2504.10479)
+- **Janus-Pro: Unified Multimodal Understanding and Generation with Data and Model Scaling** — unifies multimodal understanding and text-to-image generation with scaling. `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2501.17811-b31b1b?style=flat-square)](https://arxiv.org/abs/2501.17811)
 - **Emerging Properties in Unified Multimodal Pretraining** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2505.14683-b31b1b?style=flat-square)](https://arxiv.org/abs/2505.14683)
 - **VideoAgent: Long-Form Video Understanding with Large Language Model as Agent**
 - **Deep video discovery: Agentic search with tool use for long-form video understanding** `NeurIPS 2026`
