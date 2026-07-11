@@ -452,7 +452,7 @@ mindmap
 
 
 <details>
-<summary>📚 <b>More from the survey</b> — 43 papers</summary>
+<summary>📚 <b>More from the survey</b> — 45 papers</summary>
 
 - **Memory in the Age of AI Agents** `2025` [![arXiv](https://img.shields.io/badge/arXiv-2512.13564-b31b1b?style=flat-square)](https://arxiv.org/abs/2512.13564)
 - **Context Rot: When Long Contexts Hurt LLM Performance** `2025`
@@ -497,6 +497,8 @@ mindmap
 - **MemoryArena: Benchmarking Agent Memory in Interdependent Multi-Session Agentic Tasks** `arXiv 2026` [![arXiv](https://img.shields.io/badge/arXiv-2602.16313-b31b1b?style=flat-square)](https://arxiv.org/abs/2602.16313)
 - **Anatomy of Agentic Memory: Taxonomy and Empirical Analysis of Evaluation and System Limitations** `arXiv 2026` [![arXiv](https://img.shields.io/badge/arXiv-2602.19320-b31b1b?style=flat-square)](https://arxiv.org/abs/2602.19320)
 - **Rethinking Memory Mechanisms of Foundation Agents in the Second Half: A Survey** `arXiv 2026` [![arXiv](https://img.shields.io/badge/arXiv-2602.06052-b31b1b?style=flat-square)](https://arxiv.org/abs/2602.06052)
+- **From Local to Global: A Graph RAG Approach to Query-Focused Summarization** `arXiv 2024` [![arXiv](https://img.shields.io/badge/arXiv-2404.16130-b31b1b?style=flat-square)](https://arxiv.org/abs/2404.16130)
+- **Continual Learning via Sparse Memory Finetuning** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2510.15103-b31b1b?style=flat-square)](https://arxiv.org/abs/2510.15103)
 
 </details>
 
