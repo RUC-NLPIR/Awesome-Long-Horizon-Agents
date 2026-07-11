@@ -1408,8 +1408,9 @@ mindmap
 
 
 <details>
-<summary>📚 <b>More from the survey</b> — 73 papers</summary>
+<summary>📚 <b>More from the survey</b> — 74 papers</summary>
 
+- **From AI for Science to Agentic Science: A Survey on Autonomous Scientific Discovery** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2508.14111-b31b1b?style=flat-square)](https://arxiv.org/abs/2508.14111)
 - **Externalization in LLM Agents: A Unified Review of Memory, Skills, Protocols, and Harness Engineering** `arXiv 2026` [![arXiv](https://img.shields.io/badge/arXiv-2604.08224-b31b1b?style=flat-square)](https://arxiv.org/abs/2604.08224)
 - **From Chatbot to Digital Colleague: The Paradigm Shift Toward Persistent Autonomous AI** `arXiv 2026` [![arXiv](https://img.shields.io/badge/arXiv-2606.14502-b31b1b?style=flat-square)](https://arxiv.org/abs/2606.14502)
 - **A Survey of Self-Evolving Agents: What, When, How, and Where to Evolve on the Path to Artificial Super Intelligence** [![arXiv](https://img.shields.io/badge/arXiv-2507.21046-b31b1b?style=flat-square)](https://arxiv.org/abs/2507.21046)
