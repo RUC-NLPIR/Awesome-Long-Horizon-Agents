@@ -1128,7 +1128,7 @@ mindmap
 
 
 <details>
-<summary>📚 <b>More from the survey</b> — 13 papers</summary>
+<summary>📚 <b>More from the survey</b> — 15 papers</summary>
 
 - **AutoCodeRover: Autonomous Program Improvement** `2024` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://doi.org/10.1145/3650212.3680384) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/conf/issta/0002RFR24.html)
 - **R2E: Turning any Github Repository into a Programming Agent Environment** `ICML 2024` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://proceedings.mlr.press/v235/jain24c.html) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/conf/icml/JainSZHSS24.html)
@@ -1143,6 +1143,8 @@ mindmap
 - **Training Software Engineering Agents and Verifiers with SWE-Gym** `ICML 2025` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://proceedings.mlr.press/v267/pan25g.html) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/conf/icml/Pan0NJ0S025.html)
 - **SWE-smith: Scaling Data for Software Engineering Agents** `NeurIPS 2025` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](http://papers.nips.cc/paper_files/paper/2025/hash/8b86cf5ace600c48fd188efbb8dedec8-Abstract-Datasets_and_Benchmarks_Track.html) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/conf/nips/YangLJWKZHPSY25.html)
 - **Agentless: Demystifying LLM-based Software Engineering Agents** `arXiv 2024` [![arXiv](https://img.shields.io/badge/arXiv-2407.01489-b31b1b?style=flat-square)](https://arxiv.org/abs/2407.01489) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/corr/abs-2407-01489.html)
+- **SWE-Bench+: Enhanced Coding Benchmark for LLMs** `arXiv 2024` [![arXiv](https://img.shields.io/badge/arXiv-2410.06992-b31b1b?style=flat-square)](https://arxiv.org/abs/2410.06992)
+- **Trae Agent: An LLM-based Agent for Software Engineering with Test-time Scaling** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2507.23370-b31b1b?style=flat-square)](https://arxiv.org/abs/2507.23370)
 
 </details>
 
