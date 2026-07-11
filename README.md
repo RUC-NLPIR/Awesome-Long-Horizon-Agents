@@ -1086,9 +1086,9 @@ mindmap
 - **Revisiting On-Policy Distillation: Empirical Failure Modes and Simple Fixes** — diagnoses failure modes of on-policy distillation and proposes simple fixes. `arXiv 2026` [![arXiv](https://img.shields.io/badge/arXiv-2603.25562-b31b1b?style=flat-square)](https://arxiv.org/abs/2603.25562) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/corr/abs-2603-25562.html)
 - **Bespoke-Stratos: The Unreasonable Effectiveness of Reasoning Distillation** — shows reasoning distillation from a strong teacher is surprisingly effective. `2025`
 - **Structured Agent Distillation for Large Language Model** — compresses ReAct-style agents while preserving reasoning and action fidelity. `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2505.13820-b31b1b?style=flat-square)](https://arxiv.org/abs/2505.13820)
-- **From Correction to Mastery: Reinforced Distillation of Large Language Model Agents** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2509.14257-b31b1b?style=flat-square)](https://arxiv.org/abs/2509.14257)
-- **AgentDistill: Training-Free Agent Distillation with Generalizable MCP Boxes** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2506.14728-b31b1b?style=flat-square)](https://arxiv.org/abs/2506.14728)
-- **A Survey of On-Policy Distillation for Large Language Models** `arXiv 2026` [![arXiv](https://img.shields.io/badge/arXiv-2604.00626-b31b1b?style=flat-square)](https://arxiv.org/abs/2604.00626)
+- **From Correction to Mastery: Reinforced Distillation of Large Language Model Agents** — SCoRe: student-centered reinforced distillation that corrects then masters. `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2509.14257-b31b1b?style=flat-square)](https://arxiv.org/abs/2509.14257)
+- **AgentDistill: Training-Free Agent Distillation with Generalizable MCP Boxes** — training-free agent distillation via reusable MCP tool boxes. `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2506.14728-b31b1b?style=flat-square)](https://arxiv.org/abs/2506.14728)
+- **A Survey of On-Policy Distillation for Large Language Models** — a survey of on-policy distillation methods for LLMs. `arXiv 2026` [![arXiv](https://img.shields.io/badge/arXiv-2604.00626-b31b1b?style=flat-square)](https://arxiv.org/abs/2604.00626)
 
 </details>
 
