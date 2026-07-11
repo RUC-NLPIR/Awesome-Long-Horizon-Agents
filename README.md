@@ -333,11 +333,11 @@ mindmap
 - **Lost in the Middle: How Language Models Use Long Contexts** — shows LLMs use information best at the start and end of context and miss the middle. `2024` [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/corr/abs-2307-03172.html)
 - **Large Language Models Can Be Easily Distracted by Irrelevant Context** — shows irrelevant context markedly degrades LLM reasoning. `ICML 2023`
 - **Context Rot: When Long Contexts Hurt LLM Performance** — documents how model performance degrades as context grows longer and noisier. `2025`
-- **Effective Context Engineering for AI Agents** `2025`
-- **A Survey of Context Engineering for Large Language Models** `2025` [![arXiv](https://img.shields.io/badge/arXiv-2507.13334-b31b1b?style=flat-square)](https://arxiv.org/abs/2507.13334)
-- **LLMLingua: Compressing Prompts for Accelerated Inference of Large Language Models** `EMNLP 2023`
-- **Compressing Context to Enhance Inference Efficiency of Large Language Models** `EMNLP 2023`
-- **CompAct: Compressing Retrieved Documents Actively for Question Answering** `EMNLP 2024`
+- **Effective Context Engineering for AI Agents** — practical engineering guidance for curating an agent's context. `2025`
+- **A Survey of Context Engineering for Large Language Models** — a survey of context-engineering techniques for LLMs. `2025` [![arXiv](https://img.shields.io/badge/arXiv-2507.13334-b31b1b?style=flat-square)](https://arxiv.org/abs/2507.13334)
+- **LLMLingua: Compressing Prompts for Accelerated Inference of Large Language Models** — compresses prompts to speed up inference with little quality loss. `EMNLP 2023`
+- **Compressing Context to Enhance Inference Efficiency of Large Language Models** — selectively drops context tokens to cut inference cost. `EMNLP 2023`
+- **CompAct: Compressing Retrieved Documents Actively for Question Answering** — actively compresses retrieved documents for question answering. `EMNLP 2024`
 - **HiAgent: Hierarchical Working Memory Management for Solving Long-Horizon Agent Tasks with Large Language Model** `ACL 2025`
 - **ACON: Optimizing Context Compression for Long-horizon LLM Agents** `2025` [![arXiv](https://img.shields.io/badge/arXiv-2510.00615-b31b1b?style=flat-square)](https://arxiv.org/abs/2510.00615)
 - **MemAgent: Reshaping Long-Context LLM with Multi-Conv RL-based Memory Agent** `2025` [![arXiv](https://img.shields.io/badge/arXiv-2507.02259-b31b1b?style=flat-square)](https://arxiv.org/abs/2507.02259)
@@ -461,10 +461,10 @@ mindmap
 - **Large Language Models Can Be Easily Distracted by Irrelevant Context** — shows irrelevant context markedly degrades LLM reasoning. `ICML 2023`
 - **Effective Harnesses for Long-Running Agents** — engineering guidance for building harnesses that keep long-running agents on track. `2025`
 - **Improving Deep Agents with Harness Engineering** `2026` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://www.langchain.com/blog/improving-deep-agents-with-harness-engineering)
-- **Effective Context Engineering for AI Agents** `2025`
+- **Effective Context Engineering for AI Agents** — practical engineering guidance for curating an agent's context. `2025`
 - **We Removed 80\% of Our Agent's Tools** `2025` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://vercel.com/blog/we-removed-80-percent-of-our-agents-tools)
-- **LLMLingua: Compressing Prompts for Accelerated Inference of Large Language Models** `EMNLP 2023`
-- **CompAct: Compressing Retrieved Documents Actively for Question Answering** `EMNLP 2024`
+- **LLMLingua: Compressing Prompts for Accelerated Inference of Large Language Models** — compresses prompts to speed up inference with little quality loss. `EMNLP 2023`
+- **CompAct: Compressing Retrieved Documents Actively for Question Answering** — actively compresses retrieved documents for question answering. `EMNLP 2024`
 - **Resum: Unlocking long-horizon search intelligence via context summarization** `arXiv 2025` [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/corr/abs-2509-13313.html)
 - **MEM1: Learning to Synergize Memory and Reasoning for Efficient Long-Horizon Agents** `2025` [![arXiv](https://img.shields.io/badge/arXiv-2506.15841-b31b1b?style=flat-square)](https://arxiv.org/abs/2506.15841)
 - **MemAgent: Reshaping Long-Context LLM with Multi-Conv RL-based Memory Agent** `2025` [![arXiv](https://img.shields.io/badge/arXiv-2507.02259-b31b1b?style=flat-square)](https://arxiv.org/abs/2507.02259)
