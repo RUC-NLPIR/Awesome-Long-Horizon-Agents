@@ -381,7 +381,7 @@ mindmap
 - **Effective Harnesses for Long-Running Agents** — engineering guidance for building harnesses that keep long-running agents on track. `2025`
 - **Live-SWE-agent: Can Software Engineering Agents Self-Evolve on the Fly?** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2511.13646-b31b1b?style=flat-square)](https://arxiv.org/abs/2511.13646)
 - **Context Rot: When Long Contexts Hurt LLM Performance** — documents how model performance degrades as context grows longer and noisier. `2025`
-- **Not What You've Signed Up For: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection** `2023` [![arXiv](https://img.shields.io/badge/arXiv-2302.12173-b31b1b?style=flat-square)](https://arxiv.org/abs/2302.12173)
+- **Not What You've Signed Up For: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection** — shows indirect prompt injection can hijack real LLM-integrated applications. `2023` [![arXiv](https://img.shields.io/badge/arXiv-2302.12173-b31b1b?style=flat-square)](https://arxiv.org/abs/2302.12173)
 - **Identifying the Risks of LM Agents with an LM-Emulated Sandbox** `2024`
 - **AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation** `COLM 2024` [![arXiv](https://img.shields.io/badge/arXiv-2308.08155-b31b1b?style=flat-square)](https://arxiv.org/abs/2308.08155)
 - **MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework** `ICLR 2024` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://openreview.net/forum?id=VtmBAGCN7o) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/conf/iclr/HongZCZCWZWYLZR24.html)
@@ -634,12 +634,12 @@ mindmap
 <details>
 <summary>📚 <b>More from the survey</b> — 32 papers</summary>
 
-- **Not What You've Signed Up For: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection** `2023` [![arXiv](https://img.shields.io/badge/arXiv-2302.12173-b31b1b?style=flat-square)](https://arxiv.org/abs/2302.12173)
+- **Not What You've Signed Up For: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection** — shows indirect prompt injection can hijack real LLM-integrated applications. `2023` [![arXiv](https://img.shields.io/badge/arXiv-2302.12173-b31b1b?style=flat-square)](https://arxiv.org/abs/2302.12173)
 - **Swiss Cheese Model for AI Safety: A Taxonomy and Reference Architecture for Multi-Layered Guardrails of Foundation Model Based Agents** `2025` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://doi.org/10.1109/ICSA65012.2025.00014)
-- **Quantifying Frontier LLM Capabilities for Container Sandbox Escape** `arXiv 2026` [![arXiv](https://img.shields.io/badge/arXiv-2603.02277-b31b1b?style=flat-square)](https://arxiv.org/abs/2603.02277)
-- **AEGIS: No Tool Call Left Unchecked - A Pre-Execution Firewall and Audit Layer for AI Agents** `arXiv 2026` [![arXiv](https://img.shields.io/badge/arXiv-2603.12621-b31b1b?style=flat-square)](https://arxiv.org/abs/2603.12621)
-- **Authenticated Workflows: A Systems Approach to Protecting Agentic AI** `arXiv 2026` [![arXiv](https://img.shields.io/badge/arXiv-2602.10465-b31b1b?style=flat-square)](https://arxiv.org/abs/2602.10465)
-- **Magentic-UI: Towards Human-in-the-loop Agentic Systems** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2507.22358-b31b1b?style=flat-square)](https://arxiv.org/abs/2507.22358)
+- **Quantifying Frontier LLM Capabilities for Container Sandbox Escape** — SANDBOXESCAPEBENCH: measures how well LLMs can escape container sandboxes. `arXiv 2026` [![arXiv](https://img.shields.io/badge/arXiv-2603.02277-b31b1b?style=flat-square)](https://arxiv.org/abs/2603.02277)
+- **AEGIS: No Tool Call Left Unchecked - A Pre-Execution Firewall and Audit Layer for AI Agents** — a pre-execution firewall and audit layer that checks every tool call before it runs. `arXiv 2026` [![arXiv](https://img.shields.io/badge/arXiv-2603.12621-b31b1b?style=flat-square)](https://arxiv.org/abs/2603.12621)
+- **Authenticated Workflows: A Systems Approach to Protecting Agentic AI** — a trust layer enforcing intent and integrity over prompts, tools, data, and context. `arXiv 2026` [![arXiv](https://img.shields.io/badge/arXiv-2602.10465-b31b1b?style=flat-square)](https://arxiv.org/abs/2602.10465)
+- **Magentic-UI: Towards Human-in-the-loop Agentic Systems** — a human-in-the-loop interface for safer, controllable agentic systems. `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2507.22358-b31b1b?style=flat-square)](https://arxiv.org/abs/2507.22358)
 - **IsolateGPT: An Execution Isolation Architecture for LLM-Based Agentic Systems** `2025` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://www.ndss-symposium.org/ndss-paper/isolategpt-an-execution-isolation-architecture-for-llm-based-agentic-systems/)
 - **AgentSpec: Customizable Runtime Enforcement for Safe and Reliable LLM Agents** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2503.18666-b31b1b?style=flat-square)](https://arxiv.org/abs/2503.18666)
 - **Progent: Securing AI Agents with Privilege Control** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2504.11703-b31b1b?style=flat-square)](https://arxiv.org/abs/2504.11703)
@@ -1474,7 +1474,7 @@ mindmap
 - **AEGIS: No Tool Call Left Unchecked --- A Pre-Execution Firewall and Audit Layer for AI Agents** `2026` [![arXiv](https://img.shields.io/badge/arXiv-2603.12621-b31b1b?style=flat-square)](https://arxiv.org/abs/2603.12621)
 - **Before the Tool Call: Deterministic Pre-Action Authorization for Autonomous AI Agents** `2026` [![arXiv](https://img.shields.io/badge/arXiv-2603.20953-b31b1b?style=flat-square)](https://arxiv.org/abs/2603.20953)
 - **AgentBound: Securing Execution Boundaries of AI Agents** `2025` [![arXiv](https://img.shields.io/badge/arXiv-2510.21236-b31b1b?style=flat-square)](https://arxiv.org/abs/2510.21236)
-- **Not What You've Signed Up For: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection** `2023` [![arXiv](https://img.shields.io/badge/arXiv-2302.12173-b31b1b?style=flat-square)](https://arxiv.org/abs/2302.12173)
+- **Not What You've Signed Up For: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection** — shows indirect prompt injection can hijack real LLM-integrated applications. `2023` [![arXiv](https://img.shields.io/badge/arXiv-2302.12173-b31b1b?style=flat-square)](https://arxiv.org/abs/2302.12173)
 - **Identifying the Risks of LM Agents with an LM-Emulated Sandbox** `2024`
 - **ST-WebAgentBench: A Benchmark for Evaluating Safety and Trustworthiness in Web Agents** `2024` [![arXiv](https://img.shields.io/badge/arXiv-2410.06703-b31b1b?style=flat-square)](https://arxiv.org/abs/2410.06703)
 - **PaLM-E: An Embodied Multimodal Language Model** `2023` [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/corr/abs-2303-03378.html)
