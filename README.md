@@ -1341,7 +1341,7 @@ mindmap
 - **AndroidWorld: A Dynamic Benchmarking Environment for Autonomous Agents** — a dynamic Android environment with 116 programmatic tasks across 20 apps. `arXiv 2024` [![arXiv](https://img.shields.io/badge/arXiv-2405.14573-b31b1b?style=flat-square)](https://arxiv.org/abs/2405.14573)
 - **Meta-Harness: End-to-End Optimization of Model Harnesses** — an outer-loop system that optimizes an agent's harness end-to-end. `2026` [![arXiv](https://img.shields.io/badge/arXiv-2603.28052-b31b1b?style=flat-square)](https://arxiv.org/abs/2603.28052)
 - **AutoHarness: Improving LLM Agents by Automatically Synthesizing a Code Harness** — automatically synthesizes a code harness to constrain agent actions. `arXiv 2026` [![arXiv](https://img.shields.io/badge/arXiv-2603.03329-b31b1b?style=flat-square)](https://arxiv.org/abs/2603.03329)
-- **AIOS: LLM Agent Operating System** `arXiv 2024` [![arXiv](https://img.shields.io/badge/arXiv-2403.16971-b31b1b?style=flat-square)](https://arxiv.org/abs/2403.16971)
+- **AIOS: LLM Agent Operating System** — an LLM-agent operating system for resource scheduling and management. `arXiv 2024` [![arXiv](https://img.shields.io/badge/arXiv-2403.16971-b31b1b?style=flat-square)](https://arxiv.org/abs/2403.16971)
 - **HarnessOS: A Long-Running Scaffold for AI Coding Agents** `2026`
 - **OpenClaw: An Open-Source Agent Runtime** `2025`
 - **SemaClaw: A Step Towards General-Purpose Personal AI Agents through Harness Engineering** `arXiv 2026` [![arXiv](https://img.shields.io/badge/arXiv-2604.11548-b31b1b?style=flat-square)](https://arxiv.org/abs/2604.11548)
