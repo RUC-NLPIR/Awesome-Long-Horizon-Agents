@@ -726,7 +726,7 @@ mindmap
 
 
 <details>
-<summary>📚 <b>More from the survey</b> — 34 papers</summary>
+<summary>📚 <b>More from the survey</b> — 35 papers</summary>
 
 - **Efficient Transformers: A Survey** `2023` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://doi.org/10.1145/3530811) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/csur/TayDBM23.html)
 - **State-Space Modeling in Long Sequence Processing: A Survey on Recurrence in the Transformer Era** `arXiv 2024` [![arXiv](https://img.shields.io/badge/arXiv-2406.09062-b31b1b?style=flat-square)](https://arxiv.org/abs/2406.09062) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/corr/abs-2406-09062.html)
@@ -762,6 +762,7 @@ mindmap
 - **Fast Transformer Decoding: One Write-Head is All You Need** `arXiv 2019` [![arXiv](https://img.shields.io/badge/arXiv-1911.02150-b31b1b?style=flat-square)](https://arxiv.org/abs/1911.02150) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/corr/abs-1911-02150.html)
 - **Medusa: Simple LLM Inference Acceleration Framework with Multiple Decoding Heads** `ICML 2024` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://proceedings.mlr.press/v235/cai24b.html) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/conf/icml/CaiLGPLCD24.html)
 - **EAGLE: Speculative Sampling Requires Rethinking Feature Uncertainty** `ICML 2024` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://proceedings.mlr.press/v235/li24bt.html) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/conf/icml/LiW0024.html)
+- **Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2502.11089-b31b1b?style=flat-square)](https://arxiv.org/abs/2502.11089)
 
 </details>
 
@@ -876,7 +877,7 @@ mindmap
 
 
 <details>
-<summary>📚 <b>More from the survey</b> — 20 papers</summary>
+<summary>📚 <b>More from the survey</b> — 21 papers</summary>
 
 - **DeepSeek-V3 Technical Report** `arXiv 2024` [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/corr/abs-2412-19437.html)
 - **GLM-4.5: Agentic, Reasoning, and Coding (ARC) Foundation Models** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2508.06471-b31b1b?style=flat-square)](https://arxiv.org/abs/2508.06471)
@@ -898,6 +899,7 @@ mindmap
 - **Agent-FLAN: Designing Data and Methods of Effective Agent Tuning for Large Language Models** `2024`
 - **AgentBank: Towards Generalized LLM Agents via Fine-Tuning on 50000+ Interaction Trajectories** `2024`
 - **KLong: Training LLM Agent for Extremely Long-Horizon Tasks** `arXiv 2026`
+- **Muon is Scalable for LLM Training** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2502.16982-b31b1b?style=flat-square)](https://arxiv.org/abs/2502.16982)
 
 </details>
 
@@ -908,7 +910,7 @@ mindmap
 
 
 <details>
-<summary>📚 <b>More from the survey</b> — 14 papers</summary>
+<summary>📚 <b>More from the survey</b> — 15 papers</summary>
 
 - **AgentTuning: Enabling Generalized Agent Abilities for LLMs** `2024`
 - **LIMI: Less is More for Agency** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2509.17567-b31b1b?style=flat-square)](https://arxiv.org/abs/2509.17567)
@@ -924,6 +926,7 @@ mindmap
 - **Tool-Star: Empowering LLM-Brained Multi-Tool Reasoner via Reinforcement Learning** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2505.16410-b31b1b?style=flat-square)](https://arxiv.org/abs/2505.16410) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/corr/abs-2505-16410.html)
 - **KLong: Training LLM Agent for Extremely Long-Horizon Tasks** `arXiv 2026`
 - **Watch Every Step! LLM Agent Learning via Iterative Step-Level Process Refinement** `EMNLP 2024` [![arXiv](https://img.shields.io/badge/arXiv-2406.11176-b31b1b?style=flat-square)](https://arxiv.org/abs/2406.11176)
+- **Zephyr: Direct Distillation of LM Alignment** `arXiv 2023` [![arXiv](https://img.shields.io/badge/arXiv-2310.16944-b31b1b?style=flat-square)](https://arxiv.org/abs/2310.16944)
 
 </details>
 
@@ -935,9 +938,10 @@ mindmap
 
 
 <details>
-<summary>📚 <b>More from the survey</b> — 104 papers</summary>
+<summary>📚 <b>More from the survey</b> — 105 papers</summary>
 
 - **Deepseekmath: Pushing the limits of mathematical reasoning in open language models** `arXiv 2024`
+- **Reinforcement Learning for Reasoning in Large Language Models with One Training Example** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2504.20571-b31b1b?style=flat-square)](https://arxiv.org/abs/2504.20571)
 - **WebAgent-R1: Training Web Agents via End-to-End Multi-Turn Reinforcement Learning** `2025` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://doi.org/10.18653/v1/2025.emnlp-main.401) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/conf/emnlp/WeiYLZLQYXZYYL25.html)
 - **DeepRetrieval: Hacking Real Search Engines and Retrievers with Large Language Models via Reinforcement Learning** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2503.00223-b31b1b?style=flat-square)](https://arxiv.org/abs/2503.00223) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/corr/abs-2503-00223.html)
 - **DeepResearcher: Scaling Deep Research via Reinforcement Learning in Real-world Environments** `2025` [![arXiv](https://img.shields.io/badge/arXiv-2504.03160-b31b1b?style=flat-square)](https://arxiv.org/abs/2504.03160)
