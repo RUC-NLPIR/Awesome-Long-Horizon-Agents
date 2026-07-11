@@ -1156,7 +1156,7 @@ mindmap
 
 
 <details>
-<summary>📚 <b>More from the survey</b> — 41 papers</summary>
+<summary>📚 <b>More from the survey</b> — 44 papers</summary>
 
 - **A comprehensive survey on reinforcement learning-based agentic search: Foundations, roles, optimizations, evaluations, and applications** `arXiv 2025`
 - **WebDancer: Towards Autonomous Information Seeking Agency** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2505.22648-b31b1b?style=flat-square)](https://arxiv.org/abs/2505.22648) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/corr/abs-2505-22648.html)
@@ -1199,6 +1199,9 @@ mindmap
 - **The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2504.08066-b31b1b?style=flat-square)](https://arxiv.org/abs/2504.08066)
 - **Kosmos: An AI Scientist for Autonomous Discovery** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2511.02824-b31b1b?style=flat-square)](https://arxiv.org/abs/2511.02824)
 - **Deep research agents: A systematic examination and roadmap** `arXiv 2025`
+- **Towards Personalized Deep Research: Benchmarks and Evaluations** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2509.25106-b31b1b?style=flat-square)](https://arxiv.org/abs/2509.25106)
+- **BrowseComp: A Simple Yet Challenging Benchmark for Browsing Agents** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2504.12516-b31b1b?style=flat-square)](https://arxiv.org/abs/2504.12516)
+- **WideSearch: Benchmarking Agentic Broad Info-Seeking** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2508.07999-b31b1b?style=flat-square)](https://arxiv.org/abs/2508.07999)
 
 </details>
 
