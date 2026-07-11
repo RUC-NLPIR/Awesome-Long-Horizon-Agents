@@ -383,7 +383,7 @@ mindmap
 - **Context Rot: When Long Contexts Hurt LLM Performance** — documents how model performance degrades as context grows longer and noisier. `2025`
 - **Not What You've Signed Up For: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection** — shows indirect prompt injection can hijack real LLM-integrated applications. `2023` [![arXiv](https://img.shields.io/badge/arXiv-2302.12173-b31b1b?style=flat-square)](https://arxiv.org/abs/2302.12173)
 - **Identifying the Risks of LM Agents with an LM-Emulated Sandbox** `2024`
-- **AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation** `COLM 2024` [![arXiv](https://img.shields.io/badge/arXiv-2308.08155-b31b1b?style=flat-square)](https://arxiv.org/abs/2308.08155)
+- **AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation** — an open framework for building multi-agent conversational LLM applications. `COLM 2024` [![arXiv](https://img.shields.io/badge/arXiv-2308.08155-b31b1b?style=flat-square)](https://arxiv.org/abs/2308.08155)
 - **MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework** `ICLR 2024` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://openreview.net/forum?id=VtmBAGCN7o) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/conf/iclr/HongZCZCWZWYLZR24.html)
 - **ChatDev: Communicative Agents for Software Development** `2024` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://doi.org/10.18653/v1/2024.acl-long.810) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/conf/acl/QianLLCDL0CSCXL24.html)
 - **Magentic-One: A Generalist Multi-Agent System for Solving Complex Tasks** — a generalist multi-agent system with an orchestrator for complex multi-step tasks. `arXiv 2024` [![arXiv](https://img.shields.io/badge/arXiv-2411.04468-b31b1b?style=flat-square)](https://arxiv.org/abs/2411.04468) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/corr/abs-2411-04468.html)
@@ -402,14 +402,14 @@ mindmap
 - **Meta-Harness: End-to-End Optimization of Model Harnesses** — an outer-loop system that optimizes an agent's harness end-to-end. `2026` [![arXiv](https://img.shields.io/badge/arXiv-2603.28052-b31b1b?style=flat-square)](https://arxiv.org/abs/2603.28052)
 - **AutoHarness: Improving LLM Agents by Automatically Synthesizing a Code Harness** — automatically synthesizes a code harness to constrain agent actions. `arXiv 2026` [![arXiv](https://img.shields.io/badge/arXiv-2603.03329-b31b1b?style=flat-square)](https://arxiv.org/abs/2603.03329)
 - **Externalization in LLM Agents: A Unified Review of Memory, Skills, Protocols, and Harness Engineering** — reviews externalizing capability into memory, skills, protocols, and the harness. `arXiv 2026` [![arXiv](https://img.shields.io/badge/arXiv-2604.08224-b31b1b?style=flat-square)](https://arxiv.org/abs/2604.08224)
-- **FireAct: Toward Language Agent Fine-tuning** `arXiv 2023` [![arXiv](https://img.shields.io/badge/arXiv-2310.05915-b31b1b?style=flat-square)](https://arxiv.org/abs/2310.05915)
+- **FireAct: Toward Language Agent Fine-tuning** — fine-tunes language models into agents using multi-method trajectories. `arXiv 2023` [![arXiv](https://img.shields.io/badge/arXiv-2310.05915-b31b1b?style=flat-square)](https://arxiv.org/abs/2310.05915)
 - **AgentTuning: Enabling Generalized Agent Abilities for LLMs** — fine-tunes LLMs on agent trajectories for generalized agent skills. `2024`
 - **RAGEN: Understanding Self-Evolution in LLM Agents via Multi-Turn Reinforcement Learning** — StarPO: trajectory-level RL to study self-evolution in multi-turn agents. `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2504.20073-b31b1b?style=flat-square)](https://arxiv.org/abs/2504.20073)
 - **Agentic reinforced policy optimization** `arXiv 2025`
 - **Retool: Reinforcement learning for strategic tool use in llms** `arXiv 2025`
 - **$\textToolRL$: Reward is all tool learning needs** `arXiv 2025`
 - **Natural-Language Agent Harnesses** — represents an agent harness as an inspectable, executable natural-language object. `arXiv 2026` [![arXiv](https://img.shields.io/badge/arXiv-2603.25723-b31b1b?style=flat-square)](https://arxiv.org/abs/2603.25723) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/corr/abs-2603-25723.html)
-- **OctoBench: Benchmarking Scaffold-Aware Instruction Following in Repository-Grounded Agentic Coding** `arXiv 2026` [![arXiv](https://img.shields.io/badge/arXiv-2601.10343-b31b1b?style=flat-square)](https://arxiv.org/abs/2601.10343)
+- **OctoBench: Benchmarking Scaffold-Aware Instruction Following in Repository-Grounded Agentic Coding** — benchmarks scaffold-aware instruction following in repository-grounded coding. `arXiv 2026` [![arXiv](https://img.shields.io/badge/arXiv-2601.10343-b31b1b?style=flat-square)](https://arxiv.org/abs/2601.10343)
 
 </details>
 
@@ -499,7 +499,7 @@ mindmap
 - **Anatomy of Agentic Memory: Taxonomy and Empirical Analysis of Evaluation and System Limitations** — a taxonomy and empirical critique of agentic-memory evaluation. `arXiv 2026` [![arXiv](https://img.shields.io/badge/arXiv-2602.19320-b31b1b?style=flat-square)](https://arxiv.org/abs/2602.19320)
 - **Rethinking Memory Mechanisms of Foundation Agents in the Second Half: A Survey** — a survey of agent memory for long-horizon, real-utility 'second-half' AI. `arXiv 2026` [![arXiv](https://img.shields.io/badge/arXiv-2602.06052-b31b1b?style=flat-square)](https://arxiv.org/abs/2602.06052)
 - **From Local to Global: A Graph RAG Approach to Query-Focused Summarization** — GraphRAG: builds a knowledge graph and hierarchical community summaries for global queries. `arXiv 2024` [![arXiv](https://img.shields.io/badge/arXiv-2404.16130-b31b1b?style=flat-square)](https://arxiv.org/abs/2404.16130)
-- **Continual Learning via Sparse Memory Finetuning** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2510.15103-b31b1b?style=flat-square)](https://arxiv.org/abs/2510.15103)
+- **Continual Learning via Sparse Memory Finetuning** — mitigates catastrophic forgetting by finetuning only sparse memory slots. `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2510.15103-b31b1b?style=flat-square)](https://arxiv.org/abs/2510.15103)
 
 </details>
 
@@ -947,7 +947,7 @@ mindmap
 <summary>📚 <b>More from the survey</b> — 105 papers</summary>
 
 - **Deepseekmath: Pushing the limits of mathematical reasoning in open language models** `arXiv 2024`
-- **Reinforcement Learning for Reasoning in Large Language Models with One Training Example** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2504.20571-b31b1b?style=flat-square)](https://arxiv.org/abs/2504.20571)
+- **Reinforcement Learning for Reasoning in Large Language Models with One Training Example** — 1-shot RLVR: a single example can unlock strong math reasoning. `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2504.20571-b31b1b?style=flat-square)](https://arxiv.org/abs/2504.20571)
 - **WebAgent-R1: Training Web Agents via End-to-End Multi-Turn Reinforcement Learning** `2025` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://doi.org/10.18653/v1/2025.emnlp-main.401) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/conf/emnlp/WeiYLZLQYXZYYL25.html)
 - **DeepRetrieval: Hacking Real Search Engines and Retrievers with Large Language Models via Reinforcement Learning** — uses RL to make LLMs query real search engines for better retrieval. `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2503.00223-b31b1b?style=flat-square)](https://arxiv.org/abs/2503.00223) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/corr/abs-2503-00223.html)
 - **DeepResearcher: Scaling Deep Research via Reinforcement Learning in Real-world Environments** — scales deep-research agents via RL in real web environments. `2025` [![arXiv](https://img.shields.io/badge/arXiv-2504.03160-b31b1b?style=flat-square)](https://arxiv.org/abs/2504.03160)
