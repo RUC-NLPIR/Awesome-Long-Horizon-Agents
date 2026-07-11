@@ -256,11 +256,11 @@ mindmap
 - **PAL: Program-aided Language Models** — offloads computation to LM-generated Python programs. `ICML 2023` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://proceedings.mlr.press/v202/gao23f.html) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/conf/icml/GaoMZ00YCN23.html)
 - **Program of Thoughts Prompting: Disentangling Computation from Reasoning for Numerical Reasoning Tasks** — separates reasoning from computation by generating executable programs. `2023` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://openreview.net/forum?id=YfZ4ZPt8zd) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/tmlr/ChenM0C23.html)
 - **Tree of Thoughts: Deliberate Problem Solving with Large Language Models** — explores and backtracks over a search tree of reasoning steps. `NeurIPS 2023`
-- **Do As I Can, Not As I Say: Grounding Language in Robotic Affordances** `2022` [![arXiv](https://img.shields.io/badge/arXiv-2204.01691-b31b1b?style=flat-square)](https://arxiv.org/abs/2204.01691)
-- **Inner Monologue: Embodied Reasoning through Planning with Language Models** `2022` [![arXiv](https://img.shields.io/badge/arXiv-2207.05608-b31b1b?style=flat-square)](https://arxiv.org/abs/2207.05608)
-- **ALFWorld: Aligning Text and Embodied Environments for Interactive Learning** `ICLR 2021`
-- **AdaPlanner: Adaptive Planning from Feedback with Language Models** `NeurIPS 2023` [![arXiv](https://img.shields.io/badge/arXiv-2305.16653-b31b1b?style=flat-square)](https://arxiv.org/abs/2305.16653)
-- **ADaPT: As-Needed Decomposition and Planning with Language Models** `2024`
+- **Do As I Can, Not As I Say: Grounding Language in Robotic Affordances** — SayCan: grounds LLM plans in a robot's affordances and skills. `2022` [![arXiv](https://img.shields.io/badge/arXiv-2204.01691-b31b1b?style=flat-square)](https://arxiv.org/abs/2204.01691)
+- **Inner Monologue: Embodied Reasoning through Planning with Language Models** — feeds environment feedback back into the LLM's planning loop. `2022` [![arXiv](https://img.shields.io/badge/arXiv-2207.05608-b31b1b?style=flat-square)](https://arxiv.org/abs/2207.05608)
+- **ALFWorld: Aligning Text and Embodied Environments for Interactive Learning** — aligns text and embodied environments for interactive agent learning. `ICLR 2021`
+- **AdaPlanner: Adaptive Planning from Feedback with Language Models** — adaptively refines LLM plans from environment feedback. `NeurIPS 2023` [![arXiv](https://img.shields.io/badge/arXiv-2305.16653-b31b1b?style=flat-square)](https://arxiv.org/abs/2305.16653)
+- **ADaPT: As-Needed Decomposition and Planning with Language Models** — decomposes and re-plans only as needed when subtasks fail. `2024`
 - **Describe, Explain, Plan and Select: Interactive Planning with Large Language Models Enables Open-World Multi-Task Agents** `NeurIPS 2023` [![arXiv](https://img.shields.io/badge/arXiv-2302.01560-b31b1b?style=flat-square)](https://arxiv.org/abs/2302.01560)
 - **Fantastically Ordered Prompts and Where to Find Them: Overcoming Few-Shot Prompt Order Sensitivity** `ACL 2022`
 - **Quantifying Language Models' Sensitivity to Spurious Features in Prompt Design or: How I learned to start worrying about prompt formatting** `ICLR 2024` [![arXiv](https://img.shields.io/badge/arXiv-2310.11324-b31b1b?style=flat-square)](https://arxiv.org/abs/2310.11324)
@@ -436,7 +436,7 @@ mindmap
 - **Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection** `2024`
 - **Cognitive Architectures for Language Agents** `2024`
 - **ReWOO: Decoupling Reasoning from Observations for Efficient Augmented Language Models** `arXiv 2023` [![arXiv](https://img.shields.io/badge/arXiv-2305.18323-b31b1b?style=flat-square)](https://arxiv.org/abs/2305.18323)
-- **ADaPT: As-Needed Decomposition and Planning with Language Models** `2024`
+- **ADaPT: As-Needed Decomposition and Planning with Language Models** — decomposes and re-plans only as needed when subtasks fail. `2024`
 - **Verified Multi-Agent Orchestration: A Plan-Execute-Verify-Replan Framework for Complex Query Resolution** `2026` [![arXiv](https://img.shields.io/badge/arXiv-2603.11445-b31b1b?style=flat-square)](https://arxiv.org/abs/2603.11445)
 - **O-Researcher: An Open Ended Deep Research Model via Multi-Agent Distillation and Agentic RL** `2026` [![arXiv](https://img.shields.io/badge/arXiv-2601.03743-b31b1b?style=flat-square)](https://arxiv.org/abs/2601.03743)
 - **Language Agent Tree Search Unifies Reasoning, Acting, and Planning in Language Models** `2024` [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/conf/icml/ZhouYSWW24.html)
@@ -1482,7 +1482,7 @@ mindmap
 - **OpenVLA: An Open-Source Vision-Language-Action Model** `2024` [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/corr/abs-2406-09246.html)
 - **$\pi_0$: A Vision-Language-Action Flow Model for General Robot Control** `arXiv 2024` [![arXiv](https://img.shields.io/badge/arXiv-2410.24164-b31b1b?style=flat-square)](https://arxiv.org/abs/2410.24164) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/corr/abs-2410-24164.html)
 - **GR00T N1: An Open Foundation Model for Generalist Humanoid Robots** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2503.14734-b31b1b?style=flat-square)](https://arxiv.org/abs/2503.14734) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/corr/abs-2503-14734.html)
-- **Do As I Can, Not As I Say: Grounding Language in Robotic Affordances** `2022`
+- **Do As I Can, Not As I Say: Grounding Language in Robotic Affordances** — SayCan: grounds LLM plans in a robot's affordances and skills. `2022`
 - **Code as Policies: Language Model Programs for Embodied Control** `2023`
 
 </details>
