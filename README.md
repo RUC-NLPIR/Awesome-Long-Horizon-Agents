@@ -241,11 +241,11 @@ mindmap
 <details>
 <summary>📚 <b>More from the survey</b> — 42 papers</summary>
 
-- **Language Models are Few-Shot Learners** `NeurIPS 2020` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://proceedings.neurips.cc/paper/2020/hash/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html)
-- **Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing** `2023`
-- **A Survey on In-context Learning** `2024` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://aclanthology.org/2024.emnlp-main.64)
-- **Show your work: Scratchpads for intermediate computation with language models** `arXiv 2021`
-- **Chain-of-Thought Prompting Elicits Reasoning in Large Language Models** `NeurIPS 2022`
+- **Language Models are Few-Shot Learners** — GPT-3: shows large LMs perform new tasks from just a few in-context examples. `NeurIPS 2020` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://proceedings.neurips.cc/paper/2020/hash/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html)
+- **Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing** — a systematic survey of prompting paradigms in NLP. `2023`
+- **A Survey on In-context Learning** — a survey of in-context learning methods, mechanisms, and open questions. `2024` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://aclanthology.org/2024.emnlp-main.64)
+- **Show your work: Scratchpads for intermediate computation with language models** — lets models write intermediate steps on a scratchpad before answering. `arXiv 2021`
+- **Chain-of-Thought Prompting Elicits Reasoning in Large Language Models** — prompting step-by-step reasoning sharply improves multi-step accuracy. `NeurIPS 2022`
 - **Large Language Models are Zero-Shot Reasoners** `NeurIPS 2022`
 - **Automatic Chain of Thought Prompting in Large Language Models** `ICLR 2023` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://openreview.net/forum?id=5NTt8GFjUHkr)
 - **Complexity-Based Prompting for Multi-step Reasoning** `ICLR 2023` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://openreview.net/forum?id=yf1icZHC-l9)
