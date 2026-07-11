@@ -919,11 +919,11 @@ mindmap
 <summary>📚 <b>More from the survey</b> — 15 papers</summary>
 
 - **AgentTuning: Enabling Generalized Agent Abilities for LLMs** `2024`
-- **LIMI: Less is More for Agency** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2509.17567-b31b1b?style=flat-square)](https://arxiv.org/abs/2509.17567)
-- **LIMO: Less is More for Reasoning** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2502.03387-b31b1b?style=flat-square)](https://arxiv.org/abs/2502.03387)
-- **s1: Simple Test-Time Scaling** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2501.19393-b31b1b?style=flat-square)](https://arxiv.org/abs/2501.19393) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/conf/emnlp/MuennighoffYSLFHZLCH25.html)
-- **LIMR: Less is More for RL Scaling** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2502.11886-b31b1b?style=flat-square)](https://arxiv.org/abs/2502.11886)
-- **Unified Data Selection for LLM Reasoning** `arXiv 2026` [![arXiv](https://img.shields.io/badge/arXiv-2605.22389-b31b1b?style=flat-square)](https://arxiv.org/abs/2605.22389)
+- **LIMI: Less is More for Agency** — shows strong agentic ability emerges from a small, curated fine-tuning set. `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2509.17567-b31b1b?style=flat-square)](https://arxiv.org/abs/2509.17567)
+- **LIMO: Less is More for Reasoning** — shows sophisticated math reasoning emerges from very few SFT examples. `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2502.03387-b31b1b?style=flat-square)](https://arxiv.org/abs/2502.03387)
+- **s1: Simple Test-Time Scaling** — a minimal recipe for test-time scaling via 1K curated samples and budget forcing. `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2501.19393-b31b1b?style=flat-square)](https://arxiv.org/abs/2501.19393) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/conf/emnlp/MuennighoffYSLFHZLCH25.html)
+- **LIMR: Less is More for RL Scaling** — shows a small, well-chosen RL dataset can match large-scale RL. `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2502.11886-b31b1b?style=flat-square)](https://arxiv.org/abs/2502.11886)
+- **Unified Data Selection for LLM Reasoning** — a training-free entropy metric to select high-quality reasoning data. `arXiv 2026` [![arXiv](https://img.shields.io/badge/arXiv-2605.22389-b31b1b?style=flat-square)](https://arxiv.org/abs/2605.22389)
 - **Executable Code Actions Elicit Better LLM Agents** `arXiv 2024` [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/conf/icml/WangCY0L0J24.html)
 - **APIGen: Automated Pipeline for Generating Verifiable and Diverse Function-Calling Datasets** `NeurIPS 2024` [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/conf/nips/LiuHZZLKTYLFNYS24.html)
 - **ToolACE: Winning the Points of LLM Function Calling** — generates accurate, diverse data to improve LLM function calling. `ICLR 2025` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://openreview.net/forum?id=8EB8k6DdCU) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/conf/iclr/Liu0ZHYL0GLY0WN25.html)
