@@ -295,11 +295,11 @@ mindmap
 <details>
 <summary>📚 <b>More from the survey</b> — 48 papers</summary>
 
-- **Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks** `NeurIPS 2020` [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/conf/nips/RAG2020.html)
-- **Generalization through Memorization: Nearest Neighbor Language Models** `ICLR 2020` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://openreview.net/forum?id=HklBjCEKvH)
-- **REALM: Retrieval-Augmented Language Model Pre-Training** `ICML 2020` [![arXiv](https://img.shields.io/badge/arXiv-2002.08909-b31b1b?style=flat-square)](https://arxiv.org/abs/2002.08909)
-- **Dense Passage Retrieval for Open-Domain Question Answering** `2020` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://aclanthology.org/2020.emnlp-main.550)
-- **Leveraging Passage Retrieval with Generative Models for Open Domain Question Answering** `2021` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://aclanthology.org/2021.eacl-main.74)
+- **Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks** — the original RAG paper, conditioning generation on retrieved passages. `NeurIPS 2020` [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/conf/nips/RAG2020.html)
+- **Generalization through Memorization: Nearest Neighbor Language Models** — kNN-LM: augments an LM with nearest-neighbor retrieval over a datastore. `ICLR 2020` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://openreview.net/forum?id=HklBjCEKvH)
+- **REALM: Retrieval-Augmented Language Model Pre-Training** — pretrains a language model jointly with a learned retriever. `ICML 2020` [![arXiv](https://img.shields.io/badge/arXiv-2002.08909-b31b1b?style=flat-square)](https://arxiv.org/abs/2002.08909)
+- **Dense Passage Retrieval for Open-Domain Question Answering** — DPR: dense dual-encoder retrieval for open-domain QA. `2020` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://aclanthology.org/2020.emnlp-main.550)
+- **Leveraging Passage Retrieval with Generative Models for Open Domain Question Answering** — Fusion-in-Decoder: fuses many retrieved passages in the decoder for QA. `2021` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://aclanthology.org/2021.eacl-main.74)
 - **Improving Language Models by Retrieving from Trillions of Tokens** `ICML 2022` [![arXiv](https://img.shields.io/badge/arXiv-2112.04426-b31b1b?style=flat-square)](https://arxiv.org/abs/2112.04426)
 - **Atlas: Few-shot Learning with Retrieval Augmented Language Models** `2023` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](http://jmlr.org/papers/v24/23-0037.html)
 - **Retrieval-Augmented Generation for Large Language Models: A Survey** `2023` [![arXiv](https://img.shields.io/badge/arXiv-2312.10997-b31b1b?style=flat-square)](https://arxiv.org/abs/2312.10997)
