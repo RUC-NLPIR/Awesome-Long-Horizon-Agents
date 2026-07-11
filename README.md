@@ -199,7 +199,7 @@ mindmap
 
 
 <details>
-<summary>📚 <b>More from the survey</b> — 19 papers</summary>
+<summary>📚 <b>More from the survey</b> — 20 papers</summary>
 
 - **The Landscape of Agentic Reinforcement Learning for LLMs: A Survey** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2509.02547-b31b1b?style=flat-square)](https://arxiv.org/abs/2509.02547) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/tmlr/ZhangGYYZTZLXLZCZFWHVLW26.html)
 - **Symbolic learning enables self-evolving agents** `2025` [![arXiv](https://img.shields.io/badge/arXiv-2406.18532-b31b1b?style=flat-square)](https://arxiv.org/abs/2406.18532) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/aiopen/OuZDLWWCWXZCJ25.html)
@@ -220,6 +220,7 @@ mindmap
 - **A Comprehensive Survey on Long Context Language Modeling** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2503.17407-b31b1b?style=flat-square)](https://arxiv.org/abs/2503.17407)
 - **Levels of Autonomy for AI Agents** `2025` [![arXiv](https://img.shields.io/badge/arXiv-2506.12469-b31b1b?style=flat-square)](https://arxiv.org/abs/2506.12469)
 - **Introducing Operator** `2024`
+- **Agent AI: Surveying the Horizons of Multimodal Interaction** `arXiv 2024` [![arXiv](https://img.shields.io/badge/arXiv-2401.03568-b31b1b?style=flat-square)](https://arxiv.org/abs/2401.03568)
 
 </details>
 
