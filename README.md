@@ -1249,7 +1249,7 @@ mindmap
 
 
 <details>
-<summary>📚 <b>More from the survey</b> — 43 papers</summary>
+<summary>📚 <b>More from the survey</b> — 48 papers</summary>
 
 - **Agentvista: Evaluating multimodal agents in ultra-challenging realistic visual scenarios** `arXiv 2026`
 - **Omnigaia: Towards native omni-modal ai agents** `arXiv 2026`
@@ -1294,6 +1294,11 @@ mindmap
 - **Video-MME: The First-Ever Comprehensive Evaluation Benchmark of Multi-modal LLMs in Video Analysis** `2025`
 - **OmniVideoBench: Towards Audio-Visual Understanding Evaluation for Omni MLLMs** `2025` [![arXiv](https://img.shields.io/badge/arXiv-2510.10689-b31b1b?style=flat-square)](https://arxiv.org/abs/2510.10689)
 - **UNO-Bench: A Unified Benchmark for Exploring the Compositional Law Between Uni-modal and Omni-modal in Omni Models** `2025` [![arXiv](https://img.shields.io/badge/arXiv-2510.18915-b31b1b?style=flat-square)](https://arxiv.org/abs/2510.18915)
+- **GenAI-Bench: Evaluating and Improving Compositional Text-to-Visual Generation** `arXiv 2024` [![arXiv](https://img.shields.io/badge/arXiv-2406.13743-b31b1b?style=flat-square)](https://arxiv.org/abs/2406.13743)
+- **MM-BrowseComp: A Comprehensive Benchmark for Multimodal Browsing Agents** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2508.13186-b31b1b?style=flat-square)](https://arxiv.org/abs/2508.13186)
+- **MMInA: Benchmarking Multihop Multimodal Internet Agents** `arXiv 2024` [![arXiv](https://img.shields.io/badge/arXiv-2404.09992-b31b1b?style=flat-square)](https://arxiv.org/abs/2404.09992)
+- **EmbodiedBench: Comprehensive Benchmarking Multi-modal Large Language Models for Vision-Driven Embodied Agents** `ICML 2025` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://proceedings.mlr.press/v267/yang25f.html) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/conf/icml/0010CZZ0WWKML0025.html)
+- **Towards Long-Horizon Vision-Language Navigation: Platform, Benchmark and Method** `CVPR 2025`
 
 </details>
 
