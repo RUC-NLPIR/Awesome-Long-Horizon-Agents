@@ -1367,12 +1367,12 @@ mindmap
 - **Test-Time Mixture of World Models for Embodied Agents in Dynamic Environments** `arXiv 2026` [![arXiv](https://img.shields.io/badge/arXiv-2601.22647-b31b1b?style=flat-square)](https://arxiv.org/abs/2601.22647)
 - **Qwen-AgentWorld: Language World Models for General Agents** `arXiv 2026` [![arXiv](https://img.shields.io/badge/arXiv-2606.24597-b31b1b?style=flat-square)](https://arxiv.org/abs/2606.24597)
 - **FinRobot: AI Agent for Equity Research and Valuation with Large Language Models** `arXiv 2024` [![arXiv](https://img.shields.io/badge/arXiv-2411.08804-b31b1b?style=flat-square)](https://arxiv.org/abs/2411.08804)
-- **Finance Agent Benchmark: Benchmarking LLMs on Real-world Financial Research Tasks** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2508.00828-b31b1b?style=flat-square)](https://arxiv.org/abs/2508.00828)
+- **Finance Agent Benchmark: Benchmarking LLMs on Real-world Financial Research Tasks** — benchmarks LLM agents on real-world financial research using SEC filings. `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2508.00828-b31b1b?style=flat-square)](https://arxiv.org/abs/2508.00828)
 - **FinSight: Towards Real-World Financial Deep Research** `arXiv 2025`
-- **LegalAgentBench: Evaluating LLM Agents in Legal Domain** `arXiv 2024` [![arXiv](https://img.shields.io/badge/arXiv-2412.17259-b31b1b?style=flat-square)](https://arxiv.org/abs/2412.17259)
+- **LegalAgentBench: Evaluating LLM Agents in Legal Domain** — a Chinese legal-domain benchmark for evaluating LLM agents. `arXiv 2024` [![arXiv](https://img.shields.io/badge/arXiv-2412.17259-b31b1b?style=flat-square)](https://arxiv.org/abs/2412.17259)
 - **Introducing Harvey's Legal Agent Benchmark** `2026` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark)
-- **Parthenon Law: A Self-Evolving Legal-Agent Framework** `arXiv 2026` [![arXiv](https://img.shields.io/badge/arXiv-2606.04602-b31b1b?style=flat-square)](https://arxiv.org/abs/2606.04602)
-- **LawThinker: A Deep Research Legal Agent in Dynamic Environments** `arXiv 2026` [![arXiv](https://img.shields.io/badge/arXiv-2602.12056-b31b1b?style=flat-square)](https://arxiv.org/abs/2602.12056) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/corr/abs-2602-12056.html)
+- **Parthenon Law: A Self-Evolving Legal-Agent Framework** — a self-evolving legal-agent framework for end-to-end legal matters. `arXiv 2026` [![arXiv](https://img.shields.io/badge/arXiv-2606.04602-b31b1b?style=flat-square)](https://arxiv.org/abs/2606.04602)
+- **LawThinker: A Deep Research Legal Agent in Dynamic Environments** — a legal research agent that explores, verifies, and memorizes to avoid citation errors. `arXiv 2026` [![arXiv](https://img.shields.io/badge/arXiv-2602.12056-b31b1b?style=flat-square)](https://arxiv.org/abs/2602.12056) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/corr/abs-2602-12056.html)
 - **MedAgentBench: A Realistic Virtual EHR Environment to Benchmark Medical LLM Agents** `arXiv 2025`
 - **MedAgentBoard: Benchmarking Multi-Agent Collaboration with Conventional Methods for Diverse Medical Tasks** `arXiv 2025`
 - **PhysicianBench: Evaluating LLM Agents in Real-World EHR Environments** `arXiv 2026`
@@ -1385,7 +1385,7 @@ mindmap
 - **General agent evaluation** `arXiv 2026`
 - **$\tau^2$-Bench: Evaluating Conversational Agents in a Dual-Control Environment** `arXiv 2025`
 - **$\tau$-Knowledge: Evaluating Conversational Agents over Unstructured Knowledge** `arXiv 2026`
-- **YC-Bench: Benchmarking AI Agents for Long-Term Planning and Consistent Execution** `2026` [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/corr/abs-2604-01212.html)
+- **YC-Bench: Benchmarking AI Agents for Long-Term Planning and Consistent Execution** — tasks an agent with running a simulated startup over a one-year horizon. `2026` [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/corr/abs-2604-01212.html)
 - **TRIP-Bench: A Benchmark for Long-Horizon Interactive Agents in Real-World Scenarios** `arXiv 2026`
 - **OdysseyArena: Benchmarking Large Language Models For Long-Horizon, Active and Inductive Interactions** `arXiv 2026`
 
