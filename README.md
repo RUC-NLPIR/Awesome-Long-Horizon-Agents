@@ -1090,7 +1090,7 @@ mindmap
 
 
 <details>
-<summary>📚 <b>More from the survey</b> — 21 papers</summary>
+<summary>📚 <b>More from the survey</b> — 22 papers</summary>
 
 - **$\textSTaR$: Bootstrapping Reasoning With Reasoning** `NeurIPS 2022`
 - **Self-Adapting Language Models** `2025` [![arXiv](https://img.shields.io/badge/arXiv-2506.10943-b31b1b?style=flat-square)](https://arxiv.org/abs/2506.10943)
@@ -1113,6 +1113,7 @@ mindmap
 - **Agent-World: Scaling Real-World Environment Synthesis for Evolving General Agent Intelligence** `arXiv 2026` [![arXiv](https://img.shields.io/badge/arXiv-2604.18292-b31b1b?style=flat-square)](https://arxiv.org/abs/2604.18292) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/corr/abs-2604-18292.html)
 - **CoMAS: Co-Evolving Multi-Agent Systems via Interaction Rewards** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2510.08529-b31b1b?style=flat-square)](https://arxiv.org/abs/2510.08529) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/corr/abs-2510-08529.html)
 - **SkillRL: Evolving Agents via Recursive Skill-Augmented Reinforcement Learning** `arXiv 2026` [![arXiv](https://img.shields.io/badge/arXiv-2602.08234-b31b1b?style=flat-square)](https://arxiv.org/abs/2602.08234)
+- **A Systematic Survey of Self-Evolving Agents: From Model-Centric to Environment-Driven Co-Evolution** `2026`
 
 </details>
 
