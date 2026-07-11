@@ -326,12 +326,12 @@ mindmap
 - **Gemini 1.5: Unlocking Multimodal Understanding Across Millions of Tokens of Context** — a model handling multimodal understanding across million-token contexts. `2024` [![arXiv](https://img.shields.io/badge/arXiv-2403.05530-b31b1b?style=flat-square)](https://arxiv.org/abs/2403.05530)
 - **Mamba: Linear-Time Sequence Modeling with Selective State Spaces** — a selective state-space model with linear-time sequence modeling. `arXiv 2024` [![arXiv](https://img.shields.io/badge/arXiv-2312.00752-b31b1b?style=flat-square)](https://arxiv.org/abs/2312.00752) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/corr/abs-2312-00752.html)
 - **LongBench: A Bilingual, Multitask Benchmark for Long Context Understanding** — a bilingual multitask benchmark for long-context understanding. `ACL 2024` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://aclanthology.org/2024.acl-long.172/) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/conf/acl/BaiLZL0HDLZHDTL24.html)
-- **RULER: What's the Real Context Size of Your Long-Context Language Models?** `arXiv 2024`
-- **L-Eval: Instituting Standardized Evaluation for Long Context Language Models** `2024` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://aclanthology.org/2024.acl-long.776)
-- **$\infty$Bench: Extending Long Context Evaluation Beyond 100K Tokens** `2024` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://aclanthology.org/2024.acl-long.814)
-- **Generative Agents: Interactive Simulacra of Human Behavior** `2023`
+- **RULER: What's the Real Context Size of Your Long-Context Language Models?** — probes the real usable context length of long-context LLMs. `arXiv 2024`
+- **L-Eval: Instituting Standardized Evaluation for Long Context Language Models** — standardized evaluation for long-context language models. `2024` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://aclanthology.org/2024.acl-long.776)
+- **$\infty$Bench: Extending Long Context Evaluation Beyond 100K Tokens** — extends long-context evaluation beyond 100K tokens. `2024` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://aclanthology.org/2024.acl-long.814)
+- **Generative Agents: Interactive Simulacra of Human Behavior** — believable sandbox agents that simulate human behavior with memory. `2023`
 - **Lost in the Middle: How Language Models Use Long Contexts** — shows LLMs use information best at the start and end of context and miss the middle. `2024` [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/corr/abs-2307-03172.html)
-- **Large Language Models Can Be Easily Distracted by Irrelevant Context** `ICML 2023`
+- **Large Language Models Can Be Easily Distracted by Irrelevant Context** — shows irrelevant context markedly degrades LLM reasoning. `ICML 2023`
 - **Context Rot: When Long Contexts Hurt LLM Performance** — documents how model performance degrades as context grows longer and noisier. `2025`
 - **Effective Context Engineering for AI Agents** `2025`
 - **A Survey of Context Engineering for Large Language Models** `2025` [![arXiv](https://img.shields.io/badge/arXiv-2507.13334-b31b1b?style=flat-square)](https://arxiv.org/abs/2507.13334)
@@ -458,7 +458,7 @@ mindmap
 - **Memory in the Age of AI Agents** — a position piece on why persistent memory is central to capable agents. `2025` [![arXiv](https://img.shields.io/badge/arXiv-2512.13564-b31b1b?style=flat-square)](https://arxiv.org/abs/2512.13564)
 - **Context Rot: When Long Contexts Hurt LLM Performance** — documents how model performance degrades as context grows longer and noisier. `2025`
 - **Lost in the Middle: How Language Models Use Long Contexts** — shows LLMs use information best at the start and end of context and miss the middle. `2024` [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/corr/abs-2307-03172.html)
-- **Large Language Models Can Be Easily Distracted by Irrelevant Context** `ICML 2023`
+- **Large Language Models Can Be Easily Distracted by Irrelevant Context** — shows irrelevant context markedly degrades LLM reasoning. `ICML 2023`
 - **Effective Harnesses for Long-Running Agents** — engineering guidance for building harnesses that keep long-running agents on track. `2025`
 - **Improving Deep Agents with Harness Engineering** `2026` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://www.langchain.com/blog/improving-deep-agents-with-harness-engineering)
 - **Effective Context Engineering for AI Agents** `2025`
