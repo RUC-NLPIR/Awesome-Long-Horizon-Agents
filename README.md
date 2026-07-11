@@ -216,11 +216,11 @@ mindmap
 - **ReasoningBank: Scaling Agent Self-Evolving with Reasoning Memory** — stores reusable reasoning strategies as memory to guide future decisions. `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2509.25140-b31b1b?style=flat-square)](https://arxiv.org/abs/2509.25140)
 - **Time Horizon 1.1** — an update to METR's measurement of the agent task-completion time horizon. `2026`
 - **Training Compute-Optimal Large Language Models** — the Chinchilla study on optimally balancing model size against training tokens. `NeurIPS 2022`
-- **Forecasting AI Time Horizon Under Compute Slowdowns** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2511.19492-b31b1b?style=flat-square)](https://arxiv.org/abs/2511.19492)
-- **A Comprehensive Survey on Long Context Language Modeling** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2503.17407-b31b1b?style=flat-square)](https://arxiv.org/abs/2503.17407)
-- **Levels of Autonomy for AI Agents** `2025` [![arXiv](https://img.shields.io/badge/arXiv-2506.12469-b31b1b?style=flat-square)](https://arxiv.org/abs/2506.12469)
-- **Introducing Operator** `2024`
-- **Agent AI: Surveying the Horizons of Multimodal Interaction** `arXiv 2024` [![arXiv](https://img.shields.io/badge/arXiv-2401.03568-b31b1b?style=flat-square)](https://arxiv.org/abs/2401.03568)
+- **Forecasting AI Time Horizon Under Compute Slowdowns** — forecasts how agent task horizons grow if compute scaling slows. `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2511.19492-b31b1b?style=flat-square)](https://arxiv.org/abs/2511.19492)
+- **A Comprehensive Survey on Long Context Language Modeling** — a survey of methods for extending and using long context in LLMs. `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2503.17407-b31b1b?style=flat-square)](https://arxiv.org/abs/2503.17407)
+- **Levels of Autonomy for AI Agents** — proposes a taxonomy of autonomy levels for AI agents. `2025` [![arXiv](https://img.shields.io/badge/arXiv-2506.12469-b31b1b?style=flat-square)](https://arxiv.org/abs/2506.12469)
+- **Introducing Operator** — OpenAI's computer-use agent that browses and clicks on the user's behalf. `2024`
+- **Agent AI: Surveying the Horizons of Multimodal Interaction** — a survey of multimodal agent AI across perception, action, and interaction. `arXiv 2024` [![arXiv](https://img.shields.io/badge/arXiv-2401.03568-b31b1b?style=flat-square)](https://arxiv.org/abs/2401.03568)
 
 </details>
 
