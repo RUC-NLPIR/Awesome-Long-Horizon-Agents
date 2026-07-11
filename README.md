@@ -1051,7 +1051,7 @@ mindmap
 
 
 <details>
-<summary>📚 <b>More from the survey</b> — 21 papers</summary>
+<summary>📚 <b>More from the survey</b> — 26 papers</summary>
 
 - **WebExplorer: Explore and Evolve for Training Long-Horizon Web Agents** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2509.06501-b31b1b?style=flat-square)](https://arxiv.org/abs/2509.06501) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/corr/abs-2509-06501.html)
 - **Behavioral Cloning from Observation** `IJCAI 2018` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://doi.org/10.24963/ijcai.2018/687) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/conf/ijcai/TorabiWS18.html)
@@ -1074,6 +1074,11 @@ mindmap
 - **f-OPD: Stabilizing Long-Horizon On-Policy Distillation with Freshness-Aware Control** `arXiv 2026` [![arXiv](https://img.shields.io/badge/arXiv-2605.17862-b31b1b?style=flat-square)](https://arxiv.org/abs/2605.17862) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/corr/abs-2605-17862.html)
 - **TIP: Token Importance in On-Policy Distillation** `arXiv 2026` [![arXiv](https://img.shields.io/badge/arXiv-2604.14084-b31b1b?style=flat-square)](https://arxiv.org/abs/2604.14084) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/corr/abs-2604-14084.html)
 - **Revisiting On-Policy Distillation: Empirical Failure Modes and Simple Fixes** `arXiv 2026` [![arXiv](https://img.shields.io/badge/arXiv-2603.25562-b31b1b?style=flat-square)](https://arxiv.org/abs/2603.25562) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/corr/abs-2603-25562.html)
+- **Bespoke-Stratos: The Unreasonable Effectiveness of Reasoning Distillation** `2025`
+- **Structured Agent Distillation for Large Language Model** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2505.13820-b31b1b?style=flat-square)](https://arxiv.org/abs/2505.13820)
+- **From Correction to Mastery: Reinforced Distillation of Large Language Model Agents** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2509.14257-b31b1b?style=flat-square)](https://arxiv.org/abs/2509.14257)
+- **AgentDistill: Training-Free Agent Distillation with Generalizable MCP Boxes** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2506.14728-b31b1b?style=flat-square)](https://arxiv.org/abs/2506.14728)
+- **A Survey of On-Policy Distillation for Large Language Models** `arXiv 2026` [![arXiv](https://img.shields.io/badge/arXiv-2604.00626-b31b1b?style=flat-square)](https://arxiv.org/abs/2604.00626)
 
 </details>
 
