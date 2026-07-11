@@ -1196,19 +1196,19 @@ mindmap
 - **Large multimodal agents: A survey** `arXiv 2024`
 - **Webwatcher: Breaking new frontier of vision-language deep research agent** `arXiv 2025`
 - **Opensearch-vl: An open recipe for frontier multimodal search agents** `arXiv 2026`
-- **Towards Long-horizon Agentic Multimodal Search** `arXiv 2026`
+- **Towards Long-horizon Agentic Multimodal Search** — manages heterogeneous evidence and token cost for long-horizon multimodal search. `arXiv 2026`
 - **VSearcher: Long-horizon multimodal search agent via reinforcement learning** `arXiv 2026`
-- **Benchmarking multimodal retrieval augmented generation with dynamic vqa dataset and self-adaptive planning agent** `ICLR 2025` [![arXiv](https://img.shields.io/badge/arXiv-2411.02937-b31b1b?style=flat-square)](https://arxiv.org/abs/2411.02937)
+- **Benchmarking multimodal retrieval augmented generation with dynamic vqa dataset and self-adaptive planning agent** — a dynamic VQA benchmark with a self-adaptive planning agent for multimodal RAG. `ICLR 2025` [![arXiv](https://img.shields.io/badge/arXiv-2411.02937-b31b1b?style=flat-square)](https://arxiv.org/abs/2411.02937)
 - **Deep video discovery: Agentic search with tool use for long-form video understanding** `NeurIPS 2026`
 - **VideoSeek: Long-Horizon Video Agent with Tool-Guided Seeking** `CVPR 2026`
 - **Watching, reasoning, and searching: A video deep research benchmark on open web for agentic video reasoning** `arXiv 2026`
 - **Video-Browser: Towards Agentic Open-web Video Browsing** `arXiv 2025`
 - **Agentic keyframe search for video question answering** `arXiv 2025`
-- **Webweaver: Structuring web-scale evidence with dynamic outlines for open-ended deep research** `arXiv 2025` [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/corr/abs-2509-13312.html)
+- **Webweaver: Structuring web-scale evidence with dynamic outlines for open-ended deep research** — structures web-scale evidence with dynamic outlines for open-ended deep research. `arXiv 2025` [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/corr/abs-2509-13312.html)
 - **Deep research: A survey of autonomous research agents** `arXiv 2025`
-- **Webthinker: Empowering large reasoning models with deep research capability** `NeurIPS 2025` [![arXiv](https://img.shields.io/badge/arXiv-2504.21776-b31b1b?style=flat-square)](https://arxiv.org/abs/2504.21776) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/corr/abs-2504-21776.html)
+- **Webthinker: Empowering large reasoning models with deep research capability** — lets reasoning models autonomously search the web and draft research reports. `NeurIPS 2025` [![arXiv](https://img.shields.io/badge/arXiv-2504.21776-b31b1b?style=flat-square)](https://arxiv.org/abs/2504.21776) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/corr/abs-2504-21776.html)
 - **AgentCPM-Report: Interleaving Drafting and Deepening for Open-Ended Deep Research** `arXiv 2026`
-- **Benchmarking AI Agents for Addressing Scientific Challenges Across Scales** `arXiv 2026` [![arXiv](https://img.shields.io/badge/arXiv-2606.12736-b31b1b?style=flat-square)](https://arxiv.org/abs/2606.12736)
+- **Benchmarking AI Agents for Addressing Scientific Challenges Across Scales** — a benchmark for AI agents on real, multi-scale scientific challenges. `arXiv 2026` [![arXiv](https://img.shields.io/badge/arXiv-2606.12736-b31b1b?style=flat-square)](https://arxiv.org/abs/2606.12736)
 - **Toward Generalist Autonomous Research via Hypothesis-Tree Refinement** `arXiv 2026`
 - **A multi-agent system for automating scientific discovery** `2026`
 - **$\textAlphaEvolve$: A coding agent for scientific and algorithmic discovery** `arXiv 2025`
@@ -1286,7 +1286,7 @@ mindmap
 - **AdaVideoRAG: Omni-Contextual Adaptive Retrieval-Augmented Efficient Long Video Understanding** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2506.13589-b31b1b?style=flat-square)](https://arxiv.org/abs/2506.13589)
 - **A.I.R.: Enabling Adaptive, Iterative, and Reasoning-based Frame Selection For Video Question Answering** `ICLR 2026` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://openreview.net/forum?id=SZVpOKw0YD)
 - **VSearcher: Long-Horizon Multimodal Search Agent via Reinforcement Learning** `arXiv 2026` [![arXiv](https://img.shields.io/badge/arXiv-2603.02795-b31b1b?style=flat-square)](https://arxiv.org/abs/2603.02795)
-- **Towards Long-horizon Agentic Multimodal Search** `arXiv 2026` [![arXiv](https://img.shields.io/badge/arXiv-2604.12890-b31b1b?style=flat-square)](https://arxiv.org/abs/2604.12890)
+- **Towards Long-horizon Agentic Multimodal Search** — manages heterogeneous evidence and token cost for long-horizon multimodal search. `arXiv 2026` [![arXiv](https://img.shields.io/badge/arXiv-2604.12890-b31b1b?style=flat-square)](https://arxiv.org/abs/2604.12890)
 - **Qwen-Image-2.0 Technical Report** `arXiv 2026` [![arXiv](https://img.shields.io/badge/arXiv-2605.10730-b31b1b?style=flat-square)](https://arxiv.org/abs/2605.10730)
 - **Qwen VLo: From ``Understanding'' the World to ``Depicting'' It** `2025` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://qwenlm.github.io/blog/qwen-vlo/)
 - **Seedream 3.0 Technical Report** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2504.11346-b31b1b?style=flat-square)](https://arxiv.org/abs/2504.11346)
@@ -1381,7 +1381,7 @@ mindmap
 - **$\textAlphaEvolve$: A coding agent for scientific and algorithmic discovery** `arXiv 2025`
 - **The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2504.08066-b31b1b?style=flat-square)](https://arxiv.org/abs/2504.08066)
 - **Kosmos: An AI Scientist for Autonomous Discovery** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2511.02824-b31b1b?style=flat-square)](https://arxiv.org/abs/2511.02824)
-- **Benchmarking AI Agents for Addressing Scientific Challenges Across Scales** `arXiv 2026` [![arXiv](https://img.shields.io/badge/arXiv-2606.12736-b31b1b?style=flat-square)](https://arxiv.org/abs/2606.12736)
+- **Benchmarking AI Agents for Addressing Scientific Challenges Across Scales** — a benchmark for AI agents on real, multi-scale scientific challenges. `arXiv 2026` [![arXiv](https://img.shields.io/badge/arXiv-2606.12736-b31b1b?style=flat-square)](https://arxiv.org/abs/2606.12736)
 - **General agent evaluation** `arXiv 2026`
 - **$\tau^2$-Bench: Evaluating Conversational Agents in a Dual-Control Environment** `arXiv 2025`
 - **$\tau$-Knowledge: Evaluating Conversational Agents over Unstructured Knowledge** `arXiv 2026`
