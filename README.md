@@ -403,7 +403,7 @@ mindmap
 - **AutoHarness: Improving LLM Agents by Automatically Synthesizing a Code Harness** `arXiv 2026` [![arXiv](https://img.shields.io/badge/arXiv-2603.03329-b31b1b?style=flat-square)](https://arxiv.org/abs/2603.03329)
 - **Externalization in LLM Agents: A Unified Review of Memory, Skills, Protocols, and Harness Engineering** `arXiv 2026` [![arXiv](https://img.shields.io/badge/arXiv-2604.08224-b31b1b?style=flat-square)](https://arxiv.org/abs/2604.08224)
 - **FireAct: Toward Language Agent Fine-tuning** `arXiv 2023` [![arXiv](https://img.shields.io/badge/arXiv-2310.05915-b31b1b?style=flat-square)](https://arxiv.org/abs/2310.05915)
-- **AgentTuning: Enabling Generalized Agent Abilities for LLMs** `2024`
+- **AgentTuning: Enabling Generalized Agent Abilities for LLMs** — fine-tunes LLMs on agent trajectories for generalized agent skills. `2024`
 - **RAGEN: Understanding Self-Evolution in LLM Agents via Multi-Turn Reinforcement Learning** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2504.20073-b31b1b?style=flat-square)](https://arxiv.org/abs/2504.20073)
 - **Agentic reinforced policy optimization** `arXiv 2025`
 - **Retool: Reinforcement learning for strategic tool use in llms** `arXiv 2025`
@@ -850,7 +850,7 @@ mindmap
 - **MedMCP-Calc: Benchmarking LLMs for Realistic Medical Calculator Scenarios via MCP Integration** `arXiv 2026` [![arXiv](https://img.shields.io/badge/arXiv-2601.23049-b31b1b?style=flat-square)](https://arxiv.org/abs/2601.23049) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/corr/abs-2601-23049.html)
 - **FinMTM: A Multi-Turn Multimodal Benchmark for Financial Reasoning and Agent Evaluation** `arXiv 2026` [![arXiv](https://img.shields.io/badge/arXiv-2602.03130-b31b1b?style=flat-square)](https://arxiv.org/abs/2602.03130) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/corr/abs-2602-03130.html)
 - **AgentRewardBench: Evaluating Automatic Evaluations of Web Agent Trajectories** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2504.08942-b31b1b?style=flat-square)](https://arxiv.org/abs/2504.08942) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/corr/abs-2504-08942.html)
-- **TOUCAN: Synthesizing 1.5M Tool-Agentic Data from Real-World MCP Environments** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2510.01179-b31b1b?style=flat-square)](https://arxiv.org/abs/2510.01179) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/corr/abs-2510-01179.html)
+- **TOUCAN: Synthesizing 1.5M Tool-Agentic Data from Real-World MCP Environments** — synthesizes 1.5M tool-agentic training samples from real MCP environments. `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2510.01179-b31b1b?style=flat-square)](https://arxiv.org/abs/2510.01179) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/corr/abs-2510-01179.html)
 - **OpenResearcher: A Fully Open Pipeline for Long-Horizon Deep Research Trajectory Synthesis** `arXiv 2026` [![arXiv](https://img.shields.io/badge/arXiv-2603.20278-b31b1b?style=flat-square)](https://arxiv.org/abs/2603.20278) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/corr/abs-2603-20278.html)
 - **ASTRA: Automated Synthesis of agentic Trajectories and Reinforcement Arenas** `arXiv 2026` [![arXiv](https://img.shields.io/badge/arXiv-2601.21558-b31b1b?style=flat-square)](https://arxiv.org/abs/2601.21558) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/corr/abs-2601-21558.html)
 - **Scalable Data Synthesis for Computer Use Agents with Step-Level Filtering** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2512.10962-b31b1b?style=flat-square)](https://arxiv.org/abs/2512.10962) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/corr/abs-2512-10962.html)
@@ -901,7 +901,7 @@ mindmap
 - **DoReMi: Optimizing Data Mixtures Speeds Up Language Model Pretraining** — reweights pretraining data domains to speed up training. `2023`
 - **Data Mixing Laws: Optimizing Data Mixtures by Predicting Language Modeling Performance** — predicts model performance from data-mixture proportions to optimize them. `arXiv 2024` [![arXiv](https://img.shields.io/badge/arXiv-2403.16952-b31b1b?style=flat-square)](https://arxiv.org/abs/2403.16952)
 - **OPUS: Towards Efficient and Principled Data Selection in Large Language Model Pre-training in Every Iteration** — optimizer-induced dynamic data selection for every pretraining iteration. `arXiv 2026` [![arXiv](https://img.shields.io/badge/arXiv-2602.05400-b31b1b?style=flat-square)](https://arxiv.org/abs/2602.05400)
-- **AgentTuning: Enabling Generalized Agent Abilities for LLMs** `2024`
+- **AgentTuning: Enabling Generalized Agent Abilities for LLMs** — fine-tunes LLMs on agent trajectories for generalized agent skills. `2024`
 - **Agent-FLAN: Designing Data and Methods of Effective Agent Tuning for Large Language Models** `2024`
 - **AgentBank: Towards Generalized LLM Agents via Fine-Tuning on 50000+ Interaction Trajectories** `2024`
 - **KLong: Training LLM Agent for Extremely Long-Horizon Tasks** `arXiv 2026`
@@ -918,7 +918,7 @@ mindmap
 <details>
 <summary>📚 <b>More from the survey</b> — 15 papers</summary>
 
-- **AgentTuning: Enabling Generalized Agent Abilities for LLMs** `2024`
+- **AgentTuning: Enabling Generalized Agent Abilities for LLMs** — fine-tunes LLMs on agent trajectories for generalized agent skills. `2024`
 - **LIMI: Less is More for Agency** — shows strong agentic ability emerges from a small, curated fine-tuning set. `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2509.17567-b31b1b?style=flat-square)](https://arxiv.org/abs/2509.17567)
 - **LIMO: Less is More for Reasoning** — shows sophisticated math reasoning emerges from very few SFT examples. `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2502.03387-b31b1b?style=flat-square)](https://arxiv.org/abs/2502.03387)
 - **s1: Simple Test-Time Scaling** — a minimal recipe for test-time scaling via 1K curated samples and budget forcing. `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2501.19393-b31b1b?style=flat-square)](https://arxiv.org/abs/2501.19393) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/conf/emnlp/MuennighoffYSLFHZLCH25.html)
@@ -927,12 +927,12 @@ mindmap
 - **Executable Code Actions Elicit Better LLM Agents** `arXiv 2024` [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/conf/icml/WangCY0L0J24.html)
 - **APIGen: Automated Pipeline for Generating Verifiable and Diverse Function-Calling Datasets** `NeurIPS 2024` [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/conf/nips/LiuHZZLKTYLFNYS24.html)
 - **ToolACE: Winning the Points of LLM Function Calling** — generates accurate, diverse data to improve LLM function calling. `ICLR 2025` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://openreview.net/forum?id=8EB8k6DdCU) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/conf/iclr/Liu0ZHYL0GLY0WN25.html)
-- **TOUCAN: Synthesizing 1.5M Tool-Agentic Data from Real-World MCP Environments** `arXiv 2025` [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/corr/abs-2510-01179.html)
+- **TOUCAN: Synthesizing 1.5M Tool-Agentic Data from Real-World MCP Environments** — synthesizes 1.5M tool-agentic training samples from real MCP environments. `arXiv 2025` [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/corr/abs-2510-01179.html)
 - **EDGE: Efficient Data Selection for LLM Agents via Guideline Effectiveness** `IJCAI 2025` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://www.ijcai.org/proceedings/2025/932)
-- **Tool-Star: Empowering LLM-Brained Multi-Tool Reasoner via Reinforcement Learning** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2505.16410-b31b1b?style=flat-square)](https://arxiv.org/abs/2505.16410) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/corr/abs-2505-16410.html)
+- **Tool-Star: Empowering LLM-Brained Multi-Tool Reasoner via Reinforcement Learning** — an RL framework letting LLMs autonomously invoke multiple tools while reasoning. `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2505.16410-b31b1b?style=flat-square)](https://arxiv.org/abs/2505.16410) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/corr/abs-2505-16410.html)
 - **KLong: Training LLM Agent for Extremely Long-Horizon Tasks** `arXiv 2026`
-- **Watch Every Step! LLM Agent Learning via Iterative Step-Level Process Refinement** `EMNLP 2024` [![arXiv](https://img.shields.io/badge/arXiv-2406.11176-b31b1b?style=flat-square)](https://arxiv.org/abs/2406.11176)
-- **Zephyr: Direct Distillation of LM Alignment** `arXiv 2023` [![arXiv](https://img.shields.io/badge/arXiv-2310.16944-b31b1b?style=flat-square)](https://arxiv.org/abs/2310.16944)
+- **Watch Every Step! LLM Agent Learning via Iterative Step-Level Process Refinement** — iterative step-level process refinement to supervise agent training. `EMNLP 2024` [![arXiv](https://img.shields.io/badge/arXiv-2406.11176-b31b1b?style=flat-square)](https://arxiv.org/abs/2406.11176)
+- **Zephyr: Direct Distillation of LM Alignment** — distills alignment into a smaller model via preference data from AI feedback. `arXiv 2023` [![arXiv](https://img.shields.io/badge/arXiv-2310.16944-b31b1b?style=flat-square)](https://arxiv.org/abs/2310.16944)
 
 </details>
 
