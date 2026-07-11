@@ -1242,14 +1242,14 @@ mindmap
 - **WEBSERV: A Full-Stack and RL-Ready Web Environment for Training Web Agents at Scale** `arXiv 2025`
 - **Colorbrowseragent: Complex long-horizon browser agent with adaptive knowledge evolution** `ACL 2026` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://aclanthology.org/2026.acl-industry.46/)
 - **Computer Use Benchmark (CUB)** `2025`
-- **UI-TARS: Pioneering Automated GUI Interaction with Native Agents** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2501.12326-b31b1b?style=flat-square)](https://arxiv.org/abs/2501.12326)
+- **UI-TARS: Pioneering Automated GUI Interaction with Native Agents** — an end-to-end native GUI agent that acts purely from screenshots. `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2501.12326-b31b1b?style=flat-square)](https://arxiv.org/abs/2501.12326)
 - **Navigating the digital world as humans do: Universal visual grounding for gui agents** `ICLR 2025`
 - **Gui-actor: Coordinate-free visual grounding for gui agents** `NeurIPS 2026`
-- **AliyunConsoleAgent: Training Web Agents in Real-World Cloud Environments via Distillation and Reinforcement Learning** `2026` [![arXiv](https://img.shields.io/badge/arXiv-2606.09447-b31b1b?style=flat-square)](https://arxiv.org/abs/2606.09447)
-- **VISUALSKILL: Multimodal Skills for Computer-Use Agents** `2026` [![arXiv](https://img.shields.io/badge/arXiv-2606.18448-b31b1b?style=flat-square)](https://arxiv.org/abs/2606.18448)
+- **AliyunConsoleAgent: Training Web Agents in Real-World Cloud Environments via Distillation and Reinforcement Learning** — a cloud-console web agent for documentation verification, trained via distillation and RL. `2026` [![arXiv](https://img.shields.io/badge/arXiv-2606.09447-b31b1b?style=flat-square)](https://arxiv.org/abs/2606.09447)
+- **VISUALSKILL: Multimodal Skills for Computer-Use Agents** — hierarchical multimodal skills tailored to each application for computer-use agents. `2026` [![arXiv](https://img.shields.io/badge/arXiv-2606.18448-b31b1b?style=flat-square)](https://arxiv.org/abs/2606.18448)
 - **From Model to Agent: Equipping the Responses API with a Computer Environment** `2026` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://openai.com/index/equip-responses-api-computer-environment/)
 - **Autoeval: A practical framework for autonomous evaluation of mobile agents** `arXiv 2025`
-- **Learnact: Few-shot mobile gui agent with a unified demonstration benchmark** `2026` [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/corr/abs-2504-13805.html)
+- **Learnact: Few-shot mobile gui agent with a unified demonstration benchmark** — a few-shot mobile GUI agent that learns from human demonstrations. `2026` [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/corr/abs-2504-13805.html)
 - **Mobile-agent-e: Self-evolving mobile assistant for complex tasks** `arXiv 2025`
 - **Mobile-agent-v3: Fundamental agents for gui automation** `arXiv 2025`
 - **Mobile-agent-v3. 5: Multi-platform fundamental gui agents** `arXiv 2026`
@@ -1257,7 +1257,7 @@ mindmap
 - **Advancing mobile gui agents: A verifier-driven approach to practical deployment** `arXiv 2025`
 - **Os-sentinel: Towards safety-enhanced mobile gui agents via hybrid validation in realistic workflows** `ACL 2026`
 - **SeeClick: Harnessing GUI Grounding for Advanced Visual GUI Agents** `ACL 2024`
-- **MobileAgentBench: An Efficient and User-Friendly Benchmark for Mobile LLM Agents** `arXiv 2024` [![arXiv](https://img.shields.io/badge/arXiv-2406.08184-b31b1b?style=flat-square)](https://arxiv.org/abs/2406.08184)
+- **MobileAgentBench: An Efficient and User-Friendly Benchmark for Mobile LLM Agents** — an efficient, user-friendly benchmark for mobile LLM agents. `arXiv 2024` [![arXiv](https://img.shields.io/badge/arXiv-2406.08184-b31b1b?style=flat-square)](https://arxiv.org/abs/2406.08184)
 
 </details>
 
