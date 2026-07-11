@@ -266,11 +266,11 @@ mindmap
 - **Quantifying Language Models' Sensitivity to Spurious Features in Prompt Design or: How I learned to start worrying about prompt formatting** — shows prompt formatting alone can swing LLM performance widely. `ICLR 2024` [![arXiv](https://img.shields.io/badge/arXiv-2310.11324-b31b1b?style=flat-square)](https://arxiv.org/abs/2310.11324)
 - **Calibrate Before Use: Improving Few-Shot Performance of Language Models** — calibrates few-shot predictions to remove prompt-induced bias. `ICML 2021` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://proceedings.mlr.press/v139/zhao21c.html)
 - **Rethinking the Role of Demonstrations: What Makes In-Context Learning Work?** — finds demo format matters more than gold-label correctness. `2022` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://doi.org/10.18653/v1/2022.emnlp-main.759) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/conf/emnlp/MinLHALHZ22.html)
-- **$\textPromptAgent$: Strategic Planning with Language Models Enables Expert-level Prompt Optimization** `ICLR 2024`
-- **Promptbreeder: Self-Referential Self-Improvement via Prompt Evolution** `ICML 2024`
-- **Reprompting: Automated Chain-of-Thought Prompt Inference Through Gibbs Sampling** `ICML 2024`
-- **PromptWizard: Task-Aware Prompt Optimization Framework** `arXiv 2024`
-- **Large Language Models as Optimizers** `ICLR 2024`
+- **$\textPromptAgent$: Strategic Planning with Language Models Enables Expert-level Prompt Optimization** — plans strategically to discover expert-level prompts automatically. `ICLR 2024`
+- **Promptbreeder: Self-Referential Self-Improvement via Prompt Evolution** — evolves prompts through self-referential mutation. `ICML 2024`
+- **Reprompting: Automated Chain-of-Thought Prompt Inference Through Gibbs Sampling** — infers chain-of-thought prompts automatically via Gibbs sampling. `ICML 2024`
+- **PromptWizard: Task-Aware Prompt Optimization Framework** — a task-aware framework that optimizes prompts automatically. `arXiv 2024`
+- **Large Language Models as Optimizers** — OPRO: uses the LLM itself to iteratively optimize prompts. `ICLR 2024`
 - **Large Language Models are Human-Level Prompt Engineers** `ICLR 2023`
 - **Automatic Prompt Optimization with "Gradient Descent" and Beam Search** `EMNLP 2023`
 - **Optimizing Instructions and Demonstrations for Multi-Stage Language Model Programs** `2024`
