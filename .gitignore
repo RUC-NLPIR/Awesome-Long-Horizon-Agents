@@ -1,0 +1,5 @@
+# Local preview tool (renders README.md locally, not part of the list)
+_preview.html
+
+# OS noise
+.DS_Store

@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 480" width="1280" height="480" role="img" aria-label="Toward Long-Horizon AI Agents — A Survey">
+  <title>Toward Long-Horizon AI Agents — A Survey</title>
+  <desc>Synthwave banner in three clean bands: a neon "LONG-HORIZON AGENTS" title in the sky, a retro sun resting on the horizon, and an animated perspective grid below, with a rotating list of the six survey perspectives.</desc>
+
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0"    stop-color="#150625"/>
+      <stop offset="0.5"  stop-color="#2c1049"/>
+      <stop offset="0.74" stop-color="#7a1f6b"/>
+      <stop offset="0.88" stop-color="#ff5f6d" stop-opacity="0.9"/>
+      <stop offset="1"    stop-color="#ffa14a"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0"   stop-color="#FFE9A8"/>
+      <stop offset="0.42" stop-color="#FFC24B"/>
+      <stop offset="0.72" stop-color="#FF4D9D"/>
+      <stop offset="1"   stop-color="#B23CF0"/>
+    </linearGradient>
+    <linearGradient id="neonink" x1="0" y1="0" x2="1" y2="0.35">
+      <stop offset="0"   stop-color="#8fe9ff"/>
+      <stop offset="0.5" stop-color="#ffffff"/>
+      <stop offset="1"   stop-color="#ff7ad1"/>
+    </linearGradient>
+    <linearGradient id="floorfade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a0416" stop-opacity="0"/>
+      <stop offset="1" stop-color="#0a0416" stop-opacity="0.85"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="4.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glowSoft" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="9" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <!-- sun slit cuts (lower portion only) -->
+    <mask id="slits">
+      <rect x="0" y="0" width="1280" height="480" fill="white"/>
+      <g fill="black">
+        <rect x="536" y="256" width="208" height="4"/>
+        <rect x="536" y="266" width="208" height="6"/>
+        <rect x="536" y="280" width="208" height="8"/>
+        <rect x="536" y="298" width="208" height="10"/>
+      </g>
+    </mask>
+
+    <clipPath id="floorClip"><rect x="0" y="340" width="1280" height="140"/></clipPath>
+    <clipPath id="rollClip"><rect x="606" y="430" width="470" height="40"/></clipPath>
+    <clipPath id="titleClip">
+      <text x="640" y="126" text-anchor="middle" font-family="'Arial Black',Impact,'Helvetica Neue',sans-serif"
+            font-size="60" font-weight="900" letter-spacing="5">LONG&#8209;HORIZON AGENTS</text>
+    </clipPath>
+
+    <style>
+      .grid { animation: scroll 2.4s linear infinite; }
+      @keyframes scroll { from { transform: translateY(0); } to { transform: translateY(18px); } }
+      .sunbob { animation: bob 7s ease-in-out infinite; }
+      @keyframes bob { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-5px)} }
+      .flick { animation: flick 6s steps(1) infinite; }
+      @keyframes flick { 0%,93%,97%,100%{opacity:1} 95%{opacity:.74} 99%{opacity:.88} }
+      .sweep { animation: sweep 6.5s ease-in-out infinite; }
+      @keyframes sweep { 0%{transform:translateX(-420px) rotate(-16deg)} 42%{transform:translateX(600px) rotate(-16deg)} 100%{transform:translateX(600px) rotate(-16deg)} }
+      .roll { animation: roll 15s cubic-bezier(.22,1,.36,1) infinite; }
+      @keyframes roll {
+        0%,11.5%{transform:translateY(0)} 13.9%,25%{transform:translateY(-40px)}
+        27.7%,38.7%{transform:translateY(-80px)} 41.6%,52.3%{transform:translateY(-120px)}
+        55.5%,66.1%{transform:translateY(-160px)} 69.4%,80%{transform:translateY(-200px)}
+        83.3%,94%{transform:translateY(-240px)} 100%{transform:translateY(-280px)}
+      }
+      .tw{animation:tw 3s ease-in-out infinite} .tw2{animation:tw 3s ease-in-out infinite;animation-delay:1s}
+      .tw3{animation:tw 3s ease-in-out infinite;animation-delay:2s}
+      @keyframes tw{0%,100%{opacity:.2}50%{opacity:1}}
+    </style>
+  </defs>
+
+  <!-- Sky -->
+  <rect x="2" y="2" width="1276" height="476" rx="28" fill="url(#sky)"/>
+
+  <!-- Stars (upper sky, clear of title & sun) -->
+  <g fill="#ffffff">
+    <circle class="tw"  cx="120" cy="150" r="1.6"/>
+    <circle class="tw2" cx="250" cy="90"  r="1.3"/>
+    <circle class="tw3" cx="185" cy="200" r="1.4"/>
+    <circle class="tw"  cx="1010" cy="90" r="1.5"/>
+    <circle class="tw2" cx="1150" cy="160" r="1.3"/>
+    <circle class="tw3" cx="1080" cy="210" r="1.4"/>
+    <circle class="tw"  cx="60"  cy="90"  r="1.2"/>
+    <circle class="tw2" cx="1210" cy="100" r="1.3"/>
+  </g>
+
+  <!-- ===== BAND 1: title (sky) ===== -->
+  <text x="640" y="62" text-anchor="middle" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif"
+        font-size="15" font-weight="700" letter-spacing="9" fill="#8fe9ff" filter="url(#glow)">A &#160;S U R V E Y</text>
+
+  <g class="flick" filter="url(#glow)">
+    <text x="640" y="126" text-anchor="middle" font-family="'Arial Black',Impact,'Helvetica Neue',sans-serif"
+          font-size="60" font-weight="900" letter-spacing="5" fill="url(#neonink)">LONG&#8209;HORIZON AGENTS</text>
+  </g>
+  <g clip-path="url(#titleClip)"><rect class="sweep" x="0" y="70" width="130" height="80" fill="url(#sheen)"/></g>
+
+  <!-- ===== BAND 2: retro sun on the horizon ===== -->
+  <g class="sunbob">
+    <circle cx="640" cy="252" r="96" fill="url(#sun)" mask="url(#slits)" filter="url(#glowSoft)"/>
+  </g>
+
+  <!-- glowing horizon line -->
+  <rect x="60" y="339" width="1160" height="3" rx="1.5" fill="#ffd36e" filter="url(#glow)"/>
+
+  <!-- ===== BAND 3: perspective grid ===== -->
+  <g clip-path="url(#floorClip)">
+    <rect x="0" y="340" width="1280" height="140" fill="#12061f"/>
+    <g stroke="#ff4d9d" stroke-width="1.5" opacity="0.8" filter="url(#glow)">
+      <line x1="640" y1="340" x2="-260" y2="480"/>
+      <line x1="640" y1="340" x2="60"   y2="480"/>
+      <line x1="640" y1="340" x2="300"  y2="480"/>
+      <line x1="640" y1="340" x2="460"  y2="480"/>
+      <line x1="640" y1="340" x2="565"  y2="480"/>
+      <line x1="640" y1="340" x2="640"  y2="480"/>
+      <line x1="640" y1="340" x2="715"  y2="480"/>
+      <line x1="640" y1="340" x2="820"  y2="480"/>
+      <line x1="640" y1="340" x2="980"  y2="480"/>
+      <line x1="640" y1="340" x2="1220" y2="480"/>
+      <line x1="640" y1="340" x2="1540" y2="480"/>
+    </g>
+    <g class="grid" stroke="#b06bff" stroke-width="1.5" opacity="0.85" filter="url(#glow)">
+      <line x1="0" y1="330" x2="1280" y2="330"/>
+      <line x1="0" y1="344" x2="1280" y2="344"/>
+      <line x1="0" y1="352" x2="1280" y2="352"/>
+      <line x1="0" y1="363" x2="1280" y2="363"/>
+      <line x1="0" y1="378" x2="1280" y2="378"/>
+      <line x1="0" y1="398" x2="1280" y2="398"/>
+      <line x1="0" y1="424" x2="1280" y2="424"/>
+      <line x1="0" y1="458" x2="1280" y2="458"/>
+      <line x1="0" y1="500" x2="1280" y2="500"/>
+    </g>
+    <rect x="0" y="340" width="1280" height="140" fill="url(#floorfade)"/>
+  </g>
+
+  <!-- subtitle: Toward + rotating perspectives (over the dark lower grid) -->
+  <text x="600" y="458" text-anchor="end" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif"
+        font-size="28" font-weight="600" fill="#ffd9ec">Toward</text>
+  <g clip-path="url(#rollClip)">
+    <g class="roll">
+      <text x="612" y="458" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="28" font-weight="800" fill="#8fe9ff" filter="url(#glow)">Foundations.</text>
+      <text x="612" y="498" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="28" font-weight="800" fill="#8fe9ff" filter="url(#glow)">Evolution.</text>
+      <text x="612" y="538" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="28" font-weight="800" fill="#8fe9ff" filter="url(#glow)">Harnesses.</text>
+      <text x="612" y="578" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="28" font-weight="800" fill="#8fe9ff" filter="url(#glow)">Optimization.</text>
+      <text x="612" y="618" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="28" font-weight="800" fill="#8fe9ff" filter="url(#glow)">Applications.</text>
+      <text x="612" y="658" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="28" font-weight="800" fill="#8fe9ff" filter="url(#glow)">Frontiers.</text>
+      <text x="612" y="698" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="28" font-weight="800" fill="#8fe9ff" filter="url(#glow)">Foundations.</text>
+    </g>
+  </g>
+</svg>
