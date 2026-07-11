@@ -632,7 +632,7 @@ mindmap
 
 
 <details>
-<summary>📚 <b>More from the survey</b> — 29 papers</summary>
+<summary>📚 <b>More from the survey</b> — 32 papers</summary>
 
 - **Not What You've Signed Up For: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection** `2023` [![arXiv](https://img.shields.io/badge/arXiv-2302.12173-b31b1b?style=flat-square)](https://arxiv.org/abs/2302.12173)
 - **Swiss Cheese Model for AI Safety: A Taxonomy and Reference Architecture for Multi-Layered Guardrails of Foundation Model Based Agents** `2025` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://doi.org/10.1109/ICSA65012.2025.00014)
@@ -663,6 +663,9 @@ mindmap
 - **Enhancing LLM Safety Through a Theoretical Minimax Game Lens** `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2502.05163-b31b1b?style=flat-square)](https://arxiv.org/abs/2502.05163)
 - **Agent-SafetyBench: Evaluating the Safety of LLM Agents** `arXiv 2024` [![arXiv](https://img.shields.io/badge/arXiv-2412.14470-b31b1b?style=flat-square)](https://arxiv.org/abs/2412.14470)
 - **Identifying the Risks of LM Agents with an LM-Emulated Sandbox** `ICLR 2024` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://openreview.net/forum?id=GEcwtMk1uA)
+- **Hooks Reference — Claude Code Docs** `Anthropic 2024` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://code.claude.com/docs/en/hooks)
+- **Hooks — Codex** `OpenAI 2026` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://developers.openai.com/codex/hooks)
+- **How Middleware Lets You Customize Your Agent Harness** `LangChain 2026` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://www.langchain.com/blog/how-middleware-lets-you-customize-your-agent-harness)
 
 </details>
 
