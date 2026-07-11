@@ -281,8 +281,8 @@ mindmap
 - **Training Language Models to Follow Instructions with Human Feedback** — InstructGPT: aligns LMs to instructions via RLHF. `NeurIPS 2022`
 - **Learning to Reason with LLMs** — OpenAI's o1 report on scaling inference-time reasoning with RL. `2024`
 - **Language Models as Knowledge Bases?** — probes how much relational knowledge LMs store in their weights. `2019` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://doi.org/10.18653/v1/D19-1250) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/conf/emnlp/PetroniRRLBWM19.html)
-- **How Much Knowledge Can You Pack Into the Parameters of a Language Model?** `2020` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://doi.org/10.18653/v1/2020.emnlp-main.437) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/conf/emnlp/RobertsRS20.html)
-- **Large Language Models Struggle to Learn Long-Tail Knowledge** `ICML 2023` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://proceedings.mlr.press/v202/kandpal23a.html) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/conf/icml/KandpalDRWR23.html)
+- **How Much Knowledge Can You Pack Into the Parameters of a Language Model?** — measures closed-book QA knowledge held in LM parameters. `2020` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://doi.org/10.18653/v1/2020.emnlp-main.437) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/conf/emnlp/RobertsRS20.html)
+- **Large Language Models Struggle to Learn Long-Tail Knowledge** — shows LMs fail on rare, long-tail factual knowledge. `ICML 2023` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://proceedings.mlr.press/v202/kandpal23a.html) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/conf/icml/KandpalDRWR23.html)
 
 </details>
 
