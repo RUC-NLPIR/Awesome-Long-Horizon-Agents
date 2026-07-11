@@ -271,11 +271,11 @@ mindmap
 - **Reprompting: Automated Chain-of-Thought Prompt Inference Through Gibbs Sampling** — infers chain-of-thought prompts automatically via Gibbs sampling. `ICML 2024`
 - **PromptWizard: Task-Aware Prompt Optimization Framework** — a task-aware framework that optimizes prompts automatically. `arXiv 2024`
 - **Large Language Models as Optimizers** — OPRO: uses the LLM itself to iteratively optimize prompts. `ICLR 2024`
-- **Large Language Models are Human-Level Prompt Engineers** `ICLR 2023`
-- **Automatic Prompt Optimization with "Gradient Descent" and Beam Search** `EMNLP 2023`
-- **Optimizing Instructions and Demonstrations for Multi-Stage Language Model Programs** `2024`
-- **Prompt Programming for Large Language Models: Beyond the Few-Shot Paradigm** `2021` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://doi.org/10.1145/3411763.3451760) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/conf/chi/ReynoldsM21.html)
-- **DSPy: Compiling Declarative Language Model Calls into Self-Improving Pipelines** `ICLR 2024` [![arXiv](https://img.shields.io/badge/arXiv-2310.03714-b31b1b?style=flat-square)](https://arxiv.org/abs/2310.03714)
+- **Large Language Models are Human-Level Prompt Engineers** — APE: automatically generates and selects instruction prompts. `ICLR 2023`
+- **Automatic Prompt Optimization with "Gradient Descent" and Beam Search** — edits prompts using textual 'gradients' and beam search. `EMNLP 2023`
+- **Optimizing Instructions and Demonstrations for Multi-Stage Language Model Programs** — MIPRO: jointly optimizes instructions and demos for LM pipelines. `2024`
+- **Prompt Programming for Large Language Models: Beyond the Few-Shot Paradigm** — an early study of prompt programming beyond few-shot. `2021` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://doi.org/10.1145/3411763.3451760) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/conf/chi/ReynoldsM21.html)
+- **DSPy: Compiling Declarative Language Model Calls into Self-Improving Pipelines** — compiles declarative LM calls into self-improving pipelines. `ICLR 2024` [![arXiv](https://img.shields.io/badge/arXiv-2310.03714-b31b1b?style=flat-square)](https://arxiv.org/abs/2310.03714)
 - **APPL: A Prompt Programming Language for Harmonious Integration of Programs and Large Language Model Prompts** `ACL 2025` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://aclanthology.org/2025.acl-long.63/)
 - **SGLang: Efficient Execution of Structured Language Model Programs** `NeurIPS 2024`
 - **Training Language Models to Follow Instructions with Human Feedback** `NeurIPS 2022`
