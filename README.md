@@ -1,11 +1,8 @@
 <p align="center">
-  <img src="assets/hero.svg" alt="Toward Long-Horizon AI Agents — A Survey" width="100%">
+  <img src="assets/title.png" alt="Toward Long-Horizon AI Agents — Foundations, Evolution, Harnesses, Optimization, Applications, and Frontiers" width="100%">
 </p>
 
-<h1 align="center">🧭 Awesome Long-Horizon Agents</h1>
-
-<h3 align="center">A curated reading list for <a href="#-citation"><b>Toward Long-Horizon AI Agents: A Survey</b></a><br>
-<sub>Foundations · Evolution · Harnesses · Optimization · Applications · Frontiers</sub></h3>
+<h3 align="center">A curated reading list for <a href="#-citation"><b>Toward Long-Horizon AI Agents: A Survey</b></a></h3>
 
 <p align="center">
   <a href="https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents"><img src="https://img.shields.io/badge/Paper-arXiv-B31B1B?style=flat-square&logo=arxiv&logoColor=white" alt="Paper"></a>
@@ -15,8 +12,9 @@
 </p>
 
 <p align="center">
-  <i>A curated reading list for the survey — tracking the papers, systems, and benchmarks behind the shift
-  from single-turn tasks to <b>long-horizon</b> work: planning, acting, recovering, and adapting mid-execution.</i>
+  <i>Expectations for AI agents are shifting from single-turn tasks to <b>long-horizon</b> work in real
+  environments — planning, acting, recovering from mistakes, and adapting mid-execution.
+  This list tracks the papers, systems, and benchmarks behind that shift, organized exactly like the survey.</i>
 </p>
 
 > [!NOTE]
