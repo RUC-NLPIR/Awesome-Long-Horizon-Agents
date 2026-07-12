@@ -3,6 +3,7 @@
 <img src="assets/logo.png" width="110" alt="logo"/>
 
 <img src="assets/image.png" width="110" alt="logo"/>
+
 # Toward Long-Horizon AI Agents: A Survey
 
 ### Foundations, Evolution, Harnesses, Optimization, Applications, and Frontiers
