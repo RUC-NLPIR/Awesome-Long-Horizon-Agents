@@ -15,6 +15,14 @@
 
 *A curated, continuously-updated reading list accompanying our survey on **long-horizon AI agents**.*
 
+<div align="center">
+<img src="assets/image1.png" width="90%" alt="Time horizon growth of frontier AI agents"/>
+<br>
+<em><b>Figure 1.</b> The <b>time horizon</b> of frontier AI agents — the length of tasks (measured by human completion time) they can finish autonomously — has been growing exponentially, roughly doubling every few months. This steady expansion is pushing agents from short, single-step responses toward genuinely long-horizon autonomy.</em>
+</div>
+
+
+
 </div>
 
 ---
@@ -34,10 +42,12 @@
 ## 👋 Introduction
 
 <div align="center">
-<img src="assets/image1.png" width="90%" alt="Time horizon growth of frontier AI agents"/>
+<img src="assets/fig1_landscape.png" width="95%" alt="Landscape of long-horizon agent research"/>
 <br>
-<em><b>Figure 1.</b> The <b>time horizon</b> of frontier AI agents — the length of tasks (measured by human completion time) they can finish autonomously — has been growing exponentially, roughly doubling every few months. This steady expansion is pushing agents from short, single-step responses toward genuinely long-horizon autonomy.</em>
+<em><b>Figure 2.</b> The landscape of long-horizon agent research. A co-evolutionary view organized around externalized <b>harness</b> engineering (bottom) and internalized model <b>optimization</b> (top), spanning foundations, evolution, harnesses, optimization, applications, and frontiers.</em>
 </div>
+
+
 
 <br>
 
@@ -50,11 +60,6 @@ Our survey frames **long-horizon agency** as a system-level capability jointly s
 
 The two sides co-evolve through experience and feedback: capabilities first implemented explicitly in the harness may later be internalized into the model policy, while stronger policies in turn enable more capable harnesses. Figure 2 lays out this co-evolutionary landscape end to end.
 
-<div align="center">
-<img src="assets/fig1_landscape.png" width="95%" alt="Landscape of long-horizon agent research"/>
-<br>
-<em><b>Figure 2.</b> The landscape of long-horizon agent research. A co-evolutionary view organized around externalized <b>harness</b> engineering (bottom) and internalized model <b>optimization</b> (top), spanning foundations, evolution, harnesses, optimization, applications, and frontiers.</em>
-</div>
 
 
 
