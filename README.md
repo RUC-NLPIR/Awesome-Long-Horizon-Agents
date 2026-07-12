@@ -2,13 +2,23 @@
   <img src="assets/title.png" alt="Toward Long-Horizon AI Agents — Foundations, Evolution, Harnesses, Optimization, Applications, and Frontiers" width="100%">
 </p>
 
-<h3 align="center">A curated reading list for <a href="#-citation"><b>Toward Long-Horizon AI Agents: A Survey</b></a></h3>
+<h3 align="center">A curated reading list for <a href="#-citation"><b>Toward Long-Horizon AI Agents: A Survey</b></a><br>
+<sub>Foundations · Evolution · Harnesses · Optimization · Applications · Frontiers</sub></h3>
 
 <p align="center">
-  <a href="https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents"><img src="https://img.shields.io/badge/Paper-arXiv-B31B1B?style=flat-square&logo=arxiv&logoColor=white" alt="Paper"></a>
-  <a href="https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents/pulls"><img src="https://img.shields.io/badge/PRs-Welcome-37D2A6?style=flat-square&logo=github&logoColor=white" alt="PRs Welcome"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-D22128?style=flat-square" alt="License: MIT"></a>
-  <img src="https://img.shields.io/github/stars/RUC-NLPIR/Awesome-Long-Horizon-Agents?style=flat-square&color=37D2A6&label=%E2%98%85" alt="Stars">
+  <a href="https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents"><img src="https://img.shields.io/badge/Paper-arXiv-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white" alt="Paper"></a>
+  <a href="https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents"><img src="https://img.shields.io/badge/Awesome-List-6E5B9E?style=for-the-badge&logo=awesomelists&logoColor=white" alt="Awesome"></a>
+  <a href="https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents/pulls"><img src="https://img.shields.io/badge/PRs-Welcome-37D2A6?style=for-the-badge&logo=github&logoColor=white" alt="PRs Welcome"></a>
+  <a href="#-contributing"><img src="https://img.shields.io/badge/Contribute-Add_a_paper-0E9B9B?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Contribute"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-D22128?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="License: MIT"></a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/github/stars/RUC-NLPIR/Awesome-Long-Horizon-Agents?style=social" alt="Stars">
+  &nbsp;
+  <img src="https://img.shields.io/github/last-commit/RUC-NLPIR/Awesome-Long-Horizon-Agents?color=37D2A6" alt="Last commit">
+  &nbsp;
+  <img src="https://img.shields.io/badge/Maintained-yes-37D2A6" alt="Maintained">
 </p>
 
 <p align="center">
@@ -21,13 +31,6 @@
 > We define **long-horizon agency** as the co-evolving recipe of an **externalized harness** and an **internalized optimization**:
 > <p align="center"><b>Long-Horizon Agency</b> &nbsp;=&nbsp; Model Policy &nbsp;⊕&nbsp; <b><a href="#-4--harnesses-externalizing-long-horizon-capability">Harness</a></b> &nbsp;⊕&nbsp; <b><a href="#-5--optimization-internalizing-long-horizon-capability">Optimization</a></b>, &nbsp;bridged by <b>Experience</b>.</p>
 
-<p align="center">
-  <img src="assets/fig-landscape.png" alt="The landscape of long-horizon agent research — externalized harness engineering (bottom) and internalized model optimization (top) co-evolving as capability migrates between them" width="96%">
-</p>
-<p align="center">
-  <sub><b>The landscape of long-horizon agent research.</b> A co-evolutionary view: <b>externalized harness engineering</b> (bottom) and <b>internalized model optimization</b> (top) co-evolve as capability migrates between them. Reading outward — foundations, evolution, harnesses, optimization, applications, frontiers — with representative mechanisms and systems under each. <sub><i>(Fig. 1 in the survey.)</i></sub></sub>
-</p>
-
 ---
 
 ## 📣 News
@@ -39,30 +42,143 @@
 
 ---
 
-## 📖 Contents
+## 🗺️ The Taxonomy at a Glance
 
-**1 · 🧱 [Foundations](#-1--foundations-formalizing-long-horizon-agents)** — what long-horizon agency is, formally (H1 · H2 · H3)
-**2 · 🧬 [Evolution](#-2--evolution-from-prompting-to-runtime)** — prompt → context → runtime
-**3 · 🔧 [Harnesses](#-4--harnesses-externalizing-long-horizon-capability)** — [Loops](#loops--workflows) · [Memory](#context--memory) · [Tools](#tools-mcp--skills) · [Orchestration](#orchestration) · [Hooks](#hooks--middleware) · [Verification](#verification)
-**4 · 📈 [Optimization](#-5--optimization-internalizing-long-horizon-capability)** — [Architecture](#architectural-substrate) · [Data](#data--environment-synthesis) · [Training](#premid-training) · [Fine-tuning](#fine-tuning) · [RL](#agentic-reinforcement-learning) · [Distillation](#on-policy-distillation) · [Self-Evolution](#self-evolution)
-**5 · 🚀 [Applications](#-6--applications-long-horizon-agents-in-practice)** — [SWE](#-software-engineering) · [Search](#-information-seeking) · [Computer Use](#-computer-use) · [Multimodal](#-multimodal-agents) · [General](#-general-purpose-agents)
-**6 · 🔭 [Frontiers](#-7--frontiers-open-problems)** — open problems
-**·** 🧪 [Benchmarks](#-benchmarks--resources) · 🤝 [Contributing](#-contributing) · 📚 [Citation](#-citation)
+> The whole survey in one map — then use the **colored board below to jump** to any topic.
 
-<sub>🔖 Each entry carries a **venue** tag, an **arXiv** link, and a live **★ stars** badge where code exists. &nbsp;·&nbsp; ⭐ = milestone / highly-cited.</sub>
+```mermaid
+mindmap
+  root((🧭<br/>Long-Horizon<br/>Agents))
+    🧱 Foundations
+      Definition & Three Horizons
+      H1 · H2 · H3
+      vs. neighboring concepts
+    🧬 Evolution
+      Prompt engineering
+      Context engineering
+      Runtime harnesses
+    🔧 Harnesses
+      Loops & workflows
+      Context & memory
+      Tools · MCP · skills
+      Orchestration
+      Hooks & middleware
+      Verification
+    📈 Optimization
+      Architectural substrate
+      Data & environment synthesis
+      Pre / mid-training
+      Fine-tuning
+      Agentic RL
+      On-policy distillation
+      Self-evolution
+    🚀 Applications
+      Software engineering
+      Information seeking
+      Computer use
+      Multimodal agents
+      General-purpose agents
+    🔭 Frontiers
+      Evolution & transfer
+      Faithful environments
+      Efficiency & budgets
+      Trustworthiness
+```
+
+<div align="center">
+<h3>🖱️ Click any topic to jump to its section</h3>
+<table>
+<tr>
+  <td valign="top" align="center">
+    <a href="#-1--foundations-formalizing-long-horizon-agents"><img src="https://img.shields.io/badge/🧱_Foundations-7C4DC4?style=for-the-badge&logoColor=white"></a><br>
+    <sub><i>what is it, formally?</i></sub><br><br>
+    <a href="#-1--foundations-formalizing-long-horizon-agents"><img src="https://img.shields.io/badge/Three_Horizons-7C4DC4?style=flat-square"></a>
+    <a href="#-1--foundations-formalizing-long-horizon-agents"><img src="https://img.shields.io/badge/H1_H2_H3-7C4DC4?style=flat-square"></a>
+    <a href="#-1--foundations-formalizing-long-horizon-agents"><img src="https://img.shields.io/badge/vs._Neighbors-7C4DC4?style=flat-square"></a>
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="center">
+    <a href="#-2--evolution-from-prompting-to-runtime"><img src="https://img.shields.io/badge/🧬_Evolution-4472C4?style=for-the-badge&logoColor=white"></a><br>
+    <sub><i>prompts → runtimes</i></sub><br><br>
+    <a href="#-2--evolution-from-prompting-to-runtime"><img src="https://img.shields.io/badge/Prompt_Eng.-4472C4?style=flat-square"></a>
+    <a href="#-2--evolution-from-prompting-to-runtime"><img src="https://img.shields.io/badge/Context_Eng.-4472C4?style=flat-square"></a>
+    <a href="#-2--evolution-from-prompting-to-runtime"><img src="https://img.shields.io/badge/Runtime_Harness-4472C4?style=flat-square"></a>
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="center">
+    <a href="#-4--harnesses-externalizing-long-horizon-capability"><img src="https://img.shields.io/badge/🔧_Harnesses-ED7D31?style=for-the-badge&logoColor=white"></a><br>
+    <sub><i>runtime structure around the model</i></sub><br><br>
+    <a href="#loops--workflows"><img src="https://img.shields.io/badge/Loops_%26_Workflows-ED7D31?style=flat-square"></a>
+    <a href="#context--memory"><img src="https://img.shields.io/badge/Context_%26_Memory-ED7D31?style=flat-square"></a>
+    <a href="#tools-mcp--skills"><img src="https://img.shields.io/badge/Tools_MCP_Skills-ED7D31?style=flat-square"></a>
+    <a href="#orchestration"><img src="https://img.shields.io/badge/Orchestration-ED7D31?style=flat-square"></a>
+    <a href="#hooks--middleware"><img src="https://img.shields.io/badge/Hooks_%26_Middleware-ED7D31?style=flat-square"></a>
+    <a href="#verification"><img src="https://img.shields.io/badge/Verification-ED7D31?style=flat-square"></a>
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="center">
+    <a href="#-5--optimization-internalizing-long-horizon-capability"><img src="https://img.shields.io/badge/📈_Optimization-C98A00?style=for-the-badge&logoColor=white"></a><br>
+    <sub><i>training competence into the weights</i></sub><br><br>
+    <a href="#architectural-substrate"><img src="https://img.shields.io/badge/Architecture-C98A00?style=flat-square"></a>
+    <a href="#data--environment-synthesis"><img src="https://img.shields.io/badge/Data_%26_Env_Synthesis-C98A00?style=flat-square"></a>
+    <a href="#premid-training"><img src="https://img.shields.io/badge/Pre%2FMid--training-C98A00?style=flat-square"></a>
+    <a href="#fine-tuning"><img src="https://img.shields.io/badge/Fine--tuning-C98A00?style=flat-square"></a>
+    <a href="#agentic-reinforcement-learning"><img src="https://img.shields.io/badge/Agentic_RL-C98A00?style=flat-square"></a>
+    <a href="#on-policy-distillation"><img src="https://img.shields.io/badge/On--Policy_Distillation-C98A00?style=flat-square"></a>
+    <a href="#self-evolution"><img src="https://img.shields.io/badge/Self--Evolution-C98A00?style=flat-square"></a>
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="center">
+    <a href="#-6--applications-long-horizon-agents-in-practice"><img src="https://img.shields.io/badge/🚀_Applications-E84393?style=for-the-badge&logoColor=white"></a><br>
+    <sub><i>where long-horizon pressure recurs</i></sub><br><br>
+    <a href="#-software-engineering"><img src="https://img.shields.io/badge/Software_Eng.-E84393?style=flat-square"></a>
+    <a href="#-information-seeking"><img src="https://img.shields.io/badge/Information_Seeking-E84393?style=flat-square"></a>
+    <a href="#-computer-use"><img src="https://img.shields.io/badge/Computer_Use-E84393?style=flat-square"></a>
+    <a href="#-multimodal-agents"><img src="https://img.shields.io/badge/Multimodal-E84393?style=flat-square"></a>
+    <a href="#-general-purpose-agents"><img src="https://img.shields.io/badge/General--Purpose-E84393?style=flat-square"></a>
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="center">
+    <a href="#-7--frontiers-open-problems"><img src="https://img.shields.io/badge/🔭_Frontiers-B23CF0?style=for-the-badge&logoColor=white"></a><br>
+    <sub><i>what is still open</i></sub><br><br>
+    <a href="#-7--frontiers-open-problems"><img src="https://img.shields.io/badge/Evolution_%26_Transfer-B23CF0?style=flat-square"></a>
+    <a href="#-7--frontiers-open-problems"><img src="https://img.shields.io/badge/Faithful_Environments-B23CF0?style=flat-square"></a>
+    <a href="#-7--frontiers-open-problems"><img src="https://img.shields.io/badge/Efficiency_%26_Budgets-B23CF0?style=flat-square"></a>
+    <a href="#-7--frontiers-open-problems"><img src="https://img.shields.io/badge/Trustworthiness-B23CF0?style=flat-square"></a>
+  </td>
+</tr>
+</table>
+
+</div>
+
+---
+
+## 📖 Table of Contents
+
+- [1 · 🧱 Foundations: Formalizing Long-Horizon Agents](#-1--foundations-formalizing-long-horizon-agents)
+- [2 · 🧬 Evolution: From Prompting to Runtime](#-2--evolution-from-prompting-to-runtime)
+- [3 · 🔧 Harnesses: Externalizing Long-Horizon Capability](#-4--harnesses-externalizing-long-horizon-capability)
+  - [Loops & Workflows](#loops--workflows) · [Context & Memory](#context--memory) · [Tools, MCP & Skills](#tools-mcp--skills) · [Orchestration](#orchestration) · [Hooks & Middleware](#hooks--middleware) · [Verification](#verification)
+- [4 · 📈 Optimization: Internalizing Long-Horizon Capability](#-5--optimization-internalizing-long-horizon-capability)
+  - [Architectural Substrate](#architectural-substrate) · [Data & Environment Synthesis](#data--environment-synthesis) · [Pre/Mid-training](#premid-training) · [Fine-tuning](#fine-tuning) · [Agentic RL](#agentic-reinforcement-learning) · [On-Policy Distillation](#on-policy-distillation) · [Self-Evolution](#self-evolution)
+- [5 · 🚀 Applications: Long-Horizon Agents in Practice](#-6--applications-long-horizon-agents-in-practice)
+- [6 · 🔭 Frontiers: Open Problems](#-7--frontiers-open-problems)
+- [🧪 Benchmarks & Resources](#-benchmarks--resources)
+- [🤝 Contributing](#-contributing)
+- [📚 Citation](#-citation)
+
+<sub>🔖 Each entry carries a **venue** tag, a red **arXiv** (or 🌐 Website / Docs) badge, and a live **★ GitHub-stars** badge wherever code exists. &nbsp;·&nbsp; ⭐ before a title = milestone / highly-cited.</sub>
 
 ---
 
 ## 🧱 1 · Foundations: Formalizing Long-Horizon Agents
 
 > Long-horizon agency is formalized as a **harness-closed decision process**, then distinguished from adjacent notions (long-context, long-running, autonomy, self-evolution). Tasks are organized by **three horizons**.
-
-<p align="center">
-  <img src="assets/fig-three_levels.png" alt="Three levels of long-horizon tasks and the capabilities they demand: H1 intra-context needs C1 interactive reasoning; H2 cross-context needs C2 state and memory; H3 cross-task needs C3 experience accumulation" width="92%">
-</p>
-<p align="center">
-  <sub><b>Three levels of long-horizon tasks and the capabilities they demand.</b> As the horizon widens from intra-context (<b>H1</b>) to cross-context (<b>H2</b>) to cross-task streams (<b>H3</b>), the agent must add intra-context interactive reasoning (<b>C1</b>), cross-context state &amp; memory (<b>C2</b>), and cross-task experience accumulation (<b>C3</b>).</sub>
-</p>
 
 <div align="center">
 
@@ -74,24 +190,39 @@
 
 </div>
 
-<table>
-<tr>
-<td width="50%" valign="top">
-<img src="assets/fig-concepts.png" alt="Long-horizon agent versus neighboring concepts: long-running agents, autonomous agents, and self-evolving agents, each sharing overlap but with distinct emphases" width="100%">
-<p align="center"><sub><b>Long-horizon agency vs. adjacent concepts.</b> Long-running, autonomous, and self-evolving agents each emphasize a different facet; long-horizon agency asks whether the coupled <b>model–harness</b> system can sustain C1–C3 when the task demands it.</sub></p>
-</td>
-<td width="50%" valign="top">
-<img src="assets/fig-time_horizon.png" alt="Empirical growth of frontier-agent time horizons: the 50 percent task-completion time horizon doubling roughly every 7 months (4 months since 2023)" width="100%">
-<p align="center"><sub><b>Empirical growth of frontier-agent time horizons.</b> Each point is a model's 50%-task-completion horizon; the log-scale trend doubles every ~7 months (~4 months since 2023), up to today's ~16-hour measurement ceiling.</sub></p>
-</td>
-</tr>
-</table>
-
 **Setting the frame**
+- ⭐ **Measuring AI Ability to Complete Long Software Tasks** — the empirical "time-horizon" trend: task-completion horizon has doubled roughly every 7 months.<br/>![venue](https://img.shields.io/badge/METR%202025-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2503.14499-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2503.14499)
+- **Cognitive Architectures for Language Agents (CoALA)** — a memory/action/decision framework for language agents.<br/>![venue](https://img.shields.io/badge/TMLR%202024-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2309.02427-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2309.02427)
+- **A Survey on Large Language Model based Autonomous Agents** — construction, application, and evaluation of LLM agents.<br/>![venue](https://img.shields.io/badge/2023-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2308.11432-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2308.11432)
 
-Long-horizon agency is a **harness-closed decision process**: a model policy coupled to an external harness, evaluated on whether the joint system can sustain **C1** interactive reasoning, **C2** state &amp; memory across contexts, and **C3** experience accumulation across tasks — as the horizon widens from **H1** (intra-context) to **H2** (cross-context) to **H3** (cross-task). It is distinguished from three adjacent notions above: *long-running* execution, *autonomy*, and *self-evolution*.
 
-<sub>📌 *Foundations are conceptual — this section frames the problem; the horizon labels (H1–H3) and capability labels (C1–C3) recur throughout the curated sections below.*</sub>
+<details>
+<summary>📚 <b>More from the survey</b> — 20 papers</summary>
+
+- **The Landscape of Agentic Reinforcement Learning for LLMs: A Survey** — a survey mapping agentic RL for LLMs across algorithms, agent roles, and open challenges. `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2509.02547-b31b1b?style=flat-square)](https://arxiv.org/abs/2509.02547) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/tmlr/ZhangGYYZTZLXLZCZFWHVLW26.html)
+- **Symbolic learning enables self-evolving agents** — treats prompts, tools, and pipelines as learnable symbols so an agent can optimize itself. `2025` [![arXiv](https://img.shields.io/badge/arXiv-2406.18532-b31b1b?style=flat-square)](https://arxiv.org/abs/2406.18532) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/aiopen/OuZDLWWCWXZCJ25.html)
+- **ReAct: Synergizing Reasoning and Acting in Language Models** — interleaves chain-of-thought reasoning with tool actions in a single loop. `ICLR 2023` [![arXiv](https://img.shields.io/badge/arXiv-2210.03629-b31b1b?style=flat-square)](https://arxiv.org/abs/2210.03629) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/conf/iclr/YaoZYDSN023.html)
+- **Memory in the Age of AI Agents** — a position piece on why persistent memory is central to capable agents. `2025` [![arXiv](https://img.shields.io/badge/arXiv-2512.13564-b31b1b?style=flat-square)](https://arxiv.org/abs/2512.13564)
+- **Effective Harnesses for Long-Running Agents** — engineering guidance for building harnesses that keep long-running agents on track. `2025`
+- **Reflexion: language agents with verbal reinforcement learning** — agents improve by writing verbal self-reflections after failures and retrying. `2023` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](http://papers.nips.cc/paper_files/paper/2023/hash/1b44b878bb782e6954cd888628510e90-Abstract-Conference.html) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/conf/nips/ShinnCGNY23.html)
+- **Lost in the Middle: How Language Models Use Long Contexts** — shows LLMs use information best at the start and end of context and miss the middle. `2024` [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/corr/abs-2307-03172.html)
+- **Context Rot: When Long Contexts Hurt LLM Performance** — documents how model performance degrades as context grows longer and noisier. `2025`
+- **Welcome to the Era of Experience** — a position arguing the next advance comes from agents learning from their own experience.
+- **A Survey of Self-Evolving Agents: What, When, How, and Where to Evolve on the Path to Artificial Super Intelligence** — a survey organizing self-evolving agents by what, when, how, and where they evolve. [![arXiv](https://img.shields.io/badge/arXiv-2507.21046-b31b1b?style=flat-square)](https://arxiv.org/abs/2507.21046)
+- **From Human Memory to AI Memory: A Survey on Memory Mechanisms in the Era of LLMs** — a survey linking human-memory theory to LLM memory mechanisms. `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2504.15965-b31b1b?style=flat-square)](https://arxiv.org/abs/2504.15965)
+- **Voyager: An Open-Ended Embodied Agent with Large Language Models** — an LLM agent that autonomously grows a skill library through open-ended Minecraft play. `2024` [![paper](https://img.shields.io/badge/%F0%9F%93%84_paper-4b5563?style=flat-square)](https://openreview.net/forum?id=ehfRiF0R3a) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/tmlr/WangX0MXZFA24.html)
+- **ReasoningBank: Scaling Agent Self-Evolving with Reasoning Memory** — stores reusable reasoning strategies as memory to guide future decisions. `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2509.25140-b31b1b?style=flat-square)](https://arxiv.org/abs/2509.25140)
+- **Time Horizon 1.1** — an update to METR's measurement of the agent task-completion time horizon. `2026`
+- **Training Compute-Optimal Large Language Models** — the Chinchilla study on optimally balancing model size against training tokens. `NeurIPS 2022`
+- **Forecasting AI Time Horizon Under Compute Slowdowns** — forecasts how agent task horizons grow if compute scaling slows. `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2511.19492-b31b1b?style=flat-square)](https://arxiv.org/abs/2511.19492)
+- **A Comprehensive Survey on Long Context Language Modeling** — a survey of methods for extending and using long context in LLMs. `arXiv 2025` [![arXiv](https://img.shields.io/badge/arXiv-2503.17407-b31b1b?style=flat-square)](https://arxiv.org/abs/2503.17407)
+- **Levels of Autonomy for AI Agents** — proposes a taxonomy of autonomy levels for AI agents. `2025` [![arXiv](https://img.shields.io/badge/arXiv-2506.12469-b31b1b?style=flat-square)](https://arxiv.org/abs/2506.12469)
+- **Introducing Operator** — OpenAI's computer-use agent that browses and clicks on the user's behalf. `2024`
+- **Agent AI: Surveying the Horizons of Multimodal Interaction** — a survey of multimodal agent AI across perception, action, and interaction. `arXiv 2024` [![arXiv](https://img.shields.io/badge/arXiv-2401.03568-b31b1b?style=flat-square)](https://arxiv.org/abs/2401.03568)
+
+</details>
+
+<sub>📌 *Foundations are conceptual — the papers above anchor the framing; the horizon labels (H1–H3) recur throughout the sections below.*</sub>
 
 ---
 
@@ -99,17 +230,10 @@ Long-horizon agency is a **harness-closed decision process**: a model policy cou
 
 > Three stages trace how control of the model moved outward: **prompt → context → runtime**.
 
-<p align="center">
-  <img src="assets/fig-evolution.png" alt="The co-evolution of long-horizon agents across three stages: prompt engineering (2020-2022), context engineering (2023-2024), and runtime harnesses (2024-2026), each absorbing the previous rather than replacing it" width="88%">
-</p>
-<p align="center">
-  <sub><b>The co-evolution of long-horizon agents across three stages.</b> Control widens from the <i>language</i> of a single prompt (2020–2022), to the <i>information</i> conditioning each call (2023–2024), to the whole <i>trajectory</i> sustained by a runtime harness (2024–2026) — each stage absorbs the previous rather than replacing it.</sub>
-</p>
-
 ### Stage I — Prompt Engineering *(≈2020–2022)*
-- ⭐ **Chain-of-Thought Prompting Elicits Reasoning in Large Language Models** — elicits intermediate reasoning steps.<br/>![venue](https://img.shields.io/badge/NeurIPS%202022-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2201.11903-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2201.11903)
-- **Least-to-Most Prompting Enables Complex Reasoning in Large Language Models** — decompose then solve subproblems in order.<br/>![venue](https://img.shields.io/badge/ICLR%202023-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2205.10625-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2205.10625)
-- ⭐ **ReAct: Synergizing Reasoning and Acting in Language Models** — interleaves reasoning traces with tool actions.<br/>![venue](https://img.shields.io/badge/ICLR%202023-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2210.03629-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2210.03629) [![stars](https://img.shields.io/github/stars/ysymyth/ReAct?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/ysymyth/ReAct) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/conf/iclr/YaoZYDSN023.html)
+- ⭐ **Chain-of-Thought Prompting** — elicits intermediate reasoning steps.<br/>![venue](https://img.shields.io/badge/NeurIPS%202022-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2201.11903-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2201.11903)
+- **Least-to-Most Prompting** — decompose then solve subproblems in order.<br/>![venue](https://img.shields.io/badge/ICLR%202023-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2205.10625-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2205.10625)
+- ⭐ **ReAct: Synergizing Reasoning and Acting** — interleaves reasoning traces with tool actions.<br/>![venue](https://img.shields.io/badge/ICLR%202023-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2210.03629-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2210.03629) [![stars](https://img.shields.io/github/stars/ysymyth/ReAct?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/ysymyth/ReAct) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/conf/iclr/YaoZYDSN023.html)
 
 
 <details>
@@ -161,9 +285,9 @@ Long-horizon agency is a **harness-closed decision process**: a model policy cou
 </details>
 
 ### Stage II — Context Engineering *(≈2023–2024)*
-- ⭐ **Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks** — condition generation on retrieved evidence.<br/>![venue](https://img.shields.io/badge/NeurIPS%202020-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2005.11401-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2005.11401)
-- **Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection** — learns to retrieve, generate, and critique on demand.<br/>![venue](https://img.shields.io/badge/ICLR%202024-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2310.11511-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2310.11511) [![stars](https://img.shields.io/github/stars/AkariAsai/self-rag?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/AkariAsai/self-rag)
-- ⭐ **MemGPT: Towards LLMs as Operating Systems** — virtual-memory–style context paging.<br/>![venue](https://img.shields.io/badge/2023-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2310.08560-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2310.08560) [![stars](https://img.shields.io/github/stars/letta-ai/letta?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/letta-ai/letta)
+- ⭐ **Retrieval-Augmented Generation (RAG)** — condition generation on retrieved evidence.<br/>![venue](https://img.shields.io/badge/NeurIPS%202020-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2005.11401-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2005.11401)
+- **Self-RAG** — learns to retrieve, generate, and critique on demand.<br/>![venue](https://img.shields.io/badge/ICLR%202024-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2310.11511-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2310.11511) [![stars](https://img.shields.io/github/stars/AkariAsai/self-rag?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/AkariAsai/self-rag)
+- ⭐ **MemGPT: LLMs as Operating Systems** — virtual-memory–style context paging.<br/>![venue](https://img.shields.io/badge/2023-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2310.08560-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2310.08560) [![stars](https://img.shields.io/github/stars/letta-ai/letta?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/letta-ai/letta)
 
 
 <details>
@@ -221,8 +345,8 @@ Long-horizon agency is a **harness-closed decision process**: a model policy cou
 </details>
 
 ### Stage III — Runtime Harnesses *(≈2024–2026)*
-- ⭐ **Voyager: An Open-Ended Embodied Agent with Large Language Models** — lifelong learning with a growing skill library.<br/>![venue](https://img.shields.io/badge/TMLR%202024-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2305.16291-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2305.16291) [![stars](https://img.shields.io/github/stars/MineDojo/Voyager?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/MineDojo/Voyager)
-- ⭐ **SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering** — an agent–computer interface for repository tasks.<br/>![venue](https://img.shields.io/badge/NeurIPS%202024-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2405.15793-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2405.15793) [![stars](https://img.shields.io/github/stars/princeton-nlp/SWE-agent?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/princeton-nlp/SWE-agent)
+- ⭐ **Voyager: An Open-Ended Embodied Agent** — lifelong learning with a growing skill library.<br/>![venue](https://img.shields.io/badge/TMLR%202024-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2305.16291-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2305.16291) [![stars](https://img.shields.io/github/stars/MineDojo/Voyager?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/MineDojo/Voyager)
+- ⭐ **SWE-agent** — an agent–computer interface for repository tasks.<br/>![venue](https://img.shields.io/badge/NeurIPS%202024-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2405.15793-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2405.15793) [![stars](https://img.shields.io/github/stars/princeton-nlp/SWE-agent?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/princeton-nlp/SWE-agent)
 - **AutoGPT** — one of the first autonomous goal-pursuing agent runtimes.<br/>![venue](https://img.shields.io/badge/2023-555?style=flat-square) [![stars](https://img.shields.io/github/stars/Significant-Gravitas/AutoGPT?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/Significant-Gravitas/AutoGPT)
 
 
@@ -293,20 +417,13 @@ Long-horizon agency is a **harness-closed decision process**: a model policy cou
 
 > The **externalized** side of the recipe — the runtime scaffold around the model: how it loops, what it remembers, what it can call, how many agents cooperate, what governs it, and how outputs are checked.
 
-<p align="center">
-  <img src="assets/fig-exter_main.png" alt="An agent harness in action: a concrete long-horizon run showing how the loop and workflow, context and memory, tools and environments, orchestration, hooks, and verification together sustain one goal across many dependent steps" width="96%">
-</p>
-<p align="center">
-  <sub><b>An agent harness in action.</b> A concrete long-horizon run showing how the six components — <b>①</b> <a href="#loops--workflows">Loop &amp; Workflow</a>, <b>②</b> <a href="#context--memory">Context &amp; Memory</a>, <b>③</b> <a href="#tools-mcp--skills">Tools, MCP &amp; Skills</a>, <b>④</b> <a href="#orchestration">Orchestration</a>, <b>⑤</b> <a href="#verification">Verification</a>, <b>⑥</b> <a href="#hooks--middleware">Hooks</a> — together sustain a single goal across many dependent steps. The subsections below expand each in turn.</sub>
-</p>
-
 ### Loops & Workflows
 > *How control flows through an episode — linear, plan-execute, or branching.*
-- ⭐ **ReAct: Synergizing Reasoning and Acting in Language Models** — the canonical reason-act loop.<br/>![venue](https://img.shields.io/badge/ICLR%202023-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2210.03629-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2210.03629) [![stars](https://img.shields.io/github/stars/ysymyth/ReAct?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/ysymyth/ReAct)
-- ⭐ **Reflexion: Language Agents with Verbal Reinforcement Learning** — verbal self-feedback across attempts.<br/>![venue](https://img.shields.io/badge/NeurIPS%202023-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2303.11366-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2303.11366) [![stars](https://img.shields.io/github/stars/noahshinn/reflexion?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/noahshinn/reflexion)
-- **Plan-and-Solve Prompting: Improving Zero-Shot Chain-of-Thought Reasoning by Large Language Models** — explicit plan-then-execute decomposition.<br/>![venue](https://img.shields.io/badge/ACL%202023-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2305.04091-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2305.04091)
-- ⭐ **Tree of Thoughts: Deliberate Problem Solving with Large Language Models** — deliberate search over branching reasoning.<br/>![venue](https://img.shields.io/badge/NeurIPS%202023-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2305.10601-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2305.10601) [![stars](https://img.shields.io/github/stars/princeton-nlp/tree-of-thought-llm?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/princeton-nlp/tree-of-thought-llm)
-- **An LLM Compiler for Parallel Function Calling** — parallel function-calling via a task DAG.<br/>![venue](https://img.shields.io/badge/ICML%202024-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2312.04511-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2312.04511) [![stars](https://img.shields.io/github/stars/SqueezeAILab/LLMCompiler?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/SqueezeAILab/LLMCompiler)
+- ⭐ **ReAct** — the canonical reason-act loop.<br/>![venue](https://img.shields.io/badge/ICLR%202023-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2210.03629-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2210.03629) [![stars](https://img.shields.io/github/stars/ysymyth/ReAct?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/ysymyth/ReAct)
+- ⭐ **Reflexion** — verbal self-feedback across attempts.<br/>![venue](https://img.shields.io/badge/NeurIPS%202023-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2303.11366-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2303.11366) [![stars](https://img.shields.io/github/stars/noahshinn/reflexion?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/noahshinn/reflexion)
+- **Plan-and-Solve Prompting** — explicit plan-then-execute decomposition.<br/>![venue](https://img.shields.io/badge/ACL%202023-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2305.04091-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2305.04091)
+- ⭐ **Tree of Thoughts** — deliberate search over branching reasoning.<br/>![venue](https://img.shields.io/badge/NeurIPS%202023-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2305.10601-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2305.10601) [![stars](https://img.shields.io/github/stars/princeton-nlp/tree-of-thought-llm?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/princeton-nlp/tree-of-thought-llm)
+- **LLMCompiler** — parallel function-calling via a task DAG.<br/>![venue](https://img.shields.io/badge/ICML%202024-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2312.04511-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2312.04511) [![stars](https://img.shields.io/github/stars/SqueezeAILab/LLMCompiler?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/SqueezeAILab/LLMCompiler)
 
 
 <details>
@@ -328,17 +445,9 @@ Long-horizon agency is a **harness-closed decision process**: a model policy cou
 
 ### Context & Memory
 > *Working context management + persistent memory that survives resets.*
-
-<p align="center">
-  <img src="assets/fig-context_and_memory.png" alt="Context and memory in an agent harness: the harness selects, compresses, or discards active context under a token budget and reads from and writes to persistent memory that outlives a single window, task, or session" width="92%">
-</p>
-<p align="center">
-  <sub><b>Context and memory in an agent harness.</b> The harness governs the state interface between workflow and model: it <i>selects, compresses, or discards</i> active context under a token budget (<b>working context</b>), and <i>reads from / writes to</i> <b>persistent memory</b> that outlives a single window, task, or session.</sub>
-</p>
-
-- ⭐ **Generative Agents: Interactive Simulacra of Human Behavior** — memory stream with reflection &amp; retrieval.<br/>![venue](https://img.shields.io/badge/UIST%202023-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2304.03442-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2304.03442) [![stars](https://img.shields.io/github/stars/joonspk-research/generative_agents?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/joonspk-research/generative_agents)
-- ⭐ **MemGPT: Towards LLMs as Operating Systems** — OS-style paging between context and external memory.<br/>![venue](https://img.shields.io/badge/2023-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2310.08560-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2310.08560) [![stars](https://img.shields.io/github/stars/letta-ai/letta?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/letta-ai/letta)
-- **Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory** — a production memory layer for agents.<br/>![venue](https://img.shields.io/badge/2024-555?style=flat-square) [![stars](https://img.shields.io/github/stars/mem0ai/mem0?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/mem0ai/mem0)
+- ⭐ **Generative Agents** — memory stream with reflection & retrieval.<br/>![venue](https://img.shields.io/badge/UIST%202023-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2304.03442-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2304.03442) [![stars](https://img.shields.io/github/stars/joonspk-research/generative_agents?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/joonspk-research/generative_agents)
+- ⭐ **MemGPT** — OS-style paging between context and external memory.<br/>![venue](https://img.shields.io/badge/2023-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2310.08560-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2310.08560) [![stars](https://img.shields.io/github/stars/letta-ai/letta?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/letta-ai/letta)
+- **Mem0** — a production memory layer for agents.<br/>![venue](https://img.shields.io/badge/2024-555?style=flat-square) [![stars](https://img.shields.io/github/stars/mem0ai/mem0?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/mem0ai/mem0)
 
 
 <details>
@@ -394,11 +503,11 @@ Long-horizon agency is a **harness-closed decision process**: a model policy cou
 
 ### Tools, MCP & Skills
 > *Interfaces and protocols for acting; discovering tools; reusable skill libraries.*
-- ⭐ **Toolformer: Language Models Can Teach Themselves to Use Tools** — models teach themselves to call APIs.<br/>![venue](https://img.shields.io/badge/NeurIPS%202023-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2302.04761-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2302.04761)
-- ⭐ **ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs** — mastering 16k+ real-world APIs.<br/>![venue](https://img.shields.io/badge/ICLR%202024-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2307.16789-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2307.16789) [![stars](https://img.shields.io/github/stars/OpenBMB/ToolBench?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/OpenBMB/ToolBench)
-- **Gorilla: Large Language Model Connected with Massive APIs** — LLMs connected to massive API sets.<br/>![venue](https://img.shields.io/badge/NeurIPS%202024-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2305.15334-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2305.15334) [![stars](https://img.shields.io/github/stars/ShishirPatil/gorilla?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/ShishirPatil/gorilla)
+- ⭐ **Toolformer** — models teach themselves to call APIs.<br/>![venue](https://img.shields.io/badge/NeurIPS%202023-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2302.04761-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2302.04761)
+- ⭐ **ToolLLM** — mastering 16k+ real-world APIs.<br/>![venue](https://img.shields.io/badge/ICLR%202024-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2307.16789-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2307.16789) [![stars](https://img.shields.io/github/stars/OpenBMB/ToolBench?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/OpenBMB/ToolBench)
+- **Gorilla** — LLMs connected to massive API sets.<br/>![venue](https://img.shields.io/badge/NeurIPS%202024-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2305.15334-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2305.15334) [![stars](https://img.shields.io/github/stars/ShishirPatil/gorilla?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/ShishirPatil/gorilla)
 - ⭐ **Model Context Protocol (MCP)** — an open standard for tool/context servers.<br/>![venue](https://img.shields.io/badge/Anthropic%202024-555?style=flat-square) [![site](https://img.shields.io/badge/%F0%9F%8C%90_Website-0E9B9B?style=flat-square)](https://modelcontextprotocol.io)
-- **Voyager: An Open-Ended Embodied Agent with Large Language Models** — executable skills accumulated over a lifetime.<br/>![venue](https://img.shields.io/badge/TMLR%202024-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2305.16291-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2305.16291) [![stars](https://img.shields.io/github/stars/MineDojo/Voyager?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/MineDojo/Voyager)
+- **Voyager skill library** — executable skills accumulated over a lifetime.<br/>![venue](https://img.shields.io/badge/TMLR%202024-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2305.16291-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2305.16291) [![stars](https://img.shields.io/github/stars/MineDojo/Voyager?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/MineDojo/Voyager)
 
 
 <details>
@@ -464,18 +573,10 @@ Long-horizon agency is a **harness-closed decision process**: a model policy cou
 
 ### Orchestration
 > *Decomposition & roles, coordination topologies, and agent-to-agent protocols.*
-
-<p align="center">
-  <img src="assets/fig-orchestration.png" alt="Overview of agent orchestration: tasks decomposed into roles, coordinated through topologies, optimized via feedback-driven routing, and integrated through communication and aggregation protocols" width="90%">
-</p>
-<p align="center">
-  <sub><b>Overview of agent orchestration.</b> Tasks are decomposed into roles, coordinated through different topologies, optimized via feedback-driven routing, and integrated through communication and aggregation protocols.</sub>
-</p>
-
-- ⭐ **MetaGPT: Meta Programming for a Multi-Agent Collaborative Framework** — SOP-driven multi-agent software company.<br/>![venue](https://img.shields.io/badge/ICLR%202024-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2308.00352-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2308.00352) [![stars](https://img.shields.io/github/stars/geekan/MetaGPT?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/geekan/MetaGPT)
-- ⭐ **AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation Framework** — conversable multi-agent framework.<br/>![venue](https://img.shields.io/badge/2023-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2308.08155-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2308.08155) [![stars](https://img.shields.io/github/stars/microsoft/autogen?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/microsoft/autogen)
-- **CAMEL: Communicative Agents for "Mind" Exploration of Large Language Model Society** — role-playing communicative agents.<br/>![venue](https://img.shields.io/badge/NeurIPS%202023-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2303.17760-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2303.17760) [![stars](https://img.shields.io/github/stars/camel-ai/camel?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/camel-ai/camel)
-- **ChatDev: Communicative Agents for Software Development** — agents collaborating along a dev pipeline.<br/>![venue](https://img.shields.io/badge/ACL%202024-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2307.07924-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2307.07924) [![stars](https://img.shields.io/github/stars/OpenBMB/ChatDev?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/OpenBMB/ChatDev)
+- ⭐ **MetaGPT** — SOP-driven multi-agent software company.<br/>![venue](https://img.shields.io/badge/ICLR%202024-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2308.00352-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2308.00352) [![stars](https://img.shields.io/github/stars/geekan/MetaGPT?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/geekan/MetaGPT)
+- ⭐ **AutoGen** — conversable multi-agent framework.<br/>![venue](https://img.shields.io/badge/2023-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2308.08155-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2308.08155) [![stars](https://img.shields.io/github/stars/microsoft/autogen?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/microsoft/autogen)
+- **CAMEL** — role-playing communicative agents.<br/>![venue](https://img.shields.io/badge/NeurIPS%202023-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2303.17760-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2303.17760) [![stars](https://img.shields.io/github/stars/camel-ai/camel?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/camel-ai/camel)
+- **ChatDev** — agents collaborating along a dev pipeline.<br/>![venue](https://img.shields.io/badge/ACL%202024-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2307.07924-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2307.07924) [![stars](https://img.shields.io/github/stars/OpenBMB/ChatDev?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/OpenBMB/ChatDev)
 
 
 <details>
@@ -523,15 +624,7 @@ Long-horizon agency is a **harness-closed decision process**: a model policy cou
 
 ### Hooks & Middleware
 > *Rule-based, user-defined, and dynamically-triggered interventions in the loop.*
-
-<p align="center">
-  <img src="assets/fig-hooks_and_middleware.png" alt="Overview of hooks and middleware, categorized into three paradigms by the origin and adaptiveness of their safety criteria: pre-defined rules, user-defined policies, and runtime-adaptive signals" width="92%">
-</p>
-<p align="center">
-  <sub><b>Overview of hooks and middleware.</b> Three paradigms by the origin and adaptiveness of their safety criteria: <b>pre-defined rules</b> (a non-negotiable safety floor), <b>custom user-defined policies</b> (bespoke enforcement), and <b>runtime-adaptive signals</b> (dynamic defense).</sub>
-</p>
-
-- **NeMo Guardrails: A Toolkit for Controllable and Safe LLM Applications with Programmable Rails** — programmable rails around LLM apps.<br/>![venue](https://img.shields.io/badge/EMNLP%202023-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2310.10501-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2310.10501) [![stars](https://img.shields.io/github/stars/NVIDIA/NeMo-Guardrails?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/NVIDIA/NeMo-Guardrails)
+- **NeMo Guardrails** — programmable rails around LLM apps.<br/>![venue](https://img.shields.io/badge/EMNLP%202023-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2310.10501-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2310.10501) [![stars](https://img.shields.io/github/stars/NVIDIA/NeMo-Guardrails?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/NVIDIA/NeMo-Guardrails)
 - **Claude Code Hooks** — user-defined shell hooks at lifecycle events.<br/>![venue](https://img.shields.io/badge/2024-555?style=flat-square) [![site](https://img.shields.io/badge/%F0%9F%8C%90_Docs-0E9B9B?style=flat-square)](https://docs.claude.com/en/docs/claude-code/hooks)
 - **Guardrails AI** — validation/correction middleware for outputs.<br/>![venue](https://img.shields.io/badge/2023-555?style=flat-square) [![stars](https://img.shields.io/github/stars/guardrails-ai/guardrails?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/guardrails-ai/guardrails)
 
@@ -576,9 +669,9 @@ Long-horizon agency is a **harness-closed decision process**: a model policy cou
 
 ### Verification
 > *Checking the agent's own outputs — self-critique, tool-grounded checks, tests.*
-- ⭐ **Self-Refine: Iterative Refinement with Self-Feedback** — iterative refinement with self-feedback.<br/>![venue](https://img.shields.io/badge/NeurIPS%202023-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2303.17651-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2303.17651) [![stars](https://img.shields.io/github/stars/madaan/self-refine?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/madaan/self-refine)
-- **CRITIC: Large Language Models Can Self-Correct with Tool-Interactive Critiquing** — self-correction via external tool feedback.<br/>![venue](https://img.shields.io/badge/ICLR%202024-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2305.11738-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2305.11738) [![stars](https://img.shields.io/github/stars/microsoft/ProphetNet?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/microsoft/ProphetNet/tree/master/CRITIC)
-- **Reflexion: Language Agents with Verbal Reinforcement Learning** — reflect on failed trajectories before retrying.<br/>![venue](https://img.shields.io/badge/NeurIPS%202023-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2303.11366-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2303.11366) [![stars](https://img.shields.io/github/stars/noahshinn/reflexion?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/noahshinn/reflexion)
+- ⭐ **Self-Refine** — iterative refinement with self-feedback.<br/>![venue](https://img.shields.io/badge/NeurIPS%202023-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2303.17651-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2303.17651) [![stars](https://img.shields.io/github/stars/madaan/self-refine?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/madaan/self-refine)
+- **CRITIC** — self-correction via external tool feedback.<br/>![venue](https://img.shields.io/badge/ICLR%202024-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2305.11738-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2305.11738) [![stars](https://img.shields.io/github/stars/microsoft/ProphetNet?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/microsoft/ProphetNet/tree/master/CRITIC)
+- **Reflexion** — reflect on failed trajectories before retrying.<br/>![venue](https://img.shields.io/badge/NeurIPS%202023-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2303.11366-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2303.11366) [![stars](https://img.shields.io/github/stars/noahshinn/reflexion?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/noahshinn/reflexion)
 
 
 <details>
@@ -629,18 +722,11 @@ Long-horizon agency is a **harness-closed decision process**: a model policy cou
 
 > The **internalized** side of the recipe — moving competence from the scaffold into the weights: architecture, data/environments, training stages, RL, distillation, and self-evolution.
 
-<p align="center">
-  <img src="assets/fig-inter_main.png" alt="The agentic training pipeline for internalizing long-horizon capability: built on an architectural substrate, proceeding through data and environment synthesis, pre/mid-training, fine-tuning, reinforcement learning, on-policy distillation, and self-evolution" width="96%">
-</p>
-<p align="center">
-  <sub><b>The agentic training pipeline for internalizing long-horizon capability</b> (Pillar II) — the internalized counterpart to the externalized harness above. On an <a href="#architectural-substrate">architectural substrate</a> for long sequences, it proceeds through six stages: <a href="#data--environment-synthesis">data &amp; environment synthesis</a>, <a href="#premid-training">pre/mid-training</a>, <a href="#fine-tuning">fine-tuning</a>, <a href="#agentic-reinforcement-learning">RL</a>, <a href="#on-policy-distillation">on-policy distillation</a>, and <a href="#self-evolution">self-evolution</a>.</sub>
-</p>
-
 ### Architectural Substrate
 > *Explicit-context, compressed-state, and hybrid architectures for long sequences.*
-- ⭐ **Mamba: Linear-Time Sequence Modeling with Selective State Spaces** — selective state spaces for long context.<br/>![venue](https://img.shields.io/badge/2023-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2312.00752-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2312.00752) [![stars](https://img.shields.io/github/stars/state-spaces/mamba?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/state-spaces/mamba)
+- ⭐ **Mamba: Linear-Time Sequence Modeling** — selective state spaces for long context.<br/>![venue](https://img.shields.io/badge/2023-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2312.00752-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2312.00752) [![stars](https://img.shields.io/github/stars/state-spaces/mamba?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/state-spaces/mamba)
 - **Titans: Learning to Memorize at Test Time** — neural long-term memory module.<br/>![venue](https://img.shields.io/badge/2025-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2501.00663-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2501.00663) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/corr/abs-2501-00663.html)
-- **RWKV: Reinventing RNNs for the Transformer Era** — RNN-style efficiency with Transformer-level quality.<br/>![venue](https://img.shields.io/badge/EMNLP%202023-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2305.13048-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2305.13048) [![stars](https://img.shields.io/github/stars/BlinkDL/RWKV-LM?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/BlinkDL/RWKV-LM)
+- **RWKV** — RNN-style efficiency with Transformer-level quality.<br/>![venue](https://img.shields.io/badge/EMNLP%202023-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2305.13048-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2305.13048) [![stars](https://img.shields.io/github/stars/BlinkDL/RWKV-LM?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/BlinkDL/RWKV-LM)
 
 
 <details>
@@ -686,9 +772,9 @@ Long-horizon agency is a **harness-closed decision process**: a model policy cou
 
 ### Data & Environment Synthesis
 > *Synthesizing tasks, environments, and trajectories to train agentic behavior.*
-- ⭐ **Self-Instruct: Aligning Language Models with Self-Generated Instructions** — bootstrap instruction data from the model itself.<br/>![venue](https://img.shields.io/badge/ACL%202023-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2212.10560-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2212.10560) [![stars](https://img.shields.io/github/stars/yizhongw/self-instruct?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/yizhongw/self-instruct)
-- **AgentTuning: Enabling Generalized Agent Abilities for LLMs** — instruction tuning on agent trajectories.<br/>![venue](https://img.shields.io/badge/ACL%202024-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2310.12823-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2310.12823) [![stars](https://img.shields.io/github/stars/THUDM/AgentTuning?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/THUDM/AgentTuning)
-- **ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs** — large-scale synthesized tool-use trajectories.<br/>![venue](https://img.shields.io/badge/ICLR%202024-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2307.16789-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2307.16789) [![stars](https://img.shields.io/github/stars/OpenBMB/ToolBench?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/OpenBMB/ToolBench)
+- ⭐ **Self-Instruct** — bootstrap instruction data from the model itself.<br/>![venue](https://img.shields.io/badge/ACL%202023-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2212.10560-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2212.10560) [![stars](https://img.shields.io/github/stars/yizhongw/self-instruct?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/yizhongw/self-instruct)
+- **AgentTuning** — instruction tuning on agent trajectories.<br/>![venue](https://img.shields.io/badge/ACL%202024-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2310.12823-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2310.12823) [![stars](https://img.shields.io/github/stars/THUDM/AgentTuning?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/THUDM/AgentTuning)
+- **ToolBench / ToolLLM** — large-scale synthesized tool-use trajectories.<br/>![venue](https://img.shields.io/badge/ICLR%202024-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2307.16789-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2307.16789) [![stars](https://img.shields.io/github/stars/OpenBMB/ToolBench?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/OpenBMB/ToolBench)
 
 
 <details>
@@ -790,7 +876,7 @@ Long-horizon agency is a **harness-closed decision process**: a model policy cou
 
 ### Pre/Mid-training
 > *Baking reasoning, long-context, and multimodal perception into the base model.*
-- **DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models** — group-relative optimization for reasoning.<br/>![venue](https://img.shields.io/badge/2024-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2402.03300-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2402.03300) [![stars](https://img.shields.io/github/stars/deepseek-ai/DeepSeek-Math?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/deepseek-ai/DeepSeek-Math)
+- **DeepSeekMath (GRPO)** — group-relative optimization for reasoning.<br/>![venue](https://img.shields.io/badge/2024-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2402.03300-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2402.03300) [![stars](https://img.shields.io/github/stars/deepseek-ai/DeepSeek-Math?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/deepseek-ai/DeepSeek-Math)
 - **Qwen2.5 Technical Report** — data-mixture & long-context training at scale.<br/>![venue](https://img.shields.io/badge/2024-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2412.15115-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2412.15115) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/journals/corr/abs-2412-15115.html)
 
 
@@ -823,8 +909,8 @@ Long-horizon agency is a **harness-closed decision process**: a model policy cou
 
 ### Fine-tuning
 > *Demonstration selection, curricula, and distillation into a smaller policy.*
-- **FireAct: Toward Language Agent Fine-tuning** — fine-tuning LMs to act with multi-method trajectories.<br/>![venue](https://img.shields.io/badge/2023-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2310.05915-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2310.05915) [![stars](https://img.shields.io/github/stars/anchen1011/FireAct?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/anchen1011/FireAct)
-- **Agent Lumos: Unified and Modular Training for Open-Source Language Agents** — modular training for language agents.<br/>![venue](https://img.shields.io/badge/ACL%202024-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2311.05657-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2311.05657) [![stars](https://img.shields.io/github/stars/allenai/lumos?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/allenai/lumos)
+- **FireAct** — fine-tuning LMs to act with multi-method trajectories.<br/>![venue](https://img.shields.io/badge/2023-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2310.05915-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2310.05915) [![stars](https://img.shields.io/github/stars/anchen1011/FireAct?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/anchen1011/FireAct)
+- **Lumos** — modular training for language agents.<br/>![venue](https://img.shields.io/badge/ACL%202024-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2311.05657-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2311.05657) [![stars](https://img.shields.io/github/stars/allenai/lumos?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/allenai/lumos)
 
 
 <details>
@@ -850,17 +936,9 @@ Long-horizon agency is a **harness-closed decision process**: a model policy cou
 
 ### Agentic Reinforcement Learning
 > *Credit assignment, policy optimization, sampling, and interaction patterns.*
-
-<p align="center">
-  <img src="assets/fig-agentic_rl.png" alt="Agentic reinforcement learning organized around four design questions: credit assignment, policy optimization, sampling strategy, and interaction patterns" width="90%">
-</p>
-<p align="center">
-  <sub><b>Agentic RL organized around four design questions:</b> <i>credit assignment</i> (multi-granularity credit), <i>policy optimization</i> (stable updates), <i>sampling strategy</i> (informative sampling), and <i>interaction patterns</i> (structured interaction).</sub>
-</p>
-
-- ⭐ **DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning** — RL-incentivized reasoning at scale.<br/>![venue](https://img.shields.io/badge/2025-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2501.12948-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2501.12948) [![stars](https://img.shields.io/github/stars/deepseek-ai/DeepSeek-R1?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/deepseek-ai/DeepSeek-R1)
-- ⭐ **Search-R1: Training LLMs to Reason and Leverage Search Engines with Reinforcement Learning** — RL to interleave reasoning with search.<br/>![venue](https://img.shields.io/badge/2025-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2503.09516-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2503.09516) [![stars](https://img.shields.io/github/stars/PeterGriffinJin/Search-R1?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/PeterGriffinJin/Search-R1)
-- **RAGEN: Understanding Self-Evolution in LLM Agents via Multi-Turn Reinforcement Learning** — training multi-turn agents by reinforcing trajectories.<br/>![venue](https://img.shields.io/badge/2025-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2504.20073-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2504.20073) [![stars](https://img.shields.io/github/stars/RAGEN-AI/RAGEN?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/RAGEN-AI/RAGEN)
+- ⭐ **DeepSeek-R1** — RL-incentivized reasoning at scale.<br/>![venue](https://img.shields.io/badge/2025-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2501.12948-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2501.12948) [![stars](https://img.shields.io/github/stars/deepseek-ai/DeepSeek-R1?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/deepseek-ai/DeepSeek-R1)
+- ⭐ **Search-R1** — RL to interleave reasoning with search.<br/>![venue](https://img.shields.io/badge/2025-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2503.09516-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2503.09516) [![stars](https://img.shields.io/github/stars/PeterGriffinJin/Search-R1?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/PeterGriffinJin/Search-R1)
+- **RAGEN / StarPO** — training multi-turn agents by reinforcing trajectories.<br/>![venue](https://img.shields.io/badge/2025-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2504.20073-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2504.20073) [![stars](https://img.shields.io/github/stars/RAGEN-AI/RAGEN?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/RAGEN-AI/RAGEN)
 
 
 <details>
@@ -976,8 +1054,8 @@ Long-horizon agency is a **harness-closed decision process**: a model policy cou
 
 ### On-Policy Distillation
 > *Teacher-guided and self-improving distillation on the agent's own rollouts.*
-- **On-Policy Distillation of Language Models: Learning from Self-Generated Mistakes** — GKD: distill on student-sampled sequences.<br/>![venue](https://img.shields.io/badge/2023-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2306.13649-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2306.13649)
-- **Distilling Step-by-Step! Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes** — train small models with rationale supervision.<br/>![venue](https://img.shields.io/badge/ACL%202023-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2305.02301-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2305.02301)
+- **On-Policy Distillation of Language Models** — GKD: distill on student-sampled sequences.<br/>![venue](https://img.shields.io/badge/2023-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2306.13649-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2306.13649)
+- **Distilling Step-by-Step** — train small models with rationale supervision.<br/>![venue](https://img.shields.io/badge/ACL%202023-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2305.02301-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2305.02301)
 
 
 <details>
@@ -1014,17 +1092,9 @@ Long-horizon agency is a **harness-closed decision process**: a model policy cou
 
 ### Self-Evolution
 > *Offline, online, and model–environment co-evolution loops.*
-
-<p align="center">
-  <img src="assets/fig-self-evo.png" alt="Three modes of self-evolution for long-horizon agents: offline self-evolution via generate-filter-train, online self-evolution from live interaction, and model-environment co-evolution" width="90%">
-</p>
-<p align="center">
-  <sub><b>Three modes of self-evolution.</b> <b>Offline</b> learns from selected self-generated experience through a generate–filter–train pipeline; <b>online</b> learns from live interaction on the agent's own induced state distribution; <b>model–environment co-evolution</b> jointly adapts the agent and its task/environment distribution to keep a learnable capability boundary.</sub>
-</p>
-
-- ⭐ **STaR: Bootstrapping Reasoning with Reasoning** — bootstrap reasoning from its own correct traces.<br/>![venue](https://img.shields.io/badge/NeurIPS%202022-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2203.14465-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2203.14465)
+- ⭐ **STaR: Self-Taught Reasoner** — bootstrap reasoning from its own correct traces.<br/>![venue](https://img.shields.io/badge/NeurIPS%202022-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2203.14465-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2203.14465)
 - **Self-Rewarding Language Models** — the model judges and improves itself.<br/>![venue](https://img.shields.io/badge/2024-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2401.10020-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2401.10020) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/conf/icml/selfrewarding.html)
-- **Voyager: An Open-Ended Embodied Agent with Large Language Models** — open-ended skill growth via environment feedback.<br/>![venue](https://img.shields.io/badge/TMLR%202024-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2305.16291-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2305.16291) [![stars](https://img.shields.io/github/stars/MineDojo/Voyager?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/MineDojo/Voyager)
+- **Voyager** — open-ended skill growth via environment feedback.<br/>![venue](https://img.shields.io/badge/TMLR%202024-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2305.16291-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2305.16291) [![stars](https://img.shields.io/github/stars/MineDojo/Voyager?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/MineDojo/Voyager)
 
 
 <details>
@@ -1063,18 +1133,11 @@ Long-horizon agency is a **harness-closed decision process**: a model policy cou
 
 > Where long-horizon pressure recurs across domains.
 
-<p align="center">
-  <img src="assets/fig-harness_domain.png" alt="Representative long-horizon agent applications grouped by the structure of the agent-environment interface: software engineering, information seeking, computer use, multimodal agents, and general-purpose agents" width="94%">
-</p>
-<p align="center">
-  <sub><b>Representative applications grouped by the agent–environment interface.</b> Different interfaces expose different observation, action, state, and feedback — from <b>bounded, verifiable environments</b> (<a href="#-software-engineering">software engineering</a>) to the <b>open, heterogeneous world</b> (<a href="#-general-purpose-agents">general-purpose agents</a>) — yielding distinct capability requirements.</sub>
-</p>
-
 ### 💻 Software Engineering
 > *Repository grounding · workflow-level planning · feedback-driven repair.*
-- ⭐ **SWE-bench: Can Language Models Resolve Real-World GitHub Issues?** — can LMs resolve real GitHub issues?<br/>![venue](https://img.shields.io/badge/ICLR%202024-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2310.06770-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2310.06770) [![stars](https://img.shields.io/github/stars/princeton-nlp/SWE-bench?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/princeton-nlp/SWE-bench)
-- ⭐ **SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering** — agent–computer interface for repos.<br/>![venue](https://img.shields.io/badge/NeurIPS%202024-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2405.15793-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2405.15793) [![stars](https://img.shields.io/github/stars/princeton-nlp/SWE-agent?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/princeton-nlp/SWE-agent)
-- ⭐ **OpenHands: An Open Platform for AI Software Developers as Generalist Agents** — an open platform for AI software developers.<br/>![venue](https://img.shields.io/badge/2024-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2407.16741-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2407.16741) [![stars](https://img.shields.io/github/stars/All-Hands-AI/OpenHands?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/All-Hands-AI/OpenHands)
+- ⭐ **SWE-bench** — can LMs resolve real GitHub issues?<br/>![venue](https://img.shields.io/badge/ICLR%202024-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2310.06770-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2310.06770) [![stars](https://img.shields.io/github/stars/princeton-nlp/SWE-bench?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/princeton-nlp/SWE-bench)
+- ⭐ **SWE-agent** — agent–computer interface for repos.<br/>![venue](https://img.shields.io/badge/NeurIPS%202024-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2405.15793-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2405.15793) [![stars](https://img.shields.io/github/stars/princeton-nlp/SWE-agent?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/princeton-nlp/SWE-agent)
+- ⭐ **OpenHands** — an open platform for AI software developers.<br/>![venue](https://img.shields.io/badge/2024-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2407.16741-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2407.16741) [![stars](https://img.shields.io/github/stars/All-Hands-AI/OpenHands?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/All-Hands-AI/OpenHands)
 - **Aider** — AI pair programming in your terminal.<br/>![venue](https://img.shields.io/badge/2023-555?style=flat-square) [![stars](https://img.shields.io/github/stars/Aider-AI/aider?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/Aider-AI/aider)
 
 
@@ -1101,9 +1164,9 @@ Long-horizon agency is a **harness-closed decision process**: a model policy cou
 
 ### 🔎 Information Seeking
 > *Deep search · wide search · multimodal grounding · research synthesis.*
-- ⭐ **WebGPT: Browser-assisted Question-answering with Human Feedback** — browser-assisted QA with human feedback.<br/>![venue](https://img.shields.io/badge/2021-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2112.09332-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2112.09332)
-- ⭐ **Search-R1: Training LLMs to Reason and Leverage Search Engines with Reinforcement Learning** — RL for search-augmented reasoning.<br/>![venue](https://img.shields.io/badge/2025-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2503.09516-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2503.09516) [![stars](https://img.shields.io/github/stars/PeterGriffinJin/Search-R1?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/PeterGriffinJin/Search-R1)
-- **WebVoyager: Building an End-to-End Web Agent with Large Multimodal Models** — end-to-end web agent with multimodal perception.<br/>![venue](https://img.shields.io/badge/ACL%202024-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2401.13919-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2401.13919) [![stars](https://img.shields.io/github/stars/MinorJerry/WebVoyager?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/MinorJerry/WebVoyager)
+- ⭐ **WebGPT** — browser-assisted QA with human feedback.<br/>![venue](https://img.shields.io/badge/2021-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2112.09332-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2112.09332)
+- ⭐ **Search-R1** — RL for search-augmented reasoning.<br/>![venue](https://img.shields.io/badge/2025-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2503.09516-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2503.09516) [![stars](https://img.shields.io/github/stars/PeterGriffinJin/Search-R1?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/PeterGriffinJin/Search-R1)
+- **WebVoyager** — end-to-end web agent with multimodal perception.<br/>![venue](https://img.shields.io/badge/ACL%202024-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2401.13919-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2401.13919) [![stars](https://img.shields.io/github/stars/MinorJerry/WebVoyager?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/MinorJerry/WebVoyager)
 
 
 <details>
@@ -1158,10 +1221,10 @@ Long-horizon agency is a **harness-closed decision process**: a model policy cou
 
 ### 🖥️ Computer Use
 > *Browser agents · desktop GUI agents · mobile agents.*
-- ⭐ **WebArena: A Realistic Web Environment for Building Autonomous Agents** — a realistic web environment for agents.<br/>![venue](https://img.shields.io/badge/ICLR%202024-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2307.13854-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2307.13854) [![stars](https://img.shields.io/github/stars/web-arena-x/webarena?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/web-arena-x/webarena)
-- ⭐ **OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments** — real computer tasks across OSes.<br/>![venue](https://img.shields.io/badge/NeurIPS%202024-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2404.07972-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2404.07972) [![stars](https://img.shields.io/github/stars/xlang-ai/OSWorld?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/xlang-ai/OSWorld)
-- **CogAgent: A Visual Language Model for GUI Agents** — a VLM for GUI understanding & control.<br/>![venue](https://img.shields.io/badge/CVPR%202024-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2312.08914-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2312.08914) [![stars](https://img.shields.io/github/stars/THUDM/CogAgent?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/THUDM/CogAgent)
-- **Mobile-Agent: Autonomous Multi-Modal Mobile Device Agent with Visual Perception** — autonomous multimodal phone operation.<br/>![venue](https://img.shields.io/badge/2024-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2401.16158-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2401.16158) [![stars](https://img.shields.io/github/stars/X-PLUG/MobileAgent?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/X-PLUG/MobileAgent)
+- ⭐ **WebArena** — a realistic web environment for agents.<br/>![venue](https://img.shields.io/badge/ICLR%202024-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2307.13854-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2307.13854) [![stars](https://img.shields.io/github/stars/web-arena-x/webarena?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/web-arena-x/webarena)
+- ⭐ **OSWorld** — real computer tasks across OSes.<br/>![venue](https://img.shields.io/badge/NeurIPS%202024-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2404.07972-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2404.07972) [![stars](https://img.shields.io/github/stars/xlang-ai/OSWorld?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/xlang-ai/OSWorld)
+- **CogAgent** — a VLM for GUI understanding & control.<br/>![venue](https://img.shields.io/badge/CVPR%202024-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2312.08914-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2312.08914) [![stars](https://img.shields.io/github/stars/THUDM/CogAgent?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/THUDM/CogAgent)
+- **Mobile-Agent** — autonomous multimodal phone operation.<br/>![venue](https://img.shields.io/badge/2024-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2401.16158-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2401.16158) [![stars](https://img.shields.io/github/stars/X-PLUG/MobileAgent?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/X-PLUG/MobileAgent)
 
 
 <details>
@@ -1198,8 +1261,8 @@ Long-horizon agency is a **harness-closed decision process**: a model policy cou
 
 ### 🎨 Multimodal Agents
 > *Multimodal understanding · generation · omnimodal agency.*
-- **LLaVA-Plus: Learning to Use Tools for Creating Multimodal Agents** — learning to use tools for multimodal agents.<br/>![venue](https://img.shields.io/badge/ECCV%202024-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2311.05437-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2311.05437) [![stars](https://img.shields.io/github/stars/LLaVA-VL/LLaVA-Plus-Codebase?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/LLaVA-VL/LLaVA-Plus-Codebase)
-- **HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in Hugging Face** — an LLM controller orchestrating expert models.<br/>![venue](https://img.shields.io/badge/NeurIPS%202023-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2303.17580-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2303.17580) [![stars](https://img.shields.io/github/stars/microsoft/JARVIS?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/microsoft/JARVIS)
+- **LLaVA-Plus** — learning to use tools for multimodal agents.<br/>![venue](https://img.shields.io/badge/ECCV%202024-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2311.05437-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2311.05437) [![stars](https://img.shields.io/github/stars/LLaVA-VL/LLaVA-Plus-Codebase?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/LLaVA-VL/LLaVA-Plus-Codebase)
+- **HuggingGPT** — an LLM controller orchestrating expert models.<br/>![venue](https://img.shields.io/badge/NeurIPS%202023-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2303.17580-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2303.17580) [![stars](https://img.shields.io/github/stars/microsoft/JARVIS?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/microsoft/JARVIS)
 
 
 <details>
@@ -1258,7 +1321,7 @@ Long-horizon agency is a **harness-closed decision process**: a model policy cou
 
 ### 🧰 General-Purpose Agents
 > *Runtime systems · personal assistants · embodied · productive agents.*
-- **OpenHands: An Open Platform for AI Software Developers as Generalist Agents** — general agent runtime.<br/>![venue](https://img.shields.io/badge/2024-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2407.16741-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2407.16741) [![stars](https://img.shields.io/github/stars/All-Hands-AI/OpenHands?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/All-Hands-AI/OpenHands)
+- **OpenHands** — general agent runtime.<br/>![venue](https://img.shields.io/badge/2024-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2407.16741-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2407.16741) [![stars](https://img.shields.io/github/stars/All-Hands-AI/OpenHands?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/All-Hands-AI/OpenHands)
 - **AutoGPT** — autonomous goal pursuit.<br/>![venue](https://img.shields.io/badge/2023-555?style=flat-square) [![stars](https://img.shields.io/github/stars/Significant-Gravitas/AutoGPT?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/Significant-Gravitas/AutoGPT)
 - **Manus** — a general autonomous agent product.<br/>![venue](https://img.shields.io/badge/2025-555?style=flat-square) [![site](https://img.shields.io/badge/%F0%9F%8C%90_Website-0E9B9B?style=flat-square)](https://manus.im)
 
