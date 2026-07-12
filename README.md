@@ -36,7 +36,7 @@
 
 
 
-Large language models have evolved from single-turn chatbots into the decision-making core of autonomous agents spanning software engineering, information seeking, computer use, and scientific discovery. As Figure 1 shows, the time horizon of tasks they can complete unaided is growing exponentially. This surfaces one decisive requirement we call **long horizon**: persistent iteration across reasoning, tool use, observation, and revision over many interdependent steps — from tasks within a single context window to those spanning windows, sessions, or open-ended task streams.
+Large language models have evolved from single-turn chatbots into the decision-making core of autonomous agents spanning software engineering, information seeking, computer use, and scientific discovery. As Figure 1 shows, the time horizon of tasks they can complete unaided is growing exponentially. This surfaces one decisive requirement we call **long horizon**: persistent iteration across reasoning, tool use, observation, and revision over many interdependent steps.
 
 Our survey frames **long-horizon agency** as a system-level capability jointly shaped by two forces:
 
