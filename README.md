@@ -15,7 +15,7 @@
 
 *A curated, continuously-updated reading list accompanying our survey on **long-horizon AI agents**.*
 
-
+</div>
 
 ## 📢 News
 
@@ -28,7 +28,6 @@
 <img src="assets/image1.png" width="90%" alt="Time horizon growth of frontier AI agents"/>
 <br>
 <em><b>Figure 1.</b> The <b>time horizon</b> of frontier AI agents is growing exponentially, roughly doubling every few months.</em>
-</div>
 </div>
 
 ---
@@ -190,12 +189,26 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 
 ### Loops and Workflows
 
-- [ICLR 2023] ReAct: Synergizing Reasoning and Acting (linear/reactive loop). [[paper](https://arxiv.org/abs/2210.03629)] [[code](https://github.com/ysymyth/ReAct)]
-- [arXiv 2023] ReWOO: Decoupling Reasoning from Observations for Efficient Augmented LMs. [[paper](https://arxiv.org/abs/2305.18323)] [[code](https://github.com/billxbf/ReWOO)]
+**Linear Workflows**
+- [ICLR 2023] ReAct: Synergizing Reasoning and Acting in Language Models. [[paper](https://arxiv.org/abs/2210.03629)] [[code](https://github.com/ysymyth/ReAct)]
+- [NeurIPS 2023] Reflexion: Language Agents with Verbal Reinforcement Learning. [[paper](https://arxiv.org/abs/2303.11366)] [[code](https://github.com/noahshinn/reflexion)]
+- [NeurIPS 2023] Self-Refine: Iterative Refinement with Self-Feedback. [[paper](https://arxiv.org/abs/2303.17651)] [[code](https://github.com/madaan/self-refine)]
+- [ICLR 2024] Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection. [[paper](https://arxiv.org/abs/2310.11511)] [[code](https://github.com/AkariAsai/self-rag)]
+- [TMLR 2024] Cognitive Architectures for Language Agents (CoALA). [[paper](https://arxiv.org/abs/2309.02427)] [[code](https://github.com/ysymyth/awesome-language-agents)]
+
+**Plan-Execute Workflows**
 - [ACL 2023] Plan-and-Solve Prompting. [[paper](https://arxiv.org/abs/2305.04091)] [[code](https://github.com/AGI-Edgerunners/Plan-and-Solve-Prompting)]
-- [ICML 2024] Language Agent Tree Search (LATS). [[paper](https://arxiv.org/abs/2310.04406)] [[code](https://github.com/lapisrocks/LanguageAgentTreeSearch)]
-- [ICLR 2024] CRITIC: LLMs Can Self-Correct with Tool-Interactive Critiquing. [[paper](https://arxiv.org/abs/2305.11738)] [[code](https://github.com/microsoft/ProphetNet/tree/master/CRITIC)]
+- [arXiv 2023] ReWOO: Decoupling Reasoning from Observations for Efficient Augmented LMs. [[paper](https://arxiv.org/abs/2305.18323)] [[code](https://github.com/billxbf/ReWOO)]
+- [NAACL 2024] ADaPT: As-Needed Decomposition and Planning with Language Models. [[paper](https://arxiv.org/abs/2311.05772)] [[code](https://github.com/archiki/ADaPT)]
+- [arXiv 2026] O-Researcher: Open-Ended Deep Research via Multi-Agent Distillation and Agentic RL. [[paper](https://arxiv.org/abs/2601.03743)]
 - [arXiv 2026] Arbor: Autonomous Research via Persistent Hypothesis Trees. [[paper](https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents)]
+
+**Branching Workflows**
+- [NeurIPS 2023] Tree of Thoughts: Deliberate Problem Solving with LLMs. [[paper](https://arxiv.org/abs/2305.10601)] [[code](https://github.com/princeton-nlp/tree-of-thought-llm)]
+- [ICLR 2023] Self-Consistency Improves Chain-of-Thought Reasoning. [[paper](https://arxiv.org/abs/2203.11171)]
+- [ICML 2024] Language Agent Tree Search (LATS). [[paper](https://arxiv.org/abs/2310.04406)] [[code](https://github.com/lapisrocks/LanguageAgentTreeSearch)]
+- [NAACL 2025] CodeTree: Agent-guided Tree Search for Code Generation. [[paper](https://arxiv.org/abs/2411.04329)]
+- [arXiv 2025] ReAcTree: Hierarchical LLM Agent Trees for Long-Horizon Task Planning. [[paper](https://arxiv.org/abs/2511.02424)]
 
 ### Context and Memory
 
