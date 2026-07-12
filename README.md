@@ -21,7 +21,7 @@
 
 - **[2026/07]** 🚀 We released the paper list for **Toward Long-Horizon AI Agents: A Survey**, restructured to mirror the paper chapter-by-chapter.
 - **[2026/07]** 📄 Our survey **Toward Long-Horizon AI Agents** is available (arXiv link coming soon).
-- **[2026/07]** 🙌 Contributions are welcome — open a PR to add a missing work (`[Venue Year] Title. [paper] [code]`).
+- **[2026/07]** 🙌 Contributions are welcome — PR to add a missing work (`[Venue Year] Title. [paper] [code]`).
 
 
 <div align="center">
