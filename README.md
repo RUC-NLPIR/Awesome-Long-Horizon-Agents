@@ -8,25 +8,15 @@
 <sub>Foundations · Evolution · Harnesses · Optimization · Applications · Frontiers</sub></h3>
 
 <p align="center">
-  <a href="https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents"><img src="https://img.shields.io/badge/Paper-arXiv-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white" alt="Paper"></a>
-  <a href="https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents"><img src="https://img.shields.io/badge/Awesome-List-6E5B9E?style=for-the-badge&logo=awesomelists&logoColor=white" alt="Awesome"></a>
-  <a href="https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents/pulls"><img src="https://img.shields.io/badge/PRs-Welcome-37D2A6?style=for-the-badge&logo=github&logoColor=white" alt="PRs Welcome"></a>
-  <a href="#-contributing"><img src="https://img.shields.io/badge/Contribute-Add_a_paper-0E9B9B?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Contribute"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-D22128?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="License: MIT"></a>
+  <a href="https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents"><img src="https://img.shields.io/badge/Paper-arXiv-B31B1B?style=flat-square&logo=arxiv&logoColor=white" alt="Paper"></a>
+  <a href="https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents/pulls"><img src="https://img.shields.io/badge/PRs-Welcome-37D2A6?style=flat-square&logo=github&logoColor=white" alt="PRs Welcome"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-D22128?style=flat-square" alt="License: MIT"></a>
+  <img src="https://img.shields.io/github/stars/RUC-NLPIR/Awesome-Long-Horizon-Agents?style=flat-square&color=37D2A6&label=%E2%98%85" alt="Stars">
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/stars/RUC-NLPIR/Awesome-Long-Horizon-Agents?style=social" alt="Stars">
-  &nbsp;
-  <img src="https://img.shields.io/github/last-commit/RUC-NLPIR/Awesome-Long-Horizon-Agents?color=37D2A6" alt="Last commit">
-  &nbsp;
-  <img src="https://img.shields.io/badge/Maintained-yes-37D2A6" alt="Maintained">
-</p>
-
-<p align="center">
-  <i>Expectations for AI agents are shifting from single-turn tasks to <b>long-horizon</b> work in real
-  environments — planning, acting, recovering from mistakes, and adapting mid-execution.
-  This list tracks the papers, systems, and benchmarks behind that shift, organized exactly like the survey.</i>
+  <i>A curated reading list for the survey — tracking the papers, systems, and benchmarks behind the shift
+  from single-turn tasks to <b>long-horizon</b> work: planning, acting, recovering, and adapting mid-execution.</i>
 </p>
 
 > [!NOTE]
@@ -51,97 +41,17 @@
 
 ---
 
-## 🗺️ The Taxonomy at a Glance
+## 📖 Contents
 
-> Six perspectives, one recipe. **Click any card below to jump to its section.**
+**1 · 🧱 [Foundations](#-1--foundations-formalizing-long-horizon-agents)** — what long-horizon agency is, formally (H1 · H2 · H3)
+**2 · 🧬 [Evolution](#-2--evolution-from-prompting-to-runtime)** — prompt → context → runtime
+**3 · 🔧 [Harnesses](#-4--harnesses-externalizing-long-horizon-capability)** — [Loops](#loops--workflows) · [Memory](#context--memory) · [Tools](#tools-mcp--skills) · [Orchestration](#orchestration) · [Hooks](#hooks--middleware) · [Verification](#verification)
+**4 · 📈 [Optimization](#-5--optimization-internalizing-long-horizon-capability)** — [Architecture](#architectural-substrate) · [Data](#data--environment-synthesis) · [Training](#premid-training) · [Fine-tuning](#fine-tuning) · [RL](#agentic-reinforcement-learning) · [Distillation](#on-policy-distillation) · [Self-Evolution](#self-evolution)
+**5 · 🚀 [Applications](#-6--applications-long-horizon-agents-in-practice)** — [SWE](#-software-engineering) · [Search](#-information-seeking) · [Computer Use](#-computer-use) · [Multimodal](#-multimodal-agents) · [General](#-general-purpose-agents)
+**6 · 🔭 [Frontiers](#-7--frontiers-open-problems)** — open problems
+**·** 🧪 [Benchmarks](#-benchmarks--resources) · 🤝 [Contributing](#-contributing) · 📚 [Citation](#-citation)
 
-<div align="center">
-<table>
-<tr>
-  <td valign="top" align="center">
-    <a href="#-1--foundations-formalizing-long-horizon-agents"><img src="https://img.shields.io/badge/🧱_Foundations-7C4DC4?style=for-the-badge&logoColor=white"></a><br>
-    <sub><i>what is it, formally?</i></sub><br><br>
-    <a href="#-1--foundations-formalizing-long-horizon-agents"><img src="https://img.shields.io/badge/Three_Horizons-7C4DC4?style=flat-square"></a>
-    <a href="#-1--foundations-formalizing-long-horizon-agents"><img src="https://img.shields.io/badge/H1_H2_H3-7C4DC4?style=flat-square"></a>
-    <a href="#-1--foundations-formalizing-long-horizon-agents"><img src="https://img.shields.io/badge/vs._Neighbors-7C4DC4?style=flat-square"></a>
-  </td>
-</tr>
-<tr>
-  <td valign="top" align="center">
-    <a href="#-2--evolution-from-prompting-to-runtime"><img src="https://img.shields.io/badge/🧬_Evolution-4472C4?style=for-the-badge&logoColor=white"></a><br>
-    <sub><i>prompts → runtimes</i></sub><br><br>
-    <a href="#-2--evolution-from-prompting-to-runtime"><img src="https://img.shields.io/badge/Prompt_Eng.-4472C4?style=flat-square"></a>
-    <a href="#-2--evolution-from-prompting-to-runtime"><img src="https://img.shields.io/badge/Context_Eng.-4472C4?style=flat-square"></a>
-    <a href="#-2--evolution-from-prompting-to-runtime"><img src="https://img.shields.io/badge/Runtime_Harness-4472C4?style=flat-square"></a>
-  </td>
-</tr>
-<tr>
-  <td valign="top" align="center">
-    <a href="#-4--harnesses-externalizing-long-horizon-capability"><img src="https://img.shields.io/badge/🔧_Harnesses-ED7D31?style=for-the-badge&logoColor=white"></a><br>
-    <sub><i>runtime structure around the model</i></sub><br><br>
-    <a href="#loops--workflows"><img src="https://img.shields.io/badge/Loops_%26_Workflows-ED7D31?style=flat-square"></a>
-    <a href="#context--memory"><img src="https://img.shields.io/badge/Context_%26_Memory-ED7D31?style=flat-square"></a>
-    <a href="#tools-mcp--skills"><img src="https://img.shields.io/badge/Tools_MCP_Skills-ED7D31?style=flat-square"></a>
-    <a href="#orchestration"><img src="https://img.shields.io/badge/Orchestration-ED7D31?style=flat-square"></a>
-    <a href="#hooks--middleware"><img src="https://img.shields.io/badge/Hooks_%26_Middleware-ED7D31?style=flat-square"></a>
-    <a href="#verification"><img src="https://img.shields.io/badge/Verification-ED7D31?style=flat-square"></a>
-  </td>
-</tr>
-<tr>
-  <td valign="top" align="center">
-    <a href="#-5--optimization-internalizing-long-horizon-capability"><img src="https://img.shields.io/badge/📈_Optimization-C98A00?style=for-the-badge&logoColor=white"></a><br>
-    <sub><i>training competence into the weights</i></sub><br><br>
-    <a href="#architectural-substrate"><img src="https://img.shields.io/badge/Architecture-C98A00?style=flat-square"></a>
-    <a href="#data--environment-synthesis"><img src="https://img.shields.io/badge/Data_%26_Env_Synthesis-C98A00?style=flat-square"></a>
-    <a href="#premid-training"><img src="https://img.shields.io/badge/Pre%2FMid--training-C98A00?style=flat-square"></a>
-    <a href="#fine-tuning"><img src="https://img.shields.io/badge/Fine--tuning-C98A00?style=flat-square"></a>
-    <a href="#agentic-reinforcement-learning"><img src="https://img.shields.io/badge/Agentic_RL-C98A00?style=flat-square"></a>
-    <a href="#on-policy-distillation"><img src="https://img.shields.io/badge/On--Policy_Distillation-C98A00?style=flat-square"></a>
-    <a href="#self-evolution"><img src="https://img.shields.io/badge/Self--Evolution-C98A00?style=flat-square"></a>
-  </td>
-</tr>
-<tr>
-  <td valign="top" align="center">
-    <a href="#-6--applications-long-horizon-agents-in-practice"><img src="https://img.shields.io/badge/🚀_Applications-E84393?style=for-the-badge&logoColor=white"></a><br>
-    <sub><i>where long-horizon pressure recurs</i></sub><br><br>
-    <a href="#-software-engineering"><img src="https://img.shields.io/badge/Software_Eng.-E84393?style=flat-square"></a>
-    <a href="#-information-seeking"><img src="https://img.shields.io/badge/Information_Seeking-E84393?style=flat-square"></a>
-    <a href="#-computer-use"><img src="https://img.shields.io/badge/Computer_Use-E84393?style=flat-square"></a>
-    <a href="#-multimodal-agents"><img src="https://img.shields.io/badge/Multimodal-E84393?style=flat-square"></a>
-    <a href="#-general-purpose-agents"><img src="https://img.shields.io/badge/General--Purpose-E84393?style=flat-square"></a>
-  </td>
-</tr>
-<tr>
-  <td valign="top" align="center">
-    <a href="#-7--frontiers-open-problems"><img src="https://img.shields.io/badge/🔭_Frontiers-B23CF0?style=for-the-badge&logoColor=white"></a><br>
-    <sub><i>what is still open</i></sub><br><br>
-    <a href="#-7--frontiers-open-problems"><img src="https://img.shields.io/badge/Evolution_%26_Transfer-B23CF0?style=flat-square"></a>
-    <a href="#-7--frontiers-open-problems"><img src="https://img.shields.io/badge/Faithful_Environments-B23CF0?style=flat-square"></a>
-    <a href="#-7--frontiers-open-problems"><img src="https://img.shields.io/badge/Efficiency_%26_Budgets-B23CF0?style=flat-square"></a>
-    <a href="#-7--frontiers-open-problems"><img src="https://img.shields.io/badge/Trustworthiness-B23CF0?style=flat-square"></a>
-  </td>
-</tr>
-</table>
-
-</div>
-
----
-
-## 📖 Table of Contents
-
-- [1 · 🧱 Foundations: Formalizing Long-Horizon Agents](#-1--foundations-formalizing-long-horizon-agents)
-- [2 · 🧬 Evolution: From Prompting to Runtime](#-2--evolution-from-prompting-to-runtime)
-- [3 · 🔧 Harnesses: Externalizing Long-Horizon Capability](#-4--harnesses-externalizing-long-horizon-capability)
-  - [Loops & Workflows](#loops--workflows) · [Context & Memory](#context--memory) · [Tools, MCP & Skills](#tools-mcp--skills) · [Orchestration](#orchestration) · [Hooks & Middleware](#hooks--middleware) · [Verification](#verification)
-- [4 · 📈 Optimization: Internalizing Long-Horizon Capability](#-5--optimization-internalizing-long-horizon-capability)
-  - [Architectural Substrate](#architectural-substrate) · [Data & Environment Synthesis](#data--environment-synthesis) · [Pre/Mid-training](#premid-training) · [Fine-tuning](#fine-tuning) · [Agentic RL](#agentic-reinforcement-learning) · [On-Policy Distillation](#on-policy-distillation) · [Self-Evolution](#self-evolution)
-- [5 · 🚀 Applications: Long-Horizon Agents in Practice](#-6--applications-long-horizon-agents-in-practice)
-- [6 · 🔭 Frontiers: Open Problems](#-7--frontiers-open-problems)
-- [🧪 Benchmarks & Resources](#-benchmarks--resources)
-- [🤝 Contributing](#-contributing)
-- [📚 Citation](#-citation)
-
-<sub>🔖 Each entry carries a **venue** tag, a red **arXiv** (or 🌐 Website / Docs) badge, and a live **★ GitHub-stars** badge wherever code exists. &nbsp;·&nbsp; ⭐ before a title = milestone / highly-cited.</sub>
+<sub>🔖 Each entry carries a **venue** tag, an **arXiv** link, and a live **★ stars** badge where code exists. &nbsp;·&nbsp; ⭐ = milestone / highly-cited.</sub>
 
 ---
 
