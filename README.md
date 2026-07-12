@@ -18,7 +18,7 @@
 <div align="center">
 <img src="assets/image1.png" width="90%" alt="Time horizon growth of frontier AI agents"/>
 <br>
-<em><b>Figure 1.</b> The <b>time horizon</b> of frontier AI agents — the length of tasks (measured by human completion time) they can finish autonomously — has been growing exponentially, roughly doubling every few months. This steady expansion is pushing agents from short, single-step responses toward genuinely long-horizon autonomy.</em>
+<em><b>Figure 1.</b> The <b>time horizon</b> of frontier AI agents is growing exponentially, roughly doubling every few months.</em>
 </div>
 
 
@@ -44,7 +44,7 @@
 <div align="center">
 <img src="assets/fig1_landscape.png" width="95%" alt="Landscape of long-horizon agent research"/>
 <br>
-<em><b>Figure 2.</b> The landscape of long-horizon agent research. A co-evolutionary view organized around externalized <b>harness</b> engineering (bottom) and internalized model <b>optimization</b> (top), spanning foundations, evolution, harnesses, optimization, applications, and frontiers.</em>
+<em><b>Figure 2.</b> The landscape of long-horizon agent research, organized around externalized <b>harness</b> engineering and internalized model <b>optimization</b>.</em>
 </div>
 
 
@@ -105,7 +105,7 @@ The two sides co-evolve through experience and feedback: capabilities first impl
 <div align="center">
 <img src="assets/sec2_foundations.png" width="90%" alt="Three levels of long-horizon tasks and capabilities"/>
 <br>
-<em><b>Section figure.</b> Three levels of long-horizon tasks (H1 ⊂ H2 ⊂ H3) and the capabilities they demand (C1 ⊂ C2 ⊂ C3).</em>
+<em><b>Section figure.</b> Three nested levels of long-horizon tasks (H1 ⊂ H2 ⊂ H3) and their required capabilities (C1 ⊂ C2 ⊂ C3).</em>
 </div>
 
 <br>
@@ -127,7 +127,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 <div align="center">
 <img src="assets/sec3_evolution.png" width="95%" alt="Co-evolution across three stages"/>
 <br>
-<em><b>Section figure.</b> The co-evolution of long-horizon agents across three stages: control widens from the <b>language</b> of a single prompt, to the <b>information</b> conditioning each call, to the whole <b>trajectory</b> sustained by a runtime harness.</em>
+<em><b>Section figure.</b> Three stages of co-evolution: from the <b>language</b> of a prompt, to the <b>information</b> per call, to the whole <b>trajectory</b> sustained by a runtime harness.</em>
 </div>
 
 ### Stage I — Prompt Engineering (2020–2022)
@@ -191,7 +191,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 <div align="center">
 <img src="assets/sec4_harness.png" width="92%" alt="An agent harness in action"/>
 <br>
-<em><b>Section figure.</b> An agent harness in action — the six components (loop & workflow, context & memory, tools & environments, orchestration, hooks, verification) together sustain a single goal across many dependent steps.</em>
+<em><b>Section figure.</b> An agent harness in action: six components sustain a single goal across many dependent steps.</em>
 </div>
 
 ### Loops and Workflows
@@ -295,7 +295,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 <div align="center">
 <img src="assets/sec5_optimization.png" width="92%" alt="Agentic training pipeline"/>
 <br>
-<em><b>Section figure.</b> The agentic training pipeline for internalizing long-horizon capability — an architectural substrate plus six training stages (data & environment synthesis, pre/mid-training, fine-tuning, RL, on-policy distillation, self-evolution).</em>
+<em><b>Section figure.</b> The agentic training pipeline: an architectural substrate plus six training stages for internalizing long-horizon capability.</em>
 </div>
 
 ### Architectural Substrate
@@ -413,7 +413,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 <div align="center">
 <img src="assets/sec6_applications.png" width="94%" alt="Applications grouped by agent-environment interface"/>
 <br>
-<em><b>Section figure.</b> Representative long-horizon agent applications grouped by the structure of the agent–environment interface. Different interfaces expose different forms of observation, action, state, and feedback.</em>
+<em><b>Section figure.</b> Representative long-horizon agent applications grouped by the agent–environment interface.</em>
 </div>
 
 ### Software Engineering
