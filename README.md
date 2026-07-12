@@ -34,15 +34,7 @@
 
 ## 👋 Introduction
 
-<div align="center">
-<img src="assets/fig1_landscape.png" width="95%" alt="Landscape of long-horizon agent research"/>
-<br>
-<em><b>Figure 2.</b> The landscape of long-horizon agent research, organized around externalized <b>harness</b> engineering and internalized model <b>optimization</b>.</em>
-</div>
 
-
-
-<br>
 
 Over the past few years, large language models have moved from single-turn chatbots to the decision-making core of autonomous agents across software engineering, information seeking, computer use, and scientific discovery. As Figure 1 illustrates, the time horizon of tasks these agents can complete on their own is expanding at an exponential pace. This trend crystallizes one decisive requirement we call **long horizon**: persistent iteration across reasoning, tool use, observation, and revision over many interdependent steps — from tasks completable within a single context window to those spanning windows, sessions, or open-ended task streams.
 
@@ -53,6 +45,11 @@ Our survey frames **long-horizon agency** as a system-level capability jointly s
 
 The two sides co-evolve through experience and feedback: capabilities first implemented explicitly in the harness may later be internalized into the model policy, while stronger policies in turn enable more capable harnesses. Figure 2 lays out this co-evolutionary landscape end to end.
 
+<div align="center">
+<img src="assets/fig1_landscape.png" width="95%" alt="Landscape of long-horizon agent research"/>
+<br>
+<em><b>Figure 2.</b> The landscape of long-horizon agent research, organized around externalized <b>harness</b> engineering and internalized model <b>optimization</b>.</em>
+</div>
 
 
 
