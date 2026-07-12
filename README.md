@@ -34,7 +34,7 @@
 ## 👋 Introduction
 
 <div align="center">
-<img src="assets/image.png" width="90%" alt="Time horizon growth of frontier AI agents"/>
+<img src="assets/image1.png" width="90%" alt="Time horizon growth of frontier AI agents"/>
 <br>
 <em><b>Figure 1.</b> The <b>time horizon</b> of frontier AI agents — the length of tasks (measured by human completion time) they can finish autonomously — has been growing exponentially, roughly doubling every few months. This steady expansion is pushing agents from short, single-step responses toward genuinely long-horizon autonomy.</em>
 </div>
