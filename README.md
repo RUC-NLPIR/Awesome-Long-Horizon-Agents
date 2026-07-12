@@ -33,6 +33,13 @@
 > We define **long-horizon agency** as the co-evolving recipe of an **externalized harness** and an **internalized optimization**:
 > <p align="center"><b>Long-Horizon Agency</b> &nbsp;=&nbsp; Model Policy &nbsp;⊕&nbsp; <b><a href="#-4--harnesses-externalizing-long-horizon-capability">Harness</a></b> &nbsp;⊕&nbsp; <b><a href="#-5--optimization-internalizing-long-horizon-capability">Optimization</a></b>, &nbsp;bridged by <b>Experience</b>.</p>
 
+<p align="center">
+  <img src="assets/landscape.png" alt="Landscape of Long-Horizon Agent Research — the co-evolution of internalized optimization (inside the model) and externalized harness engineering (outside the model)" width="96%">
+</p>
+<p align="center">
+  <sub><b>The map of the field.</b> Long-horizon agency emerges from two forces co-evolving: <b>internalized optimization</b> <i>inside</i> the model (architecture, data, training, RL, self-evolution) and <b>externalized harness engineering</b> <i>outside</i> it (loops, memory, tools, orchestration, hooks, verification) — bridged by accumulated <b>experience</b>.</sub>
+</p>
+
 ---
 
 ## 📣 News
@@ -46,49 +53,9 @@
 
 ## 🗺️ The Taxonomy at a Glance
 
-> The whole survey in one map — then use the **colored board below to jump** to any topic.
-
-```mermaid
-mindmap
-  root((🧭<br/>Long-Horizon<br/>Agents))
-    🧱 Foundations
-      Definition & Three Horizons
-      H1 · H2 · H3
-      vs. neighboring concepts
-    🧬 Evolution
-      Prompt engineering
-      Context engineering
-      Runtime harnesses
-    🔧 Harnesses
-      Loops & workflows
-      Context & memory
-      Tools · MCP · skills
-      Orchestration
-      Hooks & middleware
-      Verification
-    📈 Optimization
-      Architectural substrate
-      Data & environment synthesis
-      Pre / mid-training
-      Fine-tuning
-      Agentic RL
-      On-policy distillation
-      Self-evolution
-    🚀 Applications
-      Software engineering
-      Information seeking
-      Computer use
-      Multimodal agents
-      General-purpose agents
-    🔭 Frontiers
-      Evolution & transfer
-      Faithful environments
-      Efficiency & budgets
-      Trustworthiness
-```
+> Six perspectives, one recipe. **Click any card below to jump to its section.**
 
 <div align="center">
-<h3>🖱️ Click any topic to jump to its section</h3>
 <table>
 <tr>
   <td valign="top" align="center">
@@ -181,6 +148,13 @@ mindmap
 ## 🧱 1 · Foundations: Formalizing Long-Horizon Agents
 
 > Long-horizon agency is formalized as a **harness-closed decision process**, then distinguished from adjacent notions (long-context, long-running, autonomy, self-evolution). Tasks are organized by **three horizons**.
+
+<p align="center">
+  <img src="assets/lifecycle.png" alt="Lifecycle of a long-horizon agent: Set Goal, Understand and Plan, Execute and Interact, Reflect and Learn, Adapt and Recover, Complete and Deliver — governed by the six harness components" width="92%">
+</p>
+<p align="center">
+  <sub><b>The lifecycle of a long-horizon agent.</b> A single episode flows through six stages — <i>set goal → understand &amp; plan → execute &amp; interact → reflect &amp; learn → adapt &amp; recover → complete &amp; deliver</i> — while the six harness components (<a href="#loops--workflows">loop</a>, <a href="#context--memory">memory</a>, <a href="#tools-mcp--skills">tools</a>, <a href="#orchestration">orchestration</a>, <a href="#verification">verification</a>, <a href="#hooks--middleware">hooks</a>) hold it on track.</sub>
+</p>
 
 <div align="center">
 
@@ -419,7 +393,14 @@ mindmap
 
 > The **externalized** side of the recipe — the runtime scaffold around the model: how it loops, what it remembers, what it can call, how many agents cooperate, what governs it, and how outputs are checked.
 
-### Loops & Workflows
+<p align="center">
+  <img src="assets/harness-anatomy.png" alt="Anatomy of an agent harness: the loop and workflow drives execution; context and memory holds state; tools, MCP and skills provide capability; orchestration coordinates roles; verification checks outputs; and hooks intercept the runtime" width="96%">
+</p>
+<p align="center">
+  <sub><b>Anatomy of the harness.</b> Six components wrap the model policy: <b>①</b> <a href="#loops--workflows">Loop &amp; Workflow</a> drives execution, <b>②</b> <a href="#context--memory">Context &amp; Memory</a> holds state, <b>③</b> <a href="#tools-mcp--skills">Tools, MCP &amp; Skills</a> grant capability, <b>④</b> <a href="#orchestration">Orchestration</a> coordinates roles, <b>⑤</b> <a href="#verification">Verification</a> checks outputs, and <b>⑥</b> <a href="#hooks--middleware">Hooks</a> intercept the runtime. The subsections below expand each in turn.</sub>
+</p>
+
+### Loops &amp; Workflows
 > *How control flows through an episode — linear, plan-execute, or branching.*
 - ⭐ **ReAct** — the canonical reason-act loop.<br/>![venue](https://img.shields.io/badge/ICLR%202023-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2210.03629-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2210.03629) [![stars](https://img.shields.io/github/stars/ysymyth/ReAct?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/ysymyth/ReAct)
 - ⭐ **Reflexion** — verbal self-feedback across attempts.<br/>![venue](https://img.shields.io/badge/NeurIPS%202023-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2303.11366-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2303.11366) [![stars](https://img.shields.io/github/stars/noahshinn/reflexion?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/noahshinn/reflexion)
@@ -445,9 +426,17 @@ mindmap
 
 </details>
 
-### Context & Memory
+### Context &amp; Memory
 > *Working context management + persistent memory that survives resets.*
-- ⭐ **Generative Agents** — memory stream with reflection & retrieval.<br/>![venue](https://img.shields.io/badge/UIST%202023-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2304.03442-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2304.03442) [![stars](https://img.shields.io/github/stars/joonspk-research/generative_agents?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/joonspk-research/generative_agents)
+
+<p align="center">
+  <img src="assets/context-memory.png" alt="Context and memory: working context manages in-window state via discard, compress, and select-and-retrieve, while persistent memory spans windows and sessions with factual and experiential stores" width="90%">
+</p>
+<p align="center">
+  <sub><b>Two tiers of state.</b> <b>Working context</b> (in-window) is actively curated — <i>discard, compress, select &amp; retrieve</i> — to keep the live context useful; <b>persistent memory</b> (across windows &amp; sessions) durably stores <i>factual</i> and <i>experiential</i> knowledge that survives resets.</sub>
+</p>
+
+- ⭐ **Generative Agents** — memory stream with reflection &amp; retrieval.<br/>![venue](https://img.shields.io/badge/UIST%202023-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2304.03442-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2304.03442) [![stars](https://img.shields.io/github/stars/joonspk-research/generative_agents?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/joonspk-research/generative_agents)
 - ⭐ **MemGPT** — OS-style paging between context and external memory.<br/>![venue](https://img.shields.io/badge/2023-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2310.08560-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2310.08560) [![stars](https://img.shields.io/github/stars/letta-ai/letta?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/letta-ai/letta)
 - **Mem0** — a production memory layer for agents.<br/>![venue](https://img.shields.io/badge/2024-555?style=flat-square) [![stars](https://img.shields.io/github/stars/mem0ai/mem0?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/mem0ai/mem0)
 
