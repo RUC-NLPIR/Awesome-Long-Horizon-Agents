@@ -34,10 +34,10 @@
 > <p align="center"><b>Long-Horizon Agency</b> &nbsp;=&nbsp; Model Policy &nbsp;⊕&nbsp; <b><a href="#-4--harnesses-externalizing-long-horizon-capability">Harness</a></b> &nbsp;⊕&nbsp; <b><a href="#-5--optimization-internalizing-long-horizon-capability">Optimization</a></b>, &nbsp;bridged by <b>Experience</b>.</p>
 
 <p align="center">
-  <img src="assets/landscape.png" alt="Landscape of Long-Horizon Agent Research — the co-evolution of internalized optimization (inside the model) and externalized harness engineering (outside the model)" width="96%">
+  <img src="assets/fig-landscape.png" alt="The landscape of long-horizon agent research — externalized harness engineering (bottom) and internalized model optimization (top) co-evolving as capability migrates between them" width="96%">
 </p>
 <p align="center">
-  <sub><b>The map of the field.</b> Long-horizon agency emerges from two forces co-evolving: <b>internalized optimization</b> <i>inside</i> the model (architecture, data, training, RL, self-evolution) and <b>externalized harness engineering</b> <i>outside</i> it (loops, memory, tools, orchestration, hooks, verification) — bridged by accumulated <b>experience</b>.</sub>
+  <sub><b>The landscape of long-horizon agent research.</b> A co-evolutionary view: <b>externalized harness engineering</b> (bottom) and <b>internalized model optimization</b> (top) co-evolve as capability migrates between them. Reading outward — foundations, evolution, harnesses, optimization, applications, frontiers — with representative mechanisms and systems under each. <sub><i>(Fig. 1 in the survey.)</i></sub></sub>
 </p>
 
 ---
@@ -150,10 +150,10 @@
 > Long-horizon agency is formalized as a **harness-closed decision process**, then distinguished from adjacent notions (long-context, long-running, autonomy, self-evolution). Tasks are organized by **three horizons**.
 
 <p align="center">
-  <img src="assets/lifecycle.png" alt="Lifecycle of a long-horizon agent: Set Goal, Understand and Plan, Execute and Interact, Reflect and Learn, Adapt and Recover, Complete and Deliver — governed by the six harness components" width="92%">
+  <img src="assets/fig-three_levels.png" alt="Three levels of long-horizon tasks and the capabilities they demand: H1 intra-context needs C1 interactive reasoning; H2 cross-context needs C2 state and memory; H3 cross-task needs C3 experience accumulation" width="92%">
 </p>
 <p align="center">
-  <sub><b>The lifecycle of a long-horizon agent.</b> A single episode flows through six stages — <i>set goal → understand &amp; plan → execute &amp; interact → reflect &amp; learn → adapt &amp; recover → complete &amp; deliver</i> — while the six harness components (<a href="#loops--workflows">loop</a>, <a href="#context--memory">memory</a>, <a href="#tools-mcp--skills">tools</a>, <a href="#orchestration">orchestration</a>, <a href="#verification">verification</a>, <a href="#hooks--middleware">hooks</a>) hold it on track.</sub>
+  <sub><b>Three levels of long-horizon tasks and the capabilities they demand.</b> As the horizon widens from intra-context (<b>H1</b>) to cross-context (<b>H2</b>) to cross-task streams (<b>H3</b>), the agent must add intra-context interactive reasoning (<b>C1</b>), cross-context state &amp; memory (<b>C2</b>), and cross-task experience accumulation (<b>C3</b>).</sub>
 </p>
 
 <div align="center">
@@ -165,6 +165,19 @@
 | **H3** | *inter-task* — lifelong / cross-task | skill accumulation, transfer, continual improvement |
 
 </div>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<img src="assets/fig-concepts.png" alt="Long-horizon agent versus neighboring concepts: long-running agents, autonomous agents, and self-evolving agents, each sharing overlap but with distinct emphases" width="100%">
+<p align="center"><sub><b>Long-horizon agency vs. adjacent concepts.</b> Long-running, autonomous, and self-evolving agents each emphasize a different facet; long-horizon agency asks whether the coupled <b>model–harness</b> system can sustain C1–C3 when the task demands it.</sub></p>
+</td>
+<td width="50%" valign="top">
+<img src="assets/fig-time_horizon.png" alt="Empirical growth of frontier-agent time horizons: the 50 percent task-completion time horizon doubling roughly every 7 months (4 months since 2023)" width="100%">
+<p align="center"><sub><b>Empirical growth of frontier-agent time horizons.</b> Each point is a model's 50%-task-completion horizon; the log-scale trend doubles every ~7 months (~4 months since 2023), up to today's ~16-hour measurement ceiling.</sub></p>
+</td>
+</tr>
+</table>
 
 **Setting the frame**
 - ⭐ **Measuring AI Ability to Complete Long Software Tasks** — the empirical "time-horizon" trend: task-completion horizon has doubled roughly every 7 months.<br/>![venue](https://img.shields.io/badge/METR%202025-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2503.14499-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2503.14499)
@@ -205,6 +218,13 @@
 ## 🧬 2 · Evolution: From Prompting to Runtime
 
 > Three stages trace how control of the model moved outward: **prompt → context → runtime**.
+
+<p align="center">
+  <img src="assets/fig-evolution.png" alt="The co-evolution of long-horizon agents across three stages: prompt engineering (2020-2022), context engineering (2023-2024), and runtime harnesses (2024-2026), each absorbing the previous rather than replacing it" width="88%">
+</p>
+<p align="center">
+  <sub><b>The co-evolution of long-horizon agents across three stages.</b> Control widens from the <i>language</i> of a single prompt (2020–2022), to the <i>information</i> conditioning each call (2023–2024), to the whole <i>trajectory</i> sustained by a runtime harness (2024–2026) — each stage absorbs the previous rather than replacing it.</sub>
+</p>
 
 ### Stage I — Prompt Engineering *(≈2020–2022)*
 - ⭐ **Chain-of-Thought Prompting** — elicits intermediate reasoning steps.<br/>![venue](https://img.shields.io/badge/NeurIPS%202022-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2201.11903-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2201.11903)
@@ -394,10 +414,10 @@
 > The **externalized** side of the recipe — the runtime scaffold around the model: how it loops, what it remembers, what it can call, how many agents cooperate, what governs it, and how outputs are checked.
 
 <p align="center">
-  <img src="assets/harness-anatomy.png" alt="Anatomy of an agent harness: the loop and workflow drives execution; context and memory holds state; tools, MCP and skills provide capability; orchestration coordinates roles; verification checks outputs; and hooks intercept the runtime" width="96%">
+  <img src="assets/fig-exter_main.png" alt="An agent harness in action: a concrete long-horizon run showing how the loop and workflow, context and memory, tools and environments, orchestration, hooks, and verification together sustain one goal across many dependent steps" width="96%">
 </p>
 <p align="center">
-  <sub><b>Anatomy of the harness.</b> Six components wrap the model policy: <b>①</b> <a href="#loops--workflows">Loop &amp; Workflow</a> drives execution, <b>②</b> <a href="#context--memory">Context &amp; Memory</a> holds state, <b>③</b> <a href="#tools-mcp--skills">Tools, MCP &amp; Skills</a> grant capability, <b>④</b> <a href="#orchestration">Orchestration</a> coordinates roles, <b>⑤</b> <a href="#verification">Verification</a> checks outputs, and <b>⑥</b> <a href="#hooks--middleware">Hooks</a> intercept the runtime. The subsections below expand each in turn.</sub>
+  <sub><b>An agent harness in action.</b> A concrete long-horizon run showing how the six components — <b>①</b> <a href="#loops--workflows">Loop &amp; Workflow</a>, <b>②</b> <a href="#context--memory">Context &amp; Memory</a>, <b>③</b> <a href="#tools-mcp--skills">Tools, MCP &amp; Skills</a>, <b>④</b> <a href="#orchestration">Orchestration</a>, <b>⑤</b> <a href="#verification">Verification</a>, <b>⑥</b> <a href="#hooks--middleware">Hooks</a> — together sustain a single goal across many dependent steps. The subsections below expand each in turn.</sub>
 </p>
 
 ### Loops &amp; Workflows
@@ -430,10 +450,10 @@
 > *Working context management + persistent memory that survives resets.*
 
 <p align="center">
-  <img src="assets/context-memory.png" alt="Context and memory: working context manages in-window state via discard, compress, and select-and-retrieve, while persistent memory spans windows and sessions with factual and experiential stores" width="90%">
+  <img src="assets/fig-context_and_memory.png" alt="Context and memory in an agent harness: the harness selects, compresses, or discards active context under a token budget and reads from and writes to persistent memory that outlives a single window, task, or session" width="92%">
 </p>
 <p align="center">
-  <sub><b>Two tiers of state.</b> <b>Working context</b> (in-window) is actively curated — <i>discard, compress, select &amp; retrieve</i> — to keep the live context useful; <b>persistent memory</b> (across windows &amp; sessions) durably stores <i>factual</i> and <i>experiential</i> knowledge that survives resets.</sub>
+  <sub><b>Context and memory in an agent harness.</b> The harness governs the state interface between workflow and model: it <i>selects, compresses, or discards</i> active context under a token budget (<b>working context</b>), and <i>reads from / writes to</i> <b>persistent memory</b> that outlives a single window, task, or session.</sub>
 </p>
 
 - ⭐ **Generative Agents** — memory stream with reflection &amp; retrieval.<br/>![venue](https://img.shields.io/badge/UIST%202023-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2304.03442-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2304.03442) [![stars](https://img.shields.io/github/stars/joonspk-research/generative_agents?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/joonspk-research/generative_agents)
@@ -564,6 +584,14 @@
 
 ### Orchestration
 > *Decomposition & roles, coordination topologies, and agent-to-agent protocols.*
+
+<p align="center">
+  <img src="assets/fig-orchestration.png" alt="Overview of agent orchestration: tasks decomposed into roles, coordinated through topologies, optimized via feedback-driven routing, and integrated through communication and aggregation protocols" width="90%">
+</p>
+<p align="center">
+  <sub><b>Overview of agent orchestration.</b> Tasks are decomposed into roles, coordinated through different topologies, optimized via feedback-driven routing, and integrated through communication and aggregation protocols.</sub>
+</p>
+
 - ⭐ **MetaGPT** — SOP-driven multi-agent software company.<br/>![venue](https://img.shields.io/badge/ICLR%202024-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2308.00352-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2308.00352) [![stars](https://img.shields.io/github/stars/geekan/MetaGPT?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/geekan/MetaGPT)
 - ⭐ **AutoGen** — conversable multi-agent framework.<br/>![venue](https://img.shields.io/badge/2023-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2308.08155-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2308.08155) [![stars](https://img.shields.io/github/stars/microsoft/autogen?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/microsoft/autogen)
 - **CAMEL** — role-playing communicative agents.<br/>![venue](https://img.shields.io/badge/NeurIPS%202023-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2303.17760-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2303.17760) [![stars](https://img.shields.io/github/stars/camel-ai/camel?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/camel-ai/camel)
@@ -615,6 +643,14 @@
 
 ### Hooks & Middleware
 > *Rule-based, user-defined, and dynamically-triggered interventions in the loop.*
+
+<p align="center">
+  <img src="assets/fig-hooks_and_middleware.png" alt="Overview of hooks and middleware, categorized into three paradigms by the origin and adaptiveness of their safety criteria: pre-defined rules, user-defined policies, and runtime-adaptive signals" width="92%">
+</p>
+<p align="center">
+  <sub><b>Overview of hooks and middleware.</b> Three paradigms by the origin and adaptiveness of their safety criteria: <b>pre-defined rules</b> (a non-negotiable safety floor), <b>custom user-defined policies</b> (bespoke enforcement), and <b>runtime-adaptive signals</b> (dynamic defense).</sub>
+</p>
+
 - **NeMo Guardrails** — programmable rails around LLM apps.<br/>![venue](https://img.shields.io/badge/EMNLP%202023-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2310.10501-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2310.10501) [![stars](https://img.shields.io/github/stars/NVIDIA/NeMo-Guardrails?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/NVIDIA/NeMo-Guardrails)
 - **Claude Code Hooks** — user-defined shell hooks at lifecycle events.<br/>![venue](https://img.shields.io/badge/2024-555?style=flat-square) [![site](https://img.shields.io/badge/%F0%9F%8C%90_Docs-0E9B9B?style=flat-square)](https://docs.claude.com/en/docs/claude-code/hooks)
 - **Guardrails AI** — validation/correction middleware for outputs.<br/>![venue](https://img.shields.io/badge/2023-555?style=flat-square) [![stars](https://img.shields.io/github/stars/guardrails-ai/guardrails?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/guardrails-ai/guardrails)
@@ -712,6 +748,13 @@
 ## 📈 5 · Optimization: Internalizing Long-Horizon Capability
 
 > The **internalized** side of the recipe — moving competence from the scaffold into the weights: architecture, data/environments, training stages, RL, distillation, and self-evolution.
+
+<p align="center">
+  <img src="assets/fig-inter_main.png" alt="The agentic training pipeline for internalizing long-horizon capability: built on an architectural substrate, proceeding through data and environment synthesis, pre/mid-training, fine-tuning, reinforcement learning, on-policy distillation, and self-evolution" width="96%">
+</p>
+<p align="center">
+  <sub><b>The agentic training pipeline for internalizing long-horizon capability</b> (Pillar II) — the internalized counterpart to the externalized harness above. On an <a href="#architectural-substrate">architectural substrate</a> for long sequences, it proceeds through six stages: <a href="#data--environment-synthesis">data &amp; environment synthesis</a>, <a href="#premid-training">pre/mid-training</a>, <a href="#fine-tuning">fine-tuning</a>, <a href="#agentic-reinforcement-learning">RL</a>, <a href="#on-policy-distillation">on-policy distillation</a>, and <a href="#self-evolution">self-evolution</a>.</sub>
+</p>
 
 ### Architectural Substrate
 > *Explicit-context, compressed-state, and hybrid architectures for long sequences.*
@@ -927,6 +970,14 @@
 
 ### Agentic Reinforcement Learning
 > *Credit assignment, policy optimization, sampling, and interaction patterns.*
+
+<p align="center">
+  <img src="assets/fig-agentic_rl.png" alt="Agentic reinforcement learning organized around four design questions: credit assignment, policy optimization, sampling strategy, and interaction patterns" width="90%">
+</p>
+<p align="center">
+  <sub><b>Agentic RL organized around four design questions:</b> <i>credit assignment</i> (multi-granularity credit), <i>policy optimization</i> (stable updates), <i>sampling strategy</i> (informative sampling), and <i>interaction patterns</i> (structured interaction).</sub>
+</p>
+
 - ⭐ **DeepSeek-R1** — RL-incentivized reasoning at scale.<br/>![venue](https://img.shields.io/badge/2025-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2501.12948-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2501.12948) [![stars](https://img.shields.io/github/stars/deepseek-ai/DeepSeek-R1?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/deepseek-ai/DeepSeek-R1)
 - ⭐ **Search-R1** — RL to interleave reasoning with search.<br/>![venue](https://img.shields.io/badge/2025-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2503.09516-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2503.09516) [![stars](https://img.shields.io/github/stars/PeterGriffinJin/Search-R1?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/PeterGriffinJin/Search-R1)
 - **RAGEN / StarPO** — training multi-turn agents by reinforcing trajectories.<br/>![venue](https://img.shields.io/badge/2025-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2504.20073-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2504.20073) [![stars](https://img.shields.io/github/stars/RAGEN-AI/RAGEN?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/RAGEN-AI/RAGEN)
@@ -1083,6 +1134,14 @@
 
 ### Self-Evolution
 > *Offline, online, and model–environment co-evolution loops.*
+
+<p align="center">
+  <img src="assets/fig-self-evo.png" alt="Three modes of self-evolution for long-horizon agents: offline self-evolution via generate-filter-train, online self-evolution from live interaction, and model-environment co-evolution" width="90%">
+</p>
+<p align="center">
+  <sub><b>Three modes of self-evolution.</b> <b>Offline</b> learns from selected self-generated experience through a generate–filter–train pipeline; <b>online</b> learns from live interaction on the agent's own induced state distribution; <b>model–environment co-evolution</b> jointly adapts the agent and its task/environment distribution to keep a learnable capability boundary.</sub>
+</p>
+
 - ⭐ **STaR: Self-Taught Reasoner** — bootstrap reasoning from its own correct traces.<br/>![venue](https://img.shields.io/badge/NeurIPS%202022-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2203.14465-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2203.14465)
 - **Self-Rewarding Language Models** — the model judges and improves itself.<br/>![venue](https://img.shields.io/badge/2024-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2401.10020-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2401.10020) [![DBLP](https://img.shields.io/badge/DBLP-page-1a5fb4?style=flat-square)](https://dblp.org/rec/conf/icml/selfrewarding.html)
 - **Voyager** — open-ended skill growth via environment feedback.<br/>![venue](https://img.shields.io/badge/TMLR%202024-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2305.16291-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2305.16291) [![stars](https://img.shields.io/github/stars/MineDojo/Voyager?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/MineDojo/Voyager)
@@ -1123,6 +1182,13 @@
 ## 🚀 6 · Applications: Long-Horizon Agents in Practice
 
 > Where long-horizon pressure recurs across domains.
+
+<p align="center">
+  <img src="assets/fig-harness_domain.png" alt="Representative long-horizon agent applications grouped by the structure of the agent-environment interface: software engineering, information seeking, computer use, multimodal agents, and general-purpose agents" width="94%">
+</p>
+<p align="center">
+  <sub><b>Representative applications grouped by the agent–environment interface.</b> Different interfaces expose different observation, action, state, and feedback — from <b>bounded, verifiable environments</b> (<a href="#-software-engineering">software engineering</a>) to the <b>open, heterogeneous world</b> (<a href="#-general-purpose-agents">general-purpose agents</a>) — yielding distinct capability requirements.</sub>
+</p>
 
 ### 💻 Software Engineering
 > *Repository grounding · workflow-level planning · feedback-driven repair.*
