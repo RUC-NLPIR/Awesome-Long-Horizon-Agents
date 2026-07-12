@@ -105,7 +105,7 @@ The two sides co-evolve through experience and feedback: capabilities first impl
 <div align="center">
 <img src="assets/sec2_foundations.png" width="90%" alt="Three levels of long-horizon tasks and capabilities"/>
 <br>
-<em><b>Section figure.</b> Three nested levels of long-horizon tasks (H1 ⊂ H2 ⊂ H3) and their required capabilities (C1 ⊂ C2 ⊂ C3).</em>
+<em><b>Section figure.</b> Three levels of long-horizon tasks (H1 ⊂ H2 ⊂ H3) and their required capabilities (C1 ⊂ C2 ⊂ C3).</em>
 </div>
 
 <br>
