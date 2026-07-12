@@ -15,27 +15,21 @@
 
 *A curated, continuously-updated reading list accompanying our survey on **long-horizon AI agents**.*
 
-<div align="center">
-<img src="assets/image1.png" width="90%" alt="Time horizon growth of frontier AI agents"/>
-<br>
-<em><b>Figure 1.</b> The <b>time horizon</b> of frontier AI agents is growing exponentially, roughly doubling every few months.</em>
-</div>
 
-
-
-</div>
-
----
-
-> **TL;DR** — We frame **long-horizon agency** as the *co-evolution* of an **externalized harness** and an **internalized optimization** of the policy. The survey (and this list) is organized around six connected perspectives: **Foundations → Evolution → Harnesses → Optimization → Applications → Frontiers.**
-
----
 
 ## 📢 News
 
 - **[2026/07]** 🚀 We released the paper list for **Toward Long-Horizon AI Agents: A Survey**, restructured to mirror the paper chapter-by-chapter.
 - **[2026/07]** 📄 Our survey **Toward Long-Horizon AI Agents** is available (arXiv link coming soon).
 - **[2026/07]** 🙌 Contributions are welcome — open a PR to add a missing work (please keep the `[Venue Year] Title. [paper] [code]` format).
+
+
+<div align="center">
+<img src="assets/image1.png" width="90%" alt="Time horizon growth of frontier AI agents"/>
+<br>
+<em><b>Figure 1.</b> The <b>time horizon</b> of frontier AI agents is growing exponentially, roughly doubling every few months.</em>
+</div>
+
 
 ---
 
