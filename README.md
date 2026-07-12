@@ -29,7 +29,7 @@
 <br>
 <em><b>Figure 1.</b> The <b>time horizon</b> of frontier AI agents is growing exponentially, roughly doubling every few months.</em>
 </div>
-
+</div>
 
 ---
 
