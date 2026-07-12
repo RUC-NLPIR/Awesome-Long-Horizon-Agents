@@ -18,9 +18,8 @@
 </div>
 
 ## 📢 News
-
+- **[2026/07]** 📄 Our paper **Toward Long-Horizon AI Agents: Foundations, Evolution, Harnesses, Optimization, Applications, and Frontiers** is available (arXiv link coming soon).
 - **[2026/07]** 🚀 We released the paper list for **Toward Long-Horizon AI Agents: A Survey**, restructured to mirror the paper chapter-by-chapter.
-- **[2026/07]** 📄 Our survey **Toward Long-Horizon AI Agents** is available (arXiv link coming soon).
 - **[2026/07]** 🙌 Contributions are welcome: add a missing work in PR (`[Venue Year] Title. [paper] [code]`).
 
 
