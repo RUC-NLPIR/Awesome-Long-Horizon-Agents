@@ -187,7 +187,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2023`** ReWOO: Decoupling Reasoning from Observations for Efficient Augmented LMs. [[paper](https://arxiv.org/abs/2305.18323)] [[code](https://github.com/billxbf/ReWOO)]
 - **`NAACL 2024`** ADaPT: As-Needed Decomposition and Planning with Language Models. [[paper](https://arxiv.org/abs/2311.05772)] [[code](https://github.com/archiki/ADaPT)]
 - **`arXiv 2026`** O-Researcher: Open-Ended Deep Research via Multi-Agent Distillation and Agentic RL. [[paper](https://arxiv.org/abs/2601.03743)]
-- **`arXiv 2026`** Arbor: Autonomous Research via Persistent Hypothesis Trees. [[paper](https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents)]
+- **`arXiv 2026`** Arbor: Autonomous Research via Persistent Hypothesis Trees. `🔜 coming soon`
 
 **Branching Workflows**
 - **`NeurIPS 2023`** Tree of Thoughts: Deliberate Problem Solving with LLMs. [[paper](https://arxiv.org/abs/2305.10601)] [[code](https://github.com/princeton-nlp/tree-of-thought-llm)]
@@ -233,13 +233,13 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`ICML 2024`** AnyTool: Self-Reflective, Hierarchical Agents for Large-Scale API Calls. [[paper](https://arxiv.org/abs/2402.04253)] [[code](https://github.com/dyabel/AnyTool)]
 - **`arXiv 2025`** MCP-Zero: Active Tool Discovery for Autonomous LLM Agents. [[paper](https://arxiv.org/abs/2506.01056)]
 - **`ICLR 2025`** ToolGen: Unified Tool Retrieval and Calling via Generation. [[paper](https://arxiv.org/abs/2410.03439)] [[code](https://github.com/Reason-Wang/ToolGen)]
-- **`arXiv 2025`** DeepAgent: A General Reasoning Agent with Scalable Toolsets. [[paper](https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents)]
+- **`arXiv 2025`** DeepAgent: A General Reasoning Agent with Scalable Toolsets. [[paper](https://arxiv.org/abs/2510.14879)]
 
 **Skill libraries**
 - **`TMLR 2024`** Voyager: Reusable Executable Skill Library. [[paper](https://arxiv.org/abs/2305.16291)] [[code](https://github.com/MineDojo/Voyager)]
 - **`2025`** Agent Skills (Anthropic). [[paper](https://www.anthropic.com/news/agent-skills)]
-- **`arXiv 2026`** SkillNet / SkillGraph: Relational Skill Graphs for Agents. [[paper](https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents)]
-- **`arXiv 2026`** Skill0: Internalizing Skill Libraries via In-Context Agentic RL. [[paper](https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents)]
+- **`arXiv 2026`** SkillNet / SkillGraph: Relational Skill Graphs for Agents. `🔜 coming soon`
+- **`arXiv 2026`** Skill0: Internalizing Skill Libraries via In-Context Agentic RL. [[paper](https://arxiv.org/abs/2604.02268)]
 - **`arXiv 2025`** Alita: Generalist Agent Enabling Scalable Agentic Reasoning with Minimal Predefinition and Maximal Self-Evolution. [[paper](https://arxiv.org/abs/2505.20286)]
 
 ### Orchestration
@@ -265,7 +265,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`ICML 2024`** GPTSwarm: Language Agents as Optimizable Graphs. [[paper](https://arxiv.org/abs/2402.16823)] [[code](https://github.com/metauto-ai/gptswarm)]
 - **`ACL 2025`** MasRouter: Learning to Route LLMs for Multi-Agent Systems. [[paper](https://arxiv.org/abs/2502.11133)] [[code](https://github.com/yanweiyue/masrouter)]
 - **`EMNLP 2025`** SwarmAgentic: Fully Automated Agentic System Generation via Swarm Intelligence. [[paper](https://arxiv.org/abs/2506.15672)]
-- **`NeurIPS 2025`** Multi-Agent Collaboration via Evolving Orchestration. [[paper](https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents)]
+- **`NeurIPS 2025`** Multi-Agent Collaboration via Evolving Orchestration. [[paper](http://papers.nips.cc/paper_files/paper/2025/hash/f1320d2e2842169c6fc89dcbd80e94d0-Abstract-Conference.html)]
 
 **Agent protocols**
 - **`2025`** A2A: Agent-to-Agent Protocol. [[paper](https://a2a-protocol.org/latest/specification/)] [[code](https://github.com/a2aproject/A2A)]
@@ -349,14 +349,14 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 
 - **`ICLR 2026`** TaskCraft: Automated Generation of Agentic Tasks. [[paper](https://arxiv.org/abs/2506.10055)] [[code](https://github.com/OPPO-PersonalAI/TaskCraft)]
 - **`arXiv 2025`** WebShaper: Agentically Data Synthesizing via Information-Seeking Formalization. [[paper](https://arxiv.org/abs/2507.15061)] [[code](https://github.com/Alibaba-NLP/DeepResearch)]
-- **`arXiv 2025`** AgentFrontier: Expanding the Capability Frontier of LLM Agents. [[paper](https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents)]
+- **`arXiv 2025`** AgentFrontier: Expanding the Capability Frontier of LLM Agents. [[paper](https://arxiv.org/abs/2510.24695)]
 - **`ICML 2025`** SWE-Gym: Training Software Engineering Agents and Verifiers. [[paper](https://arxiv.org/abs/2412.21139)] [[code](https://github.com/SWE-Gym/SWE-Gym)]
 - **`ICLR 2024`** WebArena: A Realistic Web Environment for Building Autonomous Agents. [[paper](https://arxiv.org/abs/2307.13854)] [[code](https://github.com/web-arena-x/webarena)]
 - **`NeurIPS 2024`** OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks. [[paper](https://arxiv.org/abs/2404.07972)] [[code](https://github.com/xlang-ai/OSWorld)]
 - **`TMLR 2025`** Is Your LLM Secretly a World Model of the Internet? Model-Based Planning for Web Agents (WebDreamer). [[paper](https://arxiv.org/abs/2411.06559)] [[code](https://github.com/OSU-NLP-Group/WebDreamer)]
 - **`arXiv 2025`** TOUCAN: Synthesizing 1.5M Tool-Agentic Trajectories from Real MCP Environments. [[paper](https://arxiv.org/abs/2510.01179)]
 - **`ICLR 2026`** AgentGym-RL: Training LLM Agents for Long-Horizon Decision Making. [[paper](https://arxiv.org/abs/2509.08755)] [[code](https://github.com/WooooDyy/AgentGym-RL)]
-- **`arXiv 2026`** Agent-World: Discovering Environment–Task Pairs for Self-Evolving Training. [[paper](https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents)]
+- **`arXiv 2026`** Agent-World: Discovering Environment–Task Pairs for Self-Evolving Training. `🔜 coming soon`
 
 ### Pre-training and Mid-training
 
@@ -369,7 +369,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2024`** Qwen2-VL: Enhancing Vision-Language Model's Perception. [[paper](https://arxiv.org/abs/2409.12191)] [[code](https://github.com/QwenLM/Qwen2-VL)]
 - **`arXiv 2025`** InternVL3: Advanced Open Multimodal Foundation Models. [[paper](https://arxiv.org/abs/2504.10479)] [[code](https://github.com/OpenGVLab/InternVL)]
 - **`NeurIPS 2023`** DoReMi: Optimizing Data Mixtures Speeds Up Pretraining. [[paper](https://arxiv.org/abs/2305.10429)]
-- **`arXiv 2026`** OPUS: Optimizer-Aware Data Selection for Pre-training. [[paper](https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents)]
+- **`arXiv 2026`** OPUS: Optimizer-Aware Data Selection for Pre-training. `🔜 coming soon`
 
 ### Fine-tuning
 
@@ -380,7 +380,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2025`** s1: Simple Test-Time Scaling. [[paper](https://arxiv.org/abs/2501.19393)] [[code](https://github.com/simplescaling/s1)]
 - **`ICML 2024`** Executable Code Actions Elicit Better LLM Agents (CodeAct). [[paper](https://arxiv.org/abs/2402.01030)] [[code](https://github.com/xingyaoww/code-act)]
 - **`NeurIPS 2024`** APIGen: Automated Pipeline for Generating Function-Calling Datasets. [[paper](https://arxiv.org/abs/2406.18518)] [[code](https://github.com/SalesforceAIResearch/xLAM)]
-- **`arXiv 2025`** Agent Data Protocol (ADP): Unifying Datasets for Agent Tuning. [[paper](https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents)]
+- **`arXiv 2025`** Agent Data Protocol (ADP): Unifying Datasets for Agent Tuning. `🔜 coming soon`
 - **`arXiv 2025`** Agent-R: Training Language Agents to Reflect via Iterative Self-Training. [[paper](https://arxiv.org/abs/2501.11425)] [[code](https://github.com/bytedance/Agent-R)]
 - **`arXiv 2025`** Distilling LLM Agent into Small Models with Retrieval and Code Tools. [[paper](https://arxiv.org/abs/2505.17612)]
 
@@ -409,7 +409,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 **Sampling Strategy**
 - **`NeurIPS 2025`** WebDancer: Towards Autonomous Information Seeking Agency. [[paper](https://arxiv.org/abs/2505.22648)] [[code](https://github.com/Alibaba-NLP/DeepResearch)]
 - **`ICLR 2025`** WebRL: Training Web Agents via Self-Evolving Online Curriculum RL. [[paper](https://arxiv.org/abs/2411.02337)] [[code](https://github.com/THUDM/WebRL)]
-- **`arXiv 2025`** Tree-GRPO: Tree-Based Group Relative Policy Optimization. [[paper](https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents)]
+- **`arXiv 2025`** Tree-GRPO: Tree-Based Group Relative Policy Optimization. `🔜 coming soon`
 - **`arXiv 2025`** TreePO: Reusing Inference Compute Across Tree Paths. [[code](https://github.com/multimodal-art-projection/TreePO)]
 - **`arXiv 2025`** TCOD: Trajectory-Depth Curriculum for Agent RL. [[code](https://github.com/kokolerk/TCOD)]
 
@@ -423,22 +423,22 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 ### On-Policy Distillation
 
 - **`ICLR 2024`** GKD: On-Policy Distillation of Language Models. [[paper](https://arxiv.org/abs/2306.13649)]
-- **`arXiv 2026`** DAgger-LLM: Turn-Level Interpolation for On-Policy Distillation. [[paper](https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents)]
-- **`arXiv 2026`** MAD-OPD: Multi-Agent Distillation for On-Policy Supervision. [[paper](https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents)]
-- **`arXiv 2026`** KAT-Coder-V2: Distilling Specialist Agents into a Unified Policy. [[paper](https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents)]
-- **`arXiv 2026`** LiteGUI: Retrieval-Augmented On-Policy Distillation for GUI Agents. [[paper](https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents)]
+- **`arXiv 2026`** DAgger-LLM: Turn-Level Interpolation for On-Policy Distillation. [[paper](https://arxiv.org/abs/2605.12913)]
+- **`arXiv 2026`** MAD-OPD: Multi-Agent Distillation for On-Policy Supervision. [[paper](https://arxiv.org/abs/2605.01347)]
+- **`arXiv 2026`** KAT-Coder-V2: Distilling Specialist Agents into a Unified Policy. [[paper](https://arxiv.org/abs/2603.27703)]
+- **`arXiv 2026`** LiteGUI: Retrieval-Augmented On-Policy Distillation for GUI Agents. [[paper](https://arxiv.org/abs/2605.07505)]
 
 ### Self-Evolution
 
 - **`NeurIPS 2022`** STaR: Bootstrapping Reasoning with Reasoning. [[paper](https://arxiv.org/abs/2203.14465)] [[code](https://github.com/ezelikman/STaR)]
 - **`ICML 2025`** SOAR: Self-improving Program Synthesis with Search and Hindsight Learning. [[paper](https://arxiv.org/abs/2507.14172)] [[code](https://github.com/flowersteam/SOAR)]
-- **`arXiv 2025`** SAMULE: Multi-Level Reflection Synthesis from Failures. [[paper](https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents)]
+- **`arXiv 2025`** SAMULE: Multi-Level Reflection Synthesis from Failures. [[paper](https://doi.org/10.18653/v1/2025.emnlp-main.839)]
 - **`ICML 2025`** rStar-Math: Small LLMs Master Math Reasoning via Self-Evolved Deep Thinking. [[paper](https://arxiv.org/abs/2501.04519)] [[code](https://github.com/microsoft/rStar)]
 - **`arXiv 2025`** R-Zero: Self-Evolving Reasoning LLM from Zero Data. [[paper](https://arxiv.org/abs/2508.05004)] [[code](https://github.com/Chengsong-Huang/R-Zero)]
 - **`arXiv 2025`** Absolute Zero: Reinforced Self-play Reasoning with Zero Data. [[paper](https://arxiv.org/abs/2505.03335)] [[code](https://github.com/LeapLabTHU/Absolute-Zero-Reasoner)]
-- **`arXiv 2025`** Agent0: Co-evolving Curriculum and Executor with Zero External Data. [[paper](https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents)]
-- **`arXiv 2025`** Environment Tuning for Multi-Turn Tool-Use Agents. [[paper](https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents)]
-- **`arXiv 2025`** CoMAS: Co-Evolving Multi-Agent Systems via Interaction Rewards. [[paper](https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents)]
+- **`arXiv 2025`** Agent0: Co-evolving Curriculum and Executor with Zero External Data. [[paper](https://arxiv.org/abs/2511.16043)]
+- **`arXiv 2025`** Environment Tuning for Multi-Turn Tool-Use Agents. `🔜 coming soon`
+- **`arXiv 2025`** CoMAS: Co-Evolving Multi-Agent Systems via Interaction Rewards. [[paper](https://arxiv.org/abs/2510.08529)]
 
 ---
 
