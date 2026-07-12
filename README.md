@@ -302,7 +302,7 @@ Long-horizon agency is a **harness-closed decision process**: a model policy cou
   <sub><b>An agent harness in action.</b> A concrete long-horizon run showing how the six components — <b>①</b> <a href="#loops--workflows">Loop &amp; Workflow</a>, <b>②</b> <a href="#context--memory">Context &amp; Memory</a>, <b>③</b> <a href="#tools-mcp--skills">Tools, MCP &amp; Skills</a>, <b>④</b> <a href="#orchestration">Orchestration</a>, <b>⑤</b> <a href="#verification">Verification</a>, <b>⑥</b> <a href="#hooks--middleware">Hooks</a> — together sustain a single goal across many dependent steps. The subsections below expand each in turn.</sub>
 </p>
 
-### Loops &amp; Workflows
+### Loops & Workflows
 > *How control flows through an episode — linear, plan-execute, or branching.*
 - ⭐ **ReAct: Synergizing Reasoning and Acting in Language Models** — the canonical reason-act loop.<br/>![venue](https://img.shields.io/badge/ICLR%202023-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2210.03629-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2210.03629) [![stars](https://img.shields.io/github/stars/ysymyth/ReAct?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/ysymyth/ReAct)
 - ⭐ **Reflexion: Language Agents with Verbal Reinforcement Learning** — verbal self-feedback across attempts.<br/>![venue](https://img.shields.io/badge/NeurIPS%202023-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2303.11366-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2303.11366) [![stars](https://img.shields.io/github/stars/noahshinn/reflexion?style=flat-square&logo=github&label=%E2%98%85&color=444)](https://github.com/noahshinn/reflexion)
@@ -328,7 +328,7 @@ Long-horizon agency is a **harness-closed decision process**: a model policy cou
 
 </details>
 
-### Context &amp; Memory
+### Context & Memory
 > *Working context management + persistent memory that survives resets.*
 
 <p align="center">
