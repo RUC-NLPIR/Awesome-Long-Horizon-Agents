@@ -12,7 +12,7 @@
 
 </div>
 
-## 📢 News
+## <img src="assets/icons/news.png" height="30" align="top"/> News
 - **[2026/07]** 📄 Our paper **Toward Long-Horizon AI Agents: Foundations, Evolution, Harnesses, Optimization, Applications, and Frontiers** is available (arXiv link coming soon).
 - **[2026/07]** 🚀 We released the paper list for **Toward Long-Horizon AI Agents: A Survey**, restructured to mirror the paper chapter-by-chapter.
 - **[2026/07]** 🙌 Contributions are welcome: add a missing work in PR (`[Venue Year] Title. [paper] [code]`).
@@ -26,7 +26,7 @@
 
 ---
 
-## 👋 Introduction
+## <img src="assets/icons/intro.png" height="30" align="top"/> Introduction
 
 
 
@@ -49,7 +49,7 @@ The two sides co-evolve through experience and feedback: capabilities first impl
 
 ---
 
-## 📑 Table of Contents
+## <img src="assets/icons/content.png" height="30" align="top"/> Table of Contents
 
 - [Foundations: Formalizing Long-Horizon Agents](#foundations-formalizing-long-horizon-agents)
 - [Evolution: From Prompting to Runtime](#evolution-from-prompting-to-runtime)
@@ -84,7 +84,7 @@ The two sides co-evolve through experience and feedback: capabilities first impl
 
 ---
 
-## Foundations: Formalizing Long-Horizon Agents
+## <img src="assets/icons/foundations.png" height="30" align="top"/> Foundations: Formalizing Long-Horizon Agents
 
 <div align="center">
 <img src="assets/sec2_foundations.png" width="90%" alt="Three levels of long-horizon tasks and capabilities"/>
@@ -106,7 +106,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 
 ---
 
-## Evolution: From Prompting to Runtime
+## <img src="assets/icons/evolution.png" height="30" align="top"/> Evolution: From Prompting to Runtime
 
 <div align="center">
 <img src="assets/sec3_evolution.png" width="95%" alt="Co-evolution across three stages"/>
@@ -165,7 +165,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 
 ---
 
-## Harnesses: Externalizing Long-Horizon Capability (Pillar I)
+## <img src="assets/icons/harness.png" height="30" align="top"/> Harnesses: Externalizing Long-Horizon Capability (Pillar I)
 
 <div align="center">
 <img src="assets/sec4_harness.png" width="92%" alt="An agent harness in action"/>
@@ -324,7 +324,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 
 ---
 
-## Optimization: Internalizing Long-Horizon Capability (Pillar II)
+## <img src="assets/icons/optimization.png" height="30" align="top"/> Optimization: Internalizing Long-Horizon Capability (Pillar II)
 
 <div align="center">
 <img src="assets/sec5_optimization.png" width="92%" alt="Agentic training pipeline"/>
@@ -442,7 +442,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 
 ---
 
-## Applications: Long-Horizon Agents in Practice
+## <img src="assets/icons/application.png" height="30" align="top"/> Applications: Long-Horizon Agents in Practice
 
 <div align="center">
 <img src="assets/sec6_applications.png" width="94%" alt="Applications grouped by agent-environment interface"/>
@@ -574,7 +574,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 
 ---
 
-## Benchmarks and Resources
+## <img src="assets/icons/benchmark.png" height="30" align="top"/> Benchmarks and Resources
 
 *A consolidated set of open-source benchmarks and reusable systems, organized by application domain (matching the paper's resource table). Links point to public code repositories.*
 
@@ -617,7 +617,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 
 ---
 
-## Frontiers: Open Problems
+## <img src="assets/icons/frontier.png" height="30" align="top"/> Frontiers: Open Problems
 
 We group open problems into **four axes** spanning nine concrete directions. A recurring thread: the *harness*, not the model alone, is where much of the next advance must happen.
 
@@ -642,7 +642,7 @@ Representative references for the frontiers:
 
 ---
 
-## Citation
+## <img src="assets/icons/citation.png" height="30" align="top"/> Citation
 
 If you find this survey and repository useful for your research, please consider citing:
 
@@ -661,7 +661,7 @@ If you find this survey and repository useful for your research, please consider
 
 ---
 
-## Contributing
+## <img src="assets/icons/contributing.png" height="30" align="top"/> Contributing
 
 Contributions are very welcome! Please open a Pull Request to add a missing paper or fix a link. When adding a work, keep the per-line format consistent:
 
