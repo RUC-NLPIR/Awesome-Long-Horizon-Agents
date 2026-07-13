@@ -19,7 +19,7 @@
 
 
 <div align="center">
-<img src="assets/image1.png" width="90%" alt="Time horizon growth of frontier AI agents"/>
+<img src="assets/horizon.png" width="90%" alt="Time horizon growth of frontier AI agents"/>
 <br>
 <em><b>Figure 1.</b> The <b>time horizon</b> of frontier AI agents is growing exponentially, roughly doubling every few months.</em>
 </div>
