@@ -389,35 +389,43 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 *Credit assignment · policy optimization · sampling strategy · interaction patterns. GitHub links follow the paper's Table (Agentic RL).*
 
 **Credit Assignment**
-- **`arXiv 2024`** DeepSeekMath: Pushing the Limits of Mathematical Reasoning (GRPO). [[paper](https://arxiv.org/abs/2402.03300)] [[code](https://github.com/deepseek-ai/DeepSeek-Math)]
-- **`arXiv 2025`** Search-R1: RL for Search-Integrated Reasoning. [[paper](https://arxiv.org/abs/2503.09516)] [[code](https://github.com/PeterGriffinJin/Search-R1)]
-- **`arXiv 2025`** DeepRetrieval: RL for Retrieval-Metric Rewards. [[paper](https://arxiv.org/abs/2503.00223)] [[code](https://github.com/pat-jj/DeepRetrieval)]
+- **`arXiv 2024`** DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models. [[paper](https://arxiv.org/abs/2402.03300)] [[code](https://github.com/deepseek-ai/DeepSeek-Math)]
+- **`COLM 2025`** Search-R1: Training LLMs to Reason and Leverage Search Engines with Reinforcement Learning. [[paper](https://arxiv.org/abs/2503.09516)] [[code](https://github.com/PeterGriffinJin/Search-R1)]
+- **`arXiv 2025`** DeepRetrieval: Hacking Real Search Engines and Retrievers with Large Language Models via Reinforcement Learning. [[paper](https://arxiv.org/abs/2503.00223)] [[code](https://github.com/pat-jj/DeepRetrieval)]
 - **`NeurIPS 2025`** ToolRL: Reward is All Tool Learning Needs. [[paper](https://arxiv.org/abs/2504.13958)] [[code](https://github.com/qiancheng0/ToolRL)]
-- **`arXiv 2025`** Tool-Star: Empowering Multi-Tool Reasoning via RL. [[paper](https://arxiv.org/abs/2505.16410)] [[code](https://github.com/RUC-NLPIR/Tool-Star)]
-- **`arXiv 2025`** RuscaRL: Rubric-Scaffolded Reinforcement Learning. [[paper](https://arxiv.org/abs/2508.16949)] [[code](https://github.com/IANNXANG/RuscaRL)]
-- **`arXiv 2025`** DR Tulu: Co-evolving Rubrics in Deep Research. [[code](https://github.com/rlresearch/dr-tulu)]
+- **`SIGIR 2026`** Tool-Star: Empowering LLM-Brained Multi-Tool Reasoner via Reinforcement Learning. [[paper](https://arxiv.org/abs/2505.16410)] [[code](https://github.com/RUC-NLPIR/Tool-Star)]
+- **`arXiv 2026`** Breaking the Exploration Bottleneck: Rubric-Scaffolded Reinforcement Learning for General LLM Reasoning. [[paper](https://arxiv.org/abs/2508.16949)] [[code](https://github.com/IANNXANG/RuscaRL)]
+- **`arXiv 2025`** DR Tulu: Reinforcement Learning with Evolving Rubrics for Deep Research. [[paper](https://arxiv.org/pdf/2511.19399)] [[code](https://github.com/rlresearch/dr-tulu)]
+- **`ACL 2026`** OpenRubrics: Towards Scalable Synthetic Rubric Generation for Reward Modeling and LLM Alignment. [[paper](https://aclanthology.org/2026.acl-long.791.pdf)] [[code](https://huggingface.co/OpenRubrics/models)]
+- **`ACL 2026`** CriticSearch: Fine-Grained Credit Assignment for Search Agents via a Retrospective Critic. [[paper](https://aclanthology.org/2026.findings-acl.596.pdf)]
 
 **Policy Optimization**
-- **`arXiv 2025`** REINFORCE++: A Simple and Efficient Approach for Aligning LLMs. [[paper](https://arxiv.org/abs/2501.03262)] [[code](https://github.com/OpenRLHF/OpenRLHF)]
+- **`arXiv 2025`** REINFORCE++: A Simple and Efficient Approach for Aligning Large Language Models. [[paper](https://arxiv.org/abs/2501.03262)] [[code](https://github.com/OpenRLHF/OpenRLHF)]
 - **`NeurIPS 2025`** DAPO: An Open-Source LLM Reinforcement Learning System at Scale. [[paper](https://arxiv.org/abs/2503.14476)] [[code](https://github.com/BytedTsinghua-SIA/DAPO)]
-- **`arXiv 2025`** Understanding R1-Zero-Like Training (Dr.GRPO). [[paper](https://arxiv.org/abs/2503.20783)] [[code](https://github.com/sail-sg/understand-r1-zero)]
-- **`arXiv 2025`** GSPO: Group Sequence Policy Optimization. [[paper](https://arxiv.org/abs/2507.18071)]
-- **`arXiv 2025`** GiGPO: Group-in-Group Policy Optimization for Agents. [[paper](https://arxiv.org/abs/2505.10978)] [[code](https://github.com/langfengQ/verl-agent)]
-- **`arXiv 2025`** CURE: Critical-Token-Guided Re-concatenation for Entropy-collapse Prevention. [[code](https://github.com/bytedance/CURE)]
-- **`arXiv 2025`** EPO: Entropy-Regularized Policy Optimization for Multi-Turn Agents. [[code](https://github.com/WujiangXu/EPO)]
+- **`arXiv 2025`** Understanding R1-Zero-Like Training: A Critical Perspective. [[paper](https://arxiv.org/abs/2503.20783)] [[code](https://github.com/sail-sg/understand-r1-zero)]
+- **`arXiv 2025`** Group Sequence Policy Optimization. [[paper](https://arxiv.org/abs/2507.18071)]
+- **`NIPS 2025`** Group-in-Group Policy Optimization for LLM Agent Training. [[paper](https://arxiv.org/abs/2505.10978)] [[code](https://github.com/langfengQ/verl-agent)]
+- **`EACL 2026`** Turn-PPO: Turn-Level Advantage Estimation with PPO for Improved Multi-Turn RL in Agentic LLMs. [[paper](https://aclanthology.org/2026.findings-eacl.328.pdf)] 
+- **`arXiv 2026`** StepPO: Step-Aligned Policy Optimization for Agentic Reinforcement Learning. [[paper](https://arxiv.org/pdf/2604.18401)] 
+- **`arXiv 2025`** CURE: Critical-Token-Guided Re-Concatenation for Entropy-Collapse Prevention. [[paper](https://arxiv.org/pdf/2508.11016)] [[code](https://github.com/bytedance/CURE)]
+- **`arXiv 2025`** EPO: Entropy-regularized Policy Optimization for LLM Agents Reinforcement Learning. [[paper](https://arxiv.org/pdf/2509.22576)] [[code](https://github.com/WujiangXu/EPO)]
 
 **Sampling Strategy**
 - **`NeurIPS 2025`** WebDancer: Towards Autonomous Information Seeking Agency. [[paper](https://arxiv.org/abs/2505.22648)] [[code](https://github.com/Alibaba-NLP/DeepResearch)]
-- **`ICLR 2025`** WebRL: Training Web Agents via Self-Evolving Online Curriculum RL. [[paper](https://arxiv.org/abs/2411.02337)] [[code](https://github.com/THUDM/WebRL)]
-- **`arXiv 2025`** Tree-GRPO: Tree-Based Group Relative Policy Optimization. `🔜 coming soon`
-- **`arXiv 2025`** TreePO: Reusing Inference Compute Across Tree Paths. [[code](https://github.com/multimodal-art-projection/TreePO)]
-- **`arXiv 2025`** TCOD: Trajectory-Depth Curriculum for Agent RL. [[code](https://github.com/kokolerk/TCOD)]
+- **`ICLR 2025`** WebRL: Training LLM Web Agents via Self-Evolving Online Curriculum Reinforcement Learning. [[paper](https://arxiv.org/abs/2411.02337)] [[code](https://github.com/THUDM/WebRL)]
+- **`ICLR 2026`** Tree Search for LLM Agent Reinforcement Learning. [[paper](https://arxiv.org/pdf/2509.21240)] [[code](https://github.com/AMAP-ML/Tree-GRPO)]
+- **`arXiv 2025`** TreePO: Bridging the Gap of Policy Optimization and Efficacy and Inference Efficiency with Heuristic Tree-based Modeling. [[paper](https://arxiv.org/pdf/2508.17445)] [[code](https://github.com/multimodal-art-projection/TreePO)]
+- **`EMNLP 2023`** Reasoning with Language Model is Planning with World Model. [[paper](https://arxiv.org/pdf/2305.14992)] [[code](https://github.com/Ber666/RAP)]
+- **`arXiv 2026`** LiteResearcher: A Scalable Agentic RL Training Framework for Deep Research Agent. [[paper](https://arxiv.org/pdf/2604.17931)] [[code](https://github.com/simplexai-labs/LiteResearcher)]
+- **`COLM 2026`** TCOD: Exploring Temporal Curriculum in On-Policy Distillation for Multi-turn Autonomous Agents. [[paper](https://arxiv.org/pdf/2604.24005)] [[code](https://github.com/kokolerk/TCOD)]
 
 **Interaction Patterns**
-- **`ICML 2025`** GLIDER: Grounding LLMs as Decision-Making Agents. [[code](https://github.com/NJU-RL/GLIDER)]
-- **`arXiv 2026`** SkillRL: Evolving a Skill Library from Failures via RL. [[code](https://github.com/aiming-lab/SkillRL)]
-- **`arXiv 2025`** MATPO: Multi-Agent Tool-Integrated Policy Optimization. [[code](https://github.com/mzf666/MATPO)]
-- **`arXiv 2025`** Memory-R1: Managing and Utilizing Memory via RL. [[paper](https://arxiv.org/abs/2508.19828)] [[code](https://github.com/yansikuan/memory-r1)]
+- **`ICML 2025`** Divide and Conquer: Grounding LLMs as Efficient Decision-Making Agents via Offline Hierarchical Reinforcement Learning. [[paper](https://arxiv.org/pdf/2505.19761)] [[code](https://github.com/NJU-RL/GLIDER)]
+- **`arXiv 2026`** SkillRL: Evolving Agents via Recursive Skill-Augmented Reinforcement Learning. [[paper](https://arxiv.org/pdf/2602.08234)] [[code](https://github.com/aiming-lab/SkillRL)]
+- **`ICLR 2026`** THOR: Tool-Integrated Hierarchical Optimization via RL for Mathematical Reasoning. [[paper](https://arxiv.org/pdf/2509.13761)] [[code](https://github.com/JingMog/THOR)]
+- **`arXiv 2025`** Multi-Agent Tool-Integrated Policy Optimization. [[paper](https://arxiv.org/pdf/2510.04678)] [[code](https://github.com/mzf666/MATPO)]
+- **`arXiv 2025`** Stronger-MAS: Multi-Agent Reinforcement Learning for Collaborative LLMs. [[paper](https://arxiv.org/pdf/2510.11062)] [[code](https://github.com/pettingllms-ai/PettingLLMs)]
+- **`ACL 2026`** Memory-R1: Enhancing Large Language Model Agents to Manage and Utilize Memories via Reinforcement Learning. [[paper](https://aclanthology.org/2026.acl-long.583.pdf)] [[code](https://github.com/yansikuan/memory-r1)]
 - **`arXiv 2025`** Agent Lightning: Train ANY AI Agents with Reinforcement Learning. [[paper](https://arxiv.org/abs/2508.03680)] [[code](https://github.com/microsoft/agent-lightning)]
 
 ### On-Policy Distillation
