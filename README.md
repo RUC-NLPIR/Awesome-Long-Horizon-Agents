@@ -104,6 +104,11 @@ We formalize a long-horizon agent as a base policy coupled to a surrounding harn
 
 To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.14499) measures capability as the length of tasks an agent can complete at a fixed success rate (e.g., the 50%-task-completion time horizon), giving an empirical yardstick that separates long-horizon agency from adjacent notions such as long-running execution, autonomy, and self-evolution.
 
+
+**Key references**
+- **`arXiv 2025`** Levels of Autonomy for AI Agents. [[paper](https://arxiv.org/abs/2506.12469)]
+- **`arXiv 2025`** Forecasting AI Time Horizon Under Compute Slowdowns. [[paper](https://arxiv.org/abs/2511.19492)]
+
 ---
 
 ## <img src="assets/icons/evolution.png" height="30" align="top"/> Evolution: From Prompting to Runtime
@@ -129,6 +134,9 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`NeurIPS 2022`** Training Language Models to Follow Instructions with Human Feedback (InstructGPT). [[paper](https://arxiv.org/abs/2203.02155)]
 - **`ICLR 2023`** Large Language Models Are Human-Level Prompt Engineers (APE). [[paper](https://arxiv.org/abs/2211.01910)] [[code](https://github.com/keirp/automatic_prompt_engineer)]
 - **`EMNLP 2023`** Automatic Prompt Optimization with "Gradient Descent" and Beam Search (APO). [[paper](https://arxiv.org/abs/2305.03495)]
+- **`arXiv 2021`** Show Your Work: Scratchpads for Intermediate Computation with Language Models. [[paper](https://arxiv.org/abs/2112.00114)]
+- **`arXiv 2019`** Language Models as Knowledge Bases?. [[paper](https://arxiv.org/abs/1909.01066)]
+- **`arXiv 2023`** Describe, Explain, Plan and Select: Interactive Planning with Large Language Models Enables Open-World Multi-Task Agents. [[paper](https://arxiv.org/abs/2302.01560)]
 
 ### Stage II — Context Engineering (2023–2025)
 
@@ -146,6 +154,14 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2023`** MemGPT: Towards LLMs as Operating Systems. [[paper](https://arxiv.org/abs/2310.08560)] [[code](https://github.com/letta-ai/letta)]
 - **`UIST 2023`** Generative Agents: Interactive Simulacra of Human Behavior. [[paper](https://arxiv.org/abs/2304.03442)] [[code](https://github.com/joonspk-research/generative_agents)]
 - **`EMNLP 2023`** LLMLingua: Compressing Prompts for Accelerated Inference of LLMs. [[paper](https://arxiv.org/abs/2310.05736)] [[code](https://github.com/microsoft/LLMLingua)]
+- **`arXiv 2023`** Retrieval-Augmented Generation for Large Language Models: A Survey. [[paper](https://arxiv.org/abs/2312.10997)]
+- **`arXiv 2020`** REALM: Retrieval-Augmented Language Model Pre-Training. [[paper](https://arxiv.org/abs/2002.08909)]
+- **`arXiv 2024`** RULER: What's the Real Context Size of Your Long-Context Language Models?. [[paper](https://arxiv.org/abs/2404.06654)]
+- **`arXiv 2025`** ACON: Optimizing Context Compression for Long-horizon LLM Agents. [[paper](https://arxiv.org/abs/2510.00615)]
+- **`arXiv 2025`** A Survey of Context Engineering for Large Language Models. [[paper](https://arxiv.org/abs/2507.13334)]
+- **`arXiv 2023`** ToolAlpaca: Generalized Tool Learning for Language Models with 3000 Simulated Cases. [[paper](https://arxiv.org/abs/2306.05301)]
+- **`arXiv 2022`** MuSiQue: Multihop Questions via Single-hop Question Composition. [[paper](https://arxiv.org/abs/2108.00573)]
+- **`arXiv 2024`** (infty)Bench: Extending Long Context Evaluation Beyond 100K Tokens. [[paper](https://arxiv.org/abs/2402.13718)]
 
 ### Stage III — Runtime Harnesses (2025–Present)
 
@@ -163,6 +179,13 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2025`** Search-R1: Training LLMs to Reason and Leverage Search Engines with RL. [[paper](https://arxiv.org/abs/2503.09516)] [[code](https://github.com/PeterGriffinJin/Search-R1)]
 - **`arXiv 2025`** AGENTS.md Community Specification. [[paper](https://agents.md/)]
 - **`arXiv 2024`** AutoFlow: Automated Workflow Generation for Large Language Model Agents. [[paper](https://arxiv.org/abs/2407.12821)]
+- **`arXiv 2026`** Agents' Last Exam. [[paper](https://arxiv.org/abs/2606.05405)]
+- **`arXiv 2026`** Before the Tool Call: Deterministic Pre-Action Authorization for Autonomous AI Agents. [[paper](https://arxiv.org/abs/2603.20953)]
+- **`arXiv 2026`** Claw-R1: A Step-Level Data Middleware System for Agentic Reinforcement Learning. [[paper](https://arxiv.org/abs/2606.09138)]
+- **`arXiv 2025`** SEW: Self-Evolving Agentic Workflows for Automated Code Generation. [[paper](https://arxiv.org/abs/2505.18646)]
+- **`arXiv 2026`** RLAnything: Forge Environment, Policy, and Reward Model in Completely Dynamic RL System. [[paper](https://arxiv.org/abs/2602.02488)]
+- **`arXiv 2025`** Securing AI Agent Execution. [[paper](https://arxiv.org/abs/2510.21236)]
+- **`arXiv 2025`** UI-TARS-2 Technical Report: Advancing GUI Agent with Multi-Turn Reinforcement Learning. [[paper](https://arxiv.org/abs/2509.02544)]
 
 ---
 
@@ -182,6 +205,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`NeurIPS 2023`** Self-Refine: Iterative Refinement with Self-Feedback. [[paper](https://arxiv.org/abs/2303.17651)] [[code](https://github.com/madaan/self-refine)]
 - **`ICLR 2024`** Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection. [[paper](https://arxiv.org/abs/2310.11511)] [[code](https://github.com/AkariAsai/self-rag)]
 - **`TMLR 2024`** Cognitive Architectures for Language Agents (CoALA). [[paper](https://arxiv.org/abs/2309.02427)] [[code](https://github.com/ysymyth/awesome-language-agents)]
+- **`arXiv 2025`** A Survey on Agent Workflow - Status and Future. [[paper](https://arxiv.org/abs/2508.01186)]
 
 **Plan-Execute Workflows**
 - **`ACL 2023`** Plan-and-Solve Prompting. [[paper](https://arxiv.org/abs/2305.04091)] [[code](https://github.com/AGI-Edgerunners/Plan-and-Solve-Prompting)]
@@ -189,6 +213,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`NAACL 2024`** ADaPT: As-Needed Decomposition and Planning with Language Models. [[paper](https://arxiv.org/abs/2311.05772)] [[code](https://github.com/archiki/ADaPT)]
 - **`arXiv 2026`** O-Researcher: Open-Ended Deep Research via Multi-Agent Distillation and Agentic RL. [[paper](https://arxiv.org/abs/2601.03743)]
 - **`arXiv 2026`** Arbor: Autonomous Research via Persistent Hypothesis Trees. `🔜 coming soon`
+- **`arXiv 2026`** Verified Multi-Agent Orchestration: A Plan-Execute-Verify-Replan Framework for Complex Query Resolution. [[paper](https://arxiv.org/abs/2603.11445)]
 
 **Branching Workflows**
 - **`NeurIPS 2023`** Tree of Thoughts: Deliberate Problem Solving with LLMs. [[paper](https://arxiv.org/abs/2305.10601)] [[code](https://github.com/princeton-nlp/tree-of-thought-llm)]
@@ -214,6 +239,12 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2025`** DeepSeek-V3.2: Pushing the Frontier of Open Large Language Models. [[paper](https://arxiv.org/abs/2512.02556)]
 - **`arXiv 2026`** MiroThinker-1.7 & H1: Towards Heavy-Duty Research Agents via Verification. [[paper](https://arxiv.org/abs/2603.15726)]
 - **`arXiv 2026`** IterResearch: Rethinking Long-Horizon Agents with Interaction Scaling. [[paper](https://arxiv.org/abs/2511.07327)]
+- **`arXiv 2026`** AgentFugue: Agent Scaling for Long-Horizon Tasks through Collective Reasoning. [[paper](https://arxiv.org/abs/2605.24486)]
+- **`arXiv 2026`** ContextBudget: Budget-Aware Context Management for Long-Horizon Search Agents. [[paper](https://arxiv.org/abs/2604.01664)]
+- **`arXiv 2025`** LEGOMem: Modular Procedural Memory for Multi-agent LLM Systems for Workflow Automation. [[paper](https://arxiv.org/abs/2510.04851)]
+- **`arXiv 2026`** Memex(RL): Scaling Long-Horizon LLM Agents via Indexed Experience Memory. [[paper](https://arxiv.org/abs/2603.04257)]
+- **`arXiv 2026`** SAM: State-Adaptive Memory for Long-Horizon Reasoning Agent. [[paper](https://arxiv.org/abs/2605.24468)]
+- **`arXiv 2025`** Agent KB: Leveraging Cross-Domain Experience for Agentic Problem Solving. [[paper](https://arxiv.org/abs/2507.06229)]
 
 **Persistent Memory (factual / experiential)**
 - **`ECAI 2025`** Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory. [[paper](https://arxiv.org/abs/2504.19413)] [[code](https://github.com/mem0ai/mem0)]
@@ -233,6 +264,14 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2026`** H-MEM: Hierarchical Memory for High-Efficiency Long-Term Reasoning in LLM Agents. [[paper](https://doi.org/10.18653/v1/2026.eacl-long.15)]
 - **`arXiv 2025`** MemoRAG: Boosting Long Context Processing with Global Memory-Enhanced Retrieval Augmentation. [[paper](https://doi.org/10.1145/3696410.3714805)]
 - **`arXiv 2026`** EverMemOS: A Self-Organizing Memory Operating System for Structured Long-Horizon Reasoning. [[paper](https://doi.org/10.18653/v1/2026.acl-long.2125)]
+- **`arXiv 2026`** MemoryArena: Benchmarking Agent Memory in Interdependent Multi-Session Agentic Tasks. [[paper](https://arxiv.org/abs/2602.16313)]
+- **`arXiv 2025`** Memory in the Age of AI Agents. [[paper](https://arxiv.org/abs/2512.13564)]
+- **`arXiv 2026`** Anatomy of Agentic Memory: Taxonomy and Empirical Analysis of Evaluation and System Limitations. [[paper](https://arxiv.org/abs/2602.19320)]
+- **`arXiv 2026`** From Player to Master: Enhancing Test-Time Learning of LLM Agents via Reinforcement Learning over Memory. [[paper](https://arxiv.org/abs/2606.08656)]
+- **`arXiv 2026`** Rethinking Memory Mechanisms of Foundation Agents in the Second Half: A Survey. [[paper](https://arxiv.org/abs/2602.06052)]
+- **`arXiv 2026`** MemSifter: Offloading LLM Memory Retrieval via Outcome-Driven Proxy Reasoning. [[paper](https://arxiv.org/abs/2603.03379)]
+- **`arXiv 2025`** From Human Memory to AI Memory: A Survey on Memory Mechanisms in the Era of LLMs. [[paper](https://arxiv.org/abs/2504.15965)]
+- **`arXiv 2026`** Externalization in LLM Agents: A Unified Review of Memory, Skills, Protocols and Harness Engineering. [[paper](https://arxiv.org/abs/2604.08224)]
 
 ### Tools, MCP, and Skills
 
@@ -243,6 +282,13 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`ICML 2025`** Berkeley Function-Calling Leaderboard (BFCL). [[paper](https://gorilla.cs.berkeley.edu/leaderboard.html)] [[code](https://github.com/ShishirPatil/gorilla)]
 - **`ICLR 2025`** τ-bench: A Benchmark for Tool-Agent-User Interaction. [[paper](https://arxiv.org/abs/2406.12045)] [[code](https://github.com/sierra-research/tau-bench)]
 - **`arXiv 2025`** MCP-Universe: Benchmarking LLMs with Real-World MCP Servers. [[paper](https://arxiv.org/abs/2508.14704)] [[code](https://github.com/SalesforceAIResearch/MCP-Universe)]
+- **`arXiv 2026`** ComplexMCP: Evaluation of LLM Agents in Dynamic, Interdependent, and Large-Scale Tool Sandbox. [[paper](https://arxiv.org/abs/2605.10787)]
+- **`arXiv 2025`** VitaBench: Benchmarking LLM Agents with Versatile Interactive Tasks in Real-world Applications. [[paper](https://arxiv.org/abs/2509.26490)]
+- **`arXiv 2026`** Schema First Tool APIs for LLM Agents: A Controlled Study of Tool Misuse, Recovery, and Budgeted Performance. [[paper](https://arxiv.org/abs/2603.13404)]
+- **`arXiv 2026`** AutomationBench. [[paper](https://arxiv.org/abs/2604.18934)]
+- **`arXiv 2025`** UltraHorizon: Benchmarking Agent Capabilities in Ultra Long-Horizon Scenarios. [[paper](https://arxiv.org/abs/2509.21766)]
+- **`arXiv 2026`** The Evolution of Tool Use in LLM Agents: From Single-Tool Call to Multi-Tool Orchestration. [[paper](https://arxiv.org/abs/2603.22862)]
+- **`arXiv 2026`** Benchmarking LLM Tool-Use in the Wild. [[paper](https://arxiv.org/abs/2604.06185)]
 
 **Active tool discovery**
 - **`arXiv 2025`** RAG-MCP: Mitigating Prompt Bloat via Retrieval over MCP Tools. [[paper](https://arxiv.org/abs/2505.03275)]
@@ -250,6 +296,12 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2025`** MCP-Zero: Active Tool Discovery for Autonomous LLM Agents. [[paper](https://arxiv.org/abs/2506.01056)]
 - **`ICLR 2025`** ToolGen: Unified Tool Retrieval and Calling via Generation. [[paper](https://arxiv.org/abs/2410.03439)] [[code](https://github.com/Reason-Wang/ToolGen)]
 - **`WWW 2026`** DeepAgent: A General Reasoning Agent with Scalable Toolsets. [[paper](https://arxiv.org/abs/2510.21618)] [[code](https://github.com/RUC-NLPIR/DeepAgent)]
+- **`arXiv 2026`** From Tool Orchestration to Code Execution: A Study of MCP Design Choices. [[paper](https://arxiv.org/abs/2602.15945)]
+- **`arXiv 2026`** Beyond Semantic Similarity: Rethinking Retrieval for Agentic Search via Direct Corpus Interaction. [[paper](https://arxiv.org/abs/2605.05242)]
+- **`arXiv 2025`** Making REST APIs Agent-Ready: From OpenAPI to Model Context Protocol Servers for Tool-Augmented LLMs. [[paper](https://arxiv.org/abs/2507.16044)]
+- **`arXiv 2026`** Keyword search is all you need: Achieving RAG-Level Performance without vector databases using agentic tool use. [[paper](https://arxiv.org/abs/2602.23368)]
+- **`arXiv 2026`** CodeScout: An Effective Recipe for Reinforcement Learning of Code Search Agents. [[paper](https://arxiv.org/abs/2603.17829)]
+- **`arXiv 2026`** Agent Skills for Large Language Models: Architecture, Acquisition, Security, and the Path Forward. [[paper](https://arxiv.org/abs/2602.12430)]
 
 **Skill libraries**
 - **`TMLR 2024`** Voyager: Reusable Executable Skill Library. [[paper](https://arxiv.org/abs/2305.16291)] [[code](https://github.com/MineDojo/Voyager)]
@@ -257,6 +309,19 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2026`** SkillNet / SkillGraph: Relational Skill Graphs for Agents. `🔜 coming soon`
 - **`arXiv 2026`** Skill0: Internalizing Skill Libraries via In-Context Agentic RL. [[paper](https://arxiv.org/abs/2604.02268)]
 - **`arXiv 2025`** Alita: Generalist Agent Enabling Scalable Agentic Reasoning with Minimal Predefinition and Maximal Self-Evolution. [[paper](https://arxiv.org/abs/2505.20286)]
+- **`arXiv 2025`** Agent S2: A Compositional Generalist-Specialist Framework for Computer Use Agents. [[paper](https://arxiv.org/abs/2504.00906)]
+- **`arXiv 2026`** SkillCraft: Can LLM Agents Learn to Use Tools Skillfully?. [[paper](https://arxiv.org/abs/2603.00718)]
+- **`arXiv 2026`** Organizing, Orchestrating, and Benchmarking Agent Skills at Ecosystem Scale. [[paper](https://arxiv.org/abs/2603.02176)]
+- **`arXiv 2026`** When Single-Agent with Skills Replace Multi-Agent Systems and When They Fail. [[paper](https://arxiv.org/abs/2601.04748)]
+- **`arXiv 2026`** SkillGraph: Skill-Augmented Reinforcement Learning for Agents via Evolving Skill Graphs. [[paper](https://arxiv.org/abs/2605.12039)]
+- **`arXiv 2025`** Memento: Fine-tuning LLM Agents without Fine-tuning LLMs. [[paper](https://arxiv.org/abs/2508.16153)]
+- **`arXiv 2026`** ProcMEM: Learning Reusable Procedural Memory from Experience via Non-Parametric PPO for LLM Agents. [[paper](https://arxiv.org/abs/2602.01869)]
+- **`arXiv 2025`** SEAgent: Self-Evolving Computer Use Agent with Autonomous Learning from Experience. [[paper](https://arxiv.org/abs/2508.04700)]
+- **`arXiv 2026`** Beyond Static Tools: Test-Time Tool Evolution for Scientific Reasoning. [[paper](https://arxiv.org/abs/2601.07641)]
+- **`arXiv 2026`** GraSP: Graph-Structured Skill Compositions for LLM Agents. [[paper](https://arxiv.org/abs/2604.17870)]
+- **`arXiv 2026`** From Chatbot to Digital Colleague: The Paradigm Shift Toward Persistent Autonomous AI. [[paper](https://arxiv.org/abs/2606.14502)]
+- **`arXiv 2026`** A Comprehensive Survey on Agent Skills: Taxonomy, Techniques, and Applications. [[paper](https://arxiv.org/abs/2605.07358)]
+- **`arXiv 2026`** SkillNet: Create, Evaluate, and Connect AI Skills. [[paper](https://arxiv.org/abs/2603.04448)]
 
 ### Orchestration
 
@@ -276,6 +341,8 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`ICLR 2025`** MacNet: Scaling LLM-based Multi-Agent Collaboration. [[paper](https://arxiv.org/abs/2406.07155)] [[code](https://github.com/OpenBMB/ChatDev)]
 - **`arXiv 2025`** Flash-Searcher: Fast Web Agents via DAG-Based Parallel Execution. [[paper](https://arxiv.org/abs/2509.25301)]
 - **`NeurIPS 2024`** Self-playing Adversarial Language Game Enhances LLM Reasoning. [[paper](http://papers.nips.cc/paper_files/paper/2024/hash/e4be7e9867ef163563f4a5e90cec478f-Abstract-Conference.html)]
+- **`arXiv 2025`** Agint: Agentic Graph Compilation for Software Engineering Agents. [[paper](https://arxiv.org/abs/2511.19635)]
+- **`arXiv 2025`** Multi-Agent Collaboration Mechanisms: A Survey of LLMs. [[paper](https://arxiv.org/abs/2501.06322)]
 
 **Orchestration optimization**
 - **`ICLR 2025`** AFlow: Automating Agentic Workflow Generation. [[paper](https://arxiv.org/abs/2410.10762)] [[code](https://github.com/FoundationAgents/AFlow)]
@@ -283,6 +350,10 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`ACL 2025`** MasRouter: Learning to Route LLMs for Multi-Agent Systems. [[paper](https://arxiv.org/abs/2502.11133)] [[code](https://github.com/yanweiyue/masrouter)]
 - **`EMNLP 2025`** SwarmAgentic: Fully Automated Agentic System Generation via Swarm Intelligence. [[paper](https://arxiv.org/abs/2506.15672)]
 - **`NeurIPS 2025`** Multi-Agent Collaboration via Evolving Orchestration. [[paper](http://papers.nips.cc/paper_files/paper/2025/hash/f1320d2e2842169c6fc89dcbd80e94d0-Abstract-Conference.html)]
+- **`arXiv 2025`** AgentOrchestra: A Hierarchical Multi-Agent Framework for General-Purpose Task Solving. [[paper](https://arxiv.org/abs/2506.12508)]
+- **`arXiv 2026`** AOrchestra: Automating Sub-Agent Creation for Agentic Orchestration. [[paper](https://arxiv.org/abs/2602.03786)]
+- **`arXiv 2026`** CORAL: Towards Autonomous Multi-Agent Evolution for Open-Ended Discovery. [[paper](https://arxiv.org/abs/2604.01658)]
+- **`arXiv 2026`** Drop the Hierarchy and Roles: How Self-Organizing LLM Agents Outperform Designed Structures. [[paper](https://arxiv.org/abs/2603.28990)]
 
 **Agent protocols**
 - **`2025`** A2A: Agent-to-Agent Protocol. [[paper](https://a2a-protocol.org/latest/specification/)] [[code](https://github.com/a2aproject/A2A)]
@@ -292,6 +363,9 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2025`** A Survey of Agent Interoperability Protocols (MCP, ACP, A2A, ANP). [[paper](https://arxiv.org/abs/2505.02279)]
 - **`arXiv 2024`** Agora: A Scalable Communication Protocol for Networks of LLMs. [[paper](https://arxiv.org/abs/2410.11905)]
 - **`arXiv 2025`** Agent Communication Protocol (ACP). [[paper](https://research.ibm.com/projects/agent-communication-protocol)]
+- **`arXiv 2026`** Agentic Aggregation for Parallel Scaling of Long-Horizon Agentic Tasks. [[paper](https://arxiv.org/abs/2604.11753)]
+- **`arXiv 2026`** Agentic Test-Time Scaling for WebAgents. [[paper](https://arxiv.org/abs/2602.12276)]
+- **`arXiv 2025`** LOKA Protocol: A Decentralized Framework for Trustworthy and Ethical AI Agent Ecosystems. [[paper](https://arxiv.org/abs/2504.10915)]
 
 ### Hooks and Middleware
 
@@ -309,6 +383,12 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`ICML 2025`** GuardAgent: Safeguard LLM Agents via Knowledge-Enabled Reasoning. [[paper](https://arxiv.org/abs/2406.09187)]
 - **`ICML 2025`** ShieldAgent: Shielding Agents via Verifiable Safety Policy Reasoning. [[paper](https://arxiv.org/abs/2503.22738)]
 - **`arXiv 2023`** Llama Guard: LLM-based Input-Output Safeguard. [[paper](https://arxiv.org/abs/2312.06674)] [[code](https://github.com/meta-llama/PurpleLlama)]
+- **`arXiv 2025`** LlamaFirewall: An open source guardrail system for building secure AI agents. [[paper](https://arxiv.org/abs/2505.03574)]
+- **`arXiv 2025`** Defeating Prompt Injections by Design. [[paper](https://arxiv.org/abs/2503.18813)]
+- **`arXiv 2025`** Enforcing Temporal Constraints for LLM Agents. [[paper](https://arxiv.org/abs/2512.23738)]
+- **`arXiv 2025`** Policy-as-Prompt: Turning AI Governance Rules into Guardrails for AI Agents. [[paper](https://arxiv.org/abs/2509.23994)]
+- **`arXiv 2026`** Formal Policy Enforcement for Real-World Agentic Systems. [[paper](https://arxiv.org/abs/2602.16708)]
+- **`arXiv 2025`** VeriGuard: Enhancing LLM Agent Safety via Verified Code Generation. [[paper](https://arxiv.org/abs/2510.05156)]
 
 **Runtime-adaptive hooks**
 - **`Nature 2024`** Detecting Hallucinations in LLMs Using Semantic Entropy. [[paper](https://doi.org/10.1038/s41586-024-07421-0)]
@@ -316,6 +396,13 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`ACL 2025`** AGrail: A Lifelong Agent Guardrail with Effective and Adaptive Safety Detection. [[paper](https://arxiv.org/abs/2502.11448)]
 - **`ASE 2025`** AdaptiveGuard: Towards Adaptive Runtime Safety for LLM-Powered Software. [[paper](https://doi.org/10.1109/ASE63991.2025.00279)]
 - **`arXiv 2024`** Agent-SafetyBench: Evaluating the Safety of LLM Agents. [[paper](https://arxiv.org/abs/2412.14470)] [[code](https://github.com/thu-coai/Agent-SafetyBench)]
+- **`arXiv 2026`** Enhancing LLM Safety Through a Theoretical Minimax Game Lens. [[paper](https://arxiv.org/abs/2502.05163)]
+- **`arXiv 2026`** Quantifying Frontier LLM Capabilities for Container Sandbox Escape. [[paper](https://arxiv.org/abs/2603.02277)]
+- **`arXiv 2026`** Neuro-Symbolic Verification on Instruction Following of LLMs. [[paper](https://arxiv.org/abs/2601.17789)]
+- **`arXiv 2024`** SAUP: Situation Awareness Uncertainty Propagation on LLM Agent. [[paper](https://arxiv.org/abs/2412.01033)]
+- **`arXiv 2026`** TrajAD: Trajectory Anomaly Detection for Trustworthy LLM Agents. [[paper](https://arxiv.org/abs/2602.06443)]
+- **`arXiv 2026`** ProbGuard: Probabilistic Runtime Monitoring for LLM Agent Safety. [[paper](https://arxiv.org/abs/2508.00500)]
+- **`arXiv 2026`** Agentic Uncertainty Quantification. [[paper](https://arxiv.org/abs/2601.15703)]
 
 ### Verification
 
@@ -325,6 +412,8 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2025`** Multi-Agent Verification: Scaling Test-Time Compute with Multiple Verifiers. [[paper](https://arxiv.org/abs/2502.20379)]
 - **`ICLR 2025`** AgentHarm: A Benchmark for Measuring Harmfulness of LLM Agents. [[paper](https://arxiv.org/abs/2410.09024)]
 - **`arXiv 2024`** Agent-SafetyBench: Evaluating the Safety of LLM Agents. [[paper](https://arxiv.org/abs/2412.14470)] [[code](https://github.com/thu-coai/Agent-SafetyBench)]
+- **`arXiv 2026`** AgentDoG: A Diagnostic Guardrail Framework for AI Agent Safety and Security. [[paper](https://arxiv.org/abs/2601.18491)]
+- **`arXiv 2026`** AgentDoG 1.5: A Lightweight and Scalable Alignment Framework for AI Agent Safety and Security. [[paper](https://arxiv.org/abs/2605.29801)]
 
 **Verification levels**
 - **`ICLR 2024`** Let's Verify Step by Step (Process Reward Models). [[paper](https://arxiv.org/abs/2305.20050)] [[code](https://github.com/openai/prm800k)]
@@ -335,6 +424,11 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2021`** Training Verifiers to Solve Math Word Problems. [[paper](https://arxiv.org/abs/2110.14168)]
 - **`arXiv 2022`** Solving math word problems with process- and outcome-based feedback. [[paper](https://arxiv.org/abs/2211.14275)]
 - **`ICLR 2025`** Generative Verifiers: Reward Modeling as Next-Token Prediction. [[paper](https://openreview.net/forum?id=Ccwp4tFEtE)]
+- **`arXiv 2026`** SWE-TRACE: Optimizing Long-Horizon SWE Agents Through Rubric Process Reward Models and Heuristic Test-Time Scaling. [[paper](https://arxiv.org/abs/2604.14820)]
+- **`arXiv 2026`** CollabEval: Enhancing LLM-as-a-Judge via Multi-Agent Collaboration. [[paper](https://arxiv.org/abs/2603.00993)]
+- **`arXiv 2026`** Agentic Reward Modeling: Verifying GUI Agent via Online Proactive Interaction. [[paper](https://arxiv.org/abs/2602.00575)]
+- **`arXiv 2026`** Agent-as-a-Judge. [[paper](https://arxiv.org/abs/2601.05111)]
+- **`arXiv 2025`** Putting the Value Back in RL: Better Test-Time Scaling by Unifying LLM Reasoners With Verifiers. [[paper](https://arxiv.org/abs/2505.04842)]
 
 **Verifier strategies**
 - **`ACL 2024`** Math-Shepherd: Verify and Reinforce LLMs Step-by-step. [[paper](https://arxiv.org/abs/2312.08935)]
@@ -342,6 +436,9 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`ICML 2024`** Language Agent Tree Search (LATS). [[paper](https://arxiv.org/abs/2310.04406)] [[code](https://github.com/lapisrocks/LanguageAgentTreeSearch)]
 - **`NeurIPS 2024`** ReST-MCTS*: LLM Self-Training via Process Reward Guided Tree Search. [[paper](https://arxiv.org/abs/2406.03816)] [[code](https://github.com/THUDM/ReST-MCTS)]
 - **`ICLR 2025`** Scaling LLM Test-Time Compute Optimally. [[paper](https://arxiv.org/abs/2408.03314)]
+- **`arXiv 2025`** MCTS-Judge: Test-Time Scaling in LLM-as-a-Judge for Code Correctness Evaluation. [[paper](https://arxiv.org/abs/2502.12468)]
+- **`arXiv 2026`** Scaling Medical Reasoning Verification via Tool-Integrated Reinforcement Learning. [[paper](https://arxiv.org/abs/2601.20221)]
+- **`arXiv 2025`** Wider or Deeper? Scaling LLM Inference-Time Compute with Adaptive Branching Tree Search. [[paper](https://arxiv.org/abs/2503.04412)]
 
 ---
 
@@ -367,6 +464,16 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`ICML 2023`** Fast Inference from Transformers via Speculative Decoding. [[paper](https://arxiv.org/abs/2211.17192)]
 - **`arXiv 2025`** MoBA: Mixture of Block Attention for Long-Context LLMs. [[paper](https://arxiv.org/abs/2502.13189)]
 - **`arXiv 2025`** Seed Diffusion: A Large-Scale Diffusion Language Model with High-Speed Inference. [[paper](https://arxiv.org/abs/2508.02193)]
+- **`arXiv 2019`** Fast Transformer Decoding: One Write-Head is All You Need. [[paper](https://arxiv.org/abs/1911.02150)]
+- **`arXiv 2020`** Linformer: Self-Attention with Linear Complexity. [[paper](https://arxiv.org/abs/2006.04768)]
+- **`arXiv 2023`** Retentive Network: A Successor to Transformer for Large Language Models. [[paper](https://arxiv.org/abs/2307.08621)]
+- **`arXiv 2023`** Mistral 7B. [[paper](https://arxiv.org/abs/2310.06825)]
+- **`arXiv 2024`** ChatGLM: A Family of Large Language Models from GLM-130B to GLM-4 All Tools. [[paper](https://arxiv.org/abs/2406.12793)]
+- **`arXiv 2024`** Gemma 2: Improving Open Language Models at a Practical Size. [[paper](https://arxiv.org/abs/2408.00118)]
+- **`arXiv 2025`** Gemma 3 Technical Report. [[paper](https://arxiv.org/abs/2503.19786)]
+- **`arXiv 2024`** DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model. [[paper](https://arxiv.org/abs/2405.04434)]
+- **`arXiv 2025`** GLM-4.5: Agentic, Reasoning, and Coding (ARC) Foundation Models. [[paper](https://arxiv.org/abs/2508.06471)]
+- **`arXiv 2025`** Qwen3 Technical Report. [[paper](https://arxiv.org/abs/2505.09388)]
 
 ### Data and Environment Synthesis
 
@@ -382,6 +489,61 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2026`** Agent-World: Discovering Environment–Task Pairs for Self-Evolving Training. `🔜 coming soon`
 - **`arXiv 2026`** GameWorld: Towards Standardized and Verifiable Evaluation of Multimodal Game Agents. [[paper](https://arxiv.org/abs/2604.07429)]
 - **`NeurIPS 2022`** MineDojo: Building Open-Ended Embodied Agents with Internet-Scale Knowledge. [[paper](http://papers.nips.cc/paper_files/paper/2022/hash/74a67268c5cc5910f64938cac4526a90-Abstract-Datasets_and_Benchmarks.html)]
+- **`arXiv 2026`** AOI: Turning Failed Trajectories into Training Signals for Autonomous Cloud Diagnosis. [[paper](https://arxiv.org/abs/2603.03378)]
+- **`arXiv 2026`** ASTRA: Automated Synthesis of agentic Trajectories and Reinforcement Arenas. [[paper](https://arxiv.org/abs/2601.21558)]
+- **`arXiv 2025`** Beyond Ten Turns: Unlocking Long-Horizon Agentic Search with Large-Scale Asynchronous RL. [[paper](https://arxiv.org/abs/2508.07976)]
+- **`arXiv 2025`** AgentFold: Long-Horizon Web Agents with Proactive Context Management. [[paper](https://arxiv.org/abs/2510.24699)]
+- **`arXiv 2026`** AgentHER: Hindsight Experience Replay for LLM Agent Trajectory Relabeling. [[paper](https://arxiv.org/abs/2603.21357)]
+- **`arXiv 2025`** AgentRL: Scaling Agentic Reinforcement Learning with a Multi-Turn, Multi-Task Framework. [[paper](https://arxiv.org/abs/2510.04206)]
+- **`arXiv 2025`** AgentRewardBench: Evaluating Automatic Evaluations of Web Agent Trajectories. [[paper](https://arxiv.org/abs/2504.08942)]
+- **`arXiv 2025`** AgentSynth: Scalable Task Generation for Generalist Computer-Use Agents. [[paper](https://arxiv.org/abs/2506.14205)]
+- **`arXiv 2026`** AutoWebWorld: Synthesizing Infinite Verifiable Web Environments via Finite State Machines. [[paper](https://arxiv.org/abs/2602.14296)]
+- **`arXiv 2026`** CLI-Gym: Scalable CLI Task Generation via Agentic Environment Inversion. [[paper](https://arxiv.org/abs/2602.10999)]
+- **`arXiv 2026`** Code2World: A GUI World Model via Renderable Code Generation. [[paper](https://arxiv.org/abs/2602.09856)]
+- **`arXiv 2025`** Scaling Long-Horizon LLM Agent via Context-Folding. [[paper](https://arxiv.org/abs/2510.11967)]
+- **`arXiv 2025`** Cosmos World Foundation Model Platform for Physical AI. [[paper](https://arxiv.org/abs/2501.03575)]
+- **`arXiv 2025`** CuES: A Curiosity-driven and Environment-grounded Synthesis Framework for Agentic RL. [[paper](https://arxiv.org/abs/2512.01311)]
+- **`arXiv 2025`** Back to the Features: DINO as a Foundation for Video World Models. [[paper](https://arxiv.org/abs/2507.19468)]
+- **`arXiv 2026`** DIVE: Scaling Diversity in Agentic Task Synthesis for Generalizable Tool Use. [[paper](https://arxiv.org/abs/2603.11076)]
+- **`arXiv 2025`** DreamGen: Unlocking Generalization in Robot Learning through Video World Models. [[paper](https://arxiv.org/abs/2505.12705)]
+- **`arXiv 2026`** World Action Models are Zero-shot Policies. [[paper](https://arxiv.org/abs/2602.15922)]
+- **`arXiv 2026`** FinMTM: A Multi-Turn Multimodal Benchmark for Financial Reasoning and Agent Evaluation. [[paper](https://arxiv.org/abs/2602.03130)]
+- **`arXiv 2026`** GEAR: Granularity-Adaptive Advantage Reweighting for LLM Agents via Self-Distillation. [[paper](https://arxiv.org/abs/2605.11853)]
+- **`arXiv 2025`** GenEnv: Difficulty-Aligned Co-Evolution Between LLM Agents and Environment Simulators. [[paper](https://arxiv.org/abs/2512.19682)]
+- **`arXiv 2026`** HATS: Hardness-Aware Trajectory Synthesis for GUI Agents. [[paper](https://arxiv.org/abs/2603.12138)]
+- **`arXiv 2026`** From Failed Trajectories to Reliable LLM Agents: Diagnosing and Repairing Harness Flaws. [[paper](https://arxiv.org/abs/2606.06324)]
+- **`arXiv 2026`** Computer Environments Elicit General Agentic Intelligence in LLMs. [[paper](https://arxiv.org/abs/2601.16206)]
+- **`arXiv 2026`** The Long-Horizon Task Mirage? Diagnosing Where and Why Agentic Systems Break. [[paper](https://arxiv.org/abs/2604.11978)]
+- **`arXiv 2026`** On Training Large Language Models for Long-Horizon Tasks: An Empirical Study of Horizon Length. [[paper](https://arxiv.org/abs/2605.02572)]
+- **`arXiv 2025`** MCP-Bench: Benchmarking Tool-Using LLM Agents with Complex Real-World Tasks via MCP Servers. [[paper](https://arxiv.org/abs/2508.20453)]
+- **`arXiv 2025`** MCPVerse: An Expansive, Real-World Benchmark for Agentic Tool Use. [[paper](https://arxiv.org/abs/2508.16260)]
+- **`arXiv 2025`** Matrix-Game: Interactive World Foundation Model. [[paper](https://arxiv.org/abs/2506.18701)]
+- **`arXiv 2025`** MedAgentGym: A Scalable Agentic Training Environment for Code-Centric Reasoning in Biomedical Data Science. [[paper](https://arxiv.org/abs/2506.04405)]
+- **`arXiv 2025`** MineWorld: a Real-Time and Open-Source Interactive World Model on Minecraft. [[paper](https://arxiv.org/abs/2504.08388)]
+- **`arXiv 2026`** MobileDreamer: Generative Sketch World Model for GUI Agent. [[paper](https://arxiv.org/abs/2601.04035)]
+- **`arXiv 2025`** OSWorld-MCP: Benchmarking MCP Tool Invocation In Computer-Use Agents. [[paper](https://arxiv.org/abs/2510.24563)]
+- **`arXiv 2026`** OpenResearcher: A Fully Open Pipeline for Long-Horizon Deep Research Trajectory Synthesis. [[paper](https://arxiv.org/abs/2603.20278)]
+- **`arXiv 2026`** PIVOT: Bridging Planning and Execution in LLM Agents via Trajectory Refinement. [[paper](https://arxiv.org/abs/2605.11225)]
+- **`arXiv 2025`** PaperArena: An Evaluation Benchmark for Tool-Augmented Agentic Reasoning on Scientific Literature. [[paper](https://arxiv.org/abs/2510.10909)]
+- **`arXiv 2026`** SWE-Hub: A Unified Production System for Scalable, Executable Software Engineering Tasks. [[paper](https://arxiv.org/abs/2603.00575)]
+- **`arXiv 2026`** SWE-World: Building Software Engineering Agents in Docker-Free Environments. [[paper](https://arxiv.org/abs/2602.03419)]
+- **`arXiv 2026`** Immersion in the GitHub Universe: Scaling Coding Agents to Mastery. [[paper](https://arxiv.org/abs/2602.09892)]
+- **`arXiv 2026`** SciAgentGym: Benchmarking Multi-Step Scientific Tool-use in LLM Agents. [[paper](https://arxiv.org/abs/2602.12984)]
+- **`arXiv 2026`** A Matter of TASTE: Improving Coverage and Difficulty of Agent Benchmarks. [[paper](https://arxiv.org/abs/2605.28556)]
+- **`arXiv 2026`** Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces. [[paper](https://arxiv.org/abs/2601.11868)]
+- **`arXiv 2026`** Terminal-World: Scaling Terminal-Agent Environments via Agent Skills. [[paper](https://arxiv.org/abs/2605.20876)]
+- **`arXiv 2025`** LLMs as Scalable, General-Purpose Simulators For Evolving Digital Agent Training. [[paper](https://arxiv.org/abs/2510.14969)]
+- **`arXiv 2026`** Verifiable Process Rewards for Agentic Reasoning. [[paper](https://arxiv.org/abs/2605.10325)]
+- **`arXiv 2026`** Safe and Scalable Web Agent Learning via Recreated Websites. [[paper](https://arxiv.org/abs/2603.10505)]
+- **`arXiv 2025`** WebSailor: Navigating Super-human Reasoning for Web Agent. [[paper](https://arxiv.org/abs/2507.02592)]
+- **`arXiv 2025`** WebSailor-V2: Bridging the Chasm to Proprietary Agents via Synthetic Data and Scalable Reinforcement Learning. [[paper](https://arxiv.org/abs/2509.13305)]
+- **`arXiv 2026`** WebWorld: A Large-Scale World Model for Web Agent Training. [[paper](https://arxiv.org/abs/2602.14721)]
+- **`arXiv 2026`** Agentic Environment Engineering for Large Language Models: A Survey of Environment Modeling, Synthesis, Evaluation, and Application. [[paper](https://arxiv.org/abs/2606.12191)]
+- **`arXiv 2025`** Environment Scaling for Interactive Agentic Experience Collection: A Survey. [[paper](https://arxiv.org/abs/2511.09586)]
+- **`arXiv 2026`** Memory-R2: Fair Credit Assignment for Long-Horizon Memory-Augmented LLM Agents. [[paper](https://arxiv.org/abs/2605.21768)]
+- **`arXiv 2025`** seq-JEPA: Autoregressive Predictive Learning of Invariant-Equivariant World Models. [[paper](https://arxiv.org/abs/2505.03176)]
+- **`arXiv 2025`** MCPMark: A Benchmark for Stress-Testing Realistic and Comprehensive MCP Use. [[paper](https://arxiv.org/abs/2509.24002)]
+- **`arXiv 2026`** Qwen-AgentWorld: Language World Models for General Agents. [[paper](https://arxiv.org/abs/2606.24597)]
 
 ### Pre-training and Mid-training
 
@@ -403,6 +565,16 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2024`** Michelangelo: Long Context Evaluations Beyond Haystacks via Latent Structure Queries. [[paper](https://arxiv.org/abs/2409.12640)]
 - **`arXiv 2026`** CL-bench: A Benchmark for Context Learning. [[paper](https://arxiv.org/abs/2602.03587)]
 - **`arXiv 2026`** GLM-5: from Vibe Coding to Agentic Engineering. [[paper](https://arxiv.org/abs/2602.15763)]
+- **`arXiv 2023`** Extending Context Window of Large Language Models via Positional Interpolation. [[paper](https://arxiv.org/abs/2306.15595)]
+- **`arXiv 2025`** MiMo: Unlocking the Reasoning Potential of Language Model -- From Pretraining to Posttraining. [[paper](https://arxiv.org/abs/2505.07608)]
+- **`arXiv 2025`** MiMo-VL Technical Report. [[paper](https://arxiv.org/abs/2506.03569)]
+- **`arXiv 2025`** Seed1.5-VL Technical Report. [[paper](https://arxiv.org/abs/2505.07062)]
+- **`arXiv 2026`** Kimi K2.5: Visual Agentic Intelligence. [[paper](https://arxiv.org/abs/2602.02276)]
+- **`arXiv 2026`** Qwen3.5-Omni Technical Report. [[paper](https://arxiv.org/abs/2604.15804)]
+- **`arXiv 2026`** Qwen3-Coder-Next Technical Report. [[paper](https://arxiv.org/abs/2603.00729)]
+- **`arXiv 2025`** InternVL3.5: Advancing Open-Source Multimodal Models in Versatility, Reasoning, and Efficiency. [[paper](https://arxiv.org/abs/2508.18265)]
+- **`arXiv 2026`** OPUS: Towards Efficient and Principled Data Selection in Large Language Model Pre-training in Every Iteration. [[paper](https://arxiv.org/abs/2602.05400)]
+- **`arXiv 2022`** Training Compute-Optimal Large Language Models. [[paper](https://arxiv.org/abs/2203.15556)]
 
 ### Fine-tuning
 
@@ -416,6 +588,15 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2025`** Agent Data Protocol (ADP): Unifying Datasets for Agent Tuning. `🔜 coming soon`
 - **`arXiv 2025`** Agent-R: Training Language Agents to Reflect via Iterative Self-Training. [[paper](https://arxiv.org/abs/2501.11425)] [[code](https://github.com/bytedance/Agent-R)]
 - **`NeurIPS 2025`** Distilling LLM Agent into Small Models with Retrieval and Code Tools. [[paper](https://arxiv.org/abs/2505.17612)] [[code](https://github.com/Nardien/agent-distillation)]
+- **`arXiv 2023`** FireAct: Toward Language Agent Fine-tuning. [[paper](https://arxiv.org/abs/2310.05915)]
+- **`arXiv 2025`** LIMR: Less is More for RL Scaling. [[paper](https://arxiv.org/abs/2502.11886)]
+- **`arXiv 2026`** Unified Data Selection for LLM Reasoning. [[paper](https://arxiv.org/abs/2605.22389)]
+- **`arXiv 2025`** Structured Agent Distillation for Large Language Model. [[paper](https://arxiv.org/abs/2505.13820)]
+- **`arXiv 2026`** HERO: Hindsight-Enhanced Reflection from Environment Observations for Agentic Self-Distillation. [[paper](https://arxiv.org/abs/2606.11559)]
+- **`arXiv 2026`** AgentArk: Distilling Multi-Agent Intelligence into a Single LLM Agent. [[paper](https://arxiv.org/abs/2602.03955)]
+- **`arXiv 2025`** Curriculum Reinforcement Learning from Easy to Hard Tasks Improves LLM Reasoning. [[paper](https://arxiv.org/abs/2506.06632)]
+- **`arXiv 2025`** Agent Data Protocol: Unifying Datasets for Diverse, Effective Fine-tuning of LLM Agents. [[paper](https://arxiv.org/abs/2510.24702)]
+- **`arXiv 2026`** Learning with Rare Success but Rich Feedback via Reflection-Enhanced Self-Distillation. [[paper](https://arxiv.org/abs/2605.12741)]
 
 ### Agentic Reinforcement Learning
 
@@ -432,6 +613,17 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`ACL 2026`** OpenRubrics: Towards Scalable Synthetic Rubric Generation for Reward Modeling and LLM Alignment. [[paper](https://aclanthology.org/2026.acl-long.791.pdf)] [[code](https://huggingface.co/OpenRubrics/models)]
 - **`ACL 2026`** CriticSearch: Fine-Grained Credit Assignment for Search Agents via a Retrospective Critic. [[paper](https://aclanthology.org/2026.findings-acl.596.pdf)]
 - **`arXiv 2025`** ResearchRubrics: A Benchmark of Prompts and Rubrics For Evaluating Deep Research Agents. [[paper](https://arxiv.org/abs/2511.07685)]
+- **`arXiv 2025`** R3: Robust Rubric-Agnostic Reward Models. [[paper](https://arxiv.org/abs/2505.13388)]
+- **`arXiv 2025`** Rubrics as Rewards: Reinforcement Learning Beyond Verifiable Domains. [[paper](https://arxiv.org/abs/2507.17746)]
+- **`arXiv 2026`** AdaTIR: Adaptive Tool-Integrated Reasoning via Difficulty-Aware Policy Optimization. [[paper](https://arxiv.org/abs/2601.14696)]
+- **`arXiv 2025`** Chasing the Tail: Effective Rubric-based Reward Modeling for Large Language Model Post-Training. [[paper](https://arxiv.org/abs/2509.21500)]
+- **`arXiv 2025`** Reinforcement Learning for Long-Horizon Interactive LLM Agents. [[paper](https://arxiv.org/abs/2502.01600)]
+- **`arXiv 2025`** DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning. [[paper](https://arxiv.org/abs/2501.12948)]
+- **`arXiv 2025`** EAPO: Enhancing Policy Optimization with On-Demand Expert Assistance. [[paper](https://arxiv.org/abs/2509.23730)]
+- **`arXiv 2025`** Reinforcement Learning with Rubric Anchors. [[paper](https://arxiv.org/abs/2508.12790)]
+- **`arXiv 2026`** SmartSearch: Process Reward-Guided Query Refinement for Search Agents. [[paper](https://arxiv.org/abs/2601.04888)]
+- **`arXiv 2025`** Tool-R1: Sample-Efficient Reinforcement Learning for Agentic Tool Use. [[paper](https://arxiv.org/abs/2509.12867)]
+- **`arXiv 2025`** ToRL: Scaling Tool-Integrated RL. [[paper](https://arxiv.org/abs/2503.23383)]
 
 **Policy Optimization**
 - **`arXiv 2025`** REINFORCE++: A Simple and Efficient Approach for Aligning Large Language Models. [[paper](https://arxiv.org/abs/2501.03262)] [[code](https://github.com/OpenRLHF/OpenRLHF)]
@@ -444,6 +636,21 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2025`** CURE: Critical-Token-Guided Re-Concatenation for Entropy-Collapse Prevention. [[paper](https://arxiv.org/pdf/2508.11016)] [[code](https://github.com/bytedance/CURE)]
 - **`arXiv 2025`** EPO: Entropy-regularized Policy Optimization for LLM Agents Reinforcement Learning. [[paper](https://arxiv.org/pdf/2509.22576)] [[code](https://github.com/WujiangXu/EPO)]
 - **`EMNLP 2025`** EIFBENCH: Extremely Complex Instruction Following Benchmark for Large Language Models. [[paper](https://doi.org/10.18653/V1/2025.EMNLP-MAIN.1059)]
+- **`arXiv 2025`** Agentic Reinforced Policy Optimization. [[paper](https://arxiv.org/abs/2507.19849)]
+- **`arXiv 2025`** On Entropy Control in LLM-RL Algorithms. [[paper](https://arxiv.org/abs/2509.03493)]
+- **`arXiv 2025`** Agentic Entropy-Balanced Policy Optimization. [[paper](https://arxiv.org/abs/2510.14545)]
+- **`arXiv 2025`** BNPO: Beta Normalization Policy Optimization. [[paper](https://arxiv.org/abs/2506.02864)]
+- **`arXiv 2025`** The Entropy Mechanism of Reinforcement Learning for Reasoning Language Models. [[paper](https://arxiv.org/abs/2505.22617)]
+- **`arXiv 2025`** CPGD: Toward Stable Rule-based Reinforcement Learning for Language Models. [[paper](https://arxiv.org/abs/2505.12504)]
+- **`arXiv 2026`** When Denser Credit Is Not Enough: Evidence-Calibrated Policy Optimization for Long-Horizon LLM Agent Training. [[paper](https://arxiv.org/abs/2606.05885)]
+- **`arXiv 2025`** GPG: A Simple and Strong Reinforcement Learning Baseline for Model Reasoning. [[paper](https://arxiv.org/abs/2504.02546)]
+- **`arXiv 2026`** Hindsight Credit Assignment for Long-Horizon LLM Agents. [[paper](https://arxiv.org/abs/2603.08754)]
+- **`arXiv 2026`** Hierarchy-of-Groups Policy Optimization for Long-Horizon Agentic Tasks. [[paper](https://arxiv.org/abs/2602.22817)]
+- **`arXiv 2026`** HiPER: Hierarchical Reinforcement Learning with Explicit Credit Assignment for Large Language Model Agents. [[paper](https://arxiv.org/abs/2602.16165)]
+- **`arXiv 2025`** MiniMax-M1: Scaling Test-Time Compute Efficiently with Lightning Attention. [[paper](https://arxiv.org/abs/2506.13585)]
+- **`arXiv 2025`** On-Policy RL with Optimal Reward Baseline. [[paper](https://arxiv.org/abs/2505.23585)]
+- **`arXiv 2025`** PORTool: Tool-Use LLM Training with Rewarded Tree. [[paper](https://arxiv.org/abs/2510.26020)]
+- **`arXiv 2017`** Proximal Policy Optimization Algorithms. [[paper](https://arxiv.org/abs/1707.06347)]
 
 **Sampling Strategy**
 - **`NeurIPS 2025`** WebDancer: Towards Autonomous Information Seeking Agency. [[paper](https://arxiv.org/abs/2505.22648)] [[code](https://github.com/Alibaba-NLP/DeepResearch)]
@@ -453,6 +660,13 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`EMNLP 2023`** Reasoning with Language Model is Planning with World Model. [[paper](https://arxiv.org/pdf/2305.14992)] [[code](https://github.com/Ber666/RAP)]
 - **`arXiv 2026`** LiteResearcher: A Scalable Agentic RL Training Framework for Deep Research Agent. [[paper](https://arxiv.org/pdf/2604.17931)] [[code](https://github.com/simplexai-labs/LiteResearcher)]
 - **`COLM 2026`** TCOD: Exploring Temporal Curriculum in On-Policy Distillation for Multi-turn Autonomous Agents. [[paper](https://arxiv.org/pdf/2604.24005)] [[code](https://github.com/kokolerk/TCOD)]
+- **`arXiv 2025`** A Survey of Reinforcement Learning for Large Reasoning Models. [[paper](https://arxiv.org/abs/2509.08827)]
+- **`arXiv 2026`** AT$^2$PO: Agentic Turn-based Policy Optimization via Tree Search. [[paper](https://arxiv.org/abs/2601.04767)]
+- **`arXiv 2025`** R1-Searcher: Incentivizing the Search Capability in LLMs via Reinforcement Learning. [[paper](https://arxiv.org/abs/2503.05592)]
+- **`arXiv 2025`** Toward Effective Tool-Integrated Reasoning via Self-Evolved Preference Learning. [[paper](https://arxiv.org/abs/2509.23285)]
+- **`arXiv 2025`** Reinforcement Learning Optimization for Large-Scale Learning: An Efficient and User-Friendly Scaling Library. [[paper](https://arxiv.org/abs/2506.06122)]
+- **`arXiv 2025`** WebResearcher: Unleashing unbounded reasoning capability in Long-Horizon Agents. [[paper](https://arxiv.org/abs/2509.13309)]
+- **`arXiv 2026`** Training Multi-Turn Search Agent via Contrastive Dynamic Branch Sampling. [[paper](https://arxiv.org/abs/2602.03719)]
 
 **Interaction Patterns**
 - **`ICML 2025`** Divide and Conquer: Grounding LLMs as Efficient Decision-Making Agents via Offline Hierarchical Reinforcement Learning. [[paper](https://arxiv.org/pdf/2505.19761)] [[code](https://github.com/NJU-RL/GLIDER)]
@@ -462,6 +676,11 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2025`** Stronger-MAS: Multi-Agent Reinforcement Learning for Collaborative LLMs. [[paper](https://arxiv.org/pdf/2510.11062)] [[code](https://github.com/pettingllms-ai/PettingLLMs)]
 - **`ACL 2026`** Memory-R1: Enhancing Large Language Model Agents to Manage and Utilize Memories via Reinforcement Learning. [[paper](https://aclanthology.org/2026.acl-long.583.pdf)] [[code](https://github.com/yansikuan/memory-r1)]
 - **`arXiv 2025`** Agent Lightning: Train ANY AI Agents with Reinforcement Learning. [[paper](https://arxiv.org/abs/2508.03680)] [[code](https://github.com/microsoft/agent-lightning)]
+- **`arXiv 2025`** MARS: Optimizing Dual-System Deep Research via Multi-Agent Reinforcement Learning. [[paper](https://arxiv.org/abs/2510.04935)]
+- **`arXiv 2025`** Multi-Agent Deep Research: Training Multi-Agent Systems with M-GRPO. [[paper](https://arxiv.org/abs/2511.13288)]
+- **`arXiv 2025`** SPIRAL: Self-Play on Zero-Sum Games Incentivizes Reasoning via Multi-Agent Multi-Turn Reinforcement Learning. [[paper](https://arxiv.org/abs/2506.24119)]
+- **`arXiv 2025`** Unlocking the Power of Multi-Agent LLM for Reasoning: From Lazy Agents to Deliberation. [[paper](https://arxiv.org/abs/2511.02303)]
+- **`arXiv 2026`** FlowSteer: Interactive Agentic Workflow Orchestration via End-to-End Reinforcement Learning. [[paper](https://arxiv.org/abs/2602.01664)]
 
 ### On-Policy Distillation
 
@@ -470,6 +689,20 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2026`** MAD-OPD: Multi-Agent Distillation for On-Policy Supervision. [[paper](https://arxiv.org/abs/2605.01347)]
 - **`arXiv 2026`** KAT-Coder-V2: Distilling Specialist Agents into a Unified Policy. [[paper](https://arxiv.org/abs/2603.27703)]
 - **`arXiv 2026`** LiteGUI: Retrieval-Augmented On-Policy Distillation for GUI Agents. [[paper](https://arxiv.org/abs/2605.07505)]
+- **`arXiv 2025`** WebExplorer: Explore and Evolve for Training Long-Horizon Web Agents. [[paper](https://arxiv.org/abs/2509.06501)]
+- **`arXiv 2026`** Reinforcement Learning via Self-Distillation. [[paper](https://arxiv.org/abs/2601.20802)]
+- **`arXiv 2026`** Revisiting On-Policy Distillation: Empirical Failure Modes and Simple Fixes. [[paper](https://arxiv.org/abs/2603.25562)]
+- **`arXiv 2026`** Skill-SD: Skill-Conditioned Self-Distillation for Multi-turn LLM Agents. [[paper](https://arxiv.org/abs/2604.10674)]
+- **`arXiv 2026`** Self-Distillation Zero: Self-Revision Turns Binary Rewards into Dense Supervision. [[paper](https://arxiv.org/abs/2604.12002)]
+- **`arXiv 2026`** (pi)-Play: Multi-Agent Self-Play via Privileged Self-Distillation without External Data. [[paper](https://arxiv.org/abs/2604.14054)]
+- **`arXiv 2026`** TIP: Token Importance in On-Policy Distillation. [[paper](https://arxiv.org/abs/2604.14084)]
+- **`arXiv 2026`** f-OPD: Stabilizing Long-Horizon On-Policy Distillation with Freshness-Aware Control. [[paper](https://arxiv.org/abs/2605.17862)]
+- **`arXiv 2026`** Vision-OPD: Learning to See Fine Details for Multimodal LLMs via On-Policy Self-Distillation. [[paper](https://arxiv.org/abs/2605.18740)]
+- **`arXiv 2026`** StepOPSD: Step-Aware Online Preference Distillation for Agent Reinforcement Learning. [[paper](https://arxiv.org/abs/2605.27140)]
+- **`arXiv 2026`** SOD: Step-wise On-policy Distillation for Small Language Model Agents. [[paper](https://arxiv.org/abs/2605.07725)]
+- **`arXiv 2026`** On-Policy Distillation with Curriculum Turn-level Guidance for Multi-turn Agents. [[paper](https://arxiv.org/abs/2606.15912)]
+- **`arXiv 2026`** SkillOpt: Executive Strategy for Self-Evolving Agent Skills. [[paper](https://arxiv.org/abs/2605.23904)]
+- **`arXiv 2026`** OPD-Evolver: Cultivating Holistic Agent Evolver via On-Policy Distillation. [[paper](https://arxiv.org/abs/2606.17628)]
 
 ### Self-Evolution
 
@@ -482,6 +715,15 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2025`** Agent0: Co-evolving Curriculum and Executor with Zero External Data. [[paper](https://arxiv.org/abs/2511.16043)]
 - **`arXiv 2025`** Environment Tuning for Multi-Turn Tool-Use Agents. `🔜 coming soon`
 - **`arXiv 2025`** CoMAS: Co-Evolving Multi-Agent Systems via Interaction Rewards. [[paper](https://arxiv.org/abs/2510.08529)]
+- **`arXiv 2025`** RLVE: Scaling Up Reinforcement Learning for Language Models with Adaptive Verifiable Environments. [[paper](https://arxiv.org/abs/2511.07317)]
+- **`arXiv 2026`** Agent-World: Scaling Real-World Environment Synthesis for Evolving General Agent Intelligence. [[paper](https://arxiv.org/abs/2604.18292)]
+- **`arXiv 2025`** Don't Just Fine-tune the Agent, Tune the Environment. [[paper](https://arxiv.org/abs/2510.10197)]
+- **`arXiv 2025`** A Comprehensive Survey of Self-Evolving AI Agents: A New Paradigm Bridging Foundation Models and Lifelong Agentic Systems. [[paper](https://arxiv.org/abs/2508.07407)]
+- **`arXiv 2025`** A Self-Improving Coding Agent. [[paper](https://arxiv.org/abs/2504.15228)]
+- **`arXiv 2025`** Self-Adapting Language Models. [[paper](https://arxiv.org/abs/2506.10943)]
+- **`arXiv 2025`** RAGEN: Understanding Self-Evolution in LLM Agents via Multi-Turn Reinforcement Learning. [[paper](https://arxiv.org/abs/2504.20073)]
+- **`arXiv 2025`** Socratic-Zero : Bootstrapping Reasoning via Data-Free Agent Co-evolution. [[paper](https://arxiv.org/abs/2509.24726)]
+- **`arXiv 2025`** AgentEvolver: Towards Efficient Self-Evolving Agent System. [[paper](https://arxiv.org/abs/2511.10395)]
 
 ---
 
@@ -539,6 +781,13 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2025`** BrowseComp-ZH: Benchmarking Web Browsing Ability of Large Language Models in Chinese. [[paper](https://arxiv.org/abs/2504.19314)]
 - **`arXiv 2026`** Retrieval-Infused Reasoning Sandbox: A Benchmark for Decoupling Retrieval and Reasoning Capabilities. [[paper](https://arxiv.org/abs/2601.21937)]
 - **`arXiv 2025`** SealQA: Raising the Bar for Reasoning in Search-Augmented Language Models. [[paper](https://arxiv.org/abs/2506.01062)]
+- **`arXiv 2025`** EviNote-RAG: Enhancing RAG Models via Answer-Supportive Evidence Notes. [[paper](https://arxiv.org/abs/2509.00877)]
+- **`arXiv 2025`** Deep Research Agents: A Systematic Examination And Roadmap. [[paper](https://arxiv.org/abs/2506.18096)]
+- **`arXiv 2025`** Atom-Searcher: Enhancing Agentic Deep Research via Fine-Grained Atomic Thought Reward. [[paper](https://arxiv.org/abs/2508.12800)]
+- **`arXiv 2025`** FoldAct: Efficient and Stable Context Folding for Long-Horizon Search Agents. [[paper](https://arxiv.org/abs/2512.22733)]
+- **`arXiv 2025`** A Comprehensive Survey on Reinforcement Learning-based Agentic Search: Foundations, Roles, Optimizations, Evaluations, and Applications. [[paper](https://arxiv.org/abs/2510.16724)]
+- **`arXiv 2025`** ReSeek: A Self-Correcting Framework for Search Agents with Instructive Rewards. [[paper](https://arxiv.org/abs/2510.00568)]
+- **`arXiv 2025`** Beyond Turn Limits: Training Deep Search Agents with Dynamic Context Window. [[paper](https://arxiv.org/abs/2510.08276)]
 
 **Wide search**
 - **`arXiv 2025`** WideSearch: Benchmarking Agentic Broad Info-Seeking. [[paper](https://arxiv.org/abs/2508.07999)] [[code](https://github.com/ByteDance-Seed/WideSearch)]
@@ -549,6 +798,9 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`EMNLP 2024`** AssistantBench: Can Web Agents Solve Realistic and Time-Consuming Tasks? [[paper](https://arxiv.org/abs/2407.15711)] [[code](https://github.com/oriyor/assistantbench)]
 - **`arXiv 2026`** WebSwarm: Recursive Multi-Agent Orchestration for Deep-and-Wide Web Search. [[paper](https://arxiv.org/abs/2607.08662)]
 - **`arXiv 2025`** Open Deep Research. [[paper](https://www.langchain.com/blog/open-deep-research)]
+- **`arXiv 2026`** WideSeek: Advancing Wide Research via Multi-Agent Scaling. [[paper](https://arxiv.org/abs/2602.02636)]
+- **`arXiv 2026`** InfoSeeker: A Scalable Hierarchical Parallel Agent Framework for Web Information Seeking. [[paper](https://arxiv.org/abs/2604.02971)]
+- **`arXiv 2026`** WideSeek-R1: Exploring Width Scaling for Broad Information Seeking via Multi-Agent Reinforcement Learning. [[paper](https://arxiv.org/abs/2602.04634)]
 
 **Multimodal grounding**
 - **`ACL 2024`** WebVoyager: End-to-End Web Agent with Large Multimodal Models. [[paper](https://arxiv.org/abs/2401.13919)] [[code](https://github.com/MinorJerry/WebVoyager)]
@@ -563,6 +815,12 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`NeurIPS 2025`** OCRBench v2: An Improved Benchmark for Evaluating Large Multimodal Models on Visual Text Localization and Reasoning. [[paper](http://papers.nips.cc/paper_files/paper/2025/hash/8c2e6bb15be1894b8fb4e0f9bcad1739-Abstract-Datasets_and_Benchmarks_Track.html)]
 - **`NeurIPS 2024`** MMLONGBENCH-DOC: Benchmarking Long-context Document Understanding with Visualizations. [[paper](http://papers.nips.cc/paper_files/paper/2024/hash/ae0e43289bffea0c1fa34633fc608e92-Abstract-Datasets_and_Benchmarks_Track.html)]
 - **`ACL 2025`** LongDocURL: a Comprehensive Multimodal Long Document Benchmark Integrating Understanding, Reasoning, and Locating. [[paper](https://doi.org/10.18653/V1/2025.ACL-LONG.57)]
+- **`arXiv 2026`** OpenSearch-VL: An Open Recipe for Frontier Multimodal Search Agents. [[paper](https://arxiv.org/abs/2605.05185)]
+- **`arXiv 2025`** Agentic Keyframe Search for Video Question Answering. [[paper](https://arxiv.org/abs/2503.16032)]
+- **`arXiv 2026`** Video-Browser: Towards Agentic Open-web Video Browsing. [[paper](https://arxiv.org/abs/2512.23044)]
+- **`arXiv 2026`** Watching, Reasoning, and Searching: A Video Deep Research Benchmark on Open Web for Agentic Video Reasoning. [[paper](https://arxiv.org/abs/2601.06943)]
+- **`arXiv 2024`** Large Multimodal Agents: A Survey. [[paper](https://arxiv.org/abs/2402.15116)]
+- **`arXiv 2025`** Towards Mixed-Modal Retrieval for Universal Retrieval-Augmented Generation. [[paper](https://arxiv.org/abs/2510.17354)]
 
 **Research synthesis**
 - **`arXiv 2025`** WebWeaver: Structuring Web-Scale Evidence with Dynamic Outlines. [[paper](https://arxiv.org/abs/2509.13312)] [[code](https://github.com/Alibaba-NLP/DeepResearch)]
@@ -574,6 +832,10 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`NeurIPS 2024`** Long-form factuality in large language models. [[paper](http://papers.nips.cc/paper_files/paper/2024/hash/937ae0e83eb08d2cb8627fe1def8c751-Abstract-Conference.html)]
 - **`EMNLP 2023`** FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation. [[paper](https://doi.org/10.18653/V1/2023.EMNLP-MAIN.741)]
 - **`ACL 2026`** FS-Researcher: Test-Time Scaling for Long-Horizon Research Tasks with File-System-Based Agents. [[paper](https://aclanthology.org/2026.acl-long.288/)]
+- **`arXiv 2025`** DeepTRACE: Auditing Deep Research AI Systems for Tracking Reliability Across Citations and Evidence. [[paper](https://arxiv.org/abs/2509.04499)]
+- **`arXiv 2026`** AgentCPM-Report: Interleaving Drafting and Deepening for Open-Ended Deep Research. [[paper](https://arxiv.org/abs/2602.06540)]
+- **`arXiv 2025`** Deep Research: A Survey of Autonomous Research Agents. [[paper](https://arxiv.org/abs/2508.12752)]
+- **`arXiv 2026`** Toward Generalist Autonomous Research via Hypothesis-Tree Refinement. [[paper](https://arxiv.org/abs/2606.11926)]
 
 ### Computer Use
 - **`arXiv 2026`** Workspace-Bench 1.0: Benchmarking AI Agents on Workspace Tasks with Large-Scale File Dependencies. [[paper](https://arxiv.org/abs/2605.03596)]
@@ -587,6 +849,10 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`TMLR 2026`** BrowserAgent: Building Web Agents with Human-Inspired Web Browsing Actions. [[paper](https://openreview.net/forum?id=X4CfZPSEHE)] [[code](https://github.com/TIGER-AI-Lab/BrowserAgent)]
 - **`EMNLP 2024`** AssistantBench: Realistic and Time-Consuming Web Tasks. [[paper](https://arxiv.org/abs/2407.15711)] [[code](https://github.com/oriyor/assistantbench)]
 - **`arXiv 2026`** ClawBench: Can AI Agents Complete Everyday Online Tasks? [[paper](https://arxiv.org/abs/2604.08523)]
+- **`arXiv 2025`** Recon-Act: A Self-Evolving Multi-Agent Browser-Use System via Web Reconnaissance, Tool Generation, and Task Execution. [[paper](https://arxiv.org/abs/2509.21072)]
+- **`arXiv 2026`** WEBSERV: A Full-Stack and RL-Ready Web Environment for Training Web Agents at Scale. [[paper](https://arxiv.org/abs/2510.16252)]
+- **`arXiv 2025`** NNetNav: Unsupervised Learning of Browser Agents Through Environment Interaction in the Wild. [[paper](https://arxiv.org/abs/2410.02907)]
+- **`arXiv 2026`** ColorBrowserAgent: Complex Long-Horizon Browser Agent with Adaptive Knowledge Evolution. [[paper](https://arxiv.org/abs/2601.07262)]
 
 **Desktop GUI agents**
 - **`NeurIPS 2024`** OSWorld: Benchmarking Multimodal Agents for Computer Use. [[paper](https://arxiv.org/abs/2404.07972)] [[code](https://github.com/xlang-ai/OSWorld)]
@@ -596,6 +862,9 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`2024`** Anthropic Computer Use (Quickstarts). [[code](https://github.com/anthropics/anthropic-quickstarts)]
 - **`ICLR 2025`** UGround: Universal Visual Grounding for GUI Agents. [[paper](https://arxiv.org/abs/2410.05243)] [[code](https://github.com/OSU-NLP-Group/UGround)]
 - **`arXiv 2026`** Workflow-GYM: Towards Long-Horizon Evaluation of Computer-use Agentic tasks in Real-World Professional Fields. [[paper](https://arxiv.org/abs/2606.11042)]
+- **`arXiv 2026`** VISUALSKILL: Multimodal Skills for Computer-Use Agents. [[paper](https://arxiv.org/abs/2606.18448)]
+- **`arXiv 2026`** AliyunConsoleAgent: Training Web Agents in Real-World Cloud Environments via Distillation and Reinforcement Learning. [[paper](https://arxiv.org/abs/2606.09447)]
+- **`arXiv 2025`** GUI-Actor: Coordinate-Free Visual Grounding for GUI Agents. [[paper](https://arxiv.org/abs/2506.03143)]
 
 **Mobile agents**
 - **`arXiv 2024`** Mobile-Agent: Autonomous Multi-Modal Mobile Device Agent. [[paper](https://arxiv.org/abs/2401.16158)] [[code](https://github.com/X-PLUG/MobileAgent)]
@@ -604,6 +873,10 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2025`** Mobile-Agent-v3: Fundamental Agents for GUI Automation. [[paper](https://arxiv.org/abs/2508.15144)] [[code](https://github.com/X-PLUG/MobileAgent)]
 - **`arXiv 2025`** Mobile-Agent-E: Self-Evolving Mobile Assistant for Complex Tasks. [[paper](https://arxiv.org/abs/2501.11733)] [[code](https://github.com/X-PLUG/MobileAgent)]
 - **`ACL 2026`** MobileWorld: Benchmarking Autonomous Mobile Agents in Agent-User Interactive and MCP-Augmented Environments. [[paper](https://aclanthology.org/2026.acl-long.278/)]
+- **`arXiv 2025`** Advancing Mobile GUI Agents: A Verifier-Driven Approach to Practical Deployment. [[paper](https://arxiv.org/abs/2503.15937)]
+- **`arXiv 2025`** MobileGUI-RL: Advancing Mobile GUI Agent through Reinforcement Learning in Online Environment. [[paper](https://arxiv.org/abs/2507.05720)]
+- **`arXiv 2025`** AutoEval: A Practical Framework for Autonomous Evaluation of Mobile Agents. [[paper](https://arxiv.org/abs/2503.02403)]
+- **`arXiv 2026`** Mobile-Agent-v3.5: Multi-platform Fundamental GUI Agents. [[paper](https://arxiv.org/abs/2602.16855)]
 
 ### Multimodal Agents
 - **`arXiv 2024`** Vibe-Eval: A hard evaluation suite for measuring progress of multimodal language models. [[paper](https://arxiv.org/abs/2405.02287)]
@@ -614,6 +887,8 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`ICLR 2025`** CG-Bench: Clue-grounded Question Answering Benchmark for Long Video Understanding. [[paper](https://openreview.net/forum?id=le4IoZZHy1)]
 - **`arXiv 2025`** VideoEval-Pro: Robust and Realistic Long Video Understanding Evaluation. [[paper](https://arxiv.org/abs/2505.14640)]
 - **`AAAI 2026`** CrossVid: A Comprehensive Benchmark for Evaluating Cross-Video Reasoning in Multimodal Large Language Models. [[paper](https://doi.org/10.1609/AAAI.V40I8.37550)]
+- **`arXiv 2024`** GenAI-Bench: Evaluating and Improving Compositional Text-to-Visual Generation. [[paper](https://arxiv.org/abs/2406.13743)]
+- **`arXiv 2024`** Agent AI: Surveying the Horizons of Multimodal Interaction. [[paper](https://arxiv.org/abs/2401.03568)]
 
 **Multimodal understanding**
 - **`ECCV 2024`** VideoAgent: Long-Form Video Understanding with LLM as Agent. [[paper](https://arxiv.org/abs/2403.10517)] [[code](https://github.com/wxh1996/VideoAgent)]
@@ -623,6 +898,10 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2025`** Qwen2.5-VL Technical Report. [[paper](https://arxiv.org/abs/2502.13923)] [[code](https://github.com/QwenLM/Qwen2.5-VL)]
 - **`arXiv 2026`** VideoSeek: Long-Horizon Video Agent with Tool-Guided Seeking. [[paper](https://arxiv.org/abs/2603.20185)] [[code](https://github.com/jylins/videoseek)]
 - **`NeurIPS 2025`** StreamForest: Efficient Online Video Understanding with Persistent Event Memory. [[paper](http://papers.nips.cc/paper_files/paper/2025/hash/6dd91fec726dbed8915a1fbadd91d1d2-Abstract-Conference.html)]
+- **`arXiv 2025`** AdaVideoRAG: Omni-Contextual Adaptive Retrieval-Augmented Efficient Long Video Understanding. [[paper](https://arxiv.org/abs/2506.13589)]
+- **`arXiv 2025`** A.I.R.: Enabling Adaptive, Iterative, and Reasoning-based Frame Selection For Video Question Answering. [[paper](https://arxiv.org/abs/2510.04428)]
+- **`arXiv 2026`** AgentVista: Evaluating Multimodal Agents in Ultra-Challenging Realistic Visual Scenarios. [[paper](https://arxiv.org/abs/2602.23166)]
+- **`arXiv 2026`** LVOmniBench: Pioneering Long Audio-Video Understanding Evaluation for Omnimodal LLMs. [[paper](https://arxiv.org/abs/2603.19217)]
 
 **Multimodal generation**
 - **`arXiv 2025`** MM-StoryAgent: Immersive Narrated Storybook Video Generation. [[paper](https://arxiv.org/abs/2503.05242)] [[code](https://github.com/X-PLUG/MM_StoryAgent)]
@@ -633,6 +912,13 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2026`** Ptah: Towards Verifiable Multimodal Deep Research via a Multi-Agent Harness. [[paper](https://arxiv.org/abs/2605.29861)] [[code](https://github.com/SnowNation101/Ptah)]
 - **`arXiv 2025`** Generative Universal Verifier as Multimodal Meta-Reasoner. [[paper](https://arxiv.org/abs/2510.13804)]
 - **`arXiv 2025`** SeedEdit 3.0: Fast and High-Quality Generative Image Editing. [[paper](https://arxiv.org/abs/2506.05083)]
+- **`arXiv 2026`** GenAgent: Scaling Text-to-Image Generation via Agentic Multimodal Reasoning. [[paper](https://arxiv.org/abs/2601.18543)]
+- **`arXiv 2025`** Janus-Pro: Unified Multimodal Understanding and Generation with Data and Model Scaling. [[paper](https://arxiv.org/abs/2501.17811)]
+- **`arXiv 2026`** MemoGen: Can Past Experience Improve Future Text-to-Image Generation?. [[paper](https://arxiv.org/abs/2606.03243)]
+- **`arXiv 2026`** Unify-Agent: A Unified Multimodal Agent for World-Grounded Image Synthesis. [[paper](https://arxiv.org/abs/2603.29620)]
+- **`arXiv 2025`** Emerging Properties in Unified Multimodal Pretraining. [[paper](https://arxiv.org/abs/2505.14683)]
+- **`arXiv 2026`** Seedance 2.0: Advancing Video Generation for World Complexity. [[paper](https://arxiv.org/abs/2604.14148)]
+- **`arXiv 2026`** Crayotter: Traceable Multi-Agent Workflows for Long-Form Video Editing. [[paper](https://arxiv.org/abs/2606.07636)]
 
 **Omnimodal agency**
 - **`arXiv 2025`** Qwen3-Omni Technical Report. [[paper](https://arxiv.org/abs/2509.17765)] [[code](https://github.com/QwenLM/Qwen3-Omni)]
@@ -640,6 +926,9 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2026`** OmniGAIA: Towards Native Omni-Modal AI Agents. [[code](https://github.com/RUC-NLPIR/OmniGAIA)]
 - **`TrustCom 2025`** OmniNova: A General Multimodal Agent Framework. [[paper](https://arxiv.org/abs/2503.20028)]
 - **`arXiv 2026`** Orchestra-o1: Omnimodal Agent Orchestration. [[paper](https://arxiv.org/abs/2606.13707)] [[code](https://github.com/zfkarl/Orchestra-o1)]
+- **`arXiv 2026`** Agentic Active Omni-Modal Perception for Multi-Hop Audio-Visual Reasoning. [[paper](https://arxiv.org/abs/2605.28192)]
+- **`arXiv 2026`** Native Active Perception as Reasoning for Omni-Modal Understanding. [[paper](https://arxiv.org/abs/2606.19341)]
+- **`arXiv 2025`** Qwen2.5-Omni Technical Report. [[paper](https://arxiv.org/abs/2503.20215)]
 
 ### General-Purpose Agents
 
@@ -654,6 +943,11 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2025`** Introducing Codex. [[paper](https://openai.com/index/introducing-codex/)]
 - **`arXiv 2026`** PresentBench: A Fine-Grained Rubric-Based Benchmark for Slide Generation. [[paper](https://arxiv.org/abs/2603.07244)]
 - **`NeurIPS 2024`** SpreadsheetBench: Towards Challenging Real World Spreadsheet Manipulation. [[paper](http://papers.nips.cc/paper_files/paper/2024/hash/ac840df270ac537dd74530a15c332684-Abstract-Datasets_and_Benchmarks_Track.html)]
+- **`arXiv 2026`** Claw-Eval: Towards Trustworthy Evaluation of Autonomous Agents. [[paper](https://arxiv.org/abs/2604.06132)]
+- **`arXiv 2026`** ClawMark: A Living-World Benchmark for Multi-Turn, Multi-Day, Multimodal Coworker Agents. [[paper](https://arxiv.org/abs/2604.23781)]
+- **`arXiv 2026`** MCP-Atlas: A Large-Scale Benchmark for Tool-Use Competency with Real MCP Servers. [[paper](https://arxiv.org/abs/2602.00933)]
+- **`arXiv 2026`** OfficeQA Pro: An Enterprise Benchmark for End-to-End Grounded Reasoning. [[paper](https://arxiv.org/abs/2603.08655)]
+- **`arXiv 2025`** The Tool Decathlon: Benchmarking Language Agents for Diverse, Realistic, and Long-Horizon Task Execution. [[paper](https://arxiv.org/abs/2510.25726)]
 
 **Embodied agents and world models**
 - **`arXiv 2025`** Gemini Robotics: Bringing AI into the Physical World. [[paper](https://arxiv.org/abs/2503.20020)]
@@ -669,6 +963,14 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`ICML 2024`** ContPhy: Continuum Physical Concept Learning and Reasoning from Videos. [[paper](https://proceedings.mlr.press/v235/zheng24l.html)]
 - **`ICLR 2025`** PhysBench: Benchmarking and Enhancing Vision-Language Models for Physical World Understanding. [[paper](https://openreview.net/forum?id=Q6a9W6kzv5)]
 - **`ACL 2024`** EmbSpatial-Bench: Benchmarking Spatial Understanding for Embodied Tasks with Large Vision-Language Models. [[paper](https://doi.org/10.18653/V1/2024.ACL-SHORT.33)]
+- **`arXiv 2025`** World Simulation with Video Foundation Models for Physical AI. [[paper](https://arxiv.org/abs/2511.00062)]
+- **`arXiv 2026`** Qwen-RobotManip Technical Report: Alignment Unlocks Scale for Robotic Manipulation Foundation Models. [[paper](https://arxiv.org/abs/2606.17846)]
+- **`arXiv 2026`** Qwen-RobotNav Technical Report: A Scalable Navigation Model Designed for an Agentic Navigation System. [[paper](https://arxiv.org/abs/2606.18112)]
+- **`arXiv 2026`** Qwen-VLA: Unifying Vision-Language-Action Modeling across Tasks, Environments, and Robot Embodiments. [[paper](https://arxiv.org/abs/2605.30280)]
+- **`arXiv 2025`** A Survey of Robotic Navigation and Manipulation with Physics Simulators in the Era of Embodied AI. [[paper](https://arxiv.org/abs/2505.01458)]
+- **`arXiv 2026`** OSCAR: Omni-Embodiment Action-Conditioned World Model for Robotics. [[paper](https://arxiv.org/abs/2606.04463)]
+- **`arXiv 2026`** (tau)(_mbox0)-WM: A Unified Video-Action World Model for Robotic Manipulation. [[paper](https://arxiv.org/abs/2606.01027)]
+- **`arXiv 2025`** EmbodiedBench: Comprehensive Benchmarking Multi-modal Large Language Models for Vision-Driven Embodied Agents. [[paper](https://arxiv.org/abs/2502.09560)]
 
 **Productive agents**
 - **`arXiv 2024`** The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery. [[paper](https://arxiv.org/abs/2408.06292)] [[code](https://github.com/SakanaAI/AI-Scientist)]
@@ -687,6 +989,19 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`NeurIPS 2024`** PutnamBench: Evaluating Neural Theorem-Provers on the Putnam Mathematical Competition. [[paper](http://papers.nips.cc/paper_files/paper/2024/hash/1582eaf9e0cf349e1e5a6ee453100aa1-Abstract-Datasets_and_Benchmarks_Track.html)]
 - **`arXiv 2025`** HealthBench: Evaluating Large Language Models Towards Improved Human Health. [[paper](https://arxiv.org/abs/2505.08775)]
 - **`ICML 2025`** MedXpertQA: Benchmarking Expert-Level Medical Reasoning and Understanding. [[paper](https://proceedings.mlr.press/v267/zuo25a.html)]
+- **`arXiv 2025`** Robin: A multi-agent system for automating scientific discovery. [[paper](https://arxiv.org/abs/2505.13400)]
+- **`arXiv 2025`** NovelSeek: When Agent Becomes the Scientist - Building Closed-Loop System from Hypothesis to Verification. [[paper](https://arxiv.org/abs/2505.16938)]
+- **`arXiv 2025`** Prover Agent: An Agent-based Framework for Formal Mathematical Proofs. [[paper](https://arxiv.org/abs/2506.19923)]
+- **`arXiv 2025`** Seed-Prover 1.5: Mastering Undergraduate-Level Theorem Proving via Learning from Experience. [[paper](https://arxiv.org/abs/2512.17260)]
+- **`arXiv 2026`** LawThinker: A Deep Research Legal Agent in Dynamic Environments. [[paper](https://arxiv.org/abs/2602.12056)]
+- **`arXiv 2026`** MedCTA: A Benchmark for Clinical Tool Agents. [[paper](https://arxiv.org/abs/2606.11702)]
+- **`arXiv 2025`** Finance Agent Benchmark: Benchmarking LLMs on Real-world Financial Research Tasks. [[paper](https://arxiv.org/abs/2508.00828)]
+- **`arXiv 2026`** Parthenon Law: A Self-Evolving Legal-Agent Framework. [[paper](https://arxiv.org/abs/2606.04602)]
+- **`arXiv 2026`** Benchmark Test-Time Scaling of General LLM Agents. [[paper](https://arxiv.org/abs/2602.18998)]
+- **`arXiv 2026`** PhysicianBench: Evaluating LLM Agents in Real-World EHR Environments. [[paper](https://arxiv.org/abs/2605.02240)]
+- **`arXiv 2025`** From AI for Science to Agentic Science: A Survey on Autonomous Scientific Discovery. [[paper](https://arxiv.org/abs/2508.14111)]
+- **`arXiv 2026`** APE-Bench: Evaluating Automated Proof Engineering for Formal Math Libraries. [[paper](https://arxiv.org/abs/2504.19110)]
+- **`arXiv 2025`** The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search. [[paper](https://arxiv.org/abs/2504.08066)]
 
 ---
 
