@@ -53,9 +53,9 @@ The two sides co-evolve through experience and feedback: capabilities first impl
 
 - [Foundations: Formalizing Long-Horizon Agents](#foundations-formalizing-long-horizon-agents)
 - [Evolution: From Prompting to Runtime](#evolution-from-prompting-to-runtime)
-  - [Stage I — Prompt Engineering (2020–2022)](#stage-i--prompt-engineering-20202022)
-  - [Stage II — Context Engineering (2023–2024)](#stage-ii--context-engineering-20232024)
-  - [Stage III — Runtime Harnesses (2024–2026)](#stage-iii--runtime-harnesses-20242026)
+  - [Stage I — Prompt Engineering (2020–2023)](#stage-i--prompt-engineering-20202023)
+  - [Stage II — Context Engineering (2023–2025)](#stage-ii--context-engineering-20232025)
+  - [Stage III — Runtime Harnesses (2025–Present)](#stage-iii--runtime-harnesses-2025present)
 - [Harnesses: Externalizing Long-Horizon Capability (Pillar I)](#harnesses-externalizing-long-horizon-capability-pillar-i)
   - [Loops and Workflows](#loops-and-workflows)
   - [Context and Memory](#context-and-memory)
@@ -114,7 +114,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 <em><b>Section figure.</b> Three stages of co-evolution: from the <b>language</b> of a prompt, to the <b>information</b> per call, to the whole <b>trajectory</b> sustained by a runtime harness.</em>
 </div>
 
-### Stage I — Prompt Engineering (2020–2022)
+### Stage I — Prompt Engineering (2020–2023)
 
 - **`NeurIPS 2020`** Language Models are Few-Shot Learners (GPT-3). [[paper](https://arxiv.org/abs/2005.14165)]
 - **`NeurIPS 2022`** Chain-of-Thought Prompting Elicits Reasoning in Large Language Models. [[paper](https://arxiv.org/abs/2201.11903)]
@@ -130,7 +130,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`ICLR 2023`** Large Language Models Are Human-Level Prompt Engineers (APE). [[paper](https://arxiv.org/abs/2211.01910)] [[code](https://github.com/keirp/automatic_prompt_engineer)]
 - **`EMNLP 2023`** Automatic Prompt Optimization with "Gradient Descent" and Beam Search (APO). [[paper](https://arxiv.org/abs/2305.03495)]
 
-### Stage II — Context Engineering (2023–2024)
+### Stage II — Context Engineering (2023–2025)
 
 - **`NeurIPS 2020`** Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks. [[paper](https://arxiv.org/abs/2005.11401)]
 - **`ACL 2023`** Precise Zero-Shot Dense Retrieval without Relevance Labels (HyDE). [[paper](https://arxiv.org/abs/2212.10496)]
@@ -147,7 +147,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`UIST 2023`** Generative Agents: Interactive Simulacra of Human Behavior. [[paper](https://arxiv.org/abs/2304.03442)] [[code](https://github.com/joonspk-research/generative_agents)]
 - **`EMNLP 2023`** LLMLingua: Compressing Prompts for Accelerated Inference of LLMs. [[paper](https://arxiv.org/abs/2310.05736)] [[code](https://github.com/microsoft/LLMLingua)]
 
-### Stage III — Runtime Harnesses (2024–2026)
+### Stage III — Runtime Harnesses (2025–Present)
 
 - **`NeurIPS 2023`** Reflexion: Language Agents with Verbal Reinforcement Learning. [[paper](https://arxiv.org/abs/2303.11366)] [[code](https://github.com/noahshinn/reflexion)]
 - **`NeurIPS 2023`** Self-Refine: Iterative Refinement with Self-Feedback. [[paper](https://arxiv.org/abs/2303.17651)] [[code](https://github.com/madaan/self-refine)]
@@ -205,14 +205,14 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2025`** MEM1: Learning to Synergize Memory and Reasoning. [[paper](https://arxiv.org/abs/2506.15841)] [[code](https://github.com/MIT-MI/MEM1)]
 - **`ACL 2025`** HiAgent: Hierarchical Working Memory Management for LLM Agents. [[paper](https://arxiv.org/abs/2408.09559)] [[code](https://github.com/HiAgent2024/HiAgent)]
 - **`arXiv 2025`** ACE: Agentic Context Engineering. [[paper](https://arxiv.org/abs/2510.04618)]
-- **`arXiv 2025`** Memory-as-Action: Autonomous Context Curation for Long-Horizon Agentic Tasks. [[paper](https://arxiv.org/abs/2510.12635)]
+- **`ACL Findings 2026`** Memory-as-Action: Autonomous Context Curation for Long-Horizon Agentic Tasks. [[paper](https://arxiv.org/abs/2510.12635)] [[code](https://github.com/ADaM-BJTU/MemAct)]
 
 **Persistent Memory (factual / experiential)**
 - **`Spec 2024`** AGENTS.md / Project-rule files (CLAUDE.md, Cursor Rules). [[paper](https://agents.md/)]
-- **`arXiv 2025`** Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory. [[paper](https://arxiv.org/abs/2504.19413)] [[code](https://github.com/mem0ai/mem0)]
+- **`ECAI 2025`** Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory. [[paper](https://arxiv.org/abs/2504.19413)] [[code](https://github.com/mem0ai/mem0)]
 - **`NeurIPS 2024`** HippoRAG: Neurobiologically Inspired Long-Term Memory for LLMs. [[paper](https://arxiv.org/abs/2405.14831)] [[code](https://github.com/OSU-NLP-Group/HippoRAG)]
 - **`arXiv 2025`** A-MEM: Agentic Memory for LLM Agents. [[paper](https://arxiv.org/abs/2502.12110)] [[code](https://github.com/agiresearch/A-mem)]
-- **`arXiv 2025`** MemoryOS: Memory OS of AI Agent. [[paper](https://arxiv.org/abs/2506.06326)] [[code](https://github.com/BAI-LAB/MemoryOS)]
+- **`EMNLP 2025`** MemoryOS: Memory OS of AI Agent. [[paper](https://arxiv.org/abs/2506.06326)] [[code](https://github.com/BAI-LAB/MemoryOS)]
 - **`AAAI 2024`** ExpeL: LLM Agents Are Experiential Learners. [[paper](https://arxiv.org/abs/2308.10144)] [[code](https://github.com/LeapLabTHU/ExpeL)]
 - **`ICML 2025`** Agent Workflow Memory (AWM). [[paper](https://arxiv.org/abs/2409.07429)] [[code](https://github.com/zorazrw/agent-workflow-memory)]
 - **`arXiv 2025`** ReasoningBank: Scaling Agent Self-Evolving with Reasoning Memory. [[paper](https://arxiv.org/abs/2509.25140)]
@@ -233,7 +233,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`ICML 2024`** AnyTool: Self-Reflective, Hierarchical Agents for Large-Scale API Calls. [[paper](https://arxiv.org/abs/2402.04253)] [[code](https://github.com/dyabel/AnyTool)]
 - **`arXiv 2025`** MCP-Zero: Active Tool Discovery for Autonomous LLM Agents. [[paper](https://arxiv.org/abs/2506.01056)]
 - **`ICLR 2025`** ToolGen: Unified Tool Retrieval and Calling via Generation. [[paper](https://arxiv.org/abs/2410.03439)] [[code](https://github.com/Reason-Wang/ToolGen)]
-- **`arXiv 2025`** DeepAgent: A General Reasoning Agent with Scalable Toolsets. [[paper](https://arxiv.org/abs/2510.14879)]
+- **`WWW 2026`** DeepAgent: A General Reasoning Agent with Scalable Toolsets. [[paper](https://arxiv.org/abs/2510.21618)] [[code](https://github.com/RUC-NLPIR/DeepAgent)]
 
 **Skill libraries**
 - **`TMLR 2024`** Voyager: Reusable Executable Skill Library. [[paper](https://arxiv.org/abs/2305.16291)] [[code](https://github.com/MineDojo/Voyager)]
@@ -319,7 +319,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`ACL 2024`** Math-Shepherd: Verify and Reinforce LLMs Step-by-step. [[paper](https://arxiv.org/abs/2312.08935)]
 - **`ICML 2025`** Free Process Rewards without Process Labels (Implicit PRM). [[paper](https://arxiv.org/abs/2412.01981)] [[code](https://github.com/PRIME-RL/ImplicitPRM)]
 - **`ICML 2024`** Language Agent Tree Search (LATS). [[paper](https://arxiv.org/abs/2310.04406)] [[code](https://github.com/lapisrocks/LanguageAgentTreeSearch)]
-- **`arXiv 2024`** ReST-MCTS*: LLM Self-Training via Process Reward Guided Tree Search. [[paper](https://arxiv.org/abs/2406.03816)] [[code](https://github.com/THUDM/ReST-MCTS)]
+- **`NeurIPS 2024`** ReST-MCTS*: LLM Self-Training via Process Reward Guided Tree Search. [[paper](https://arxiv.org/abs/2406.03816)] [[code](https://github.com/THUDM/ReST-MCTS)]
 - **`ICLR 2025`** Scaling LLM Test-Time Compute Optimally. [[paper](https://arxiv.org/abs/2408.03314)]
 
 ---
@@ -365,7 +365,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2025`** Kimi K2: Open Agentic Intelligence. [[paper](https://arxiv.org/abs/2507.20534)] [[code](https://github.com/MoonshotAI/Kimi-K2)]
 - **`ICLR 2024`** YaRN: Efficient Context Window Extension of Large Language Models. [[paper](https://arxiv.org/abs/2309.00071)] [[code](https://github.com/jquesnelle/yarn)]
 - **`ICLR 2024`** LongLoRA: Efficient Fine-tuning of Long-Context LLMs. [[paper](https://arxiv.org/abs/2309.12307)] [[code](https://github.com/dvlab-research/LongLoRA)]
-- **`arXiv 2024`** How to Train Long-Context Language Models (ProLong). [[paper](https://arxiv.org/abs/2410.02660)] [[code](https://github.com/princeton-nlp/ProLong)]
+- **`ACL 2025`** How to Train Long-Context Language Models (ProLong). [[paper](https://arxiv.org/abs/2410.02660)] [[code](https://github.com/princeton-nlp/ProLong)]
 - **`arXiv 2024`** Qwen2-VL: Enhancing Vision-Language Model's Perception. [[paper](https://arxiv.org/abs/2409.12191)] [[code](https://github.com/QwenLM/Qwen2-VL)]
 - **`arXiv 2025`** InternVL3: Advanced Open Multimodal Foundation Models. [[paper](https://arxiv.org/abs/2504.10479)] [[code](https://github.com/OpenGVLab/InternVL)]
 - **`NeurIPS 2023`** DoReMi: Optimizing Data Mixtures Speeds Up Pretraining. [[paper](https://arxiv.org/abs/2305.10429)]
@@ -373,16 +373,16 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 
 ### Fine-tuning
 
-- **`arXiv 2023`** AgentTuning: Enabling Generalized Agent Abilities for LLMs. [[paper](https://arxiv.org/abs/2310.12823)] [[code](https://github.com/THUDM/AgentTuning)]
+- **`ACL Findings 2024`** AgentTuning: Enabling Generalized Agent Abilities for LLMs. [[paper](https://arxiv.org/abs/2310.12823)] [[code](https://github.com/THUDM/AgentTuning)]
 - **`arXiv 2025`** LIMI: Less is More for Agency. [[paper](https://arxiv.org/abs/2509.17567)] [[code](https://github.com/GAIR-NLP/LIMI)]
-- **`arXiv 2025`** ATLaS: Agent Tuning via Learning Critical Steps. [[paper](https://arxiv.org/abs/2503.02197)]
+- **`ACL Findings 2025`** ATLaS: Agent Tuning via Learning Critical Steps. [[paper](https://arxiv.org/abs/2503.02197)]
 - **`arXiv 2025`** LIMO: Less is More for Reasoning. [[paper](https://arxiv.org/abs/2502.03387)] [[code](https://github.com/GAIR-NLP/LIMO)]
-- **`arXiv 2025`** s1: Simple Test-Time Scaling. [[paper](https://arxiv.org/abs/2501.19393)] [[code](https://github.com/simplescaling/s1)]
+- **`EMNLP 2025`** s1: Simple Test-Time Scaling. [[paper](https://arxiv.org/abs/2501.19393)] [[code](https://github.com/simplescaling/s1)]
 - **`ICML 2024`** Executable Code Actions Elicit Better LLM Agents (CodeAct). [[paper](https://arxiv.org/abs/2402.01030)] [[code](https://github.com/xingyaoww/code-act)]
 - **`NeurIPS 2024`** APIGen: Automated Pipeline for Generating Function-Calling Datasets. [[paper](https://arxiv.org/abs/2406.18518)] [[code](https://github.com/SalesforceAIResearch/xLAM)]
 - **`arXiv 2025`** Agent Data Protocol (ADP): Unifying Datasets for Agent Tuning. `🔜 coming soon`
 - **`arXiv 2025`** Agent-R: Training Language Agents to Reflect via Iterative Self-Training. [[paper](https://arxiv.org/abs/2501.11425)] [[code](https://github.com/bytedance/Agent-R)]
-- **`arXiv 2025`** Distilling LLM Agent into Small Models with Retrieval and Code Tools. [[paper](https://arxiv.org/abs/2505.17612)]
+- **`NeurIPS 2025`** Distilling LLM Agent into Small Models with Retrieval and Code Tools. [[paper](https://arxiv.org/abs/2505.17612)] [[code](https://github.com/Nardien/agent-distillation)]
 
 ### Agentic Reinforcement Learning
 
@@ -392,14 +392,14 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2024`** DeepSeekMath: Pushing the Limits of Mathematical Reasoning (GRPO). [[paper](https://arxiv.org/abs/2402.03300)] [[code](https://github.com/deepseek-ai/DeepSeek-Math)]
 - **`arXiv 2025`** Search-R1: RL for Search-Integrated Reasoning. [[paper](https://arxiv.org/abs/2503.09516)] [[code](https://github.com/PeterGriffinJin/Search-R1)]
 - **`arXiv 2025`** DeepRetrieval: RL for Retrieval-Metric Rewards. [[paper](https://arxiv.org/abs/2503.00223)] [[code](https://github.com/pat-jj/DeepRetrieval)]
-- **`arXiv 2025`** ToolRL: Reward is All Tool Learning Needs. [[paper](https://arxiv.org/abs/2504.13958)] [[code](https://github.com/qiancheng0/ToolRL)]
+- **`NeurIPS 2025`** ToolRL: Reward is All Tool Learning Needs. [[paper](https://arxiv.org/abs/2504.13958)] [[code](https://github.com/qiancheng0/ToolRL)]
 - **`arXiv 2025`** Tool-Star: Empowering Multi-Tool Reasoning via RL. [[paper](https://arxiv.org/abs/2505.16410)] [[code](https://github.com/RUC-NLPIR/Tool-Star)]
 - **`arXiv 2025`** RuscaRL: Rubric-Scaffolded Reinforcement Learning. [[paper](https://arxiv.org/abs/2508.16949)] [[code](https://github.com/IANNXANG/RuscaRL)]
 - **`arXiv 2025`** DR Tulu: Co-evolving Rubrics in Deep Research. [[code](https://github.com/rlresearch/dr-tulu)]
 
 **Policy Optimization**
 - **`arXiv 2025`** REINFORCE++: A Simple and Efficient Approach for Aligning LLMs. [[paper](https://arxiv.org/abs/2501.03262)] [[code](https://github.com/OpenRLHF/OpenRLHF)]
-- **`arXiv 2025`** DAPO: An Open-Source LLM Reinforcement Learning System at Scale. [[paper](https://arxiv.org/abs/2503.14476)] [[code](https://github.com/BytedTsinghua-SIA/DAPO)]
+- **`NeurIPS 2025`** DAPO: An Open-Source LLM Reinforcement Learning System at Scale. [[paper](https://arxiv.org/abs/2503.14476)] [[code](https://github.com/BytedTsinghua-SIA/DAPO)]
 - **`arXiv 2025`** Understanding R1-Zero-Like Training (Dr.GRPO). [[paper](https://arxiv.org/abs/2503.20783)] [[code](https://github.com/sail-sg/understand-r1-zero)]
 - **`arXiv 2025`** GSPO: Group Sequence Policy Optimization. [[paper](https://arxiv.org/abs/2507.18071)]
 - **`arXiv 2025`** GiGPO: Group-in-Group Policy Optimization for Agents. [[paper](https://arxiv.org/abs/2505.10978)] [[code](https://github.com/langfengQ/verl-agent)]
@@ -435,7 +435,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2025`** SAMULE: Multi-Level Reflection Synthesis from Failures. [[paper](https://doi.org/10.18653/v1/2025.emnlp-main.839)]
 - **`ICML 2025`** rStar-Math: Small LLMs Master Math Reasoning via Self-Evolved Deep Thinking. [[paper](https://arxiv.org/abs/2501.04519)] [[code](https://github.com/microsoft/rStar)]
 - **`arXiv 2025`** R-Zero: Self-Evolving Reasoning LLM from Zero Data. [[paper](https://arxiv.org/abs/2508.05004)] [[code](https://github.com/Chengsong-Huang/R-Zero)]
-- **`arXiv 2025`** Absolute Zero: Reinforced Self-play Reasoning with Zero Data. [[paper](https://arxiv.org/abs/2505.03335)] [[code](https://github.com/LeapLabTHU/Absolute-Zero-Reasoner)]
+- **`NeurIPS 2025`** Absolute Zero: Reinforced Self-play Reasoning with Zero Data. [[paper](https://arxiv.org/abs/2505.03335)] [[code](https://github.com/LeapLabTHU/Absolute-Zero-Reasoner)]
 - **`arXiv 2025`** Agent0: Co-evolving Curriculum and Executor with Zero External Data. [[paper](https://arxiv.org/abs/2511.16043)]
 - **`arXiv 2025`** Environment Tuning for Multi-Turn Tool-Use Agents. `🔜 coming soon`
 - **`arXiv 2025`** CoMAS: Co-Evolving Multi-Agent Systems via Interaction Rewards. [[paper](https://arxiv.org/abs/2510.08529)]
@@ -458,11 +458,12 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`ICLR 2025`** OpenHands: An Open Platform for AI Software Developers as Generalist Agents. [[paper](https://arxiv.org/abs/2407.16741)] [[code](https://github.com/All-Hands-AI/OpenHands)]
 - **`2023`** Aider: AI Pair Programming in Your Terminal (repository map). [[code](https://github.com/Aider-AI/aider)]
 - **`ICLR 2024`** SWE-bench: Can Language Models Resolve Real-World GitHub Issues? [[paper](https://arxiv.org/abs/2310.06770)] [[code](https://github.com/SWE-bench/SWE-bench)]
+- **`arXiv 2025`** NL2Repo-Bench: Towards Long-Horizon Repository Generation Evaluation. [[paper](https://arxiv.org/abs/2512.12730)] [[code](https://github.com/multimodal-art-projection/NL2RepoBench)]
 
 **Workflow-level planning**
 - **`2025`** Claude Code. [[code](https://github.com/anthropics/claude-code)]
 - **`2025`** Deep Agents: A Subagent Harness for Long-Horizon Coding. [[code](https://github.com/langchain-ai/deepagents)]
-- **`arXiv 2024`** Magentic-One: A Generalist Multi-Agent System. [[paper](https://arxiv.org/abs/2411.04468)] [[code](https://github.com/microsoft/autogen)]
+- **`arXiv 2025`** Trae Agent: An LLM-based Agent for Software Engineering with Test-time Scaling. [[paper](https://arxiv.org/abs/2507.23370)] [[code](https://github.com/bytedance/trae-agent)]
 - **`arXiv 2025`** SWE-bench Pro: Long-Horizon Enterprise Software Engineering. [[paper](https://arxiv.org/abs/2509.16941)] [[code](https://github.com/scaleapi/SWE-bench_Pro-os)]
 - **`2025`** OpenAI Codex. [[paper](https://developers.openai.com/codex/)] [[code](https://github.com/openai/codex)]
 
@@ -481,10 +482,13 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`NeurIPS 2025`** WebDancer: Towards Autonomous Information Seeking Agency. [[paper](https://arxiv.org/abs/2505.22648)] [[code](https://github.com/Alibaba-NLP/DeepResearch)]
 - **`arXiv 2025`** WebSeer: Training Deeper Search Agents through RL with Self-Reflection. [[paper](https://arxiv.org/abs/2510.18798)] [[code](https://github.com/99hgz/WebSeer)]
 - **`arXiv 2025`** ReSum: Unlocking Long-Horizon Search Intelligence via Context Summarization. [[paper](https://arxiv.org/abs/2509.13313)] [[code](https://github.com/Alibaba-NLP/DeepResearch)]
+- **`arXiv 2025`** Tongyi DeepResearch: A New Era of Open-Source AI Researchers. [[paper](https://arxiv.org/abs/2510.24701)] [[code](https://github.com/Alibaba-NLP/DeepResearch)]
+- **`arXiv 2025`** MiroThinker: Pushing the Performance Boundaries of Open-Source Research Agents. [[paper](https://arxiv.org/abs/2511.11793)] [[code](https://github.com/MiroMindAI/MiroThinker)]
 
 **Wide search**
 - **`arXiv 2025`** WideSearch: Benchmarking Agentic Broad Info-Seeking. [[paper](https://arxiv.org/abs/2508.07999)] [[code](https://github.com/ByteDance-Seed/WideSearch)]
 - **`2026`** Open Deep Research: An Open Deep-Research Agent. [[paper](https://www.langchain.com/blog/open-deep-research)] [[code](https://github.com/langchain-ai/open_deep_research)]
+- **`ACL 2026`** InternAgent-DR (FlowSearch): Advancing Deep Research with Dynamic Structured Knowledge Flow. [[paper](https://aclanthology.org/2026.acl-long.971/)] [[code](https://github.com/Alpha-Innovator/InternAgent)]
 - **`arXiv 2025`** Laser: Governing Long-Horizon Agentic Search via Structured Protocol and Context Register. [[paper](https://arxiv.org/abs/2512.20458)]
 - **`arXiv 2025`** GraphSearch: An Agentic Deep Searching Workflow for Graph RAG. [[paper](https://arxiv.org/abs/2509.22009)]
 - **`EMNLP 2024`** AssistantBench: Can Web Agents Solve Realistic and Time-Consuming Tasks? [[paper](https://arxiv.org/abs/2407.15711)] [[code](https://github.com/oriyor/assistantbench)]
@@ -492,6 +496,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 **Multimodal grounding**
 - **`ACL 2024`** WebVoyager: End-to-End Web Agent with Large Multimodal Models. [[paper](https://arxiv.org/abs/2401.13919)] [[code](https://github.com/MinorJerry/WebVoyager)]
 - **`ICLR 2025`** Benchmarking Multimodal RAG with Dynamic VQA and Self-Adaptive Planning Agent. [[paper](https://arxiv.org/abs/2411.02937)]
+- **`arXiv 2025`** WebWatcher: Breaking New Frontiers of Vision-Language Deep Research Agent. [[paper](https://arxiv.org/abs/2508.05748)] [[code](https://github.com/Alibaba-NLP/DeepResearch)]
 - **`arXiv 2025`** MM-BrowseComp: A Comprehensive Benchmark for Multimodal Browsing Agents. [[paper](https://arxiv.org/abs/2508.13186)]
 - **`arXiv 2026`** VSearcher: Long-Horizon Multimodal Search Agent via Reinforcement Learning. [[paper](https://arxiv.org/abs/2603.02795)]
 - **`arXiv 2026`** Towards Long-Horizon Agentic Multimodal Search. [[paper](https://arxiv.org/abs/2604.12890)]
@@ -510,12 +515,14 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`NeurIPS 2023`** Mind2Web: Towards a Generalist Agent for the Web. [[paper](https://arxiv.org/abs/2306.06070)] [[code](https://github.com/OSU-NLP-Group/Mind2Web)]
 - **`ACL 2024`** WebVoyager: End-to-End Web Agent with Large Multimodal Models. [[paper](https://arxiv.org/abs/2401.13919)] [[code](https://github.com/MinorJerry/WebVoyager)]
 - **`2024`** browser-use: Make Websites Accessible for AI Agents. [[code](https://github.com/browser-use/browser-use)]
+- **`TMLR 2026`** BrowserAgent: Building Web Agents with Human-Inspired Web Browsing Actions. [[paper](https://openreview.net/forum?id=X4CfZPSEHE)] [[code](https://github.com/TIGER-AI-Lab/BrowserAgent)]
 - **`EMNLP 2024`** AssistantBench: Realistic and Time-Consuming Web Tasks. [[paper](https://arxiv.org/abs/2407.15711)] [[code](https://github.com/oriyor/assistantbench)]
 
 **Desktop GUI agents**
 - **`NeurIPS 2024`** OSWorld: Benchmarking Multimodal Agents for Computer Use. [[paper](https://arxiv.org/abs/2404.07972)] [[code](https://github.com/xlang-ai/OSWorld)]
 - **`arXiv 2025`** UI-TARS: Pioneering Automated GUI Interaction with Native Agents. [[paper](https://arxiv.org/abs/2501.12326)] [[code](https://github.com/bytedance/UI-TARS)]
 - **`CVPR 2024`** CogAgent: A Visual Language Model for GUI Agents. [[paper](https://arxiv.org/abs/2312.08914)] [[code](https://github.com/THUDM/CogAgent)]
+- **`ACM MM 2025`** ScreenSpot-Pro: GUI Grounding for Professional High-Resolution Computer Use. [[paper](https://doi.org/10.1145/3746027.3755688)] [[code](https://github.com/likaixin2000/ScreenSpot-Pro-GUI-Grounding)]
 - **`2024`** Anthropic Computer Use (Quickstarts). [[code](https://github.com/anthropics/anthropic-quickstarts)]
 - **`ICLR 2025`** UGround: Universal Visual Grounding for GUI Agents. [[paper](https://arxiv.org/abs/2410.05243)] [[code](https://github.com/OSU-NLP-Group/UGround)]
 
@@ -523,7 +530,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2024`** Mobile-Agent: Autonomous Multi-Modal Mobile Device Agent. [[paper](https://arxiv.org/abs/2401.16158)] [[code](https://github.com/X-PLUG/MobileAgent)]
 - **`ICLR 2025`** AndroidWorld: A Dynamic Benchmarking Environment for Autonomous Agents. [[paper](https://arxiv.org/abs/2405.14573)] [[code](https://github.com/google-research/android_world)]
 - **`ACL 2024`** SeeClick: Harnessing GUI Grounding for Advanced Visual GUI Agents. [[paper](https://arxiv.org/abs/2401.10935)] [[code](https://github.com/njucckevin/SeeClick)]
-- **`arXiv 2024`** MobileAgentBench: An Efficient and User-Friendly Benchmark for Mobile LLM Agents. [[paper](https://arxiv.org/abs/2406.08184)]
+- **`arXiv 2025`** Mobile-Agent-v3: Fundamental Agents for GUI Automation. [[paper](https://arxiv.org/abs/2508.15144)] [[code](https://github.com/X-PLUG/MobileAgent)]
 - **`arXiv 2025`** Mobile-Agent-E: Self-Evolving Mobile Assistant for Complex Tasks. [[paper](https://arxiv.org/abs/2501.11733)] [[code](https://github.com/X-PLUG/MobileAgent)]
 
 ### Multimodal Agents
@@ -534,6 +541,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`KDD 2026`** VideoRAG: Retrieval-Augmented Generation with Extreme Long-Context Videos. [[paper](https://arxiv.org/abs/2502.01549)]
 - **`CVPR 2025`** Video-MME: Comprehensive Evaluation of Multimodal LLMs in Video. [[paper](https://arxiv.org/abs/2405.21075)] [[code](https://github.com/BradyFU/Video-MME)]
 - **`arXiv 2025`** Qwen2.5-VL Technical Report. [[paper](https://arxiv.org/abs/2502.13923)] [[code](https://github.com/QwenLM/Qwen2.5-VL)]
+- **`arXiv 2026`** VideoSeek: Long-Horizon Video Agent with Tool-Guided Seeking. [[paper](https://arxiv.org/abs/2603.20185)] [[code](https://github.com/jylins/videoseek)]
 
 **Multimodal generation**
 - **`arXiv 2025`** MM-StoryAgent: Immersive Narrated Storybook Video Generation. [[paper](https://arxiv.org/abs/2503.05242)] [[code](https://github.com/X-PLUG/MM_StoryAgent)]
@@ -541,13 +549,14 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2025`** Seedream 3.0 Technical Report. [[paper](https://arxiv.org/abs/2504.11346)]
 - **`arXiv 2026`** MUSE: Multi-Agent Framework for Long-Form Audio-Visual Story Generation. [[paper](https://arxiv.org/abs/2602.03028)]
 - **`arXiv 2026`** Mind-Brush: Integrating Agentic Cognitive Search and Reasoning into Image Generation. [[paper](https://arxiv.org/abs/2602.01756)]
+- **`arXiv 2026`** Ptah: Towards Verifiable Multimodal Deep Research via a Multi-Agent Harness. [[paper](https://arxiv.org/abs/2605.29861)] [[code](https://github.com/SnowNation101/Ptah)]
 
 **Omnimodal agency**
 - **`arXiv 2025`** Qwen3-Omni Technical Report. [[paper](https://arxiv.org/abs/2509.17765)] [[code](https://github.com/QwenLM/Qwen3-Omni)]
-- **`arXiv 2025`** Agent-Omni: Test-Time Multimodal Reasoning via Model Coordination. [[paper](https://arxiv.org/abs/2511.02834)]
+- **`arXiv 2025`** Agent-Omni: Test-Time Multimodal Reasoning via Model Coordination. [[paper](https://arxiv.org/abs/2511.02834)] [[code](https://github.com/huawei-lin/Agent-Omni)]
 - **`arXiv 2026`** OmniGAIA: Towards Native Omni-Modal AI Agents. [[code](https://github.com/RUC-NLPIR/OmniGAIA)]
 - **`TrustCom 2025`** OmniNova: A General Multimodal Agent Framework. [[paper](https://arxiv.org/abs/2503.20028)]
-- **`arXiv 2026`** Orchestra-o1: Omnimodal Agent Orchestration. [[paper](https://arxiv.org/abs/2606.13707)]
+- **`arXiv 2026`** Orchestra-o1: Omnimodal Agent Orchestration. [[paper](https://arxiv.org/abs/2606.13707)] [[code](https://github.com/zfkarl/Orchestra-o1)]
 
 ### General-Purpose Agents
 
@@ -557,18 +566,21 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`ICLR 2024`** GAIA: A Benchmark for General AI Assistants. [[paper](https://arxiv.org/abs/2311.12983)]
 - **`arXiv 2026`** SemaClaw: General-Purpose Personal AI Agents through Harness Engineering. [[paper](https://arxiv.org/abs/2604.11548)]
 - **`arXiv 2026`** APEX-Agents: Long-Horizon Cross-Application Professional Knowledge Work. [[paper](https://arxiv.org/abs/2601.14242)]
+- **`2025`** OpenManus: An Open-Source Framework for Building General AI Agents. [[code](https://github.com/FoundationAgents/OpenManus)]
 
 **Embodied agents and world models**
 - **`arXiv 2025`** Gemini Robotics: Bringing AI into the Physical World. [[paper](https://arxiv.org/abs/2503.20020)]
-- **`arXiv 2025`** GR00T N1: An Open Foundation Model for Generalist Humanoid Robots. [[paper](https://arxiv.org/abs/2503.14734)]
+- **`arXiv 2025`** GR00T N1: An Open Foundation Model for Generalist Humanoid Robots. [[paper](https://arxiv.org/abs/2503.14734)] [[code](https://github.com/NVIDIA/Isaac-GR00T)]
 - **`CoRL 2024`** OpenVLA: An Open-Source Vision-Language-Action Model. [[paper](https://arxiv.org/abs/2406.09246)] [[code](https://github.com/openvla/openvla)]
+- **`arXiv 2025`** π0.5: A Vision-Language-Action Model with Open-World Generalization. [[paper](https://arxiv.org/abs/2504.16054)] [[code](https://github.com/Physical-Intelligence/openpi)]
 - **`arXiv 2025`** V-JEPA 2: Self-Supervised Video World Models. [[paper](https://arxiv.org/abs/2506.09985)] [[code](https://github.com/facebookresearch/vjepa2)]
 - **`ICML 2025`** DINO-WM: World Models on Pre-trained Visual Features. [[paper](https://arxiv.org/abs/2411.04983)] [[code](https://github.com/gaoyuezhou/dino_wm)]
 
 **Productive agents**
 - **`arXiv 2024`** The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery. [[paper](https://arxiv.org/abs/2408.06292)] [[code](https://github.com/SakanaAI/AI-Scientist)]
-- **`arXiv 2025`** Kosmos: An AI Scientist for Autonomous Discovery. [[paper](https://arxiv.org/abs/2511.02824)]
-- **`arXiv 2024`** FinRobot: AI Agent for Equity Research and Valuation. [[paper](https://arxiv.org/abs/2411.08804)]
+- **`arXiv 2025`** AlphaEvolve: A Coding Agent for Scientific and Algorithmic Discovery. [[paper](https://arxiv.org/abs/2506.13131)] [[code](https://github.com/google-deepmind/alphaevolve_results)]
+- **`arXiv 2025`** Kosmos: An AI Scientist for Autonomous Discovery. [[paper](https://arxiv.org/abs/2511.02824)] [[code](https://github.com/EdisonScientific/kosmos-figures)]
+- **`arXiv 2024`** FinRobot: AI Agent for Equity Research and Valuation. [[paper](https://arxiv.org/abs/2411.08804)] [[code](https://github.com/AI4Finance-Foundation/FinRobot)]
 - **`ACL 2025`** LegalAgentBench: Evaluating LLM Agents in Legal Domain. [[paper](https://arxiv.org/abs/2412.17259)] [[code](https://github.com/CSHaitao/LegalAgentBench)]
 - **`arXiv 2025`** MedAgentBench: A Realistic Virtual EHR Environment for Medical LLM Agents. [[paper](https://arxiv.org/abs/2501.14654)] [[code](https://github.com/stanfordmlgroup/MedAgentBench)]
 
@@ -582,7 +594,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`OpenAI 2024`** SWE-bench Verified — repository issue resolution. [[code](https://github.com/SWE-bench/SWE-bench)]
 - **`arXiv 2025`** SWE-bench Pro — enterprise software engineering. [[code](https://github.com/scaleapi/SWE-bench_Pro-os)]
 - **`arXiv 2025`** Terminal-Bench 2.0 — isolated terminal environments. [[code](https://github.com/laude-institute/terminal-bench)]
-- **`arXiv 2026`** OctoBench — scaffold-aware coding-agent evaluation. [[code](https://github.com/MiniMax-AI/mini-vela)]
+- **`ACL 2026`** OctoBench — scaffold-aware coding-agent evaluation. [[code](https://github.com/MiniMax-AI/mini-vela)]
 - **`ACL Findings 2024`** DebugBench — multi-language bug diagnosis. [[code](https://github.com/thunlp/DebugBench)]
 
 ### Information Seeking
