@@ -2,7 +2,7 @@
 
 <img src="assets/title-banner.png" width="88%" alt="Toward Long-Horizon AI Agents — Foundations, Evolution, Harnesses, Optimization, Applications, and Frontiers"/>
 
-[![Paper](https://img.shields.io/badge/Paper-coming%20soon-b31b1b.svg?logo=arXiv)](https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents)
+[![Paper](https://img.shields.io/badge/Paper-coming%20soon-b31b1b.svg?logo=arXiv)]([https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents](https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents/blob/main/Toward_Long_Horizon_AI_Agents_A_Survey.pdf))
 [![Project Homepage](https://img.shields.io/badge/Project-Page-blue.svg?logo=googlechrome&logoColor=white)](https://Long-Horizon-Agents.github.io)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-Green?logo=mercadopago&logoColor=white)](https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents/pulls)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
