@@ -11,6 +11,8 @@
 
 *A curated, continuously-updated reading list accompanying our paper on **long-horizon agents**.*
 
+⭐ ***Star us if you find this useful!***
+
 </div>
 
 ## <img src="assets/icons/news.png" height="30" align="top"/> News
@@ -47,6 +49,25 @@ The two sides co-evolve through experience and feedback: capabilities first impl
 </div>
 
 
+---
+
+## <img src="assets/icons/citation.png" height="30" align="top"/> Citation
+
+If you find this survey and repository useful for your research, please consider citing:
+
+```bibtex
+@misc{dong2026longhorizon,
+  title  = {Toward Long-Horizon AI Agents: A Survey},
+  author = {Dong, Guanting and Song, Xiaoshuai and Hu, Yuyang and Jin, Jiajie and
+            Zhang, Chenghao and Chen, Yifei and Li, Xiaoxi and Yuan, Huaying and
+            Yang, Xinyu and Wen, Tongyu and Tan, Jiejun and Qian, Hongjin and
+            Huang, Shijue and Lu, Junting and Li, Zhenyu and Zhong, Wanjun and
+            Zhu, Yutao and Chua, Tat-Seng and Dou, Zhicheng and Wen, Ji-Rong},
+  year   = {2026},
+  url    = {https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents},
+  note   = {GitHub repository}
+}
+```
 
 ---
 
@@ -104,11 +125,6 @@ We formalize a long-horizon agent as a base policy coupled to a surrounding harn
 | **H3** | Cross-task, open-ended task stream | **C3** — Cross-task experience accumulation |
 
 To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.14499) measures capability as the length of tasks an agent can complete at a fixed success rate (e.g., the 50%-task-completion time horizon), giving an empirical yardstick that separates long-horizon agency from adjacent notions such as long-running execution, autonomy, and self-evolution.
-
-
-**Key references**
-- **`arXiv 2025`** Levels of Autonomy for AI Agents. [[paper](https://arxiv.org/abs/2506.12469)]
-- **`arXiv 2025`** Forecasting AI Time Horizon Under Compute Slowdowns. [[paper](https://arxiv.org/abs/2511.19492)]
 
 ---
 
@@ -1082,25 +1098,6 @@ Representative references for the frontiers:
 - **`NeurIPS 2025`** TheAgentCompany: Benchmarking LLM Agents on Consequential Real World Tasks. [[paper](https://arxiv.org/abs/2412.14161)] [[code](https://github.com/TheAgentCompany/TheAgentCompany)]
 - **`ICLR 2026`** Darwin Gödel Machine: Open-Ended Evolution of Self-Improving Agents. [[paper](https://arxiv.org/abs/2505.22954)]
 
----
-
-## <img src="assets/icons/citation.png" height="30" align="top"/> Citation
-
-If you find this survey and repository useful for your research, please consider citing:
-
-```bibtex
-@misc{dong2026longhorizon,
-  title  = {Toward Long-Horizon AI Agents: A Survey},
-  author = {Dong, Guanting and Song, Xiaoshuai and Hu, Yuyang and Jin, Jiajie and
-            Zhang, Chenghao and Chen, Yifei and Li, Xiaoxi and Yuan, Huaying and
-            Yang, Xinyu and Wen, Tongyu and Tan, Jiejun and Qian, Hongjin and
-            Huang, Shijue and Lu, Junting and Li, Zhenyu and Zhong, Wanjun and
-            Zhu, Yutao and Chua, Tat-Seng and Dou, Zhicheng and Wen, Ji-Rong},
-  year   = {2026},
-  url    = {https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents},
-  note   = {GitHub repository}
-}
-```
 
 ---
 
@@ -1116,13 +1113,3 @@ Guidelines:
 - Prefer the **acceptance venue** (e.g., `ICML 2024`, `NeurIPS 2023`, `ICLR 2025`); use `arXiv YYYY` only when a work has no conference venue.
 - Place each paper under the subsection that best matches its **primary** contribution.
 - Prioritize representative, high-impact works to keep each list readable.
-
----
-
-<div align="center">
-
-**Toward Long-Horizon AI Agents** — maintained by the RUC-NLPIR group and collaborators.
-
-⭐ Star us if you find this useful!
-
-</div>
