@@ -816,7 +816,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2026`** Video-Browser: Towards Agentic Open-web Video Browsing. [[paper](https://arxiv.org/abs/2512.23044)]
 - **`arXiv 2026`** Watching, Reasoning, and Searching: A Video Deep Research Benchmark on Open Web for Agentic Video Reasoning. [[paper](https://arxiv.org/abs/2601.06943)]
 - **`arXiv 2024`** Large Multimodal Agents: A Survey. [[paper](https://arxiv.org/abs/2402.15116)]
-- **`arXiv 2025`** Towards Mixed-Modal Retrieval for Universal Retrieval-Augmented Generation. [[paper](https://arxiv.org/abs/2510.17354)]
+- **`SIGIR 2026`** Towards Mixed-Modal Retrieval for Universal Retrieval-Augmented Generation. [[paper](https://arxiv.org/abs/2510.17354)]
 
 **Research synthesis**
 - **`arXiv 2025`** WebWeaver: Structuring Web-Scale Evidence with Dynamic Outlines. [[paper](https://arxiv.org/abs/2509.13312)] [[code](https://github.com/Alibaba-NLP/DeepResearch)]
