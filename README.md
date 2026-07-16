@@ -1089,15 +1089,16 @@ Representative references for the frontiers:
 If you find this survey and repository useful for your research, please consider citing:
 
 ```bibtex
-@article{dong2026longhorizon,
-  title   = {Toward Long-Horizon AI Agents: A Survey},
-  author  = {Dong, Guanting and Song, Xiaoshuai and Hu, Yuyang and Jin, Jiajie and
-             Zhang, Chenghao and Chen, Yifei and Li, Xiaoxi and Yuan, Huaying and
-             Yang, Xinyu and Wen, Tongyu and Tan, Jiejun and Qian, Hongjin and
-             Huang, Shijue and Lu, Junting and Li, Zhenyu and Zhong, Wanjun and
-             Zhu, Yutao and Chua, Tat-Seng and Dou, Zhicheng and Wen, Ji-Rong},
-  journal = {arXiv preprint},
-  year    = {2026}
+@misc{dong2026longhorizon,
+  title  = {Toward Long-Horizon AI Agents: A Survey},
+  author = {Dong, Guanting and Song, Xiaoshuai and Hu, Yuyang and Jin, Jiajie and
+            Zhang, Chenghao and Chen, Yifei and Li, Xiaoxi and Yuan, Huaying and
+            Yang, Xinyu and Wen, Tongyu and Tan, Jiejun and Qian, Hongjin and
+            Huang, Shijue and Lu, Junting and Li, Zhenyu and Zhong, Wanjun and
+            Zhu, Yutao and Chua, Tat-Seng and Dou, Zhicheng and Wen, Ji-Rong},
+  year   = {2026},
+  url    = {https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents},
+  note   = {GitHub repository}
 }
 ```
 
