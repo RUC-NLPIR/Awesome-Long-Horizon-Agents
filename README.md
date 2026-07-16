@@ -4,9 +4,11 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents)
 [![Paper](https://img.shields.io/badge/Paper-coming%20soon-b31b1b.svg?logo=arXiv)](https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents)
+[![Project Page](https://img.shields.io/badge/Project-Page-blue.svg?logo=googlechrome&logoColor=white)](https://Long-Horizon-Agents.github.io)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-Green?logo=mercadopago&logoColor=white)](https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents/pulls)
-[![GitHub stars](https://img.shields.io/github/stars/RUC-NLPIR/Awesome-Long-Horizon-Agents?style=social)](https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/RUC-NLPIR/Awesome-Long-Horizon-Agents?style=flat\&logo=github\&color=lightblue)](https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents)
+
 
 *A curated, continuously-updated reading list accompanying our survey on **long-horizon AI agents**.*
 
