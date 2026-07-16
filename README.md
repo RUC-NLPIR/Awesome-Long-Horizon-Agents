@@ -10,13 +10,13 @@
 [![GitHub Stars](https://img.shields.io/github/stars/RUC-NLPIR/Awesome-Long-Horizon-Agents?style=flat\&logo=github\&color=lightblue)](https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents)
 
 
-*A curated, continuously-updated reading list accompanying our survey on **long-horizon AI agents**.*
+*A curated, continuously-updated reading list accompanying our paper on **long-horizon AI agents**.*
 
 </div>
 
 ## <img src="assets/icons/news.png" height="30" align="top"/> News
-- **[2026/07]** 📄 Our paper **Toward Long-Horizon AI Agents: Foundations, Evolution, Harnesses, Optimization, Applications, and Frontiers** is available (arXiv link coming soon).
-- **[2026/07]** 🚀 We released the paper list for **Toward Long-Horizon AI Agents: A Survey**, restructured to mirror the paper chapter-by-chapter.
+- **[2026/07]** 📄 Our paper **Toward Long-Horizon AI Agents: Foundation, Evolution, Harness, Optimization, Application, and Frontier** is available (arXiv link coming soon).
+- **[2026/07]** 🚀 We released the paper list for **Toward Long-Horizon AI Agents**, restructured to mirror the paper chapter-by-chapter.
 - **[2026/07]** 🙌 Contributions are welcome: add a missing work in PR (`[Venue Year] Title. [paper] [code]`).
 
 
