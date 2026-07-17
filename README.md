@@ -326,6 +326,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2026`** SKILL0: In-Context Agentic Reinforcement Learning for Skill Internalization. [[paper](https://arxiv.org/abs/2604.02268)]
 - **`arXiv 2025`** Alita: Generalist Agent Enabling Scalable Agentic Reasoning with Minimal Predefinition and Maximal Self-Evolution. [[paper](https://arxiv.org/abs/2505.20286)]
 - **`COLM 2025`** Agent S2: A Compositional Generalist-Specialist Framework for Computer Use Agents. [[paper](https://arxiv.org/abs/2504.00906)]
+- **`ICML 2026`** Agentic Proposing: Enhancing Large Language Model Reasoning via Compositional Skill Synthesis. [[paper](https://arxiv.org/abs/2602.03279)]
 - **`arXiv 2026`** SkillCraft: Can LLM Agents Learn to Use Tools Skillfully?. [[paper](https://arxiv.org/abs/2603.00718)]
 - **`arXiv 2026`** Organizing, Orchestrating, and Benchmarking Agent Skills at Ecosystem Scale. [[paper](https://arxiv.org/abs/2603.02176)]
 - **`arXiv 2026`** When Single-Agent with Skills Replace Multi-Agent Systems and When They Fail. [[paper](https://arxiv.org/abs/2601.04748)]
@@ -495,6 +496,8 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 
 - **`ICLR 2026`** TaskCraft: Automated Generation of Agentic Tasks. [[paper](https://arxiv.org/abs/2506.10055)] [[code](https://github.com/OPPO-PersonalAI/TaskCraft)]
 - **`ICLR 2026`** WebShaper: Agentically Data Synthesizing via Information-Seeking Formalization. [[paper](https://arxiv.org/abs/2507.15061)] [[code](https://github.com/Alibaba-NLP/DeepResearch)]
+- **`arXiv 2026`** SearchEyes: Towards Frontier Multimodal Deep Search Intelligence via Search World Simulation. [[paper](https://arxiv.org/abs/2607.05943)] [[code](https://github.com/Frostlinx/SearchEyes)]
+- **`CVPR 2026`** Socratic-Geo: Synthetic Data Generation and Cross-Modal Geometric Reasoning via Multi-Agent Interaction. [[paper](https://arxiv.org/abs/2602.03414)] [[code](https://github.com/Frostlinx/Socratic-geo)]
 - **`ICLR 2026`** Expanding the Capability Frontier of LLM Agents with ZPD-Guided Data Synthesis. [[paper](https://arxiv.org/abs/2510.24695)]
 - **`ICML 2025`** Training Software Engineering Agents and Verifiers with SWE-Gym. [[paper](https://arxiv.org/abs/2412.21139)] [[code](https://github.com/SWE-Gym/SWE-Gym)]
 - **`ICLR 2024`** WebArena: A Realistic Web Environment for Building Autonomous Agents. [[paper](https://arxiv.org/abs/2307.13854)] [[code](https://github.com/web-arena-x/webarena)]
@@ -735,6 +738,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`NeurIPS 2025`** Self-Adapting Language Models. [[paper](https://arxiv.org/abs/2506.10943)]
 - **`arXiv 2025`** RAGEN: Understanding Self-Evolution in LLM Agents via Multi-Turn Reinforcement Learning. [[paper](https://arxiv.org/abs/2504.20073)]
 - **`arXiv 2025`** Socratic-Zero : Bootstrapping Reasoning via Data-Free Agent Co-evolution. [[paper](https://arxiv.org/abs/2509.24726)]
+- **`arXiv 2026`** Socratic-SWE: Self-Evolving Coding Agents via Trace-Derived Agent Skills. [[paper](https://arxiv.org/abs/2606.07412)]
 - **`arXiv 2025`** AgentEvolver: Towards Efficient Self-Evolving Agent System. [[paper](https://arxiv.org/abs/2511.10395)]
 
 ---
