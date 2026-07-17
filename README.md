@@ -2,7 +2,7 @@
 
 <img src="assets/title-banner.png" width="88%" alt="Toward Long-Horizon AI Agents — Foundations, Evolution, Harnesses, Optimization, Applications, and Frontiers"/>
 
-[![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b.svg?logo=arXiv)](https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents/blob/main/Towards_Long_Horizon_Agents_A_Survey.pdf)
+[![Paper | OpenReview](https://img.shields.io/badge/Paper-%7C%20OpenReview-b31b1b.svg?logo=arXiv)](https://openreview.net/pdf?id=HyhfhlbWGh)
 [![Homepage | Website](https://img.shields.io/badge/Homepage-%7C%20Website-blue.svg?logo=googlechrome&logoColor=white)](https://Long-Horizon-Agents.github.io)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-Green?logo=mercadopago&logoColor=white)](https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents/pulls)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -16,7 +16,7 @@
 </div>
 
 ## <img src="assets/icons/news.png" height="30" align="top"/> News
-- **[2026/07]** 📄 Our paper [**Towards Long-Horizon Agents: A Survey**](https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents/blob/main/Towards_Long_Horizon_Agents_A_Survey.pdf) is available (Preprint link coming soon).
+- **[2026/07]** 📄 Our paper [**Towards Long-Horizon Agents: A Survey**](https://openreview.net/pdf?id=HyhfhlbWGh) is available on OpenReview.
 - **[2026/07]** 🚀 We released the paper list for **Towards Long-Horizon Agents: A Survey**, restructured to mirror the paper chapter-by-chapter.
 - **[2026/07]** 🙌 Contributions are welcome: add a missing work in PR (`[Venue Year] Title. [paper] [code]`).
 
