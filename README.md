@@ -2,8 +2,8 @@
 
 <img src="assets/banner.png" alt="Toward Long-Horizon AI Agents — Foundations, Evolution, Harnesses, Optimization, Applications, and Frontiers"/>
 
-[![Paper Preprint](https://img.shields.io/badge/Paper-Preprint-b31b1b.svg?logo=arXiv)](https://www.preprints.org/manuscript/202607.1328)
 [![Paper OpenReview](https://img.shields.io/badge/Paper-OpenReview-8c1b13.svg?logo=openreview&logoColor=white)](https://openreview.net/pdf?id=HyhfhlbWGh)
+[![Paper Preprint](https://img.shields.io/badge/Paper-Preprint-b31b1b.svg?logo=arXiv)](https://www.preprints.org/manuscript/202607.1328)
 [![Homepage Website](https://img.shields.io/badge/Homepage-Website-blue.svg?logo=googlechrome&logoColor=white)](https://Long-Horizon-Agents.github.io)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-Green?logo=mercadopago&logoColor=white)](https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents/pulls)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
