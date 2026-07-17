@@ -77,7 +77,7 @@ If you find this survey and repository useful for your research, please consider
                   Tat{-}Seng Chua and
                   Zhicheng Dou and
                   Ji{-}Rong Wen},
-  title        = {Toward Long-Horizon AI Agents: A Survey},
+  title        = {Towards Long-Horizon Agents: A Survey},
   year         = {2026},
   url          = {https://openreview.net/pdf?id=HyhfhlbWGh}
 }
