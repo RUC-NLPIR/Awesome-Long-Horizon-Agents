@@ -56,16 +56,30 @@ The two sides co-evolve through experience and feedback: capabilities first impl
 If you find this survey and repository useful for your research, please consider citing:
 
 ```bibtex
-@misc{dong2026longhorizon,
-  title  = {Toward Long-Horizon AI Agents: A Survey},
-  author = {Dong, Guanting and Song, Xiaoshuai and Hu, Yuyang and Jin, Jiajie and
-            Zhang, Chenghao and Chen, Yifei and Li, Xiaoxi and Yuan, Huaying and
-            Yang, Xinyu and Wen, Tongyu and Tan, Jiejun and Qian, Hongjin and
-            Huang, Shijue and Lu, Junting and Li, Zhenyu and Zhong, Wanjun and
-            Zhu, Yutao and Chua, Tat-Seng and Dou, Zhicheng and Wen, Ji-Rong},
-  year   = {2026},
-  url    = {https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents},
-  note   = {GitHub repository}
+@article{dong2026longhorizon,
+  author       = {Guanting Dong and
+                  Xiaoshuai Song and
+                  Yuyang Hu and
+                  Jiajie Jin and
+                  Chenghao Zhang and
+                  Yifei Chen and
+                  Xiaoxi Li and
+                  Huaying Yuan and
+                  Xinyu Yang and
+                  Tongyu Wen and
+                  Jiejun Tan and
+                  Hongjin Qian and
+                  Shijue Huang and
+                  Junting Lu and
+                  Zhenyu Li and
+                  Wanjun Zhong and
+                  Yutao Zhu and
+                  Tat{-}Seng Chua and
+                  Zhicheng Dou and
+                  Ji{-}Rong Wen},
+  title        = {Toward Long-Horizon AI Agents: A Survey},
+  year         = {2026},
+  url          = {https://openreview.net/pdf?id=HyhfhlbWGh}
 }
 ```
 
