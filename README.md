@@ -57,29 +57,14 @@ If you find this survey and repository useful for your research, please consider
 
 ```bibtex
 @article{dong2026longhorizon,
-  author       = {Guanting Dong and
-                  Xiaoshuai Song and
-                  Yuyang Hu and
-                  Jiajie Jin and
-                  Chenghao Zhang and
-                  Yifei Chen and
-                  Xiaoxi Li and
-                  Huaying Yuan and
-                  Xinyu Yang and
-                  Tongyu Wen and
-                  Jiejun Tan and
-                  Hongjin Qian and
-                  Shijue Huang and
-                  Junting Lu and
-                  Zhenyu Li and
-                  Wanjun Zhong and
-                  Yutao Zhu and
-                  Tat{-}Seng Chua and
-                  Zhicheng Dou and
-                  Ji{-}Rong Wen},
-  title        = {Towards Long-Horizon Agents: A Survey},
-  year         = {2026},
-  url          = {https://openreview.net/pdf?id=HyhfhlbWGh}
+	doi = {10.20944/preprints202607.1328.v1},
+	url = {https://doi.org/10.20944/preprints202607.1328.v1},
+	year = 2026,
+	month = {July},
+	publisher = {Preprints},
+	author = {Guanting Dong and Xiaoshuai Song and Yuyang Hu and Jiajie Jin and Chenghao Zhang and Yifei Chen and Xiaoxi Li and Huaying Yuan and Xinyu Yang and Tongyu Wen and Jiejun Tan and Hongjin Qian and Shijue Huang and Junting Lu and Zhenyu Li and Wanjun Zhong and Yutao Zhu and Tat-Seng Chua and Zhicheng Dou and Ji-Rong Wen},
+	title = {Towards Long-Horizon Agents: A Survey},
+	journal = {Preprints}
 }
 ```
 
