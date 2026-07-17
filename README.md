@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/title-banner.png" width="88%" alt="Toward Long-Horizon AI Agents — Foundations, Evolution, Harnesses, Optimization, Applications, and Frontiers"/>
+<img src="assets/banner.png" alt="Toward Long-Horizon AI Agents — Foundations, Evolution, Harnesses, Optimization, Applications, and Frontiers"/>
 
 [![Paper OpenReview](https://img.shields.io/badge/Paper-OpenReview-b31b1b.svg?logo=arXiv)](https://openreview.net/pdf?id=HyhfhlbWGh)
 [![Homepage Website](https://img.shields.io/badge/Homepage-Website-blue.svg?logo=googlechrome&logoColor=white)](https://Long-Horizon-Agents.github.io)
@@ -43,7 +43,7 @@ Our survey frames **long-horizon agency** as a system-level capability jointly s
 The two sides co-evolve through experience and feedback: capabilities first implemented explicitly in the harness may later be internalized into the model policy, while stronger policies in turn enable more capable harnesses. Figure 2 lays out this co-evolutionary landscape end to end.
 
 <div align="center">
-<img src="assets/fig1_landscape.png" width="95%" alt="Landscape of long-horizon agent research"/>
+<img src="assets/landscape.png" width="95%" alt="Landscape of long-horizon agent research"/>
 <br>
 <em><b>Figure 2.</b> The landscape of long-horizon agent research, organized around externalized <b>harness</b> engineering and internalized model <b>optimization</b>.</em>
 </div>
