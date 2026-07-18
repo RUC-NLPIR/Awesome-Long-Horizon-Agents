@@ -9,6 +9,11 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![GitHub Stars](https://img.shields.io/github/stars/RUC-NLPIR/Awesome-Long-Horizon-Agents?style=flat\&logo=github\&color=lightblue)](https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents)
 
+<br>
+
+[![X](https://img.shields.io/badge/X-Post-black.svg?logo=x&logoColor=white)](https://x.com/kakakbibibi/status/2078076130037514640)
+[![Xiaohongshu](https://img.shields.io/badge/Xiaohongshu-Post-ff2442.svg)](https://www.xiaohongshu.com/discovery/item/6a5a0270000000001101bf4b?xsec_token=CBBWyPtxwVJZ7VTsxjUlRMpcCzkCH8OxM6_2wfuBLY_8c=&xsec_source=app_share)
+
 
 *A curated, continuously-updated reading list accompanying our paper on **long-horizon agents**.*
 
@@ -17,6 +22,7 @@
 </div>
 
 ## <img src="assets/icons/news.png" height="30" align="top"/> News
+- **[2026/07]** 📣 The brief introduction of our survey can be found on **[X](https://x.com/kakakbibibi/status/2078076130037514640)** and **[Xiaohongshu](https://www.xiaohongshu.com/discovery/item/6a5a0270000000001101bf4b?xsec_token=CBBWyPtxwVJZ7VTsxjUlRMpcCzkCH8OxM6_2wfuBLY_8c=&xsec_source=app_share)**.
 - **[2026/07]** 📄 Our paper [**Towards Long-Horizon Agents: A Survey**](https://openreview.net/pdf?id=HyhfhlbWGh) is available on OpenReview.
 - **[2026/07]** 🚀 We released the paper list for **Towards Long-Horizon Agents: A Survey**, restructured to mirror the paper chapter-by-chapter.
 - **[2026/07]** 🙌 Contributions are welcome: add a missing work in PR (`[Venue Year] Title. [paper] [code]`).
@@ -1119,3 +1125,9 @@ Guidelines:
 - Prefer the **acceptance venue** (e.g., `ICML 2024`, `NeurIPS 2023`, `ICLR 2025`); use `arXiv YYYY` only when a work has no conference venue.
 - Place each paper under the subsection that best matches its **primary** contribution.
 - Prioritize representative, high-impact works to keep each list readable.
+
+---
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=RUC-NLPIR/Awesome-Long-Horizon-Agents&type=Date)](https://star-history.com/#RUC-NLPIR/Awesome-Long-Horizon-Agents&Date)
