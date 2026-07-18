@@ -758,6 +758,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2025`** ArtifactsBench: Bridging the Visual-Interactive Gap in LLM Code Generation Evaluation. [[paper](https://arxiv.org/abs/2507.04952)]
 
 - **`arXiv 2026`** SWE Atlas: Benchmarking Coding Agents Beyond Issue Resolution. [[paper](https://arxiv.org/abs/2605.08366)]
+- **`arXiv 2026`** RepoZero: Can LLMs Generate a Code Repository from Scratch? [[paper](https://arxiv.org/abs/2605.07122)] [[code](https://github.com/JesseZZZZZ/RepoZero)]
 
 **Repository grounding**
 - **`NeurIPS 2024`** SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering. [[paper](https://arxiv.org/abs/2405.15793)] [[code](https://github.com/SWE-agent/SWE-agent)]
@@ -1032,6 +1033,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2026`** Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces. [[code](https://github.com/laude-institute/terminal-bench)]
 - **`ACL 2026`** OctoBench: Benchmarking Scaffold-Aware Instruction Following in Repository-Grounded Agentic Coding. [[code](https://github.com/MiniMax-AI/mini-vela)]
 - **`Findings of ACL 2024`** DebugBench: Evaluating Debugging Capability of Large Language Models. [[code](https://github.com/thunlp/DebugBench)]
+- **`arXiv 2026`** RepoZero: Can LLMs Generate a Code Repository from Scratch? [[code](https://github.com/JesseZZZZZ/RepoZero)]
 
 ### Information Seeking
 - **`EMNLP 2024`** AssistantBench: Can Web Agents Solve Realistic and Time-Consuming Tasks?. [[code](https://github.com/oriyor/assistantbench)]
