@@ -8,8 +8,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![GitHub Stars](https://img.shields.io/github/stars/RUC-NLPIR/Awesome-Long-Horizon-Agents?style=flat\&logo=github\&color=lightblue)](https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents)
 <br>
-[![X](https://img.shields.io/badge/%20%20%20%20%20-black?logo=x&logoColor=white&logoWidth=16)](https://x.com/kakakbibibi/status/2078076130037514640)
-[![Xiaohongshu](https://img.shields.io/badge/%20%20%20%20%20-ff2442?logo=xiaohongshu&logoColor=white&logoWidth=16)](https://www.xiaohongshu.com/discovery/item/6a5a0270000000001101bf4b?xsec_token=CBBWyPtxwVJZ7VTsxjUlRMpcCzkCH8OxM6_2wfuBLY_8c=&xsec_source=app_share)
+[![X](https://img.shields.io/badge/Tweet-black?logo=x&logoColor=white)](https://x.com/kakakbibibi/status/2078076130037514640)
+[![Xiaohongshu](https://img.shields.io/badge/Blog-ff2442?logo=xiaohongshu&logoColor=white)](https://www.xiaohongshu.com/discovery/item/6a5a0270000000001101bf4b?xsec_token=CBBWyPtxwVJZ7VTsxjUlRMpcCzkCH8OxM6_2wfuBLY_8c=&xsec_source=app_share)
 
 
 *A curated, continuously-updated reading list accompanying our paper on **long-horizon agents**.*
