@@ -4,15 +4,11 @@
 
 [![Paper OpenReview](https://img.shields.io/badge/Paper-OpenReview-8c1b13.svg?logo=openreview&logoColor=white)](https://openreview.net/pdf?id=HyhfhlbWGh)
 [![Paper Preprint](https://img.shields.io/badge/Paper-Preprint-b31b1b.svg?logo=arXiv)](https://www.preprints.org/manuscript/202607.1328)
-[![Homepage Website](https://img.shields.io/badge/Homepage-Website-blue.svg?logo=googlechrome&logoColor=white)](https://Long-Horizon-Agents.github.io)
-[![Contributions Welcome](https://img.shields.io/badge/Contributions-welcome-Green?logo=mercadopago&logoColor=white)](https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents/pulls)
+[![Website](https://img.shields.io/badge/Website-blue.svg?logo=googlechrome&logoColor=white)](https://Long-Horizon-Agents.github.io)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![GitHub Stars](https://img.shields.io/github/stars/RUC-NLPIR/Awesome-Long-Horizon-Agents?style=flat\&logo=github\&color=lightblue)](https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents)
-
-<br>
-
-[![X](https://img.shields.io/badge/X-Post-black.svg?logo=x&logoColor=white)](https://x.com/kakakbibibi/status/2078076130037514640)
-[![Xiaohongshu](https://img.shields.io/badge/Xiaohongshu-Post-ff2442.svg)](https://www.xiaohongshu.com/discovery/item/6a5a0270000000001101bf4b?xsec_token=CBBWyPtxwVJZ7VTsxjUlRMpcCzkCH8OxM6_2wfuBLY_8c=&xsec_source=app_share)
+[![X](https://img.shields.io/badge/X-black.svg?logo=x&logoColor=white)](https://x.com/kakakbibibi/status/2078076130037514640)
+[![Xiaohongshu](https://img.shields.io/badge/RED-ff2442.svg)](https://www.xiaohongshu.com/discovery/item/6a5a0270000000001101bf4b?xsec_token=CBBWyPtxwVJZ7VTsxjUlRMpcCzkCH8OxM6_2wfuBLY_8c=&xsec_source=app_share)
 
 
 *A curated, continuously-updated reading list accompanying our paper on **long-horizon agents**.*
