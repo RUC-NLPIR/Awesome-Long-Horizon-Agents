@@ -206,6 +206,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2026`** RLAnything: Forge Environment, Policy, and Reward Model in Completely Dynamic RL System. [[paper](https://arxiv.org/abs/2602.02488)]
 - **`FSE 2026`** AgentBound: Securing Execution Boundaries of AI Agents. [[paper](https://arxiv.org/abs/2510.21236)]
 - **`arXiv 2025`** UI-TARS-2 Technical Report: Advancing GUI Agent with Multi-Turn Reinforcement Learning. [[paper](https://arxiv.org/abs/2509.02544)]
+- **`Preprints 2026`** Harness Engineering for Language Agents: The Harness Layer as Control, Agency, and Runtime. [[paper](https://www.preprints.org/manuscript/202603.1756/v2)]
 
 ---
 
