@@ -328,6 +328,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`2025`** Introducing Agent Skills. [[paper](https://www.anthropic.com/news/agent-skills)]
 
 - **`arXiv 2026`** SKILL0: In-Context Agentic Reinforcement Learning for Skill Internalization. [[paper](https://arxiv.org/abs/2604.02268)]
+- **`arXiv 2026`** Skill1: Unified Evolution of Skill-Augmented Agents via Reinforcement Learning. [[paper](https://arxiv.org/abs/2605.06130)]
 - **`arXiv 2025`** Alita: Generalist Agent Enabling Scalable Agentic Reasoning with Minimal Predefinition and Maximal Self-Evolution. [[paper](https://arxiv.org/abs/2505.20286)]
 - **`COLM 2025`** Agent S2: A Compositional Generalist-Specialist Framework for Computer Use Agents. [[paper](https://arxiv.org/abs/2504.00906)]
 - **`ICML 2026`** Agentic Proposing: Enhancing Large Language Model Reasoning via Compositional Skill Synthesis. [[paper](https://arxiv.org/abs/2602.03279)]
