@@ -134,7 +134,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 ## <img src="assets/icons/evolution.png" height="30" align="top"/> Evolution: From Prompting to Runtime
 
 <div align="center">
-<img src="assets/sec3_evolution.pdf" width="95%" alt="Co-evolution across three stages"/>
+<img src="assets/sec3_evolution.png" width="95%" alt="Co-evolution across three stages"/>
 <br>
 <em><b>Section figure.</b> Three stages of co-evolution: from the <b>language</b> of a prompt, to the <b>information</b> per call, to the whole <b>trajectory</b> sustained by a runtime harness.</em>
 </div>
