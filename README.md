@@ -758,6 +758,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 </div>
 
 ### Software Engineering
+- **`arXiv 2026`** Hackers or Hallucinators? A Comprehensive Analysis of LLM-Based Automated Penetration Testing. [[paper](https://arxiv.org/abs/2604.05719)] [[code](https://github.com/simon-p-j-r/LLM4Pentest)]
 - **`arXiv 2026`** ProgramBench: Can Language Models Rebuild Programs From Scratch? [[paper](https://arxiv.org/abs/2605.03546)]
 - **`arXiv 2025`** CyberGym: Evaluating AI Agents' Real-World Cybersecurity Capabilities at Scale. [[paper](https://arxiv.org/abs/2506.02548)]
 - **`arXiv 2025`** ArtifactsBench: Bridging the Visual-Interactive Gap in LLM Code Generation Evaluation. [[paper](https://arxiv.org/abs/2507.04952)]
