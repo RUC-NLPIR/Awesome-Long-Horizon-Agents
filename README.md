@@ -993,6 +993,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2026`** Qwen-VLA: Unifying Vision-Language-Action Modeling across Tasks, Environments, and Robot Embodiments. [[paper](https://arxiv.org/abs/2605.30280)]
 - **`arXiv 2025`** A Survey of Robotic Navigation and Manipulation with Physics Simulators in the Era of Embodied AI. [[paper](https://arxiv.org/abs/2505.01458)]
 - **`arXiv 2026`** OSCAR: Omni-Embodiment Action-Conditioned World Model for Robotics. [[paper](https://arxiv.org/abs/2606.04463)]
+- **`arXiv 2026`** Advancing Omnimodal Embodied Agents from Isolated Skills to Everyday Physical Autonomy. [[paper](https://arxiv.org/abs/2606.27251)]
 - **`arXiv 2026`** $\tau_0\text{-}\mathbf{WM}$: A Unified Video-Action World Model for Robotic Manipulation. [[paper](https://arxiv.org/abs/2606.01027)]
 - **`ICML 2025`** EmbodiedBench: Comprehensive Benchmarking Multi-modal Large Language Models for Vision-Driven Embodied Agents. [[paper](https://arxiv.org/abs/2502.09560)]
 
