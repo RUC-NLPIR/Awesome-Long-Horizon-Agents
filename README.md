@@ -11,10 +11,6 @@
 [![X](https://img.shields.io/badge/Tweet-black?logo=x&logoColor=white)](https://x.com/kakakbibibi/status/2078076130037514640)
 
 [![Xiaohongshu](https://img.shields.io/badge/Blog-ff2442?logo=xiaohongshu&logoColor=white)](https://www.xiaohongshu.com/discovery/item/6a5a0270000000001101bf4b?xsec_token=CBBWyPtxwVJZ7VTsxjUlRMpcCzkCH8OxM6_2wfuBLY_8c=&xsec_source=app_share)
-
-
-
-
 [![机器之心](https://img.shields.io/badge/微信-机器之心-07C160?logo=wechat&logoColor=white)](https://mp.weixin.qq.com/s/r9YJYlVAyBZtfMXvAOh5ig)
 
 *A curated, continuously-updated reading list accompanying our paper on **long-horizon agents**.*
