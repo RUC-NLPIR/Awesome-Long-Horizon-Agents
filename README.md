@@ -1130,3 +1130,4 @@ Guidelines:
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=RUC-NLPIR/Awesome-Long-Horizon-Agents&type=Date)](https://star-history.com/#RUC-NLPIR/Awesome-Long-Horizon-Agents&Date)
+
