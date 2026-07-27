@@ -12,7 +12,7 @@
 
 *A curated, continuously-updated reading list accompanying our paper on **long-horizon agents**.*
 
-⭐ ***Star us if you find this useful!***
+⭐ ***Star us if you find this useful!*** 
 
 </div>
 
