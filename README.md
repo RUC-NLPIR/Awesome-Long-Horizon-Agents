@@ -1057,6 +1057,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`ICLR 2025`** AndroidWorld: A Dynamic Benchmarking Environment for Autonomous Agents. [[code](https://github.com/google-research/android_world)]
 - **`ACL 2025`** AndroidLab: Training and Systematic Benchmarking of Android Autonomous Agents. [[code](https://github.com/THUDM/Android-Lab)]
 - **`arXiv 2025`** PointArena: Probing Multimodal Grounding Through Language-Guided Pointing. [[code](https://arxiv.org/abs/2505.09990)]
+- **`arXiv 2026`** ClawBench: A real-world browser-agent benchmark spanning 153 everyday tasks across 144 live production websites, with request-interception safety and layered execution traces.<br/>![venue](https://img.shields.io/badge/arXiv%202026-555?style=flat-square) [![arXiv](https://img.shields.io/badge/arXiv-2604.08523-b31b1b?style=flat-square\&logo=arxiv\&logoColor=white)](https://arxiv.org/abs/2604.08523) [![stars](https://img.shields.io/github/stars/reacher-z/ClawBench?style=flat-square\&logo=github\&label=%E2%98%85\&color=444)](https://github.com/reacher-z/ClawBench)
 
 
 ### Multimodal Agents
