@@ -363,6 +363,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`ICLR 2026`** Flash-Searcher: Fast and Effective Web Agents via DAG-Based Parallel Execution. [[paper](https://arxiv.org/abs/2509.25301)]
 - **`NeurIPS 2024`** Self-playing Adversarial Language Game Enhances LLM Reasoning. [[paper](http://papers.nips.cc/paper_files/paper/2024/hash/e4be7e9867ef163563f4a5e90cec478f-Abstract-Conference.html)]
 - **`NeurIPS 2025`** Agint: Agentic Graph Compilation for Software Engineering Agents. [[paper](https://arxiv.org/abs/2511.19635)]
+- **`arXiv 2026`** AgentRadio: Passive Awareness for Long-Horizon Multi-Agent Collaboration. [[paper](https://arxiv.org/abs/2607.28430)] [[code](https://github.com/Coral-Protocol/AgentRadio)]
 - **`arXiv 2025`** Multi-Agent Collaboration Mechanisms: A Survey of LLMs. [[paper](https://arxiv.org/abs/2501.06322)]
 
 **Orchestration optimization**
