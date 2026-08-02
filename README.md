@@ -291,6 +291,8 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2026`** MemSifter: Offloading LLM Memory Retrieval via Outcome-Driven Proxy Reasoning. [[paper](https://arxiv.org/abs/2603.03379)]
 - **`arXiv 2025`** From Human Memory to AI Memory: A Survey on Memory Mechanisms in the Era of LLMs. [[paper](https://arxiv.org/abs/2504.15965)]
 - **`arXiv 2026`** Externalization in LLM Agents: A Unified Review of Memory, Skills, Protocols and Harness Engineering. [[paper](https://arxiv.org/abs/2604.08224)]
+- **`arXiv 2026`** Unified Context Evolution for LLM Agents. [[paper](https://arxiv.org/abs/2606.02304)]
+- **`arXiv 2026`** Inference-Time Budget Control for LLM Search Agents. [[paper](https://arxiv.org/abs/2605.05701)]
 
 ### Tools, MCP, and Skills
 
@@ -648,6 +650,8 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2026`** SmartSearch: Process Reward-Guided Query Refinement for Search Agents. [[paper](https://arxiv.org/abs/2601.04888)]
 - **`arXiv 2025`** Tool-R1: Sample-Efficient Reinforcement Learning for Agentic Tool Use. [[paper](https://arxiv.org/abs/2509.12867)]
 - **`arXiv 2025`** ToRL: Scaling Tool-Integrated RL. [[paper](https://arxiv.org/abs/2503.23383)]
+- **`ICML 2026`** Optimizing Agentic Reasoning with Retrieval via Synthetic Semantic Information Gain Reward. [[paper](https://arxiv.org/abs/2602.00845)]
+- **`arXiv 2026`** Self-Induced Outcome Potential: Turn-Level Credit Assignment for Agents without Verifiers. [[paper](https://arxiv.org/abs/2605.04984)]
 
 **Policy Optimization**
 - **`arXiv 2025`** REINFORCE++: A Simple and Efficient Approach for Aligning Large Language Models. [[paper](https://arxiv.org/abs/2501.03262)] [[code](https://github.com/OpenRLHF/OpenRLHF)]
@@ -723,6 +727,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2026`** Revisiting On-Policy Distillation: Empirical Failure Modes and Simple Fixes. [[paper](https://arxiv.org/abs/2603.25562)] [[code](https://github.com/hhh675597/revisiting_opd)]
 - **`arXiv 2026`** TIP: Token Importance in On-Policy Distillation. [[paper](https://arxiv.org/abs/2604.14084)]
 - **`arXiv 2026`** Reinforcement Learning via Self-Distillation. [[paper](https://arxiv.org/abs/2601.20802)]
+- **`arXiv 2026`** Skill-Conditioned Gated Self-Distillation for LLM Reasoning. [[paper](https://arxiv.org/abs/2605.28791)]
 
 ### Self-Evolution
 
