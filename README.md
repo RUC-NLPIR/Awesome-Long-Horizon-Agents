@@ -154,7 +154,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`EMNLP 2023`** Automatic Prompt Optimization with “Gradient Descent” and Beam Search. [[paper](https://arxiv.org/abs/2305.03495)]
 - **`arXiv 2021`** Show Your Work: Scratchpads for Intermediate Computation with Language Models. [[paper](https://arxiv.org/abs/2112.00114)]
 - **`EMNLP-IJCNLP 2019`** Language Models as Knowledge Bases?. [[paper](https://arxiv.org/abs/1909.01066)]
-- **`NeurIPS 2023`** Describe, Explain, Plan and Select: Interactive Planning with LLMs Enables Open-World Multi-Task Agents. [[paper](https://arxiv.org/abs/2302.01560)]
+- **`NeurIPS 2023`** Describe, Explain, Plan and Select: Interactive Planning with LLMs Enables Open-World Multi-Task Agents. [[paper](https://arxiv.org/abs/2302.01560)]  [[code](https://github.com/CraftJarvis/MC-Planner)]
 
 ### Stage II — Context Engineering (2023–2025)
 
