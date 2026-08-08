@@ -731,6 +731,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2026`** TIP: Token Importance in On-Policy Distillation. [[paper](https://arxiv.org/abs/2604.14084)]
 - **`arXiv 2026`** Reinforcement Learning via Self-Distillation. [[paper](https://arxiv.org/abs/2601.20802)]
 - **`arXiv 2026`** Skill-Conditioned Gated Self-Distillation for LLM Reasoning. [[paper](https://arxiv.org/abs/2605.28791)]
+- **`arXiv 2026`** ToolAnchor: Anchoring Counterfactual Context to Boost Agentic Tool-use Capability. [[paper](https://arxiv.org/abs/2607.14145)]
 
 ### Self-Evolution
 
