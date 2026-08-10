@@ -3,8 +3,9 @@
 <img src="assets/banner.png" alt="Toward Long-Horizon AI Agents — Foundations, Evolution, Harnesses, Optimization, Applications, and Frontiers"/>
 
 [![Paper OpenReview](https://img.shields.io/badge/Paper-OpenReview-8c1b13.svg?logo=openreview&logoColor=white)](https://openreview.net/pdf?id=HyhfhlbWGh)
+[![Paper PDF](https://img.shields.io/badge/Paper-PDF-b31b1b.svg?logo=adobeacrobatreader&logoColor=white)](Towards_Long_Horizon_Agents_A_Survey.pdf)
 [![Paper Preprint](https://img.shields.io/badge/Paper-Preprint-b31b1b.svg?logo=arXiv)](https://www.preprints.org/manuscript/202607.1328)
-[![Chinese Translation](https://img.shields.io/badge/Chinese-Machine--translated-orange.svg)](Towards_Long_Horizon_Agents_zh-CN_machine-translated.pdf)
+[![Paper 中文翻译版](https://img.shields.io/static/v1?label=Paper&message=%E4%B8%AD%E6%96%87%E7%BF%BB%E8%AF%91%E7%89%88&color=orange)](Towards_Long_Horizon_Agents_zh-CN_machine-translated.pdf)
 [![Website](https://img.shields.io/badge/Website-blue.svg?logo=googlechrome&logoColor=white)](https://Long-Horizon-Agents.github.io)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![GitHub Stars](https://img.shields.io/github/stars/RUC-NLPIR/Awesome-Long-Horizon-Agents?style=flat\&logo=github\&color=lightblue)](https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents)
@@ -13,7 +14,7 @@
 
 *A curated, continuously-updated reading list accompanying our paper on **long-horizon agents**.*
 
-<sub>The Chinese edition is machine-translated and may contain inaccuracies; please refer to the English paper for authoritative wording.</sub>
+<sub>The Chinese edition has been reviewed for author names and terminology; please refer to the English OpenReview version for authoritative wording.</sub>
 
 ⭐ ***Star us if you find this useful!*** 
 
