@@ -24,7 +24,7 @@
 - **[2026/07]** 📣 The brief introduction of our survey can be found on **[X](https://x.com/kakakbibibi/status/2078076130037514640)** and **[Xiaohongshu](https://www.xiaohongshu.com/discovery/item/6a5a0270000000001101bf4b?xsec_token=CBBWyPtxwVJZ7VTsxjUlRMpcCzkCH8OxM6_2wfuBLY_8c=&xsec_source=app_share)**.
 - **[2026/07]** 📄 Our paper [**Towards Long-Horizon Agents: A Survey**](https://openreview.net/pdf?id=HyhfhlbWGh) is available on OpenReview.
 - **[2026/07]** 🚀 We released the paper list for **Towards Long-Horizon Agents: A Survey**, restructured to mirror the paper chapter-by-chapter.
-- **[2026/07]** 🙌 Contributions are welcome: add a missing work in PR (`[Venue Year] Title. [paper] [code]`).
+- **[2026/07]** 🙌 **Open PR Request**: add a missing work in PR (`[Venue Year] Title. [paper] [code]`).
 
 
 <div align="center">
