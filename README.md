@@ -776,6 +776,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 
 - **`arXiv 2026`** SWE Atlas: Benchmarking Coding Agents Beyond Issue Resolution. [[paper](https://arxiv.org/abs/2605.08366)]
 - **`arXiv 2026`** RepoZero: Can LLMs Generate a Code Repository from Scratch? [[paper](https://arxiv.org/abs/2605.07122)] [[code](https://github.com/JesseZZZZZ/RepoZero)]
+- **`arXiv 2026`** LoopArena: Benchmarking Models as Runtime Controllers for Loop Engineering. [[paper](https://arxiv.org/abs/2608.28281)] [[code](https://github.com/AMAP-ML/LoopArena)]
 
 **Repository grounding**
 - **`NeurIPS 2024`** SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering. [[paper](https://arxiv.org/abs/2405.15793)] [[code](https://github.com/SWE-agent/SWE-agent)]
