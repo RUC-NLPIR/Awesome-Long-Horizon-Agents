@@ -300,6 +300,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2026`** Externalization in LLM Agents: A Unified Review of Memory, Skills, Protocols and Harness Engineering. [[paper](https://arxiv.org/abs/2604.08224)]
 - **`arXiv 2026`** Unified Context Evolution for LLM Agents. [[paper](https://arxiv.org/abs/2606.02304)]
 - **`arXiv 2026`** Inference-Time Budget Control for LLM Search Agents. [[paper](https://arxiv.org/abs/2605.05701)]
+- **`2026`** Mnemoverse: Persistent memory for AI agents over MCP, with recall re-ranked by feedback on whether a memory helped. [[code](https://github.com/mnemoverse/mcp-memory-server)]
 
 ### Tools, MCP, and Skills
 
