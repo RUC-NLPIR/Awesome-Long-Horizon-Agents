@@ -1,30 +1,79 @@
 <div align="center">
 
-<img src="assets/banner.png" alt="Toward Long-Horizon AI Agents — Foundations, Evolution, Harnesses, Optimization, Applications, and Frontiers"/>
+<img src="assets/banner.png" width="100%" alt="Towards Long-Horizon Agents"/>
 
-[![Paper OpenReview](https://img.shields.io/badge/Paper-OpenReview-8c1b13.svg?logo=openreview&logoColor=white)](https://openreview.net/pdf?id=HyhfhlbWGh)
-[![Paper PDF](https://img.shields.io/badge/Paper-PDF-b31b1b.svg?logo=adobeacrobatreader&logoColor=white)](Towards_Long_Horizon_Agents_A_Survey.pdf)
-[![Paper Preprint](https://img.shields.io/badge/Paper-Preprint-b31b1b.svg?logo=arXiv)](https://www.preprints.org/manuscript/202607.1328)
-[![Paper 中文翻译版](https://img.shields.io/static/v1?label=Paper&message=%E4%B8%AD%E6%96%87%E7%BF%BB%E8%AF%91%E7%89%88&color=orange)](Towards_Long_Horizon_Agents_zh-CN_machine-translated.pdf)
-[![Website](https://img.shields.io/badge/Website-blue.svg?logo=googlechrome&logoColor=white)](https://Long-Horizon-Agents.github.io)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![GitHub Stars](https://img.shields.io/github/stars/RUC-NLPIR/Awesome-Long-Horizon-Agents?style=flat\&logo=github\&color=lightblue)](https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents)
-<br>
-[![X](https://img.shields.io/badge/Tweet-black?logo=x&logoColor=white)](https://x.com/kakakbibibi/status/2078076130037514640) [![Xiaohongshu](https://img.shields.io/badge/Blog-ff2442?logo=xiaohongshu&logoColor=white)](https://www.xiaohongshu.com/discovery/item/6a5a0270000000001101bf4b?xsec_token=CBBWyPtxwVJZ7VTsxjUlRMpcCzkCH8OxM6_2wfuBLY_8c=&xsec_source=app_share) [![机器之心](https://img.shields.io/badge/微信-机器之心-07C160?logo=wechat&logoColor=white)](https://mp.weixin.qq.com/s/r9YJYlVAyBZtfMXvAOh5ig)
+<p>
+  <b>A curated map of the foundations, evolution, engineering, optimization,<br/>
+  applications, and frontiers of long-horizon AI agents.</b>
+</p>
 
-*A curated, continuously-updated reading list accompanying our paper on **long-horizon agents**.*
+<p>
+  <a href="https://openreview.net/pdf?id=HyhfhlbWGh"><img src="https://img.shields.io/badge/Paper-OpenReview-8C1B13?style=for-the-badge&logo=openreview&logoColor=white" alt="OpenReview"/></a>
+  <a href="https://www.preprints.org/manuscript/202607.1328"><img src="https://img.shields.io/badge/Paper-Preprint-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white" alt="Preprint"/></a>
+  <a href="https://Long-Horizon-Agents.github.io"><img src="https://img.shields.io/badge/Project-Website-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website"/></a>
+</p>
 
-<sub>The Chinese edition has been reviewed for author names and terminology; please refer to the English OpenReview version for authoritative wording.</sub>
+<p>
+  <a href="https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents/stargazers"><img src="https://img.shields.io/github/stars/RUC-NLPIR/Awesome-Long-Horizon-Agents?style=flat-square&logo=github&color=F4B400" alt="GitHub Stars"/></a>
+  <img src="https://img.shields.io/badge/Curated_Papers-750%2B-7C3AED?style=flat-square" alt="750+ curated papers"/>
+  <img src="https://img.shields.io/badge/Last_Update-July_2026-0EA5E9?style=flat-square" alt="Last update July 2026"/>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-22C55E?style=flat-square" alt="MIT License"/></a>
+</p>
 
-⭐ ***Star us if you find this useful!*** 
+<p>
+  <a href="https://x.com/kakakbibibi/status/2078076130037514640"><img src="https://img.shields.io/badge/Tweet-000000?style=flat-square&logo=x&logoColor=white" alt="Tweet"/></a>
+  <a href="https://www.xiaohongshu.com/discovery/item/6a5a0270000000001101bf4b?xsec_token=CBBWyPtxwVJZ7VTsxjUlRMpcCzkCH8OxM6_2wfuBLY_8c=&xsec_source=app_share"><img src="https://img.shields.io/badge/小红书-FF2442?style=flat-square&logo=xiaohongshu&logoColor=white" alt="Xiaohongshu"/></a>
+  <a href="https://mp.weixin.qq.com/s/r9YJYlVAyBZtfMXvAOh5ig"><img src="https://img.shields.io/badge/机器之心-07C160?style=flat-square&logo=wechat&logoColor=white" alt="机器之心"/></a>
+</p>
+
+<p>
+  <a href="#introduction">Introduction</a> •
+  <a href="#foundations-formalizing-long-horizon-agents">Foundations</a> •
+  <a href="#harnesses-externalizing-long-horizon-capability-pillar-i">Harnesses</a> •
+  <a href="#optimization-internalizing-long-horizon-capability-pillar-ii">Optimization</a> •
+  <a href="#applications-long-horizon-agents-in-practice">Applications</a> •
+  <a href="#benchmarks-and-resources">Benchmarks</a> •
+  <a href="#frontiers-open-problems">Frontiers</a>
+</p>
+
+<sub>Continuously updated · Community contributions are welcome</sub>
+
+<p>
+  <b>⭐ If you find this GitHub useful, please cite the BibTeX below.</b>
+</p>
 
 </div>
 
+## <img src="assets/icons/citation.png" height="30" align="top"/> Citation
+
+If you like this repository, please cite:
+
+```bibtex
+@article{dong2026longhorizon,
+  doi       = {10.20944/preprints202607.1328.v1},
+  url       = {https://doi.org/10.20944/preprints202607.1328.v1},
+  year      = 2026,
+  month     = {July},
+  publisher = {Preprints},
+  author    = {Guanting Dong and Xiaoshuai Song and Yuyang Hu and
+               Jiajie Jin and Chenghao Zhang and Yifei Chen and
+               Xiaoxi Li and Huaying Yuan and Xinyu Yang and
+               Tongyu Wen and Jiejun Tan and Hongjin Qian and
+               Shijue Huang and Junting Lu and Zhenyu Li and
+               Wanjun Zhong and Yutao Zhu and Tat-Seng Chua and
+               Zhicheng Dou and Ji-Rong Wen},
+  title     = {Towards Long-Horizon Agents: A Survey},
+  journal   = {Preprints}
+}
+```
+
+---
+
 ## <img src="assets/icons/news.png" height="30" align="top"/> News
-- **[2026/07]** 📣 The brief introduction of our survey can be found on **[X](https://x.com/kakakbibibi/status/2078076130037514640)** and **[Xiaohongshu](https://www.xiaohongshu.com/discovery/item/6a5a0270000000001101bf4b?xsec_token=CBBWyPtxwVJZ7VTsxjUlRMpcCzkCH8OxM6_2wfuBLY_8c=&xsec_source=app_share)**.
+- **[2026/07]** 📣 Our survey was featured on **[X](https://x.com/kakakbibibi/status/2078076130037514640)**, **[Xiaohongshu](https://www.xiaohongshu.com/discovery/item/6a5a0270000000001101bf4b?xsec_token=CBBWyPtxwVJZ7VTsxjUlRMpcCzkCH8OxM6_2wfuBLY_8c=&xsec_source=app_share)**, and **[机器之心](https://mp.weixin.qq.com/s/r9YJYlVAyBZtfMXvAOh5ig)**.
 - **[2026/07]** 📄 Our paper [**Towards Long-Horizon Agents: A Survey**](https://openreview.net/pdf?id=HyhfhlbWGh) is available on OpenReview.
-- **[2026/07]** 🚀 We released the paper list for **Towards Long-Horizon Agents: A Survey**, restructured to mirror the paper chapter-by-chapter.
-- **[2026/07]** 🙌 **Open PR Request**: add a missing work in PR (`[Venue Year] Title. [paper] [code]`).
+- **[2026/07]** 🚀 We released a chapter-aligned collection of **750+ papers, benchmarks, and resources**.
+- **[2026/07]** 🙌 Contributions are welcome—see the [contribution guide](#contributing).
 
 
 <div align="center">
@@ -41,10 +90,12 @@
 
 Large language models have evolved from single-turn chatbots into the decision-making core of autonomous agents. As Figure 1 shows, the time horizon of tasks they can complete unaided is growing exponentially. This surfaces one decisive requirement we call **long horizon**: persistent iteration across reasoning, tool use, observation, and revision over many interdependent steps — from tasks within a single context window to those spanning windows, sessions, or open-ended task streams.
 
-Our survey frames **long-horizon agency** as a system-level capability jointly shaped by two forces:
+> [!IMPORTANT]
+> **Long-horizon agency is a system-level capability jointly shaped by external harness engineering and internal model optimization.**
 
-- **Externalized harness engineering**: loops and workflows, context and memory, tools and skills, orchestration, hooks, and verification.
-- **Internalized model optimization**: architecture, data and environment synthesis, pre-/mid-training, fine-tuning, agentic reinforcement learning, on-policy distillation, and self-evolution.
+| Externalized Harness Engineering | Internalized Model Optimization |
+|:---|:---|
+| Loops and workflows · Context and memory · Tools and skills · Orchestration · Hooks · Verification | Architecture · Data and environment synthesis · Pre-/mid-training · Fine-tuning · Agentic RL · On-policy distillation · Self-evolution |
 
 The two sides co-evolve through experience and feedback: capabilities first implemented explicitly in the harness may later be internalized into the model policy, while stronger policies in turn enable more capable harnesses. Figure 2 lays out this co-evolutionary landscape end to end.
 
@@ -57,26 +108,10 @@ The two sides co-evolve through experience and feedback: capabilities first impl
 
 ---
 
-## <img src="assets/icons/citation.png" height="30" align="top"/> Citation
-
-If you find this survey and repository useful for your research, please consider citing:
-
-```bibtex
-@article{dong2026longhorizon,
-	doi = {10.20944/preprints202607.1328.v1},
-	url = {https://doi.org/10.20944/preprints202607.1328.v1},
-	year = 2026,
-	month = {July},
-	publisher = {Preprints},
-	author = {Guanting Dong and Xiaoshuai Song and Yuyang Hu and Jiajie Jin and Chenghao Zhang and Yifei Chen and Xiaoxi Li and Huaying Yuan and Xinyu Yang and Tongyu Wen and Jiejun Tan and Hongjin Qian and Shijue Huang and Junting Lu and Zhenyu Li and Wanjun Zhong and Yutao Zhu and Tat-Seng Chua and Zhicheng Dou and Ji-Rong Wen},
-	title = {Towards Long-Horizon Agents: A Survey},
-	journal = {Preprints}
-}
-```
-
----
-
 ## <img src="assets/icons/content.png" height="30" align="top"/> Table of Contents
+
+<details open>
+<summary><b>Explore the survey</b></summary>
 
 - [Foundations: Formalizing Long-Horizon Agents](#foundations-formalizing-long-horizon-agents)
 - [Evolution: From Prompting to Runtime](#evolution-from-prompting-to-runtime)
@@ -109,10 +144,11 @@ If you find this survey and repository useful for your research, please consider
 - [Citation](#citation)
 - [Contributing](#contributing)
 
+</details>
+
 ---
 
 ## <img src="assets/icons/foundations.png" height="30" align="top"/> Foundations: Formalizing Long-Horizon Agents
-- [Continuum-AI-Corp/OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) — drop-in recorder that sits between your agent and the model provider.
 
 <div align="center">
 <img src="assets/sec2_foundations.png" width="90%" alt="Three levels of long-horizon tasks and capabilities"/>
@@ -159,7 +195,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`EMNLP 2023`** Automatic Prompt Optimization with “Gradient Descent” and Beam Search. [[paper](https://arxiv.org/abs/2305.03495)]
 - **`arXiv 2021`** Show Your Work: Scratchpads for Intermediate Computation with Language Models. [[paper](https://arxiv.org/abs/2112.00114)]
 - **`EMNLP-IJCNLP 2019`** Language Models as Knowledge Bases?. [[paper](https://arxiv.org/abs/1909.01066)]
-- **`NeurIPS 2023`** Describe, Explain, Plan and Select: Interactive Planning with LLMs Enables Open-World Multi-Task Agents. [[paper](https://arxiv.org/abs/2302.01560)]  [[code](https://github.com/CraftJarvis/MC-Planner)]
+- **`NeurIPS 2023`** Describe, Explain, Plan and Select: Interactive Planning with LLMs Enables Open-World Multi-Task Agents. [[paper](https://arxiv.org/abs/2302.01560)]
 
 ### Stage II — Context Engineering (2023–2025)
 
@@ -210,8 +246,6 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`FSE 2026`** AgentBound: Securing Execution Boundaries of AI Agents. [[paper](https://arxiv.org/abs/2510.21236)]
 - **`arXiv 2025`** UI-TARS-2 Technical Report: Advancing GUI Agent with Multi-Turn Reinforcement Learning. [[paper](https://arxiv.org/abs/2509.02544)]
 - **`Preprints 2026`** Harness Engineering for Language Agents: The Harness Layer as Control, Agency, and Runtime. [[paper](https://www.preprints.org/manuscript/202603.1756/v2)]
-- **`arXiv 2026`** LongHorizon-Harness: Advancing Long-Horizon Agents for Real-World Tasks. [[paper](https://arxiv.org/abs/2608.01964)] [[code](https://github.com/AMAP-ML/LongHorizon-Harness)]
-- **`arXiv 2026`** AutoFyn Technical Report: Non-parametric Expert Iteration for Long Horizon Agents [[paper](https://arxiv.org/abs/2609.05446)] [[code](https://github.com/SignalPilot-Labs/AutoFyn)]
 
 ---
 
@@ -298,8 +332,6 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2026`** MemSifter: Offloading LLM Memory Retrieval via Outcome-Driven Proxy Reasoning. [[paper](https://arxiv.org/abs/2603.03379)]
 - **`arXiv 2025`** From Human Memory to AI Memory: A Survey on Memory Mechanisms in the Era of LLMs. [[paper](https://arxiv.org/abs/2504.15965)]
 - **`arXiv 2026`** Externalization in LLM Agents: A Unified Review of Memory, Skills, Protocols and Harness Engineering. [[paper](https://arxiv.org/abs/2604.08224)]
-- **`arXiv 2026`** Unified Context Evolution for LLM Agents. [[paper](https://arxiv.org/abs/2606.02304)]
-- **`arXiv 2026`** Inference-Time Budget Control for LLM Search Agents. [[paper](https://arxiv.org/abs/2605.05701)]
 
 ### Tools, MCP, and Skills
 
@@ -372,7 +404,6 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`ICLR 2026`** Flash-Searcher: Fast and Effective Web Agents via DAG-Based Parallel Execution. [[paper](https://arxiv.org/abs/2509.25301)]
 - **`NeurIPS 2024`** Self-playing Adversarial Language Game Enhances LLM Reasoning. [[paper](http://papers.nips.cc/paper_files/paper/2024/hash/e4be7e9867ef163563f4a5e90cec478f-Abstract-Conference.html)]
 - **`NeurIPS 2025`** Agint: Agentic Graph Compilation for Software Engineering Agents. [[paper](https://arxiv.org/abs/2511.19635)]
-- **`arXiv 2026`** AgentRadio: Passive Awareness for Long-Horizon Multi-Agent Collaboration. [[paper](https://arxiv.org/abs/2607.28430)] [[code](https://github.com/Coral-Protocol/AgentRadio)]
 - **`arXiv 2025`** Multi-Agent Collaboration Mechanisms: A Survey of LLMs. [[paper](https://arxiv.org/abs/2501.06322)]
 
 **Orchestration optimization**
@@ -397,7 +428,6 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2026`** Agentic Aggregation for Parallel Scaling of Long-Horizon Agentic Tasks. [[paper](https://arxiv.org/abs/2604.11753)]
 - **`arXiv 2026`** Agentic Test-Time Scaling for WebAgents. [[paper](https://arxiv.org/abs/2602.12276)]
 - **`arXiv 2025`** LOKA Protocol: A Decentralized Framework for Trustworthy and Ethical AI Agent Ecosystems. [[paper](https://arxiv.org/abs/2504.10915)]
-- [Ivy Tendril](https://github.com/Ivy-Interactive/Ivy-Tendril): Open-source agentic software factory with an amazing UI that handles parallel Git worktrees for you, complete with programmatic verifications and fast review loops
 
 ### Hooks and Middleware
 
@@ -658,9 +688,6 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2026`** SmartSearch: Process Reward-Guided Query Refinement for Search Agents. [[paper](https://arxiv.org/abs/2601.04888)]
 - **`arXiv 2025`** Tool-R1: Sample-Efficient Reinforcement Learning for Agentic Tool Use. [[paper](https://arxiv.org/abs/2509.12867)]
 - **`arXiv 2025`** ToRL: Scaling Tool-Integrated RL. [[paper](https://arxiv.org/abs/2503.23383)]
-- **`ICML 2026`** Optimizing Agentic Reasoning with Retrieval via Synthetic Semantic Information Gain Reward. [[paper](https://arxiv.org/abs/2602.00845)]
-- **`arXiv 2026`** Self-Induced Outcome Potential: Turn-Level Credit Assignment for Agents without Verifiers. [[paper](https://arxiv.org/abs/2605.04984)]
-- **`arXiv 2026`** DRACO: Fine-Grained Credit Assignment with Dynamic Rubrics for Long-Horizon Agent Training. [[paper](https://arxiv.org/abs/2609.04094)] [[code](https://github.com/IBM/draco)]
 
 **Policy Optimization**
 - **`arXiv 2025`** REINFORCE++: A Simple and Efficient Approach for Aligning Large Language Models. [[paper](https://arxiv.org/abs/2501.03262)] [[code](https://github.com/OpenRLHF/OpenRLHF)]
@@ -736,8 +763,6 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2026`** Revisiting On-Policy Distillation: Empirical Failure Modes and Simple Fixes. [[paper](https://arxiv.org/abs/2603.25562)] [[code](https://github.com/hhh675597/revisiting_opd)]
 - **`arXiv 2026`** TIP: Token Importance in On-Policy Distillation. [[paper](https://arxiv.org/abs/2604.14084)]
 - **`arXiv 2026`** Reinforcement Learning via Self-Distillation. [[paper](https://arxiv.org/abs/2601.20802)]
-- **`arXiv 2026`** Skill-Conditioned Gated Self-Distillation for LLM Reasoning. [[paper](https://arxiv.org/abs/2605.28791)]
-- **`arXiv 2026`** ToolAnchor: Anchoring Counterfactual Context to Boost Agentic Tool-use Capability. [[paper](https://arxiv.org/abs/2607.14145)]
 
 ### Self-Evolution
 
@@ -760,7 +785,6 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2025`** Socratic-Zero : Bootstrapping Reasoning via Data-Free Agent Co-evolution. [[paper](https://arxiv.org/abs/2509.24726)]
 - **`arXiv 2026`** Socratic-SWE: Self-Evolving Coding Agents via Trace-Derived Agent Skills. [[paper](https://arxiv.org/abs/2606.07412)]
 - **`arXiv 2025`** AgentEvolver: Towards Efficient Self-Evolving Agent System. [[paper](https://arxiv.org/abs/2511.10395)]
-- **`arXiv 2026`** OpenSkill: Open-World Self-Evolution for LLM Agents. [[paper](https://arxiv.org/abs/2606.06741)]
 
 ---
 
@@ -780,7 +804,6 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 
 - **`arXiv 2026`** SWE Atlas: Benchmarking Coding Agents Beyond Issue Resolution. [[paper](https://arxiv.org/abs/2605.08366)]
 - **`arXiv 2026`** RepoZero: Can LLMs Generate a Code Repository from Scratch? [[paper](https://arxiv.org/abs/2605.07122)] [[code](https://github.com/JesseZZZZZ/RepoZero)]
-- **`arXiv 2026`** LoopArena: Benchmarking Models as Runtime Controllers for Loop Engineering. [[paper](https://arxiv.org/abs/2608.28281)] [[code](https://github.com/AMAP-ML/LoopArena)]
 
 **Repository grounding**
 - **`NeurIPS 2024`** SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering. [[paper](https://arxiv.org/abs/2405.15793)] [[code](https://github.com/SWE-agent/SWE-agent)]
@@ -798,7 +821,6 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`Anthropic Engineering 2026`** Scaling Managed Agents: Decoupling the brain from the hands. [[paper](https://www.anthropic.com/engineering/managed-agents)]
 - **`arXiv 2025`** AInsteinBench: Benchmarking Coding Agents on Scientific Repositories. [[paper](https://arxiv.org/abs/2512.21373)]
 - **`ICML 2025`** SWE-Lancer: Can Frontier LLMs Earn $1 Million from Real-World Freelance Software Engineering? [[paper](https://proceedings.mlr.press/v267/miserendino25a.html)]
-- **`2026`** YYLO: A command-line orchestrator for coding agents with typed task, validation, merge, and release-readiness boundaries. [[code](https://github.com/yylo-dev/yylo)]
 
 **Feedback-driven repair**
 - **`ICML 2025`** Training Software Engineering Agents and Verifiers with SWE-Gym. [[paper](https://arxiv.org/abs/2412.21139)] [[code](https://github.com/SWE-Gym/SWE-Gym)]
@@ -1148,4 +1170,11 @@ Guidelines:
 
 ## Star History
 
+<div align="center">
+
 [![Star History Chart](https://api.star-history.com/svg?repos=RUC-NLPIR/Awesome-Long-Horizon-Agents&type=Date)](https://star-history.com/#RUC-NLPIR/Awesome-Long-Horizon-Agents&Date)
+
+<br/>
+<sub>If this repository helps your research, consider giving it a star and sharing it with the community.</sub>
+
+</div>
