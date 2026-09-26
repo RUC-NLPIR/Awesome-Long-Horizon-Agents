@@ -828,6 +828,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`FSE 2025`** Demystifying LLM-Based Software Engineering Agents. [[paper](https://arxiv.org/abs/2407.01489)] [[code](https://github.com/OpenAutoCoder/Agentless)]
 - **`NeurIPS 2025 Workshop (SEA Poster)`** When Agents go Astray: Course-Correcting SWE Agents with PRMs. [[paper](https://arxiv.org/abs/2509.02360)]
 - **`arXiv 2025`** SWE-RM: Execution-free Feedback for Software Engineering Agents. [[paper](https://arxiv.org/abs/2512.21919)]
+- **`COLM 2026 Workshop (WAB)`** Evaluating Code Slop in Long-Horizon Coding Agents. [[paper](https://openreview.net/forum?id=VLgFkLRUfV)]
 
 ### Information Seeking
 - **`NAACL 2025`** Fact, Fetch, and Reason: A Unified Evaluation of Retrieval-Augmented Generation. [[paper](https://doi.org/10.18653/V1/2025.NAACL-LONG.243)]
