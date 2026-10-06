@@ -334,6 +334,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2026`** MemSifter: Offloading LLM Memory Retrieval via Outcome-Driven Proxy Reasoning. [[paper](https://arxiv.org/abs/2603.03379)]
 - **`arXiv 2025`** From Human Memory to AI Memory: A Survey on Memory Mechanisms in the Era of LLMs. [[paper](https://arxiv.org/abs/2504.15965)]
 - **`arXiv 2026`** Externalization in LLM Agents: A Unified Review of Memory, Skills, Protocols and Harness Engineering. [[paper](https://arxiv.org/abs/2604.08224)]
+- **`2026`** Mnemoverse: Persistent memory for AI agents over MCP, with recall re-ranked by feedback on whether a memory helped. [[code](https://github.com/mnemoverse/mcp-memory-server)]
 
 ### Tools, MCP, and Skills
 
