@@ -307,6 +307,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2026`** Memex(RL): Scaling Long-Horizon LLM Agents via Indexed Experience Memory. [[paper](https://arxiv.org/abs/2603.04257)]
 - **`arXiv 2026`** SAM: State-Adaptive Memory for Long-Horizon Reasoning Agent. [[paper](https://arxiv.org/abs/2605.24468)]
 - **`arXiv 2025`** Agent KB: Leveraging Cross-Domain Experience for Agentic Problem Solving. [[paper](https://arxiv.org/abs/2507.06229)]
+- **`ECCV 2026`** AnchorGUI: Asymmetric Memory for Dual-Scale Learning in GUI Navigation. [[paper](https://arxiv.org/abs/2609.15457)]
 
 **Persistent Memory (factual / experiential)**
 - **`ECAI 2025`** Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory. [[paper](https://arxiv.org/abs/2504.19413)] [[code](https://github.com/mem0ai/mem0)]
