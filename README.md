@@ -766,7 +766,6 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2026`** Revisiting On-Policy Distillation: Empirical Failure Modes and Simple Fixes. [[paper](https://arxiv.org/abs/2603.25562)] [[code](https://github.com/hhh675597/revisiting_opd)]
 - **`arXiv 2026`** TIP: Token Importance in On-Policy Distillation. [[paper](https://arxiv.org/abs/2604.14084)]
 - **`arXiv 2026`** Reinforcement Learning via Self-Distillation. [[paper](https://arxiv.org/abs/2601.20802)]
-- **`arXiv 2026`** ReSAIL: Mitigating Collapse in Iterative Agent Self-Distillation. [[paper](https://arxiv.org/abs/2609.39306)] [[code](https://github.com/ShengjieJin/ReSAIL)]
 
 ### Self-Evolution
 
@@ -789,6 +788,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2025`** Socratic-Zero : Bootstrapping Reasoning via Data-Free Agent Co-evolution. [[paper](https://arxiv.org/abs/2509.24726)]
 - **`arXiv 2026`** Socratic-SWE: Self-Evolving Coding Agents via Trace-Derived Agent Skills. [[paper](https://arxiv.org/abs/2606.07412)]
 - **`arXiv 2025`** AgentEvolver: Towards Efficient Self-Evolving Agent System. [[paper](https://arxiv.org/abs/2511.10395)]
+- **`arXiv 2026`** ReSAIL: Mitigating Collapse in Iterative Agent Self-Distillation. [[paper](https://arxiv.org/abs/2609.39306)] [[code](https://github.com/ShengjieJin/ReSAIL)]
 
 ---
 
