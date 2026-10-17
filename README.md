@@ -1039,6 +1039,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2026`** Advancing Omnimodal Embodied Agents from Isolated Skills to Everyday Physical Autonomy. [[paper](https://arxiv.org/abs/2606.27251)]
 - **`arXiv 2026`** $\tau_0\text{-}\mathbf{WM}$: A Unified Video-Action World Model for Robotic Manipulation. [[paper](https://arxiv.org/abs/2606.01027)]
 - **`ICML 2025`** EmbodiedBench: Comprehensive Benchmarking Multi-modal Large Language Models for Vision-Driven Embodied Agents. [[paper](https://arxiv.org/abs/2502.09560)]
+- **`arXiv 2026`** RoboQuest: Generalist Physical Agents that Search, Inspect and Test. [[paper](https://arxiv.org/abs/2610.10388)] [[code](https://github.com/declare-lab/RoboQuest)]
 
 **Productive agents**
 - **`arXiv 2024`** The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery. [[paper](https://arxiv.org/abs/2408.06292)] [[code](https://github.com/SakanaAI/AI-Scientist)]
@@ -1118,6 +1119,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`ICLR 2025`** τ-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains. [[code](https://github.com/sierra-research/tau-bench)]
 - **`ACL 2024`** AppWorld: A Controllable World of Apps and People for Benchmarking Interactive Coding Agents. [[code](https://github.com/StonyBrookNLP/appworld)]
 - **`ICML 2025`** EmbodiedBench: Comprehensive Benchmarking Multi-modal Large Language Models for Vision-Driven Embodied Agents. [[code](https://github.com/EmbodiedBench/EmbodiedBench)]
+- **`arXiv 2026`** RoboQuest: Generalist Physical Agents that Search, Inspect and Test. [[paper](https://arxiv.org/abs/2610.10388)] [[code](https://github.com/declare-lab/RoboQuest)]
 - **`NeurIPS 2025`** WorldModelBench: Judging Video Generation Models As World Models. [[code](https://github.com/WorldModelBench-Team/WorldModelBench)]
 - **`ACL 2025`** LegalAgentBench: Evaluating LLM Agents in Legal Domain. [[code](https://github.com/CSHaitao/LegalAgentBench)]
 - **`NEJM AI 2025`** MedAgentBench: A Virtual EHR Environment to Benchmark Medical LLM Agents. [[code](https://github.com/stanfordmlgroup/MedAgentBench)]
