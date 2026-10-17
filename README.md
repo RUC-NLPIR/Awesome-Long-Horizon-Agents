@@ -788,6 +788,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2025`** Socratic-Zero : Bootstrapping Reasoning via Data-Free Agent Co-evolution. [[paper](https://arxiv.org/abs/2509.24726)]
 - **`arXiv 2026`** Socratic-SWE: Self-Evolving Coding Agents via Trace-Derived Agent Skills. [[paper](https://arxiv.org/abs/2606.07412)]
 - **`arXiv 2025`** AgentEvolver: Towards Efficient Self-Evolving Agent System. [[paper](https://arxiv.org/abs/2511.10395)]
+- **`arXiv 2026`** ReSAIL: Mitigating Collapse in Iterative Agent Self-Distillation. [[paper](https://arxiv.org/abs/2609.39306)] [[code](https://github.com/ShengjieJin/ReSAIL)]
 
 ---
 
