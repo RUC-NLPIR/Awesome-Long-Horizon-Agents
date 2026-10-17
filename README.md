@@ -1127,6 +1127,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`NEJM AI 2025`** MedAgentBench: A Virtual EHR Environment to Benchmark Medical LLM Agents. [[code](https://github.com/stanfordmlgroup/MedAgentBench)]
 - **`arXiv 2026`** OneMillion-Bench: How Far are Language Agents from Human Experts?
 - **`arXiv 2026`** YC-Bench: Benchmarking AI Agents for Long-Term Planning and Consistent Execution. [[code](https://arxiv.org/abs/2604.01212)]
+- **`arXiv 2026`** MerchantBench: Benchmarking LLM Agents for Long-Term Coherence in E-Commerce Operations. [[paper](https://arxiv.org/abs/2607.28956)] [[code](https://github.com/KhanCold/merchantbench)]
 - **`arXiv 2026`** Seed2.0 Model Card: Towards Intelligence Frontier for Real-World Complexity. [[code](https://arxiv.org/abs/2607.00248)]
 - **`ECCV 2020`** Beyond the Nav-Graph: Vision-and-Language Navigation in Continuous Environments. [[code](https://doi.org/10.1007/978-3-030-58604-1_7)]
 - **`Nature Machine Intelligence 2024`** Augmenting large language models with chemistry tools. [[code](https://doi.org/10.1038/s42256-024-00832-8)]
