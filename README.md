@@ -276,6 +276,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2026`** O-Researcher: An Open Ended Deep Research Model via Multi-Agent Distillation and Agentic RL. [[paper](https://arxiv.org/abs/2601.03743)]
 - **`arXiv 2026`** Toward Generalist Autonomous Research via Hypothesis-Tree Refinement. [[paper](https://arxiv.org/abs/2606.11926)]
 - **`arXiv 2026`** Verified Multi-Agent Orchestration: A Plan-Execute-Verify-Replan Framework for Complex Query Resolution. [[paper](https://arxiv.org/abs/2603.11445)]
+- **`arXiv 2026`** Agon: An Autonomous Large-Scale Omnidisciplinary Research System Built on Prompt Economy. [[paper](https://arxiv.org/abs/2606.24177)] [[code](https://github.com/AutoResearch-Factory/Agon)]
 
 **Branching Workflows**
 - **`NeurIPS 2023`** Tree of Thoughts: Deliberate Problem Solving with Large Language Models. [[paper](https://arxiv.org/abs/2305.10601)] [[code](https://github.com/princeton-nlp/tree-of-thought-llm)]
@@ -1131,6 +1132,8 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2026`** Seed2.0 Model Card: Towards Intelligence Frontier for Real-World Complexity. [[code](https://arxiv.org/abs/2607.00248)]
 - **`ECCV 2020`** Beyond the Nav-Graph: Vision-and-Language Navigation in Continuous Environments. [[code](https://doi.org/10.1007/978-3-030-58604-1_7)]
 - **`Nature Machine Intelligence 2024`** Augmenting large language models with chemistry tools. [[code](https://doi.org/10.1038/s42256-024-00832-8)]
+- **`arXiv 2026`** SciΠvot: Benchmarking Principal-Investigator Judgment at Pivotal Moments of Scientific AutoResearch Agents. [[paper](https://arxiv.org/abs/2610.21082)] [[code](https://github.com/AutoResearch-Factory/SciPIvot)]
+- **`arXiv 2026`** PerspectiveGap: A Benchmark for Multi-Agent Orchestration Prompting. [[paper](https://arxiv.org/abs/2606.08878)] [[code](https://github.com/WhymustIhaveaname/PerspectiveGap)]
 
 > Additional autonomy-stressing suites: **MLE-bench** (ML engineering) [[code](https://github.com/openai/mle-bench)], **PaperBench** (paper replication) [[code](https://github.com/openai/preparedness)], and the **METR time-horizon** measurements [[code](https://github.com/METR/eval-analysis-public)].
 
