@@ -70,7 +70,7 @@ If you like this repository, please cite:
 ---
 
 ## <img src="assets/icons/news.png" height="30" align="top"/> News
-- **[2026/10]** 📣 We welcome everyone to ** actively submit PR requests ** for recent work; we plan to release an **updated version of our survey in early November**, incorporating your work on long-horizon agents.
+- **[2026/10]** 📣 We welcome everyone to **actively submit PR requests** for recent work; we plan to release an **updated version of our survey in early November**, incorporating your work on long-horizon agents.
 - **[2026/07]** 📣 Our survey was featured on **[X](https://x.com/kakakbibibi/status/2078076130037514640)**, **[Xiaohongshu](https://www.xiaohongshu.com/discovery/item/6a5a0270000000001101bf4b?xsec_token=CBBWyPtxwVJZ7VTsxjUlRMpcCzkCH8OxM6_2wfuBLY_8c=&xsec_source=app_share)**, and **[机器之心](https://mp.weixin.qq.com/s/r9YJYlVAyBZtfMXvAOh5ig)**.
 - **[2026/07]** 📄 Our paper [**Towards Long-Horizon Agents: A Survey**](https://openreview.net/pdf?id=HyhfhlbWGh) is available on OpenReview.
 - **[2026/07]** 🚀 We released a chapter-aligned collection of **750+ papers, benchmarks, and resources**.
