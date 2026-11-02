@@ -368,6 +368,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2025`** Keyword search is all you need: Achieving RAG-Level Performance without vector databases using agentic tool use. [[paper](https://arxiv.org/abs/2602.23368)]
 - **`arXiv 2026`** CodeScout: An Effective Recipe for Reinforcement Learning of Code Search Agents. [[paper](https://arxiv.org/abs/2603.17829)]
 - **`arXiv 2026`** Agent Skills for Large Language Models: Architecture, Acquisition, Security, and the Path Forward. [[paper](https://arxiv.org/abs/2602.12430)]
+- **`arXiv 2026`** TabAgent: Distilling LLM Agent Components into Cheap Classifiers. [[paper](https://arxiv.org/abs/2602.16429)] [[code](https://github.com/dolev31/TabAgent)]
 
 **Skill libraries**
 - **`TMLR 2024`** Voyager: An Open-Ended Embodied Agent with Large Language Models. [[paper](https://arxiv.org/abs/2305.16291)] [[code](https://github.com/MineDojo/Voyager)]
