@@ -1046,6 +1046,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2026`** $\tau_0\text{-}\mathbf{WM}$: A Unified Video-Action World Model for Robotic Manipulation. [[paper](https://arxiv.org/abs/2606.01027)]
 - **`ICML 2025`** EmbodiedBench: Comprehensive Benchmarking Multi-modal Large Language Models for Vision-Driven Embodied Agents. [[paper](https://arxiv.org/abs/2502.09560)]
 - **`arXiv 2026`** RoboQuest: Generalist Physical Agents that Search, Inspect and Test. [[paper](https://arxiv.org/abs/2610.10388)] [[code](https://github.com/declare-lab/RoboQuest)]
+- **`arXiv 2026`** Spotter: Let the Embodied Model Lead, and the VLM Reflect for It. [[paper](https://arxiv.org/abs/2609.36808)] [[code](https://github.com/zqc3117/Spotter)]
 
 **Productive agents**
 - **`arXiv 2024`** The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery. [[paper](https://arxiv.org/abs/2408.06292)] [[code](https://github.com/SakanaAI/AI-Scientist)]
