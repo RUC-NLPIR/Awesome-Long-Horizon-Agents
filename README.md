@@ -508,6 +508,8 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2025`** MCTS-Judge: Test-Time Scaling in LLM-as-a-Judge for Code Correctness Evaluation. [[paper](https://arxiv.org/abs/2502.12468)]
 - **`arXiv 2026`** Scaling Medical Reasoning Verification via Tool-Integrated Reinforcement Learning. [[paper](https://arxiv.org/abs/2601.20221)]
 - **`NeurIPS 2025`** Wider or Deeper? Scaling LLM Inference-Time Compute with Adaptive Branching Tree Search. [[paper](https://arxiv.org/abs/2503.04412)]
+- **`arXiv 2026`** AgonAlpha: Autonomous Alpha Discovery via Prompt Economy and Scalable Agentic Search. [[paper](https://arxiv.org/abs/2608.11250)] [[code](https://github.com/AutoResearch-Factory/AgonAlpha)]
+- **`arXiv 2026`** AutoSR: Automatic Symbolic Regression by Searching Research States. [[paper](https://arxiv.org/abs/2608.16876)] [[code](https://github.com/AutoResearch-Factory/AutoSR)]
 
 ---
 
