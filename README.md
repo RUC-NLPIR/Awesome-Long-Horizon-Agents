@@ -602,6 +602,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2026`** A Matter of TASTE: Improving Coverage and Difficulty of Agent Benchmarks. [[paper](https://arxiv.org/abs/2605.28556)]
 - **`arXiv 2026`** Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces. [[paper](https://arxiv.org/abs/2601.11868)]
 - **`arXiv 2026`** Terminal-World: Scaling Terminal-Agent Environments via Agent Skills. [[paper](https://arxiv.org/abs/2605.20876)]
+- **`arXiv 2026`** Scaling Agentic Data for Long-Horizon Terminal Intelligence. [[paper](https://arxiv.org/abs/2610.13166)] [[project](https://zs1314.github.io/TerminalHorizon/)] [[data and models](https://huggingface.co/collections/shunzou05/terminalhorizon)]
 - **`arXiv 2025`** LLMs as Scalable, General-Purpose Simulators For Evolving Digital Agent Training. [[paper](https://arxiv.org/abs/2510.14969)]
 - **`arXiv 2026`** Verifiable Process Rewards for Agentic Reasoning. [[paper](https://arxiv.org/abs/2605.10325)]
 - **`arXiv 2026`** Safe and Scalable Web Agent Learning via Recreated Websites. [[paper](https://arxiv.org/abs/2603.10505)]
