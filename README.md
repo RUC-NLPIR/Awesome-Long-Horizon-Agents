@@ -1140,6 +1140,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`Nature Machine Intelligence 2024`** Augmenting large language models with chemistry tools. [[code](https://doi.org/10.1038/s42256-024-00832-8)]
 - **`arXiv 2026`** SciΠvot: Benchmarking Principal-Investigator Judgment at Pivotal Moments of Scientific AutoResearch Agents. [[paper](https://arxiv.org/abs/2610.21082)] [[code](https://github.com/AutoResearch-Factory/SciPIvot)]
 - **`arXiv 2026`** PerspectiveGap: A Benchmark for Multi-Agent Orchestration Prompting. [[paper](https://arxiv.org/abs/2606.08878)] [[code](https://github.com/WhymustIhaveaname/PerspectiveGap)]
+- **`arXiv 2026`** EC²-Bench (EC2-Bench): Empowering Edge Agents: A Systematic Analysis of Edge-Cloud Collaboration in LLM Agent Execution. [[paper](https://arxiv.org/abs/2610.17816)] [[code](https://github.com/OpenBMB/EC2-Bench)]
 
 > Additional autonomy-stressing suites: **MLE-bench** (ML engineering) [[code](https://github.com/openai/mle-bench)], **PaperBench** (paper replication) [[code](https://github.com/openai/preparedness)], and the **METR time-horizon** measurements [[code](https://github.com/METR/eval-analysis-public)].
 
