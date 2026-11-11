@@ -754,6 +754,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2025`** Multi-Agent Deep Research: Training Multi-Agent Systems with M-GRPO. [[paper](https://arxiv.org/abs/2511.13288)]
 - **`arXiv 2025`** SPIRAL: Self-Play on Zero-Sum Games Incentivizes Reasoning via Multi-Agent Multi-Turn Reinforcement Learning. [[paper](https://arxiv.org/abs/2506.24119)]
 - **`arXiv 2025`** Unlocking the Power of Multi-Agent LLM for Reasoning: From Lazy Agents to Deliberation. [[paper](https://arxiv.org/abs/2511.02303)]
+- **`STAI-X 2026 (Paper Award Honorable Mention)`** NeuroMAS: Multi-Agent Systems as Neural Networks with Joint Reinforcement Learning. [[paper](https://arxiv.org/abs/2605.16757)] [[code](https://github.com/haoranlustat/NeuroMAS)]
 - **`arXiv 2026`** FlowSteer: Interactive Agentic Workflow Orchestration via End-to-End Reinforcement Learning. [[paper](https://arxiv.org/abs/2602.01664)]
 
 ### On-Policy Distillation
