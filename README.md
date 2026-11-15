@@ -483,6 +483,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`AAAI 2026 Workshop (TrustAgent)`** Agent-SafetyBench: Evaluating the Safety of LLM Agents. [[paper](https://arxiv.org/abs/2412.14470)] [[code](https://github.com/thu-coai/Agent-SafetyBench)]
 - **`arXiv 2026`** AgentDoG: A Diagnostic Guardrail Framework for AI Agent Safety and Security. [[paper](https://arxiv.org/abs/2601.18491)]
 - **`arXiv 2026`** AgentDoG 1.5: A Lightweight and Scalable Alignment Framework for AI Agent Safety and Security. [[paper](https://arxiv.org/abs/2605.29801)]
+- **`arXiv 2026`** DRIFT: Detecting Representational Inconsistencies for Factual Truthfulness. [[paper](https://arxiv.org/abs/2601.14210)]
 
 **Verification levels**
 - **`ICLR 2024`** Let's Verify Step by Step. [[paper](https://arxiv.org/abs/2305.20050)] [[code](https://github.com/openai/prm800k)]
@@ -510,6 +511,8 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`NeurIPS 2025`** Wider or Deeper? Scaling LLM Inference-Time Compute with Adaptive Branching Tree Search. [[paper](https://arxiv.org/abs/2503.04412)]
 - **`arXiv 2026`** AgonAlpha: Autonomous Alpha Discovery via Prompt Economy and Scalable Agentic Search. [[paper](https://arxiv.org/abs/2608.11250)] [[code](https://github.com/AutoResearch-Factory/AgonAlpha)]
 - **`arXiv 2026`** AutoSR: Automatic Symbolic Regression by Searching Research States. [[paper](https://arxiv.org/abs/2608.16876)] [[code](https://github.com/AutoResearch-Factory/AutoSR)]
+- **`arXiv 2025`** OptimAI: Optimization from Natural Language Using LLM-Powered AI Agents. [[paper](https://arxiv.org/abs/2504.16918)]
+- **`arXiv 2026`** AutoNumerics: An Autonomous, PDE-Agnostic Multi-Agent Pipeline for Scientific Computing. [[paper](https://arxiv.org/abs/2602.17607)] [[code](https://github.com/Daviddjddu/Autonumerics)]
 
 ---
 
