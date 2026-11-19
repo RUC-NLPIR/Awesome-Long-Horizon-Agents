@@ -465,6 +465,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`ACL 2025`** AGrail: A Lifelong Agent Guardrail with Effective and Adaptive Safety Detection. [[paper](https://arxiv.org/abs/2502.11448)]
 - **`ASE 2025`** AdaptiveGuard: Towards Adaptive Runtime Safety for LLM-Powered Software. [[paper](https://doi.org/10.1109/ASE63991.2025.00279)]
 - **`AAAI 2026 Workshop (TrustAgent)`** Agent-SafetyBench: Evaluating the Safety of LLM Agents. [[paper](https://arxiv.org/abs/2412.14470)] [[code](https://github.com/thu-coai/Agent-SafetyBench)]
+- **`arXiv 2026`** OpenART: Scaling Agent Red Teaming via Open-Ended Environment Evolution. [[paper](https://arxiv.org/abs/2608.00677)] [[code](https://github.com/AI45Lab/OpenART)] [[tasks](https://huggingface.co/datasets/dongdongunique/openart-planner-tasks)]
 - **`AISTATS 2026`** Enhancing LLM Safety Through a Theoretical Minimax Game Lens. [[paper](https://arxiv.org/abs/2502.05163)]
 - **`arXiv 2026`** Quantifying Frontier LLM Capabilities for Container Sandbox Escape. [[paper](https://arxiv.org/abs/2603.02277)]
 - **`arXiv 2026`** Neuro-Symbolic Verification on Instruction Following of LLMs. [[paper](https://arxiv.org/abs/2601.17789)]
