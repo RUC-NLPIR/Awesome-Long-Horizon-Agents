@@ -760,6 +760,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 
 - **`IJCNN 2024`** Online Policy Distillation with Decision-Attention. [[paper](https://doi.org/10.1109/IJCNN60899.2024.10651412)]
 - **`arXiv 2026`** MAD-OPD: Breaking the Ceiling in On-Policy Distillation via Multi-Agent Debate. [[paper](https://arxiv.org/abs/2605.01347)] [[code](https://github.com/chiefovoavicii/MAD-OPD)]
+- **`arXiv 2026`** MultiAgent-OPD: End-to-End Training of Hierarchical Multi-Agent Systems with On-Policy Distillation. [[paper](https://arxiv.org/abs/2610.23234)]
 - **`arXiv 2026`** KAT-Coder-V2 Technical Report. [[paper](https://arxiv.org/abs/2603.27703)]
 - **`arXiv 2026`** LiteGUI: Distilling Compact GUI Agents with Reinforcement Learning. [[paper](https://arxiv.org/abs/2605.07505)]
 - **`arXiv 2026`** Revisiting DAgger in the Era of LLM-Agents. [[paper](https://arxiv.org/abs/2605.12913)]
