@@ -500,6 +500,7 @@ To make the notion of "horizon" concrete, [METR](https://arxiv.org/abs/2503.1449
 - **`arXiv 2026`** Agentic Reward Modeling: Verifying GUI Agent via Online Proactive Interaction. [[paper](https://arxiv.org/abs/2602.00575)]
 - **`arXiv 2026`** Agent-as-a-Judge. [[paper](https://arxiv.org/abs/2601.05111)]
 - **`COLM 2025`** Putting the Value Back in RL: Better Test-Time Scaling by Unifying LLM Reasoners With Verifiers. [[paper](https://arxiv.org/abs/2505.04842)]
+- **`Preprint 2026`** What's Missing in Autonomous Research? A Systematization of Systems, Benchmarks, and Verification. [[paper](https://www.researchgate.net/publication/406952713_What%27s_Missing_in_Autonomous_Research_A_Systematization_of_SystemsBenchmarks_and_Verification)] [[project](https://haizhaoyang.github.io/research/autoresearch-survey.html)]
 
 **Verifier strategies**
 - **`ACL 2024`** Math-Shepherd: Verify and Reinforce LLMs Step-by-step without Human Annotations. [[paper](https://arxiv.org/abs/2312.08935)]
